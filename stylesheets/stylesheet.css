@@ -137,3 +137,8 @@
     {
         color: #60bfd8;
     }
+
+    #main li div {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
