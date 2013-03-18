@@ -1,6 +1,5 @@
 ﻿body
 {
-    background-color2: #efeff2;
 }
 
 #width
@@ -92,16 +91,19 @@
         padding: 5px;
     }
 
-        #menuBar li:hover
-        {
-            background-color: #60bfd8;
-        }
+    #menuBar li:hover
+    {
+        background-color: #60bfd8;
+    }
 
     #menuBar a
     {
         font-size:large;
         text-decoration: none;
         color: white;
+    }
+    #menuBar a:active {
+        background-color: #60bfd8;
     }
 
 #main
@@ -136,9 +138,4 @@
     #main a:hover
     {
         color: #60bfd8;
-    }
-
-    #main li div {
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
