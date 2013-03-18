@@ -15,7 +15,6 @@
 {
     height: 110px;
     background-color: white;
-    border2: 1px solid lightgray;
 
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -70,7 +69,7 @@
 {
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: #60bfd8;
+    background-color: #028eb3;
     border: 1px solid lightgray;
 
     -moz-border-radius: 5px;
@@ -95,11 +94,12 @@
 
         #menuBar li:hover
         {
-            background-color: #028eb3;
+            background-color: #60bfd8;
         }
 
     #menuBar a
     {
+        font-size:large;
         text-decoration: none;
         color: white;
     }
