@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="336f6f16-c602-4793-ba1b-9f4475d54ff4" Title="ivrToolkit.Core Namespace" Url="html/N_ivrToolkit_Core.htm">
+    <HelpTOCNode Id="03103eef-a698-42d9-a5bb-924d8a880bc8" Title="AbstractScript Class" Url="html/T_ivrToolkit_Core_AbstractScript.htm">
+      <HelpTOCNode Title="AbstractScript Members" Url="html/AllMembers_T_ivrToolkit_Core_AbstractScript.htm" />
+      <HelpTOCNode Title="AbstractScript Constructor " Url="html/M_ivrToolkit_Core_AbstractScript__ctor.htm" />
+      <HelpTOCNode Id="b000a76d-785a-4899-af5f-19772878ee1a" Title="AbstractScript Methods" Url="html/Methods_T_ivrToolkit_Core_AbstractScript.htm">
+        <HelpTOCNode Title="execute Method " Url="html/M_ivrToolkit_Core_AbstractScript_execute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cf2363eb-92e8-4856-acb8-7a23af639747" Title="AbstractScript Properties" Url="html/Properties_T_ivrToolkit_Core_AbstractScript.htm">
+        <HelpTOCNode Title="description Property " Url="html/P_ivrToolkit_Core_AbstractScript_description.htm" />
+        <HelpTOCNode Title="line Property " Url="html/P_ivrToolkit_Core_AbstractScript_line.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="CallAnalysis Enumeration" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
+    <HelpTOCNode Id="9d652393-1799-4e1c-813d-4a418c01489d" Title="ILine Interface" Url="html/T_ivrToolkit_Core_ILine.htm">
+      <HelpTOCNode Title="ILine Members" Url="html/AllMembers_T_ivrToolkit_Core_ILine.htm" />
+      <HelpTOCNode Id="03f18c91-388d-4853-87ce-f5663b772d9f" Title="ILine Methods" Url="html/Methods_T_ivrToolkit_Core_ILine.htm">
+        <HelpTOCNode Title="checkStop Method " Url="html/M_ivrToolkit_Core_ILine_checkStop.htm" />
+        <HelpTOCNode Title="close Method " Url="html/M_ivrToolkit_Core_ILine_close.htm" />
+        <HelpTOCNode Title="dial Method " Url="html/M_ivrToolkit_Core_ILine_dial.htm" />
+        <HelpTOCNode Title="flushDigitBuffer Method " Url="html/M_ivrToolkit_Core_ILine_flushDigitBuffer.htm" />
+        <HelpTOCNode Title="getDigits Method " Url="html/M_ivrToolkit_Core_ILine_getDigits.htm" />
+        <HelpTOCNode Title="hangup Method " Url="html/M_ivrToolkit_Core_ILine_hangup.htm" />
+        <HelpTOCNode Title="playFile Method " Url="html/M_ivrToolkit_Core_ILine_playFile.htm" />
+        <HelpTOCNode Title="recordToFile Method " Url="html/M_ivrToolkit_Core_ILine_recordToFile.htm" />
+        <HelpTOCNode Title="stop Method " Url="html/M_ivrToolkit_Core_ILine_stop.htm" />
+        <HelpTOCNode Title="takeOffHook Method " Url="html/M_ivrToolkit_Core_ILine_takeOffHook.htm" />
+        <HelpTOCNode Title="waitRings Method " Url="html/M_ivrToolkit_Core_ILine_waitRings.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d4a6d8e8-42b9-4a4c-8c72-312f9edaebe2" Title="ILine Properties" Url="html/Properties_T_ivrToolkit_Core_ILine.htm">
+        <HelpTOCNode Title="lastTerminator Property " Url="html/P_ivrToolkit_Core_ILine_lastTerminator.htm" />
+        <HelpTOCNode Title="lineNumber Property " Url="html/P_ivrToolkit_Core_ILine_lineNumber.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_ivrToolkit_Core_ILine_status.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d1636a4-b054-45e5-9727-6050bd254325" Title="IScript Interface" Url="html/T_ivrToolkit_Core_IScript.htm">
+      <HelpTOCNode Title="IScript Members" Url="html/AllMembers_T_ivrToolkit_Core_IScript.htm" />
+      <HelpTOCNode Id="f470d395-baef-4852-a8d4-5ba75c8cf1f4" Title="IScript Methods" Url="html/Methods_T_ivrToolkit_Core_IScript.htm">
+        <HelpTOCNode Title="execute Method " Url="html/M_ivrToolkit_Core_IScript_execute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4aa1535e-6b49-4941-934f-c4cc219d0ff9" Title="IScript Properties" Url="html/Properties_T_ivrToolkit_Core_IScript.htm">
+        <HelpTOCNode Title="description Property " Url="html/P_ivrToolkit_Core_IScript_description.htm" />
+        <HelpTOCNode Title="line Property " Url="html/P_ivrToolkit_Core_IScript_line.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63997748-6470-48d0-90b3-e951f7ea33b5" Title="IVoice Interface" Url="html/T_ivrToolkit_Core_IVoice.htm">
+      <HelpTOCNode Title="IVoice Members" Url="html/AllMembers_T_ivrToolkit_Core_IVoice.htm" />
+      <HelpTOCNode Id="53cc76db-0025-4bd1-801f-3b17d43b762c" Title="IVoice Methods" Url="html/Methods_T_ivrToolkit_Core_IVoice.htm">
+        <HelpTOCNode Title="getLine Method " Url="html/M_ivrToolkit_Core_IVoice_getLine.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e29ce455-d40e-4f23-a428-0950b2a79d3d" Title="LineManager Class" Url="html/T_ivrToolkit_Core_LineManager.htm">
+      <HelpTOCNode Title="LineManager Members" Url="html/AllMembers_T_ivrToolkit_Core_LineManager.htm" />
+      <HelpTOCNode Title="LineManager Constructor " Url="html/M_ivrToolkit_Core_LineManager__ctor.htm" />
+      <HelpTOCNode Id="90030788-f14b-4623-a707-4a4af51ca4a2" Title="LineManager Methods" Url="html/Methods_T_ivrToolkit_Core_LineManager.htm">
+        <HelpTOCNode Title="getLine Method " Url="html/M_ivrToolkit_Core_LineManager_getLine.htm" />
+        <HelpTOCNode Title="getLineCount Method " Url="html/M_ivrToolkit_Core_LineManager_getLineCount.htm" />
+        <HelpTOCNode Title="releaseAll Method " Url="html/M_ivrToolkit_Core_LineManager_releaseAll.htm" />
+        <HelpTOCNode Title="releaseLine Method " Url="html/M_ivrToolkit_Core_LineManager_releaseLine.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="LineStatusTypes Enumeration" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
+    <HelpTOCNode Id="64b9dac1-82f0-42de-8b02-2eb43f234c7f" Title="ScriptManager Class" Url="html/T_ivrToolkit_Core_ScriptManager.htm">
+      <HelpTOCNode Title="ScriptManager Members" Url="html/AllMembers_T_ivrToolkit_Core_ScriptManager.htm" />
+      <HelpTOCNode Title="ScriptManager Constructor " Url="html/M_ivrToolkit_Core_ScriptManager__ctor.htm" />
+      <HelpTOCNode Id="5b4e9a64-0df1-43d8-b225-30860e2ef7ed" Title="ScriptManager Methods" Url="html/Methods_T_ivrToolkit_Core_ScriptManager.htm">
+        <HelpTOCNode Title="execute Method " Url="html/M_ivrToolkit_Core_ScriptManager_execute.htm" />
+        <HelpTOCNode Title="hasNext Method " Url="html/M_ivrToolkit_Core_ScriptManager_hasNext.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="97acd5d9-8f69-4012-9062-4a37d1ce3437" Title="ScriptManager Properties" Url="html/Properties_T_ivrToolkit_Core_ScriptManager.htm">
+        <HelpTOCNode Title="nextScript Property " Url="html/P_ivrToolkit_Core_ScriptManager_nextScript.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ToneDetection Enumeration" Url="html/T_ivrToolkit_Core_ToneDetection.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="a078b109-b34a-4149-b13a-f814f10899dc" Title="ivrToolkit.Core.Exceptions Namespace" Url="html/N_ivrToolkit_Core_Exceptions.htm">
+    <HelpTOCNode Id="d99acc30-07c9-48f9-be85-7e774b009391" Title="DisconnectedException Class" Url="html/T_ivrToolkit_Core_Exceptions_DisconnectedException.htm">
+      <HelpTOCNode Title="DisconnectedException Members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" />
+      <HelpTOCNode Id="83bc471a-7b10-4fec-896b-600849958118" Title="DisconnectedException Constructor " Url="html/Overload_ivrToolkit_Core_Exceptions_DisconnectedException__ctor.htm">
+        <HelpTOCNode Title="DisconnectedException Constructor " Url="html/M_ivrToolkit_Core_Exceptions_DisconnectedException__ctor.htm" />
+        <HelpTOCNode Title="DisconnectedException Constructor (String)" Url="html/M_ivrToolkit_Core_Exceptions_DisconnectedException__ctor_1.htm" />
+        <HelpTOCNode Title="DisconnectedException Constructor (String, Exception)" Url="html/M_ivrToolkit_Core_Exceptions_DisconnectedException__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DisconnectedException Methods" Url="html/Methods_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" />
+      <HelpTOCNode Title="DisconnectedException Properties" Url="html/Properties_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" />
+      <HelpTOCNode Title="DisconnectedException Events" Url="html/Events_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bbd40e8a-6edc-461c-b6bb-26c54fc24c61" Title="GetDigitsTimeoutException Class" Url="html/T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm">
+      <HelpTOCNode Title="GetDigitsTimeoutException Members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
+      <HelpTOCNode Id="f21ce44d-e926-41f6-b346-fcebf4d823f0" Title="GetDigitsTimeoutException Constructor " Url="html/Overload_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor.htm">
+        <HelpTOCNode Title="GetDigitsTimeoutException Constructor " Url="html/M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor.htm" />
+        <HelpTOCNode Title="GetDigitsTimeoutException Constructor (String)" Url="html/M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor_1.htm" />
+        <HelpTOCNode Title="GetDigitsTimeoutException Constructor (String, Exception)" Url="html/M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GetDigitsTimeoutException Methods" Url="html/Methods_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
+      <HelpTOCNode Title="GetDigitsTimeoutException Properties" Url="html/Properties_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
+      <HelpTOCNode Title="GetDigitsTimeoutException Events" Url="html/Events_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="726f0c5f-501b-495e-affb-99b3ef2dbcfb" Title="HangupException Class" Url="html/T_ivrToolkit_Core_Exceptions_HangupException.htm">
+      <HelpTOCNode Title="HangupException Members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_HangupException.htm" />
+      <HelpTOCNode Id="5de24545-fff6-426d-9eed-bafa050cc256" Title="HangupException Constructor " Url="html/Overload_ivrToolkit_Core_Exceptions_HangupException__ctor.htm">
+        <HelpTOCNode Title="HangupException Constructor " Url="html/M_ivrToolkit_Core_Exceptions_HangupException__ctor.htm" />
+        <HelpTOCNode Title="HangupException Constructor (String)" Url="html/M_ivrToolkit_Core_Exceptions_HangupException__ctor_1.htm" />
+        <HelpTOCNode Title="HangupException Constructor (String, Exception)" Url="html/M_ivrToolkit_Core_Exceptions_HangupException__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HangupException Methods" Url="html/Methods_T_ivrToolkit_Core_Exceptions_HangupException.htm" />
+      <HelpTOCNode Title="HangupException Properties" Url="html/Properties_T_ivrToolkit_Core_Exceptions_HangupException.htm" />
+      <HelpTOCNode Title="HangupException Events" Url="html/Events_T_ivrToolkit_Core_Exceptions_HangupException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="58176fc1-9249-4797-9af7-63a8a07dfa00" Title="StopException Class" Url="html/T_ivrToolkit_Core_Exceptions_StopException.htm">
+      <HelpTOCNode Title="StopException Members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_StopException.htm" />
+      <HelpTOCNode Id="f20cbe92-4efc-4a7a-b7f5-30aec7c0df61" Title="StopException Constructor " Url="html/Overload_ivrToolkit_Core_Exceptions_StopException__ctor.htm">
+        <HelpTOCNode Title="StopException Constructor " Url="html/M_ivrToolkit_Core_Exceptions_StopException__ctor.htm" />
+        <HelpTOCNode Title="StopException Constructor (String)" Url="html/M_ivrToolkit_Core_Exceptions_StopException__ctor_1.htm" />
+        <HelpTOCNode Title="StopException Constructor (String, Exception)" Url="html/M_ivrToolkit_Core_Exceptions_StopException__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StopException Methods" Url="html/Methods_T_ivrToolkit_Core_Exceptions_StopException.htm" />
+      <HelpTOCNode Title="StopException Properties" Url="html/Properties_T_ivrToolkit_Core_Exceptions_StopException.htm" />
+      <HelpTOCNode Title="StopException Events" Url="html/Events_T_ivrToolkit_Core_Exceptions_StopException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6e7d3101-db73-4410-9372-613a23c105cb" Title="TooManyAttempts Class" Url="html/T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm">
+      <HelpTOCNode Title="TooManyAttempts Members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
+      <HelpTOCNode Id="6ff7acd8-b5a1-4eaa-96f0-7b87fc10d6be" Title="TooManyAttempts Constructor " Url="html/Overload_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor.htm">
+        <HelpTOCNode Title="TooManyAttempts Constructor " Url="html/M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor.htm" />
+        <HelpTOCNode Title="TooManyAttempts Constructor (String)" Url="html/M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor_1.htm" />
+        <HelpTOCNode Title="TooManyAttempts Constructor (String, Exception)" Url="html/M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TooManyAttempts Methods" Url="html/Methods_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
+      <HelpTOCNode Title="TooManyAttempts Properties" Url="html/Properties_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
+      <HelpTOCNode Title="TooManyAttempts Events" Url="html/Events_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="59125448-eb93-4ca2-ab7b-cbe020a02a0d" Title="VoiceException Class" Url="html/T_ivrToolkit_Core_Exceptions_VoiceException.htm">
+      <HelpTOCNode Title="VoiceException Members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
+      <HelpTOCNode Id="f19bb9d9-ae6c-4f86-b679-630d88219e8a" Title="VoiceException Constructor " Url="html/Overload_ivrToolkit_Core_Exceptions_VoiceException__ctor.htm">
+        <HelpTOCNode Title="VoiceException Constructor " Url="html/M_ivrToolkit_Core_Exceptions_VoiceException__ctor.htm" />
+        <HelpTOCNode Title="VoiceException Constructor (String)" Url="html/M_ivrToolkit_Core_Exceptions_VoiceException__ctor_1.htm" />
+        <HelpTOCNode Title="VoiceException Constructor (String, Exception)" Url="html/M_ivrToolkit_Core_Exceptions_VoiceException__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="VoiceException Methods" Url="html/Methods_T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
+      <HelpTOCNode Title="VoiceException Properties" Url="html/Properties_T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
+      <HelpTOCNode Title="VoiceException Events" Url="html/Events_T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c2dab45d-574c-4f22-8f98-e3cdd489d751" Title="ivrToolkit.Core.Util Namespace" Url="html/N_ivrToolkit_Core_Util.htm">
+    <HelpTOCNode Id="17cfdde0-061b-43d9-8518-a72f789cb43e" Title="CustomTone Class" Url="html/T_ivrToolkit_Core_Util_CustomTone.htm">
+      <HelpTOCNode Title="CustomTone Members" Url="html/AllMembers_T_ivrToolkit_Core_Util_CustomTone.htm" />
+      <HelpTOCNode Title="CustomTone Constructor " Url="html/M_ivrToolkit_Core_Util_CustomTone__ctor.htm" />
+      <HelpTOCNode Id="333e681b-d239-483f-85c2-1e1bfca87867" Title="CustomTone Fields" Url="html/Fields_T_ivrToolkit_Core_Util_CustomTone.htm">
+        <HelpTOCNode Title="freq1 Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_freq1.htm" />
+        <HelpTOCNode Title="freq2 Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_freq2.htm" />
+        <HelpTOCNode Title="frq1dev Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_frq1dev.htm" />
+        <HelpTOCNode Title="frq2dev Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_frq2dev.htm" />
+        <HelpTOCNode Title="mode Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_mode.htm" />
+        <HelpTOCNode Title="offtdev Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_offtdev.htm" />
+        <HelpTOCNode Title="offtime Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_offtime.htm" />
+        <HelpTOCNode Title="ontdev Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_ontdev.htm" />
+        <HelpTOCNode Title="ontime Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_ontime.htm" />
+        <HelpTOCNode Title="repcnt Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_repcnt.htm" />
+        <HelpTOCNode Title="tid Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_tid.htm" />
+        <HelpTOCNode Title="toneType Field" Url="html/F_ivrToolkit_Core_Util_CustomTone_toneType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CustomTone Methods" Url="html/Methods_T_ivrToolkit_Core_Util_CustomTone.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="CustomToneType Enumeration" Url="html/T_ivrToolkit_Core_Util_CustomToneType.htm" />
+    <HelpTOCNode Id="2465bf7a-240b-4ece-a8bc-dc9118c0be23" Title="Dial9Information Class" Url="html/T_ivrToolkit_Core_Util_Dial9Information.htm">
+      <HelpTOCNode Title="Dial9Information Members" Url="html/AllMembers_T_ivrToolkit_Core_Util_Dial9Information.htm" />
+      <HelpTOCNode Title="Dial9Information Constructor " Url="html/M_ivrToolkit_Core_Util_Dial9Information__ctor.htm" />
+      <HelpTOCNode Id="919c78a2-07c6-4343-a4ef-5b16eb101471" Title="Dial9Information Fields" Url="html/Fields_T_ivrToolkit_Core_Util_Dial9Information.htm">
+        <HelpTOCNode Title="dialTone Field" Url="html/F_ivrToolkit_Core_Util_Dial9Information_dialTone.htm" />
+        <HelpTOCNode Title="enabled Field" Url="html/F_ivrToolkit_Core_Util_Dial9Information_enabled.htm" />
+        <HelpTOCNode Title="fastBusy Field" Url="html/F_ivrToolkit_Core_Util_Dial9Information_fastBusy.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Dial9Information Methods" Url="html/Methods_T_ivrToolkit_Core_Util_Dial9Information.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c6e4257d-418f-4743-94ac-d3b8853a9d18" Title="LineExtensions Class" Url="html/T_ivrToolkit_Core_Util_LineExtensions.htm">
+      <HelpTOCNode Title="LineExtensions Members" Url="html/AllMembers_T_ivrToolkit_Core_Util_LineExtensions.htm" />
+      <HelpTOCNode Id="27cd2b23-f561-4a4c-a78c-a0afb1ffb538" Title="LineExtensions Methods" Url="html/Methods_T_ivrToolkit_Core_Util_LineExtensions.htm">
+        <HelpTOCNode Title="playCharacters Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playCharacters.htm" />
+        <HelpTOCNode Title="playDate Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playDate.htm" />
+        <HelpTOCNode Title="playInteger Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playInteger.htm" />
+        <HelpTOCNode Title="playMoney Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playMoney.htm" />
+        <HelpTOCNode Title="playNumber Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playNumber.htm" />
+        <HelpTOCNode Title="playOrdinal Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playOrdinal.htm" />
+        <HelpTOCNode Title="playPhoneNumber Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playPhoneNumber.htm" />
+        <HelpTOCNode Title="playString Method " Url="html/M_ivrToolkit_Core_Util_LineExtensions_playString.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="456a9d5d-3155-4337-a5b4-7685e105d184" Title="Prompt Class" Url="html/T_ivrToolkit_Core_Util_Prompt.htm">
+      <HelpTOCNode Title="Prompt Members" Url="html/AllMembers_T_ivrToolkit_Core_Util_Prompt.htm" />
+      <HelpTOCNode Title="Prompt Constructor " Url="html/M_ivrToolkit_Core_Util_Prompt__ctor.htm" />
+      <HelpTOCNode Id="4d4150c4-8df4-4661-b3de-b1d5f92a63fa" Title="Prompt Methods" Url="html/Methods_T_ivrToolkit_Core_Util_Prompt.htm">
+        <HelpTOCNode Title="ask Method " Url="html/M_ivrToolkit_Core_Util_Prompt_ask.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8e3df262-f690-4d67-bbda-7d47e4da7cd1" Title="Prompt Properties" Url="html/Properties_T_ivrToolkit_Core_Util_Prompt.htm">
+        <HelpTOCNode Title="allowEmpty Property " Url="html/P_ivrToolkit_Core_Util_Prompt_allowEmpty.htm" />
+        <HelpTOCNode Title="answer Property " Url="html/P_ivrToolkit_Core_Util_Prompt_answer.htm" />
+        <HelpTOCNode Title="attempts Property " Url="html/P_ivrToolkit_Core_Util_Prompt_attempts.htm" />
+        <HelpTOCNode Title="catchTooManyAttempts Property " Url="html/P_ivrToolkit_Core_Util_Prompt_catchTooManyAttempts.htm" />
+        <HelpTOCNode Title="invalidAnswerMessage Property " Url="html/P_ivrToolkit_Core_Util_Prompt_invalidAnswerMessage.htm" />
+        <HelpTOCNode Title="numberOfDigits Property " Url="html/P_ivrToolkit_Core_Util_Prompt_numberOfDigits.htm" />
+        <HelpTOCNode Title="promptMessage Property " Url="html/P_ivrToolkit_Core_Util_Prompt_promptMessage.htm" />
+        <HelpTOCNode Title="specialTerminator Property " Url="html/P_ivrToolkit_Core_Util_Prompt_specialTerminator.htm" />
+        <HelpTOCNode Title="terminators Property " Url="html/P_ivrToolkit_Core_Util_Prompt_terminators.htm" />
+        <HelpTOCNode Title="tooManyAttemptsMessage Property " Url="html/P_ivrToolkit_Core_Util_Prompt_tooManyAttemptsMessage.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4b7726fe-a25b-471f-9882-7236b7dde024" Title="Prompt Events" Url="html/Events_T_ivrToolkit_Core_Util_Prompt.htm">
+        <HelpTOCNode Title="onKeysEntered Event" Url="html/E_ivrToolkit_Core_Util_Prompt_onKeysEntered.htm" />
+        <HelpTOCNode Title="onPrePlay Event" Url="html/E_ivrToolkit_Core_Util_Prompt_onPrePlay.htm" />
+        <HelpTOCNode Title="onSpecialTerminator Event" Url="html/E_ivrToolkit_Core_Util_Prompt_onSpecialTerminator.htm" />
+        <HelpTOCNode Title="onValidation Event" Url="html/E_ivrToolkit_Core_Util_Prompt_onValidation.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Prompt.KeysEnteredHandler Delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_KeysEnteredHandler.htm" />
+    <HelpTOCNode Title="Prompt.PrePlayHandler Delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_PrePlayHandler.htm" />
+    <HelpTOCNode Title="Prompt.SpecialTerminatorHandler Delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_SpecialTerminatorHandler.htm" />
+    <HelpTOCNode Title="Prompt.ValidationHandler Delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_ValidationHandler.htm" />
+    <HelpTOCNode Id="97cce6b2-ca29-4d3a-9476-5d276fcec2d4" Title="PromptFunctions Class" Url="html/T_ivrToolkit_Core_Util_PromptFunctions.htm">
+      <HelpTOCNode Title="PromptFunctions Members" Url="html/AllMembers_T_ivrToolkit_Core_Util_PromptFunctions.htm" />
+      <HelpTOCNode Title="PromptFunctions Constructor " Url="html/M_ivrToolkit_Core_Util_PromptFunctions__ctor.htm" />
+      <HelpTOCNode Id="3432d58c-5f85-424b-9a03-357c2692a913" Title="PromptFunctions Methods" Url="html/Methods_T_ivrToolkit_Core_Util_PromptFunctions.htm">
+        <HelpTOCNode Title="customValidationPrompt Method " Url="html/M_ivrToolkit_Core_Util_PromptFunctions_customValidationPrompt.htm" />
+        <HelpTOCNode Title="getMenuStylePrompt Method " Url="html/M_ivrToolkit_Core_Util_PromptFunctions_getMenuStylePrompt.htm" />
+        <HelpTOCNode Title="getRegularStylePrompt Method " Url="html/M_ivrToolkit_Core_Util_PromptFunctions_getRegularStylePrompt.htm" />
+        <HelpTOCNode Id="48b1e2d6-0b7c-4838-b3db-1f13924d367d" Title="regularPrompt Method " Url="html/Overload_ivrToolkit_Core_Util_PromptFunctions_regularPrompt.htm">
+          <HelpTOCNode Title="regularPrompt Method (String)" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_regularPrompt.htm" />
+          <HelpTOCNode Title="regularPrompt Method (String, String[])" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_regularPrompt_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ec8928cc-fa87-42c9-afc4-4cd94d3e92a2" Title="singleDigitPrompt Method " Url="html/Overload_ivrToolkit_Core_Util_PromptFunctions_singleDigitPrompt.htm">
+          <HelpTOCNode Title="singleDigitPrompt Method (String, String)" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_singleDigitPrompt.htm" />
+          <HelpTOCNode Title="singleDigitPrompt Method (String, String, Int32, Int32, Boolean)" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_singleDigitPrompt_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="167df606-bb8d-4326-930f-757143e8e950" Title="Properties Class" Url="html/T_ivrToolkit_Core_Util_Properties.htm">
+      <HelpTOCNode Title="Properties Members" Url="html/AllMembers_T_ivrToolkit_Core_Util_Properties.htm" />
+      <HelpTOCNode Title="Properties Constructor " Url="html/M_ivrToolkit_Core_Util_Properties__ctor.htm" />
+      <HelpTOCNode Id="3adb4f8c-d18b-4f10-821c-3df618edb82e" Title="Properties Methods" Url="html/Methods_T_ivrToolkit_Core_Util_Properties.htm">
+        <HelpTOCNode Title="getPrefixMatch Method " Url="html/M_ivrToolkit_Core_Util_Properties_getPrefixMatch.htm" />
+        <HelpTOCNode Id="d96c5b38-468b-46ca-97a6-ed27daae2e16" Title="getProperty Method " Url="html/Overload_ivrToolkit_Core_Util_Properties_getProperty.htm">
+          <HelpTOCNode Title="getProperty Method (String)" Url="html/M_ivrToolkit_Core_Util_Properties_getProperty.htm" />
+          <HelpTOCNode Title="getProperty Method (String, String)" Url="html/M_ivrToolkit_Core_Util_Properties_getProperty_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c7aea566-e5b7-4d5c-b3ef-dd7cc907551d" Title="VoiceProperties Class" Url="html/T_ivrToolkit_Core_Util_VoiceProperties.htm">
+      <HelpTOCNode Title="VoiceProperties Members" Url="html/AllMembers_T_ivrToolkit_Core_Util_VoiceProperties.htm" />
+      <HelpTOCNode Id="88a98add-8ca0-41bc-9cf6-5605fbb1d950" Title="VoiceProperties Methods" Url="html/Methods_T_ivrToolkit_Core_Util_VoiceProperties.htm">
+        <HelpTOCNode Title="getKeyPrefixMatch Method " Url="html/M_ivrToolkit_Core_Util_VoiceProperties_getKeyPrefixMatch.htm" />
+        <HelpTOCNode Title="getPrefixMatch Method " Url="html/M_ivrToolkit_Core_Util_VoiceProperties_getPrefixMatch.htm" />
+        <HelpTOCNode Id="a15793e7-09fc-4c3f-b322-de78f7ec80df" Title="getProperty Method " Url="html/Overload_ivrToolkit_Core_Util_VoiceProperties_getProperty.htm">
+          <HelpTOCNode Title="getProperty Method (String)" Url="html/M_ivrToolkit_Core_Util_VoiceProperties_getProperty.htm" />
+          <HelpTOCNode Title="getProperty Method (String, String)" Url="html/M_ivrToolkit_Core_Util_VoiceProperties_getProperty_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="isCheck Method " Url="html/M_ivrToolkit_Core_Util_VoiceProperties_isCheck.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aba236f6-6c92-4223-9a6d-25cfd1f3c11f" Title="VoiceProperties Properties" Url="html/Properties_T_ivrToolkit_Core_Util_VoiceProperties.htm">
+        <HelpTOCNode Title="assemblyName Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_assemblyName.htm" />
+        <HelpTOCNode Title="className Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_className.htm" />
+        <HelpTOCNode Title="current Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_current.htm" />
+        <HelpTOCNode Title="customOutboundEnabled Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_customOutboundEnabled.htm" />
+        <HelpTOCNode Title="dialTone Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_dialTone.htm" />
+        <HelpTOCNode Title="dialToneType Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_dialToneType.htm" />
+        <HelpTOCNode Title="digitsTimeoutInMilli Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_digitsTimeoutInMilli.htm" />
+        <HelpTOCNode Title="noFreeLineTone Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_noFreeLineTone.htm" />
+        <HelpTOCNode Title="preTestDialTone Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_preTestDialTone.htm" />
+        <HelpTOCNode Title="promptAttempts Property " Url="html/P_ivrToolkit_Core_Util_VoiceProperties_promptAttempts.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

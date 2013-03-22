@@ -1,0 +1,820 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>A Sandcastle Documented Class Library - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ivrToolkit_Core.htm" target="TopicContent">ivrToolkit.Core Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_AbstractScript.htm" target="TopicContent">AbstractScript Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_AbstractScript.htm" target="TopicContent">AbstractScript Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_AbstractScript__ctor.htm" target="TopicContent">AbstractScript Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_AbstractScript.htm" target="TopicContent">AbstractScript Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_AbstractScript_execute.htm" target="TopicContent">execute Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ivrToolkit_Core_AbstractScript.htm" target="TopicContent">AbstractScript Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_AbstractScript_description.htm" target="TopicContent">description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_AbstractScript_line.htm" target="TopicContent">line Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_CallAnalysis.htm" target="TopicContent">CallAnalysis Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_ILine.htm" target="TopicContent">ILine Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_ILine.htm" target="TopicContent">ILine Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_ILine.htm" target="TopicContent">ILine Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_checkStop.htm" target="TopicContent">checkStop Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_close.htm" target="TopicContent">close Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_dial.htm" target="TopicContent">dial Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_flushDigitBuffer.htm" target="TopicContent">flushDigitBuffer Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_getDigits.htm" target="TopicContent">getDigits Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_hangup.htm" target="TopicContent">hangup Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_playFile.htm" target="TopicContent">playFile Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_recordToFile.htm" target="TopicContent">recordToFile Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_stop.htm" target="TopicContent">stop Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_takeOffHook.htm" target="TopicContent">takeOffHook Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ILine_waitRings.htm" target="TopicContent">waitRings Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ivrToolkit_Core_ILine.htm" target="TopicContent">ILine Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_ILine_lastTerminator.htm" target="TopicContent">lastTerminator Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_ILine_lineNumber.htm" target="TopicContent">lineNumber Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_ILine_status.htm" target="TopicContent">status Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_IScript.htm" target="TopicContent">IScript Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_IScript.htm" target="TopicContent">IScript Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_IScript.htm" target="TopicContent">IScript Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_IScript_execute.htm" target="TopicContent">execute Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ivrToolkit_Core_IScript.htm" target="TopicContent">IScript Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_IScript_description.htm" target="TopicContent">description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_IScript_line.htm" target="TopicContent">line Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_IVoice.htm" target="TopicContent">IVoice Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_IVoice.htm" target="TopicContent">IVoice Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_IVoice.htm" target="TopicContent">IVoice Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_IVoice_getLine.htm" target="TopicContent">getLine Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_LineManager.htm" target="TopicContent">LineManager Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_LineManager.htm" target="TopicContent">LineManager Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_LineManager__ctor.htm" target="TopicContent">LineManager Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_LineManager.htm" target="TopicContent">LineManager Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_LineManager_getLine.htm" target="TopicContent">getLine Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_LineManager_getLineCount.htm" target="TopicContent">getLineCount Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_LineManager_releaseAll.htm" target="TopicContent">releaseAll Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_LineManager_releaseLine.htm" target="TopicContent">releaseLine Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_LineStatusTypes.htm" target="TopicContent">LineStatusTypes Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_ScriptManager.htm" target="TopicContent">ScriptManager Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_ScriptManager.htm" target="TopicContent">ScriptManager Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ScriptManager__ctor.htm" target="TopicContent">ScriptManager Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_ScriptManager.htm" target="TopicContent">ScriptManager Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ScriptManager_execute.htm" target="TopicContent">execute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_ScriptManager_hasNext.htm" target="TopicContent">hasNext Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ivrToolkit_Core_ScriptManager.htm" target="TopicContent">ScriptManager Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_ScriptManager_nextScript.htm" target="TopicContent">nextScript Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_ToneDetection.htm" target="TopicContent">ToneDetection Enumeration</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ivrToolkit_Core_Exceptions.htm" target="TopicContent">ivrToolkit.Core.Exceptions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" target="TopicContent">DisconnectedException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" target="TopicContent">DisconnectedException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Exceptions_DisconnectedException__ctor.htm" target="TopicContent">DisconnectedException Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_DisconnectedException__ctor.htm" target="TopicContent">DisconnectedException Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_DisconnectedException__ctor_1.htm" target="TopicContent">DisconnectedException Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_DisconnectedException__ctor_2.htm" target="TopicContent">DisconnectedException Constructor (String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" target="TopicContent">DisconnectedException Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" target="TopicContent">DisconnectedException Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_ivrToolkit_Core_Exceptions_DisconnectedException.htm" target="TopicContent">DisconnectedException Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" target="TopicContent">GetDigitsTimeoutException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" target="TopicContent">GetDigitsTimeoutException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor.htm" target="TopicContent">GetDigitsTimeoutException Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor.htm" target="TopicContent">GetDigitsTimeoutException Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor_1.htm" target="TopicContent">GetDigitsTimeoutException Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor_2.htm" target="TopicContent">GetDigitsTimeoutException Constructor (String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" target="TopicContent">GetDigitsTimeoutException Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" target="TopicContent">GetDigitsTimeoutException Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" target="TopicContent">GetDigitsTimeoutException Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Exceptions_HangupException.htm" target="TopicContent">HangupException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Exceptions_HangupException.htm" target="TopicContent">HangupException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Exceptions_HangupException__ctor.htm" target="TopicContent">HangupException Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_HangupException__ctor.htm" target="TopicContent">HangupException Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_HangupException__ctor_1.htm" target="TopicContent">HangupException Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_HangupException__ctor_2.htm" target="TopicContent">HangupException Constructor (String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Exceptions_HangupException.htm" target="TopicContent">HangupException Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_ivrToolkit_Core_Exceptions_HangupException.htm" target="TopicContent">HangupException Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_ivrToolkit_Core_Exceptions_HangupException.htm" target="TopicContent">HangupException Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Exceptions_StopException.htm" target="TopicContent">StopException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Exceptions_StopException.htm" target="TopicContent">StopException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Exceptions_StopException__ctor.htm" target="TopicContent">StopException Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_StopException__ctor.htm" target="TopicContent">StopException Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_StopException__ctor_1.htm" target="TopicContent">StopException Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_StopException__ctor_2.htm" target="TopicContent">StopException Constructor (String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Exceptions_StopException.htm" target="TopicContent">StopException Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_ivrToolkit_Core_Exceptions_StopException.htm" target="TopicContent">StopException Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_ivrToolkit_Core_Exceptions_StopException.htm" target="TopicContent">StopException Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" target="TopicContent">TooManyAttempts Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" target="TopicContent">TooManyAttempts Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor.htm" target="TopicContent">TooManyAttempts Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor.htm" target="TopicContent">TooManyAttempts Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor_1.htm" target="TopicContent">TooManyAttempts Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor_2.htm" target="TopicContent">TooManyAttempts Constructor (String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" target="TopicContent">TooManyAttempts Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" target="TopicContent">TooManyAttempts Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" target="TopicContent">TooManyAttempts Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Exceptions_VoiceException.htm" target="TopicContent">VoiceException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Exceptions_VoiceException.htm" target="TopicContent">VoiceException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Exceptions_VoiceException__ctor.htm" target="TopicContent">VoiceException Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_VoiceException__ctor.htm" target="TopicContent">VoiceException Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_VoiceException__ctor_1.htm" target="TopicContent">VoiceException Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Exceptions_VoiceException__ctor_2.htm" target="TopicContent">VoiceException Constructor (String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Exceptions_VoiceException.htm" target="TopicContent">VoiceException Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_ivrToolkit_Core_Exceptions_VoiceException.htm" target="TopicContent">VoiceException Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_ivrToolkit_Core_Exceptions_VoiceException.htm" target="TopicContent">VoiceException Events</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_ivrToolkit_Core_Util.htm" target="TopicContent">ivrToolkit.Core.Util Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Util_CustomTone.htm" target="TopicContent">CustomTone Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Util_CustomTone.htm" target="TopicContent">CustomTone Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_CustomTone__ctor.htm" target="TopicContent">CustomTone Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ivrToolkit_Core_Util_CustomTone.htm" target="TopicContent">CustomTone Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_freq1.htm" target="TopicContent">freq1 Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_freq2.htm" target="TopicContent">freq2 Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_frq1dev.htm" target="TopicContent">frq1dev Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_frq2dev.htm" target="TopicContent">frq2dev Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_mode.htm" target="TopicContent">mode Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_offtdev.htm" target="TopicContent">offtdev Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_offtime.htm" target="TopicContent">offtime Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_ontdev.htm" target="TopicContent">ontdev Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_ontime.htm" target="TopicContent">ontime Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_repcnt.htm" target="TopicContent">repcnt Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_tid.htm" target="TopicContent">tid Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_CustomTone_toneType.htm" target="TopicContent">toneType Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Util_CustomTone.htm" target="TopicContent">CustomTone Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_Util_CustomToneType.htm" target="TopicContent">CustomToneType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Util_Dial9Information.htm" target="TopicContent">Dial9Information Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Util_Dial9Information.htm" target="TopicContent">Dial9Information Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_Dial9Information__ctor.htm" target="TopicContent">Dial9Information Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_ivrToolkit_Core_Util_Dial9Information.htm" target="TopicContent">Dial9Information Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_Dial9Information_dialTone.htm" target="TopicContent">dialTone Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_Dial9Information_enabled.htm" target="TopicContent">enabled Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_ivrToolkit_Core_Util_Dial9Information_fastBusy.htm" target="TopicContent">fastBusy Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_ivrToolkit_Core_Util_Dial9Information.htm" target="TopicContent">Dial9Information Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Util_LineExtensions.htm" target="TopicContent">LineExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Util_LineExtensions.htm" target="TopicContent">LineExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_Util_LineExtensions.htm" target="TopicContent">LineExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playCharacters.htm" target="TopicContent">playCharacters Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playDate.htm" target="TopicContent">playDate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playInteger.htm" target="TopicContent">playInteger Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playMoney.htm" target="TopicContent">playMoney Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playNumber.htm" target="TopicContent">playNumber Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playOrdinal.htm" target="TopicContent">playOrdinal Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playPhoneNumber.htm" target="TopicContent">playPhoneNumber Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_LineExtensions_playString.htm" target="TopicContent">playString Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Util_Prompt.htm" target="TopicContent">Prompt Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Util_Prompt.htm" target="TopicContent">Prompt Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_Prompt__ctor.htm" target="TopicContent">Prompt Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_Util_Prompt.htm" target="TopicContent">Prompt Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_Prompt_ask.htm" target="TopicContent">ask Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ivrToolkit_Core_Util_Prompt.htm" target="TopicContent">Prompt Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_allowEmpty.htm" target="TopicContent">allowEmpty Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_answer.htm" target="TopicContent">answer Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_attempts.htm" target="TopicContent">attempts Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_catchTooManyAttempts.htm" target="TopicContent">catchTooManyAttempts Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_invalidAnswerMessage.htm" target="TopicContent">invalidAnswerMessage Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_numberOfDigits.htm" target="TopicContent">numberOfDigits Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_promptMessage.htm" target="TopicContent">promptMessage Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_specialTerminator.htm" target="TopicContent">specialTerminator Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_terminators.htm" target="TopicContent">terminators Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_Prompt_tooManyAttemptsMessage.htm" target="TopicContent">tooManyAttemptsMessage Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_ivrToolkit_Core_Util_Prompt.htm" target="TopicContent">Prompt Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ivrToolkit_Core_Util_Prompt_onKeysEntered.htm" target="TopicContent">onKeysEntered Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ivrToolkit_Core_Util_Prompt_onPrePlay.htm" target="TopicContent">onPrePlay Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ivrToolkit_Core_Util_Prompt_onSpecialTerminator.htm" target="TopicContent">onSpecialTerminator Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_ivrToolkit_Core_Util_Prompt_onValidation.htm" target="TopicContent">onValidation Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_Util_Prompt_KeysEnteredHandler.htm" target="TopicContent">Prompt.KeysEnteredHandler Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_Util_Prompt_PrePlayHandler.htm" target="TopicContent">Prompt.PrePlayHandler Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_Util_Prompt_SpecialTerminatorHandler.htm" target="TopicContent">Prompt.SpecialTerminatorHandler Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_ivrToolkit_Core_Util_Prompt_ValidationHandler.htm" target="TopicContent">Prompt.ValidationHandler Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Util_PromptFunctions.htm" target="TopicContent">PromptFunctions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Util_PromptFunctions.htm" target="TopicContent">PromptFunctions Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions__ctor.htm" target="TopicContent">PromptFunctions Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_Util_PromptFunctions.htm" target="TopicContent">PromptFunctions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions_customValidationPrompt.htm" target="TopicContent">customValidationPrompt Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions_getMenuStylePrompt.htm" target="TopicContent">getMenuStylePrompt Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions_getRegularStylePrompt.htm" target="TopicContent">getRegularStylePrompt Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Util_PromptFunctions_regularPrompt.htm" target="TopicContent">regularPrompt Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions_regularPrompt.htm" target="TopicContent">regularPrompt Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions_regularPrompt_1.htm" target="TopicContent">regularPrompt Method (String, String[])</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Util_PromptFunctions_singleDigitPrompt.htm" target="TopicContent">singleDigitPrompt Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions_singleDigitPrompt.htm" target="TopicContent">singleDigitPrompt Method (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_PromptFunctions_singleDigitPrompt_1.htm" target="TopicContent">singleDigitPrompt Method (String, String, Int32, Int32, Boolean)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Util_Properties.htm" target="TopicContent">Properties Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Util_Properties.htm" target="TopicContent">Properties Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_Properties__ctor.htm" target="TopicContent">Properties Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_Util_Properties.htm" target="TopicContent">Properties Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_Properties_getPrefixMatch.htm" target="TopicContent">getPrefixMatch Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Util_Properties_getProperty.htm" target="TopicContent">getProperty Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_Properties_getProperty.htm" target="TopicContent">getProperty Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_Properties_getProperty_1.htm" target="TopicContent">getProperty Method (String, String)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_ivrToolkit_Core_Util_VoiceProperties.htm" target="TopicContent">VoiceProperties Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_ivrToolkit_Core_Util_VoiceProperties.htm" target="TopicContent">VoiceProperties Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_ivrToolkit_Core_Util_VoiceProperties.htm" target="TopicContent">VoiceProperties Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_VoiceProperties_getKeyPrefixMatch.htm" target="TopicContent">getKeyPrefixMatch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_VoiceProperties_getPrefixMatch.htm" target="TopicContent">getPrefixMatch Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_ivrToolkit_Core_Util_VoiceProperties_getProperty.htm" target="TopicContent">getProperty Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_VoiceProperties_getProperty.htm" target="TopicContent">getProperty Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_VoiceProperties_getProperty_1.htm" target="TopicContent">getProperty Method (String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_ivrToolkit_Core_Util_VoiceProperties_isCheck.htm" target="TopicContent">isCheck Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_ivrToolkit_Core_Util_VoiceProperties.htm" target="TopicContent">VoiceProperties Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_assemblyName.htm" target="TopicContent">assemblyName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_className.htm" target="TopicContent">className Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_current.htm" target="TopicContent">current Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_customOutboundEnabled.htm" target="TopicContent">customOutboundEnabled Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_dialTone.htm" target="TopicContent">dialTone Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_dialToneType.htm" target="TopicContent">dialToneType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_digitsTimeoutInMilli.htm" target="TopicContent">digitsTimeoutInMilli Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_noFreeLineTone.htm" target="TopicContent">noFreeLineTone Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_preTestDialTone.htm" target="TopicContent">preTestDialTone Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_ivrToolkit_Core_Util_VoiceProperties_promptAttempts.htm" target="TopicContent">promptAttempts Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/N_ivrToolkit_Core.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>
