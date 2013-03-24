@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="C:\ivrToolkit\Documentation\Documentation.shfbproj" started="3/24/2013 1:38:42 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="C:\ivrToolkit\Documentation\Documentation.shfbproj" started="3/24/2013 1:53:21 PM">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -20,7 +20,7 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -36,11 +36,11 @@ Generating reflection information...
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:01.4492
+    Last step completed in 00:00:01.4032
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
@@ -48,7 +48,7 @@ Applying visibility properties to reflection information file
     0 explicit interface implementations removed
     0 local and base class EII elements removed
     133 inherited member elements removed
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -67,7 +67,7 @@ Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:02.3863
+    Last step completed in 00:00:02.8104
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -79,24 +79,12 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:00.9841
+    Last step completed in 00:00:01.0111
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
-    Unique name M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor_1 generated for M:ivrToolkit.Core.Exceptions.GetDigitsTimeoutException.#ctor(System.String)
-    Unique name M_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor_2 generated for M:ivrToolkit.Core.Exceptions.GetDigitsTimeoutException.#ctor(System.String,System.Exception)
-    Unique name M_ivrToolkit_Core_Exceptions_HangupException__ctor_1 generated for M:ivrToolkit.Core.Exceptions.HangupException.#ctor(System.String)
-    Unique name M_ivrToolkit_Core_Exceptions_HangupException__ctor_2 generated for M:ivrToolkit.Core.Exceptions.HangupException.#ctor(System.String,System.Exception)
-    Unique name M_ivrToolkit_Core_Exceptions_StopException__ctor_1 generated for M:ivrToolkit.Core.Exceptions.StopException.#ctor(System.String)
-    Unique name M_ivrToolkit_Core_Exceptions_StopException__ctor_2 generated for M:ivrToolkit.Core.Exceptions.StopException.#ctor(System.String,System.Exception)
-    Unique name M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor_1 generated for M:ivrToolkit.Core.Exceptions.TooManyAttempts.#ctor(System.String)
-    Unique name M_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor_2 generated for M:ivrToolkit.Core.Exceptions.TooManyAttempts.#ctor(System.String,System.Exception)
-    Unique name M_ivrToolkit_Core_Exceptions_VoiceException__ctor_1 generated for M:ivrToolkit.Core.Exceptions.VoiceException.#ctor(System.String)
-    Unique name M_ivrToolkit_Core_Exceptions_VoiceException__ctor_2 generated for M:ivrToolkit.Core.Exceptions.VoiceException.#ctor(System.String,System.Exception)
-    Unique name M_ivrToolkit_Core_Util_PromptFunctions_RegularPrompt_1 generated for M:ivrToolkit.Core.Util.PromptFunctions.RegularPrompt(System.String,System.String[])
-    Unique name M_ivrToolkit_Core_Util_Properties_GetProperty_1 generated for M:ivrToolkit.Core.Util.Properties.GetProperty(System.String,System.String)
-    Unique name M_ivrToolkit_Core_Util_VoiceProperties_GetProperty_1 generated for M:ivrToolkit.Core.Util.VoiceProperties.GetProperty(System.String,System.String)
-    Last step completed in 00:00:00.0090
+    No changes required
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -294,12 +282,12 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; C:\ivrTool
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> C:\ivrToolkit\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> C:\ivrToolkit\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> C:\ivrToolkit\Documentation\Help\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:00.3270
+    Last step completed in 00:00:00.3620
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -312,17 +300,17 @@ Generating intermediate table of contents file...
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.4101
+    Last step completed in 00:00:00.4491
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\ivrToolkit\Documentation\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.1110
+    Last step completed in 00:00:00.1150
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -338,13 +326,13 @@ Building reference help topics...
   Warn: ShowMissingComponent: [M:ivrToolkit.Core.Util.PromptFunctions.GetMenuStylePrompt] Missing &lt;returns&gt; documentation
   Warn: ShowMissingComponent: [M:ivrToolkit.Core.Util.PromptFunctions.GetRegularStylePrompt] Missing &lt;returns&gt; documentation
   Info: Processed 181 topics
-    Last step completed in 00:00:33.3092
+    Last step completed in 00:00:35.8145
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:00.1450
+    Last step completed in 00:00:00.2000
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -360,7 +348,7 @@ Processed 181 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\ivrToolkit\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to C:\ivrToolkit\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.6411
+    Last step completed in 00:00:00.7261
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -369,7 +357,7 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.5082
+    Last step completed in 00:00:00.8192
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -377,15 +365,15 @@ Copying website files to output folder...
 Copied 100 files
 Copied 200 files
 Copied 280 files for the website content
-    Last step completed in 00:00:00.4731
+    Last step completed in 00:00:00.5380
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1710
+    Last step completed in 00:00:00.1670
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03/24/2013 01:39 PM.  Total time: 00:00:42.0813
+Build completed successfully at 03/24/2013 01:54 PM.  Total time: 00:00:44.5506
 
 </buildStep>
 </shfbBuild>

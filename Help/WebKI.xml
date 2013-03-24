@@ -1,391 +1,391 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
 
-  <HelpKINode Title="AbstractScript class" Url="html/AllMembers_T_ivrToolkit_Core_AbstractScript.htm" />
-  <HelpKINode Title="AbstractScript class" Url="html/T_ivrToolkit_Core_AbstractScript.htm" />
+  <HelpKINode Title="AbstractScript class" Url="html/326369c8-be37-84f1-43f3-ec4de370b387.htm" />
+  <HelpKINode Title="AbstractScript class" Url="html/ebb43938-808c-0d07-1443-c907038378a5.htm" />
   <HelpKINode Title="AbstractScript class">
-    <HelpKINode Title="about AbstractScript class" Url="html/T_ivrToolkit_Core_AbstractScript.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_AbstractScript.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ivrToolkit_Core_AbstractScript__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_AbstractScript.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_ivrToolkit_Core_AbstractScript.htm" />
+    <HelpKINode Title="about AbstractScript class" Url="html/ebb43938-808c-0d07-1443-c907038378a5.htm" />
+    <HelpKINode Title="all members" Url="html/326369c8-be37-84f1-43f3-ec4de370b387.htm" />
+    <HelpKINode Title="constructor" Url="html/654cbd4f-120e-8906-eab2-e4a5316d8617.htm" />
+    <HelpKINode Title="methods" Url="html/0f77f0f3-e674-425a-ed3d-62d3351309e7.htm" />
+    <HelpKINode Title="properties" Url="html/54120876-284c-dc6f-9ae5-5a2082c1101f.htm" />
   </HelpKINode>
-  <HelpKINode Title="AbstractScript.AbstractScript constructor" Url="html/M_ivrToolkit_Core_AbstractScript__ctor.htm" />
-  <HelpKINode Title="AbstractScript.Description property" Url="html/P_ivrToolkit_Core_AbstractScript_Description.htm" />
-  <HelpKINode Title="AbstractScript.Execute method" Url="html/M_ivrToolkit_Core_AbstractScript_Execute.htm" />
-  <HelpKINode Title="AbstractScript.Line property" Url="html/P_ivrToolkit_Core_AbstractScript_Line.htm" />
-  <HelpKINode Title="AcceptingCalls enumeration member" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
-  <HelpKINode Title="AllowEmpty property" Url="html/P_ivrToolkit_Core_Util_Prompt_AllowEmpty.htm" />
-  <HelpKINode Title="Answer property" Url="html/P_ivrToolkit_Core_Util_Prompt_Answer.htm" />
-  <HelpKINode Title="answeringMachine enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="Ask method" Url="html/M_ivrToolkit_Core_Util_Prompt_Ask.htm" />
-  <HelpKINode Title="AssemblyName property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_AssemblyName.htm" />
-  <HelpKINode Title="Attempts property" Url="html/P_ivrToolkit_Core_Util_Prompt_Attempts.htm" />
-  <HelpKINode Title="busy enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="CallAnalysis enumeration" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="CatchTooManyAttempts property" Url="html/P_ivrToolkit_Core_Util_Prompt_CatchTooManyAttempts.htm" />
-  <HelpKINode Title="CheckStop method" Url="html/M_ivrToolkit_Core_ILine_CheckStop.htm" />
-  <HelpKINode Title="ClassName property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_ClassName.htm" />
-  <HelpKINode Title="Close method" Url="html/M_ivrToolkit_Core_ILine_Close.htm" />
-  <HelpKINode Title="Closed enumeration member" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
-  <HelpKINode Title="connected enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="Connected enumeration member" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
-  <HelpKINode Title="Current property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_Current.htm" />
-  <HelpKINode Title="CustomOutboundEnabled property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_CustomOutboundEnabled.htm" />
-  <HelpKINode Title="CustomTone class" Url="html/AllMembers_T_ivrToolkit_Core_Util_CustomTone.htm" />
-  <HelpKINode Title="CustomTone class" Url="html/T_ivrToolkit_Core_Util_CustomTone.htm" />
+  <HelpKINode Title="AbstractScript.AbstractScript constructor" Url="html/654cbd4f-120e-8906-eab2-e4a5316d8617.htm" />
+  <HelpKINode Title="AbstractScript.Description property" Url="html/75c1ebe4-2509-9066-d459-945374140381.htm" />
+  <HelpKINode Title="AbstractScript.Execute method" Url="html/fe9ee17e-6da0-e99c-e59c-95684efb11e1.htm" />
+  <HelpKINode Title="AbstractScript.Line property" Url="html/4ef2d20c-413b-10ff-1987-1acf759372de.htm" />
+  <HelpKINode Title="AcceptingCalls enumeration member" Url="html/cd89caeb-8a25-d371-0681-3762150e7dd6.htm" />
+  <HelpKINode Title="AllowEmpty property" Url="html/5ffa2d64-8bbb-9dce-7dcf-3217dd02feae.htm" />
+  <HelpKINode Title="Answer property" Url="html/ffc5668c-4bf5-4cfe-dfdb-f890ecd8d233.htm" />
+  <HelpKINode Title="answeringMachine enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="Ask method" Url="html/de447d2c-bb08-6aea-046b-88f9b62fe832.htm" />
+  <HelpKINode Title="AssemblyName property" Url="html/2281f999-8faf-e61a-599b-529ea0c2045b.htm" />
+  <HelpKINode Title="Attempts property" Url="html/12d1311d-c757-3a5c-caf7-2b7fee8cedb0.htm" />
+  <HelpKINode Title="busy enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="CallAnalysis enumeration" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="CatchTooManyAttempts property" Url="html/2f1bce59-9f2d-4044-1c1f-de6c8da3fcf3.htm" />
+  <HelpKINode Title="CheckStop method" Url="html/bcd9cd2c-ab40-f1f4-c579-cc37e63846d0.htm" />
+  <HelpKINode Title="ClassName property" Url="html/1b5e436f-f96b-939b-0bca-f0e37da81389.htm" />
+  <HelpKINode Title="Close method" Url="html/4d9f8b0f-3193-a3f1-90a5-bf8ed6c82b3d.htm" />
+  <HelpKINode Title="Closed enumeration member" Url="html/cd89caeb-8a25-d371-0681-3762150e7dd6.htm" />
+  <HelpKINode Title="connected enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="Connected enumeration member" Url="html/cd89caeb-8a25-d371-0681-3762150e7dd6.htm" />
+  <HelpKINode Title="Current property" Url="html/ff27ec4e-3137-0322-4b2d-7946a88a32a3.htm" />
+  <HelpKINode Title="CustomOutboundEnabled property" Url="html/52e4e4a0-bf35-6ab6-b19e-fa56b2333c14.htm" />
+  <HelpKINode Title="CustomTone class" Url="html/74ab1f57-9e53-bacd-28bb-8650d7a78b75.htm" />
+  <HelpKINode Title="CustomTone class" Url="html/e133d66b-c823-b3b3-e879-ae4df77fbe57.htm" />
   <HelpKINode Title="CustomTone class">
-    <HelpKINode Title="about CustomTone class" Url="html/T_ivrToolkit_Core_Util_CustomTone.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Util_CustomTone.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ivrToolkit_Core_Util_CustomTone__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_ivrToolkit_Core_Util_CustomTone.htm" />
+    <HelpKINode Title="about CustomTone class" Url="html/74ab1f57-9e53-bacd-28bb-8650d7a78b75.htm" />
+    <HelpKINode Title="all members" Url="html/e133d66b-c823-b3b3-e879-ae4df77fbe57.htm" />
+    <HelpKINode Title="constructor" Url="html/61133018-556b-6780-d05d-e6f2631f7b89.htm" />
+    <HelpKINode Title="fields" Url="html/aed8d50f-a7e6-d0a9-dd06-a3ac253245f9.htm" />
   </HelpKINode>
-  <HelpKINode Title="CustomTone.CustomTone constructor" Url="html/M_ivrToolkit_Core_Util_CustomTone__ctor.htm" />
-  <HelpKINode Title="CustomTone.Freq1 field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Freq1.htm" />
-  <HelpKINode Title="CustomTone.Freq2 field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Freq2.htm" />
-  <HelpKINode Title="CustomTone.Frq1dev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Frq1dev.htm" />
-  <HelpKINode Title="CustomTone.Frq2dev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Frq2dev.htm" />
-  <HelpKINode Title="CustomTone.Mode field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Mode.htm" />
-  <HelpKINode Title="CustomTone.Offtdev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Offtdev.htm" />
-  <HelpKINode Title="CustomTone.Offtime field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Offtime.htm" />
-  <HelpKINode Title="CustomTone.Ontdev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Ontdev.htm" />
-  <HelpKINode Title="CustomTone.Ontime field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Ontime.htm" />
-  <HelpKINode Title="CustomTone.Repcnt field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Repcnt.htm" />
-  <HelpKINode Title="CustomTone.Tid field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Tid.htm" />
-  <HelpKINode Title="CustomTone.ToneType field" Url="html/F_ivrToolkit_Core_Util_CustomTone_ToneType.htm" />
-  <HelpKINode Title="CustomToneType enumeration" Url="html/T_ivrToolkit_Core_Util_CustomToneType.htm" />
-  <HelpKINode Title="CustomValidationPrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_CustomValidationPrompt.htm" />
-  <HelpKINode Title="Description property" Url="html/P_ivrToolkit_Core_AbstractScript_Description.htm" />
-  <HelpKINode Title="Description property" Url="html/P_ivrToolkit_Core_IScript_Description.htm" />
-  <HelpKINode Title="Dial method" Url="html/M_ivrToolkit_Core_ILine_Dial.htm" />
-  <HelpKINode Title="DialTone property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_DialTone.htm" />
-  <HelpKINode Title="DialToneType property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_DialToneType.htm" />
-  <HelpKINode Title="DigitsTimeoutInMilli property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_DigitsTimeoutInMilli.htm" />
-  <HelpKINode Title="Dual enumeration member" Url="html/T_ivrToolkit_Core_Util_CustomToneType.htm" />
-  <HelpKINode Title="DualWithCadence enumeration member" Url="html/T_ivrToolkit_Core_Util_CustomToneType.htm" />
-  <HelpKINode Title="error enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="Execute method" Url="html/M_ivrToolkit_Core_AbstractScript_Execute.htm" />
-  <HelpKINode Title="Execute method" Url="html/M_ivrToolkit_Core_IScript_Execute.htm" />
-  <HelpKINode Title="Execute method" Url="html/M_ivrToolkit_Core_ScriptManager_Execute.htm" />
-  <HelpKINode Title="faxTone enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="FlushDigitBuffer method" Url="html/M_ivrToolkit_Core_ILine_FlushDigitBuffer.htm" />
-  <HelpKINode Title="Freq1 field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Freq1.htm" />
-  <HelpKINode Title="Freq2 field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Freq2.htm" />
-  <HelpKINode Title="Frq1dev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Frq1dev.htm" />
-  <HelpKINode Title="Frq2dev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Frq2dev.htm" />
-  <HelpKINode Title="GetDigits method" Url="html/M_ivrToolkit_Core_ILine_GetDigits.htm" />
-  <HelpKINode Title="GetDigitsTimeoutException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
-  <HelpKINode Title="GetDigitsTimeoutException class" Url="html/T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
+  <HelpKINode Title="CustomTone.CustomTone constructor" Url="html/61133018-556b-6780-d05d-e6f2631f7b89.htm" />
+  <HelpKINode Title="CustomTone.Freq1 field" Url="html/fcdeb8f1-87b4-d2cf-d84c-582e0fde6e7c.htm" />
+  <HelpKINode Title="CustomTone.Freq2 field" Url="html/128b9cf1-9a48-39b8-5aa6-c08e5b2999f3.htm" />
+  <HelpKINode Title="CustomTone.Frq1dev field" Url="html/138741c6-25a5-b98c-afc0-6ab57f104edf.htm" />
+  <HelpKINode Title="CustomTone.Frq2dev field" Url="html/c404f69f-7fb1-3179-40b4-5bc85be553c7.htm" />
+  <HelpKINode Title="CustomTone.Mode field" Url="html/09ea9f2b-e5b7-1995-aded-bb40e9e7490c.htm" />
+  <HelpKINode Title="CustomTone.Offtdev field" Url="html/fa682024-e062-07c9-fa6f-80eaf222e055.htm" />
+  <HelpKINode Title="CustomTone.Offtime field" Url="html/2b1336ff-f272-7d43-290c-c4bd83d6847f.htm" />
+  <HelpKINode Title="CustomTone.Ontdev field" Url="html/dd5c0fcf-6eeb-e39f-016e-72afd4cc5580.htm" />
+  <HelpKINode Title="CustomTone.Ontime field" Url="html/f1a560f2-1ba0-e838-dfaf-40c811310e0e.htm" />
+  <HelpKINode Title="CustomTone.Repcnt field" Url="html/ddfa3ad0-9740-ce05-e4f0-8ba6dfb2669c.htm" />
+  <HelpKINode Title="CustomTone.Tid field" Url="html/da53a774-a99e-ee16-fa7a-d4aa86a74ba7.htm" />
+  <HelpKINode Title="CustomTone.ToneType field" Url="html/8f36d47b-dfa1-0b7c-9d66-0655c2c7c8d9.htm" />
+  <HelpKINode Title="CustomToneType enumeration" Url="html/527a80a3-9b55-486a-5ec1-4c25872a0571.htm" />
+  <HelpKINode Title="CustomValidationPrompt method" Url="html/f71d735b-f250-4b44-27ab-7bb2852bb2bb.htm" />
+  <HelpKINode Title="Description property" Url="html/36716786-329e-beec-5416-c9bd7c30659f.htm" />
+  <HelpKINode Title="Description property" Url="html/75c1ebe4-2509-9066-d459-945374140381.htm" />
+  <HelpKINode Title="Dial method" Url="html/01315279-82e4-30de-2548-59f76e5f625b.htm" />
+  <HelpKINode Title="DialTone property" Url="html/12d8538b-feb6-0732-474d-09e137c4e451.htm" />
+  <HelpKINode Title="DialToneType property" Url="html/efd2f0c4-5c5d-ad63-9449-408feecbb173.htm" />
+  <HelpKINode Title="DigitsTimeoutInMilli property" Url="html/6f6052e8-566b-4a78-23fc-3cbb39dad691.htm" />
+  <HelpKINode Title="Dual enumeration member" Url="html/527a80a3-9b55-486a-5ec1-4c25872a0571.htm" />
+  <HelpKINode Title="DualWithCadence enumeration member" Url="html/527a80a3-9b55-486a-5ec1-4c25872a0571.htm" />
+  <HelpKINode Title="error enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="Execute method" Url="html/65bc55f0-ddcf-4c86-6fc4-46c5e517ca98.htm" />
+  <HelpKINode Title="Execute method" Url="html/adf5ba5b-c100-9fc8-f8b9-23d26ba4aef3.htm" />
+  <HelpKINode Title="Execute method" Url="html/fe9ee17e-6da0-e99c-e59c-95684efb11e1.htm" />
+  <HelpKINode Title="faxTone enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="FlushDigitBuffer method" Url="html/485e6886-ba8b-9f1e-9a51-3509015d1d30.htm" />
+  <HelpKINode Title="Freq1 field" Url="html/fcdeb8f1-87b4-d2cf-d84c-582e0fde6e7c.htm" />
+  <HelpKINode Title="Freq2 field" Url="html/128b9cf1-9a48-39b8-5aa6-c08e5b2999f3.htm" />
+  <HelpKINode Title="Frq1dev field" Url="html/138741c6-25a5-b98c-afc0-6ab57f104edf.htm" />
+  <HelpKINode Title="Frq2dev field" Url="html/c404f69f-7fb1-3179-40b4-5bc85be553c7.htm" />
+  <HelpKINode Title="GetDigits method" Url="html/7aca5d05-73d1-a88e-764c-8ac5d2d6b471.htm" />
+  <HelpKINode Title="GetDigitsTimeoutException class" Url="html/18163a60-61dc-7593-7bce-306324850cd6.htm" />
+  <HelpKINode Title="GetDigitsTimeoutException class" Url="html/f6974663-c9c0-e61a-bd44-55cbdb0e66f8.htm" />
   <HelpKINode Title="GetDigitsTimeoutException class">
-    <HelpKINode Title="about GetDigitsTimeoutException class" Url="html/T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor.htm" />
+    <HelpKINode Title="about GetDigitsTimeoutException class" Url="html/18163a60-61dc-7593-7bce-306324850cd6.htm" />
+    <HelpKINode Title="all members" Url="html/f6974663-c9c0-e61a-bd44-55cbdb0e66f8.htm" />
+    <HelpKINode Title="constructor" Url="html/70c8813d-f4c3-47b4-3928-47a08cb6bd8b.htm" />
   </HelpKINode>
-  <HelpKINode Title="GetDigitsTimeoutException.GetDigitsTimeoutException constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException__ctor.htm" />
-  <HelpKINode Title="GetKeyPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_Properties_GetKeyPrefixMatch.htm" />
-  <HelpKINode Title="GetKeyPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_VoiceProperties_GetKeyPrefixMatch.htm" />
-  <HelpKINode Title="GetLine method" Url="html/M_ivrToolkit_Core_IVoice_GetLine.htm" />
-  <HelpKINode Title="GetLine method" Url="html/M_ivrToolkit_Core_LineManager_GetLine.htm" />
-  <HelpKINode Title="GetLineCount method" Url="html/M_ivrToolkit_Core_LineManager_GetLineCount.htm" />
-  <HelpKINode Title="GetMenuStylePrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_GetMenuStylePrompt.htm" />
-  <HelpKINode Title="GetPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_Properties_GetPrefixMatch.htm" />
-  <HelpKINode Title="GetPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_VoiceProperties_GetPrefixMatch.htm" />
-  <HelpKINode Title="GetProperty method" Url="html/Overload_ivrToolkit_Core_Util_Properties_GetProperty.htm" />
-  <HelpKINode Title="GetProperty method" Url="html/Overload_ivrToolkit_Core_Util_VoiceProperties_GetProperty.htm" />
-  <HelpKINode Title="GetRegularStylePrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_GetRegularStylePrompt.htm" />
-  <HelpKINode Title="Hangup method" Url="html/M_ivrToolkit_Core_ILine_Hangup.htm" />
-  <HelpKINode Title="HangupException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_HangupException.htm" />
-  <HelpKINode Title="HangupException class" Url="html/T_ivrToolkit_Core_Exceptions_HangupException.htm" />
+  <HelpKINode Title="GetDigitsTimeoutException.GetDigitsTimeoutException constructor" Url="html/70c8813d-f4c3-47b4-3928-47a08cb6bd8b.htm" />
+  <HelpKINode Title="GetKeyPrefixMatch method" Url="html/4738d85a-7359-c7b8-1308-620239be90b5.htm" />
+  <HelpKINode Title="GetKeyPrefixMatch method" Url="html/e914d80c-ab44-8460-a194-9ef30671cec6.htm" />
+  <HelpKINode Title="GetLine method" Url="html/19b5d000-a20e-71e1-c40d-476f92d39005.htm" />
+  <HelpKINode Title="GetLine method" Url="html/2328a1a7-2c6a-74a0-2194-b1d9d75457a7.htm" />
+  <HelpKINode Title="GetLineCount method" Url="html/599d2b74-fb4b-0060-6ae2-1fd328e98981.htm" />
+  <HelpKINode Title="GetMenuStylePrompt method" Url="html/7b0f314d-2e25-9695-68fd-9296d6be8fe6.htm" />
+  <HelpKINode Title="GetPrefixMatch method" Url="html/9137ee92-3b70-fbc9-985f-8485c400b260.htm" />
+  <HelpKINode Title="GetPrefixMatch method" Url="html/e324d1ce-58c0-1ecb-8757-21e0a3fbe2d0.htm" />
+  <HelpKINode Title="GetProperty method" Url="html/3602603a-9c29-f7c5-5cfc-e526fc8c1939.htm" />
+  <HelpKINode Title="GetProperty method" Url="html/ca4c60ac-6bdc-c433-64a3-682f38acdfe5.htm" />
+  <HelpKINode Title="GetRegularStylePrompt method" Url="html/793d5773-98c4-91cb-1d79-c41582e5abe8.htm" />
+  <HelpKINode Title="Hangup method" Url="html/8cb0be9d-1aba-1c72-c732-a43b680380c2.htm" />
+  <HelpKINode Title="HangupException class" Url="html/48ff15a1-59f9-f89a-3e75-e3e5487253fc.htm" />
+  <HelpKINode Title="HangupException class" Url="html/f806f429-8161-5cba-69dd-d18bb4730670.htm" />
   <HelpKINode Title="HangupException class">
-    <HelpKINode Title="about HangupException class" Url="html/T_ivrToolkit_Core_Exceptions_HangupException.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_HangupException.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_HangupException__ctor.htm" />
+    <HelpKINode Title="about HangupException class" Url="html/f806f429-8161-5cba-69dd-d18bb4730670.htm" />
+    <HelpKINode Title="all members" Url="html/48ff15a1-59f9-f89a-3e75-e3e5487253fc.htm" />
+    <HelpKINode Title="constructor" Url="html/21e34022-f59e-be8f-f7cb-1e2b55dfe322.htm" />
   </HelpKINode>
-  <HelpKINode Title="HangupException.HangupException constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_HangupException__ctor.htm" />
-  <HelpKINode Title="HasNext method" Url="html/M_ivrToolkit_Core_ScriptManager_HasNext.htm" />
-  <HelpKINode Title="ILine interface" Url="html/AllMembers_T_ivrToolkit_Core_ILine.htm" />
-  <HelpKINode Title="ILine interface" Url="html/T_ivrToolkit_Core_ILine.htm" />
+  <HelpKINode Title="HangupException.HangupException constructor" Url="html/21e34022-f59e-be8f-f7cb-1e2b55dfe322.htm" />
+  <HelpKINode Title="HasNext method" Url="html/02ef6355-91d6-06cb-795b-447da2940b86.htm" />
+  <HelpKINode Title="ILine interface" Url="html/a41d93db-4c5f-95a0-7aa1-90bad7e293c4.htm" />
+  <HelpKINode Title="ILine interface" Url="html/c2a1c2b6-9e74-3aae-f4d6-68cfb33a341a.htm" />
   <HelpKINode Title="ILine interface">
-    <HelpKINode Title="about ILine interface" Url="html/T_ivrToolkit_Core_ILine.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_ILine.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_ILine.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_ivrToolkit_Core_ILine.htm" />
+    <HelpKINode Title="about ILine interface" Url="html/c2a1c2b6-9e74-3aae-f4d6-68cfb33a341a.htm" />
+    <HelpKINode Title="all members" Url="html/a41d93db-4c5f-95a0-7aa1-90bad7e293c4.htm" />
+    <HelpKINode Title="methods" Url="html/48b957c5-ce96-3be9-13f3-a0886b7214e4.htm" />
+    <HelpKINode Title="properties" Url="html/e32213d4-9fbd-c46d-44cc-4794834f3cde.htm" />
   </HelpKINode>
-  <HelpKINode Title="ILine.CheckStop method" Url="html/M_ivrToolkit_Core_ILine_CheckStop.htm" />
-  <HelpKINode Title="ILine.Close method" Url="html/M_ivrToolkit_Core_ILine_Close.htm" />
-  <HelpKINode Title="ILine.Dial method" Url="html/M_ivrToolkit_Core_ILine_Dial.htm" />
-  <HelpKINode Title="ILine.FlushDigitBuffer method" Url="html/M_ivrToolkit_Core_ILine_FlushDigitBuffer.htm" />
-  <HelpKINode Title="ILine.GetDigits method" Url="html/M_ivrToolkit_Core_ILine_GetDigits.htm" />
-  <HelpKINode Title="ILine.Hangup method" Url="html/M_ivrToolkit_Core_ILine_Hangup.htm" />
-  <HelpKINode Title="ILine.LastTerminator property" Url="html/P_ivrToolkit_Core_ILine_LastTerminator.htm" />
-  <HelpKINode Title="ILine.LineNumber property" Url="html/P_ivrToolkit_Core_ILine_LineNumber.htm" />
-  <HelpKINode Title="ILine.PlayFile method" Url="html/M_ivrToolkit_Core_ILine_PlayFile.htm" />
-  <HelpKINode Title="ILine.RecordToFile method" Url="html/M_ivrToolkit_Core_ILine_RecordToFile.htm" />
-  <HelpKINode Title="ILine.Status property" Url="html/P_ivrToolkit_Core_ILine_Status.htm" />
-  <HelpKINode Title="ILine.Stop method" Url="html/M_ivrToolkit_Core_ILine_Stop.htm" />
-  <HelpKINode Title="ILine.TakeOffHook method" Url="html/M_ivrToolkit_Core_ILine_TakeOffHook.htm" />
-  <HelpKINode Title="ILine.WaitRings method" Url="html/M_ivrToolkit_Core_ILine_WaitRings.htm" />
-  <HelpKINode Title="InvalidAnswerMessage property" Url="html/P_ivrToolkit_Core_Util_Prompt_InvalidAnswerMessage.htm" />
-  <HelpKINode Title="IScript interface" Url="html/AllMembers_T_ivrToolkit_Core_IScript.htm" />
-  <HelpKINode Title="IScript interface" Url="html/T_ivrToolkit_Core_IScript.htm" />
+  <HelpKINode Title="ILine.CheckStop method" Url="html/bcd9cd2c-ab40-f1f4-c579-cc37e63846d0.htm" />
+  <HelpKINode Title="ILine.Close method" Url="html/4d9f8b0f-3193-a3f1-90a5-bf8ed6c82b3d.htm" />
+  <HelpKINode Title="ILine.Dial method" Url="html/01315279-82e4-30de-2548-59f76e5f625b.htm" />
+  <HelpKINode Title="ILine.FlushDigitBuffer method" Url="html/485e6886-ba8b-9f1e-9a51-3509015d1d30.htm" />
+  <HelpKINode Title="ILine.GetDigits method" Url="html/7aca5d05-73d1-a88e-764c-8ac5d2d6b471.htm" />
+  <HelpKINode Title="ILine.Hangup method" Url="html/8cb0be9d-1aba-1c72-c732-a43b680380c2.htm" />
+  <HelpKINode Title="ILine.LastTerminator property" Url="html/d97c02cc-d96f-6182-ae83-64fa8ab80062.htm" />
+  <HelpKINode Title="ILine.LineNumber property" Url="html/525cf302-539b-421f-96b3-06723e8f6ac1.htm" />
+  <HelpKINode Title="ILine.PlayFile method" Url="html/291c767f-1d15-d468-5fc3-53d276313a83.htm" />
+  <HelpKINode Title="ILine.RecordToFile method" Url="html/ba3c538d-90f2-0600-6904-d4d313633e17.htm" />
+  <HelpKINode Title="ILine.Status property" Url="html/3ba16070-6c75-53a4-ce32-dd9e119cd139.htm" />
+  <HelpKINode Title="ILine.Stop method" Url="html/123d8a67-e606-1814-56c4-f1a287cdaccf.htm" />
+  <HelpKINode Title="ILine.TakeOffHook method" Url="html/5d8c8973-e827-0109-d220-f2f9880a9bb7.htm" />
+  <HelpKINode Title="ILine.WaitRings method" Url="html/f9067b18-8620-f245-5aca-fda3ba018f2e.htm" />
+  <HelpKINode Title="InvalidAnswerMessage property" Url="html/1165344d-e6a6-a0a1-2e04-e1673af6b1a5.htm" />
+  <HelpKINode Title="IScript interface" Url="html/1d33ddff-f963-c5cf-5b1f-38d85a6935f4.htm" />
+  <HelpKINode Title="IScript interface" Url="html/6d63e7d1-15c8-24b9-08af-4d9ac4130498.htm" />
   <HelpKINode Title="IScript interface">
-    <HelpKINode Title="about IScript interface" Url="html/T_ivrToolkit_Core_IScript.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_IScript.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_IScript.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_ivrToolkit_Core_IScript.htm" />
+    <HelpKINode Title="about IScript interface" Url="html/6d63e7d1-15c8-24b9-08af-4d9ac4130498.htm" />
+    <HelpKINode Title="all members" Url="html/1d33ddff-f963-c5cf-5b1f-38d85a6935f4.htm" />
+    <HelpKINode Title="methods" Url="html/f4d2048d-8d75-a05b-e665-3b989139d840.htm" />
+    <HelpKINode Title="properties" Url="html/501bc5a8-e347-2eb7-ad35-464f6893b48d.htm" />
   </HelpKINode>
-  <HelpKINode Title="IScript.Description property" Url="html/P_ivrToolkit_Core_IScript_Description.htm" />
-  <HelpKINode Title="IScript.Execute method" Url="html/M_ivrToolkit_Core_IScript_Execute.htm" />
-  <HelpKINode Title="IScript.Line property" Url="html/P_ivrToolkit_Core_IScript_Line.htm" />
-  <HelpKINode Title="IVoice interface" Url="html/AllMembers_T_ivrToolkit_Core_IVoice.htm" />
-  <HelpKINode Title="IVoice interface" Url="html/T_ivrToolkit_Core_IVoice.htm" />
+  <HelpKINode Title="IScript.Description property" Url="html/36716786-329e-beec-5416-c9bd7c30659f.htm" />
+  <HelpKINode Title="IScript.Execute method" Url="html/adf5ba5b-c100-9fc8-f8b9-23d26ba4aef3.htm" />
+  <HelpKINode Title="IScript.Line property" Url="html/ce5f356a-12fd-9dae-14d9-b7bea1816c22.htm" />
+  <HelpKINode Title="IVoice interface" Url="html/09d4d78b-d949-0061-23d9-4924ff0addfd.htm" />
+  <HelpKINode Title="IVoice interface" Url="html/71fd85a7-4ff8-fdcb-8981-ac991d57cb4d.htm" />
   <HelpKINode Title="IVoice interface">
-    <HelpKINode Title="about IVoice interface" Url="html/T_ivrToolkit_Core_IVoice.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_IVoice.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_IVoice.htm" />
+    <HelpKINode Title="about IVoice interface" Url="html/09d4d78b-d949-0061-23d9-4924ff0addfd.htm" />
+    <HelpKINode Title="all members" Url="html/71fd85a7-4ff8-fdcb-8981-ac991d57cb4d.htm" />
+    <HelpKINode Title="methods" Url="html/63d67d1d-2a11-e4ca-1261-c62d0bb800bb.htm" />
   </HelpKINode>
-  <HelpKINode Title="IVoice.GetLine method" Url="html/M_ivrToolkit_Core_IVoice_GetLine.htm" />
-  <HelpKINode Title="ivrToolkit.Core namespace" Url="html/N_ivrToolkit_Core.htm" />
-  <HelpKINode Title="ivrToolkit.Core.AbstractScript class" Url="html/AllMembers_T_ivrToolkit_Core_AbstractScript.htm" />
-  <HelpKINode Title="ivrToolkit.Core.AbstractScript class" Url="html/T_ivrToolkit_Core_AbstractScript.htm" />
-  <HelpKINode Title="ivrToolkit.Core.CallAnalysis enumeration" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions namespace" Url="html/N_ivrToolkit_Core_Exceptions.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.GetDigitsTimeoutException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.GetDigitsTimeoutException class" Url="html/T_ivrToolkit_Core_Exceptions_GetDigitsTimeoutException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.HangupException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_HangupException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.HangupException class" Url="html/T_ivrToolkit_Core_Exceptions_HangupException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.StopException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_StopException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.StopException class" Url="html/T_ivrToolkit_Core_Exceptions_StopException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.TooManyAttempts class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.TooManyAttempts class" Url="html/T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.VoiceException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Exceptions.VoiceException class" Url="html/T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
-  <HelpKINode Title="ivrToolkit.Core.ILine interface" Url="html/AllMembers_T_ivrToolkit_Core_ILine.htm" />
-  <HelpKINode Title="ivrToolkit.Core.ILine interface" Url="html/T_ivrToolkit_Core_ILine.htm" />
-  <HelpKINode Title="ivrToolkit.Core.IScript interface" Url="html/AllMembers_T_ivrToolkit_Core_IScript.htm" />
-  <HelpKINode Title="ivrToolkit.Core.IScript interface" Url="html/T_ivrToolkit_Core_IScript.htm" />
-  <HelpKINode Title="ivrToolkit.Core.IVoice interface" Url="html/AllMembers_T_ivrToolkit_Core_IVoice.htm" />
-  <HelpKINode Title="ivrToolkit.Core.IVoice interface" Url="html/T_ivrToolkit_Core_IVoice.htm" />
-  <HelpKINode Title="ivrToolkit.Core.LineManager class" Url="html/AllMembers_T_ivrToolkit_Core_LineManager.htm" />
-  <HelpKINode Title="ivrToolkit.Core.LineManager class" Url="html/T_ivrToolkit_Core_LineManager.htm" />
-  <HelpKINode Title="ivrToolkit.Core.LineStatusTypes enumeration" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
-  <HelpKINode Title="ivrToolkit.Core.ScriptManager class" Url="html/AllMembers_T_ivrToolkit_Core_ScriptManager.htm" />
-  <HelpKINode Title="ivrToolkit.Core.ScriptManager class" Url="html/T_ivrToolkit_Core_ScriptManager.htm" />
-  <HelpKINode Title="ivrToolkit.Core.ToneDetection enumeration" Url="html/T_ivrToolkit_Core_ToneDetection.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util namespace" Url="html/N_ivrToolkit_Core_Util.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.CustomTone class" Url="html/AllMembers_T_ivrToolkit_Core_Util_CustomTone.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.CustomTone class" Url="html/T_ivrToolkit_Core_Util_CustomTone.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.CustomToneType enumeration" Url="html/T_ivrToolkit_Core_Util_CustomToneType.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.LineExtensions class" Url="html/AllMembers_T_ivrToolkit_Core_Util_LineExtensions.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.LineExtensions class" Url="html/T_ivrToolkit_Core_Util_LineExtensions.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Prompt class" Url="html/AllMembers_T_ivrToolkit_Core_Util_Prompt.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Prompt class" Url="html/T_ivrToolkit_Core_Util_Prompt.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.KeysEnteredHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_KeysEnteredHandler.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.PrePlayHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_PrePlayHandler.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.SpecialTerminatorHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_SpecialTerminatorHandler.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.ValidationHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_ValidationHandler.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.PromptFunctions class" Url="html/AllMembers_T_ivrToolkit_Core_Util_PromptFunctions.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.PromptFunctions class" Url="html/T_ivrToolkit_Core_Util_PromptFunctions.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Properties class" Url="html/AllMembers_T_ivrToolkit_Core_Util_Properties.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.Properties class" Url="html/T_ivrToolkit_Core_Util_Properties.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.VoiceProperties class" Url="html/AllMembers_T_ivrToolkit_Core_Util_VoiceProperties.htm" />
-  <HelpKINode Title="ivrToolkit.Core.Util.VoiceProperties class" Url="html/T_ivrToolkit_Core_Util_VoiceProperties.htm" />
-  <HelpKINode Title="LastTerminator property" Url="html/P_ivrToolkit_Core_ILine_LastTerminator.htm" />
-  <HelpKINode Title="leading enumeration member" Url="html/T_ivrToolkit_Core_ToneDetection.htm" />
-  <HelpKINode Title="Line property" Url="html/P_ivrToolkit_Core_AbstractScript_Line.htm" />
-  <HelpKINode Title="Line property" Url="html/P_ivrToolkit_Core_IScript_Line.htm" />
-  <HelpKINode Title="LineExtensions class" Url="html/AllMembers_T_ivrToolkit_Core_Util_LineExtensions.htm" />
-  <HelpKINode Title="LineExtensions class" Url="html/T_ivrToolkit_Core_Util_LineExtensions.htm" />
+  <HelpKINode Title="IVoice.GetLine method" Url="html/19b5d000-a20e-71e1-c40d-476f92d39005.htm" />
+  <HelpKINode Title="ivrToolkit.Core namespace" Url="html/d9bfac4d-878f-54c6-a5ff-27123d92455c.htm" />
+  <HelpKINode Title="ivrToolkit.Core.AbstractScript class" Url="html/326369c8-be37-84f1-43f3-ec4de370b387.htm" />
+  <HelpKINode Title="ivrToolkit.Core.AbstractScript class" Url="html/ebb43938-808c-0d07-1443-c907038378a5.htm" />
+  <HelpKINode Title="ivrToolkit.Core.CallAnalysis enumeration" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions namespace" Url="html/b3a16a2b-892e-4590-edab-1d40d23e055d.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.GetDigitsTimeoutException class" Url="html/18163a60-61dc-7593-7bce-306324850cd6.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.GetDigitsTimeoutException class" Url="html/f6974663-c9c0-e61a-bd44-55cbdb0e66f8.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.HangupException class" Url="html/48ff15a1-59f9-f89a-3e75-e3e5487253fc.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.HangupException class" Url="html/f806f429-8161-5cba-69dd-d18bb4730670.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.StopException class" Url="html/08692b62-6902-505f-06a5-210277b72db7.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.StopException class" Url="html/89b214fd-69e1-5fdd-8e56-553665ef2e06.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.TooManyAttempts class" Url="html/4c833f77-46af-b651-a85b-41bf6147bb16.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.TooManyAttempts class" Url="html/de68df11-5685-1118-c3c8-7d0aa1cc3159.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.VoiceException class" Url="html/59f55954-fb7d-5297-57bd-ec2b56329687.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Exceptions.VoiceException class" Url="html/78ffc7fd-89d0-f4d1-c3af-f023da8317cd.htm" />
+  <HelpKINode Title="ivrToolkit.Core.ILine interface" Url="html/a41d93db-4c5f-95a0-7aa1-90bad7e293c4.htm" />
+  <HelpKINode Title="ivrToolkit.Core.ILine interface" Url="html/c2a1c2b6-9e74-3aae-f4d6-68cfb33a341a.htm" />
+  <HelpKINode Title="ivrToolkit.Core.IScript interface" Url="html/1d33ddff-f963-c5cf-5b1f-38d85a6935f4.htm" />
+  <HelpKINode Title="ivrToolkit.Core.IScript interface" Url="html/6d63e7d1-15c8-24b9-08af-4d9ac4130498.htm" />
+  <HelpKINode Title="ivrToolkit.Core.IVoice interface" Url="html/09d4d78b-d949-0061-23d9-4924ff0addfd.htm" />
+  <HelpKINode Title="ivrToolkit.Core.IVoice interface" Url="html/71fd85a7-4ff8-fdcb-8981-ac991d57cb4d.htm" />
+  <HelpKINode Title="ivrToolkit.Core.LineManager class" Url="html/2aa65434-a79e-7401-8c0b-9704ebbbe00f.htm" />
+  <HelpKINode Title="ivrToolkit.Core.LineManager class" Url="html/76c50956-55ca-9f87-926f-ebbc31f577ca.htm" />
+  <HelpKINode Title="ivrToolkit.Core.LineStatusTypes enumeration" Url="html/cd89caeb-8a25-d371-0681-3762150e7dd6.htm" />
+  <HelpKINode Title="ivrToolkit.Core.ScriptManager class" Url="html/35ccd32b-c09b-c730-f7d6-2ebc5a688bd3.htm" />
+  <HelpKINode Title="ivrToolkit.Core.ScriptManager class" Url="html/a6c84529-bd3f-c128-f8cd-9e44d805e43b.htm" />
+  <HelpKINode Title="ivrToolkit.Core.ToneDetection enumeration" Url="html/2f7b6288-7a44-adbb-8672-9d18c01fa82d.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util namespace" Url="html/95064b91-c74c-5792-c0f7-a5c88902071b.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.CustomTone class" Url="html/74ab1f57-9e53-bacd-28bb-8650d7a78b75.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.CustomTone class" Url="html/e133d66b-c823-b3b3-e879-ae4df77fbe57.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.CustomToneType enumeration" Url="html/527a80a3-9b55-486a-5ec1-4c25872a0571.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.LineExtensions class" Url="html/3339deed-3357-aae8-633a-ef3003751237.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.LineExtensions class" Url="html/f63de4b8-8cba-d999-10b3-50a4313313be.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Prompt class" Url="html/129116c9-a664-1827-e21d-0503ec45afae.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Prompt class" Url="html/1a85434a-773d-db84-fe6a-97ca76e1ba72.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.KeysEnteredHandler delegate" Url="html/4163365b-af3a-43c6-a03e-d9907029b5cb.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.PrePlayHandler delegate" Url="html/4ee97539-edcd-31d0-6e3c-2a41501ae8c6.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.SpecialTerminatorHandler delegate" Url="html/d72d0d1a-b15f-8762-0fa7-23060e209a3c.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Prompt.ValidationHandler delegate" Url="html/89539c61-8ce6-b02f-d666-4ce77e28e6fe.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.PromptFunctions class" Url="html/20acc809-744c-af75-af4b-96f17573740b.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.PromptFunctions class" Url="html/d550894b-116b-0b56-2c55-a98cdd048b48.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Properties class" Url="html/3e7ab1a0-8cd7-d76f-4f2f-9de01e817104.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.Properties class" Url="html/a3139087-937f-dda8-cd4d-c205080259a3.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.VoiceProperties class" Url="html/79dff7c9-6a40-3a86-ac67-a42396c40916.htm" />
+  <HelpKINode Title="ivrToolkit.Core.Util.VoiceProperties class" Url="html/bbafe92c-f913-0d30-3872-0fd8675ccdef.htm" />
+  <HelpKINode Title="LastTerminator property" Url="html/d97c02cc-d96f-6182-ae83-64fa8ab80062.htm" />
+  <HelpKINode Title="leading enumeration member" Url="html/2f7b6288-7a44-adbb-8672-9d18c01fa82d.htm" />
+  <HelpKINode Title="Line property" Url="html/4ef2d20c-413b-10ff-1987-1acf759372de.htm" />
+  <HelpKINode Title="Line property" Url="html/ce5f356a-12fd-9dae-14d9-b7bea1816c22.htm" />
+  <HelpKINode Title="LineExtensions class" Url="html/3339deed-3357-aae8-633a-ef3003751237.htm" />
+  <HelpKINode Title="LineExtensions class" Url="html/f63de4b8-8cba-d999-10b3-50a4313313be.htm" />
   <HelpKINode Title="LineExtensions class">
-    <HelpKINode Title="about LineExtensions class" Url="html/T_ivrToolkit_Core_Util_LineExtensions.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Util_LineExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_Util_LineExtensions.htm" />
+    <HelpKINode Title="about LineExtensions class" Url="html/3339deed-3357-aae8-633a-ef3003751237.htm" />
+    <HelpKINode Title="all members" Url="html/f63de4b8-8cba-d999-10b3-50a4313313be.htm" />
+    <HelpKINode Title="methods" Url="html/3710e4df-3409-27c3-5ad9-1aa878c67719.htm" />
   </HelpKINode>
-  <HelpKINode Title="LineExtensions.PlayCharacters method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayCharacters.htm" />
-  <HelpKINode Title="LineExtensions.PlayDate method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayDate.htm" />
-  <HelpKINode Title="LineExtensions.PlayInteger method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayInteger.htm" />
-  <HelpKINode Title="LineExtensions.PlayMoney method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayMoney.htm" />
-  <HelpKINode Title="LineExtensions.PlayNumber method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayNumber.htm" />
-  <HelpKINode Title="LineExtensions.PlayOrdinal method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayOrdinal.htm" />
-  <HelpKINode Title="LineExtensions.PlayPhoneNumber method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayPhoneNumber.htm" />
-  <HelpKINode Title="LineExtensions.PlayString method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayString.htm" />
-  <HelpKINode Title="LineManager class" Url="html/AllMembers_T_ivrToolkit_Core_LineManager.htm" />
-  <HelpKINode Title="LineManager class" Url="html/T_ivrToolkit_Core_LineManager.htm" />
+  <HelpKINode Title="LineExtensions.PlayCharacters method" Url="html/6985063e-1f45-66b7-2430-84de6cb1b5d4.htm" />
+  <HelpKINode Title="LineExtensions.PlayDate method" Url="html/d620fdcd-2789-35e6-984d-5272b864525c.htm" />
+  <HelpKINode Title="LineExtensions.PlayInteger method" Url="html/4236d409-8cca-a79c-5785-3de9afe4df00.htm" />
+  <HelpKINode Title="LineExtensions.PlayMoney method" Url="html/ba9c9f8e-ac56-e6d7-56f4-121c98a05864.htm" />
+  <HelpKINode Title="LineExtensions.PlayNumber method" Url="html/84484e6c-72fe-68e4-f634-6d6073555651.htm" />
+  <HelpKINode Title="LineExtensions.PlayOrdinal method" Url="html/47dba067-7070-bec0-6fee-ddcd5715697c.htm" />
+  <HelpKINode Title="LineExtensions.PlayPhoneNumber method" Url="html/90e438d5-389b-7b8d-2a8d-ca29c4a7a81c.htm" />
+  <HelpKINode Title="LineExtensions.PlayString method" Url="html/310ba3ac-da56-a10d-b05a-55a0fc7dba04.htm" />
+  <HelpKINode Title="LineManager class" Url="html/2aa65434-a79e-7401-8c0b-9704ebbbe00f.htm" />
+  <HelpKINode Title="LineManager class" Url="html/76c50956-55ca-9f87-926f-ebbc31f577ca.htm" />
   <HelpKINode Title="LineManager class">
-    <HelpKINode Title="about LineManager class" Url="html/T_ivrToolkit_Core_LineManager.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_LineManager.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ivrToolkit_Core_LineManager__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_LineManager.htm" />
+    <HelpKINode Title="about LineManager class" Url="html/2aa65434-a79e-7401-8c0b-9704ebbbe00f.htm" />
+    <HelpKINode Title="all members" Url="html/76c50956-55ca-9f87-926f-ebbc31f577ca.htm" />
+    <HelpKINode Title="constructor" Url="html/a57aa22d-81fc-f627-d1f3-1d9f63e50fcc.htm" />
+    <HelpKINode Title="methods" Url="html/d3ce5738-a890-f9b7-21ae-73fe515b247f.htm" />
   </HelpKINode>
-  <HelpKINode Title="LineManager.GetLine method" Url="html/M_ivrToolkit_Core_LineManager_GetLine.htm" />
-  <HelpKINode Title="LineManager.GetLineCount method" Url="html/M_ivrToolkit_Core_LineManager_GetLineCount.htm" />
-  <HelpKINode Title="LineManager.LineManager constructor" Url="html/M_ivrToolkit_Core_LineManager__ctor.htm" />
-  <HelpKINode Title="LineManager.ReleaseAll method" Url="html/M_ivrToolkit_Core_LineManager_ReleaseAll.htm" />
-  <HelpKINode Title="LineManager.ReleaseLine method" Url="html/M_ivrToolkit_Core_LineManager_ReleaseLine.htm" />
-  <HelpKINode Title="LineNumber property" Url="html/P_ivrToolkit_Core_ILine_LineNumber.htm" />
-  <HelpKINode Title="LineStatusTypes enumeration" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
-  <HelpKINode Title="Mode field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Mode.htm" />
-  <HelpKINode Title="NextScript property" Url="html/P_ivrToolkit_Core_ScriptManager_NextScript.htm" />
-  <HelpKINode Title="noAnswer enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="noDialTone enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="noFreeLine enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="NoFreeLineTone property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_NoFreeLineTone.htm" />
-  <HelpKINode Title="noRingback enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="NumberOfDigits property" Url="html/P_ivrToolkit_Core_Util_Prompt_NumberOfDigits.htm" />
-  <HelpKINode Title="OffHook enumeration member" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
-  <HelpKINode Title="Offtdev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Offtdev.htm" />
-  <HelpKINode Title="Offtime field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Offtime.htm" />
-  <HelpKINode Title="OnHook enumeration member" Url="html/T_ivrToolkit_Core_LineStatusTypes.htm" />
-  <HelpKINode Title="OnKeysEntered event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnKeysEntered.htm" />
-  <HelpKINode Title="OnPrePlay event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnPrePlay.htm" />
-  <HelpKINode Title="OnSpecialTerminator event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnSpecialTerminator.htm" />
-  <HelpKINode Title="Ontdev field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Ontdev.htm" />
-  <HelpKINode Title="Ontime field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Ontime.htm" />
-  <HelpKINode Title="OnValidation event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnValidation.htm" />
-  <HelpKINode Title="operatorIntercept enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="PlayCharacters method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayCharacters.htm" />
-  <HelpKINode Title="PlayDate method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayDate.htm" />
-  <HelpKINode Title="PlayFile method" Url="html/M_ivrToolkit_Core_ILine_PlayFile.htm" />
-  <HelpKINode Title="PlayInteger method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayInteger.htm" />
-  <HelpKINode Title="PlayMoney method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayMoney.htm" />
-  <HelpKINode Title="PlayNumber method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayNumber.htm" />
-  <HelpKINode Title="PlayOrdinal method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayOrdinal.htm" />
-  <HelpKINode Title="PlayPhoneNumber method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayPhoneNumber.htm" />
-  <HelpKINode Title="PlayString method" Url="html/M_ivrToolkit_Core_Util_LineExtensions_PlayString.htm" />
-  <HelpKINode Title="PreTestDialTone property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_PreTestDialTone.htm" />
-  <HelpKINode Title="Prompt class" Url="html/AllMembers_T_ivrToolkit_Core_Util_Prompt.htm" />
-  <HelpKINode Title="Prompt class" Url="html/T_ivrToolkit_Core_Util_Prompt.htm" />
+  <HelpKINode Title="LineManager.GetLine method" Url="html/2328a1a7-2c6a-74a0-2194-b1d9d75457a7.htm" />
+  <HelpKINode Title="LineManager.GetLineCount method" Url="html/599d2b74-fb4b-0060-6ae2-1fd328e98981.htm" />
+  <HelpKINode Title="LineManager.LineManager constructor" Url="html/a57aa22d-81fc-f627-d1f3-1d9f63e50fcc.htm" />
+  <HelpKINode Title="LineManager.ReleaseAll method" Url="html/fa60c04b-626d-d292-5c4f-c6f7c34d9207.htm" />
+  <HelpKINode Title="LineManager.ReleaseLine method" Url="html/b93666f4-b237-e554-41ce-bc8d474810cd.htm" />
+  <HelpKINode Title="LineNumber property" Url="html/525cf302-539b-421f-96b3-06723e8f6ac1.htm" />
+  <HelpKINode Title="LineStatusTypes enumeration" Url="html/cd89caeb-8a25-d371-0681-3762150e7dd6.htm" />
+  <HelpKINode Title="Mode field" Url="html/09ea9f2b-e5b7-1995-aded-bb40e9e7490c.htm" />
+  <HelpKINode Title="NextScript property" Url="html/c8a56864-7c58-d06d-e940-52d2a34de373.htm" />
+  <HelpKINode Title="noAnswer enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="noDialTone enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="noFreeLine enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="NoFreeLineTone property" Url="html/c9111055-0003-0c9a-d853-12d896a52f75.htm" />
+  <HelpKINode Title="noRingback enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="NumberOfDigits property" Url="html/b38be696-6ee4-10b6-907c-e3ba839ccd86.htm" />
+  <HelpKINode Title="OffHook enumeration member" Url="html/cd89caeb-8a25-d371-0681-3762150e7dd6.htm" />
+  <HelpKINode Title="Offtdev field" Url="html/fa682024-e062-07c9-fa6f-80eaf222e055.htm" />
+  <HelpKINode Title="Offtime field" Url="html/2b1336ff-f272-7d43-290c-c4bd83d6847f.htm" />
+  <HelpKINode Title="OnHook enumeration member" Url="html/cd89caeb-8a25-d371-0681-3762150e7dd6.htm" />
+  <HelpKINode Title="OnKeysEntered event" Url="html/db3ae26a-b610-ff85-4eb7-c296ed90e04b.htm" />
+  <HelpKINode Title="OnPrePlay event" Url="html/2b66d099-cb7d-d9c4-3597-3903cf2ab967.htm" />
+  <HelpKINode Title="OnSpecialTerminator event" Url="html/03496ea7-6033-0977-6f0e-b2e12a079eb6.htm" />
+  <HelpKINode Title="Ontdev field" Url="html/dd5c0fcf-6eeb-e39f-016e-72afd4cc5580.htm" />
+  <HelpKINode Title="Ontime field" Url="html/f1a560f2-1ba0-e838-dfaf-40c811310e0e.htm" />
+  <HelpKINode Title="OnValidation event" Url="html/d77bf465-1d62-7885-e3ca-65239de55a64.htm" />
+  <HelpKINode Title="operatorIntercept enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="PlayCharacters method" Url="html/6985063e-1f45-66b7-2430-84de6cb1b5d4.htm" />
+  <HelpKINode Title="PlayDate method" Url="html/d620fdcd-2789-35e6-984d-5272b864525c.htm" />
+  <HelpKINode Title="PlayFile method" Url="html/291c767f-1d15-d468-5fc3-53d276313a83.htm" />
+  <HelpKINode Title="PlayInteger method" Url="html/4236d409-8cca-a79c-5785-3de9afe4df00.htm" />
+  <HelpKINode Title="PlayMoney method" Url="html/ba9c9f8e-ac56-e6d7-56f4-121c98a05864.htm" />
+  <HelpKINode Title="PlayNumber method" Url="html/84484e6c-72fe-68e4-f634-6d6073555651.htm" />
+  <HelpKINode Title="PlayOrdinal method" Url="html/47dba067-7070-bec0-6fee-ddcd5715697c.htm" />
+  <HelpKINode Title="PlayPhoneNumber method" Url="html/90e438d5-389b-7b8d-2a8d-ca29c4a7a81c.htm" />
+  <HelpKINode Title="PlayString method" Url="html/310ba3ac-da56-a10d-b05a-55a0fc7dba04.htm" />
+  <HelpKINode Title="PreTestDialTone property" Url="html/5782c24d-2979-c2ff-f310-11c13283925b.htm" />
+  <HelpKINode Title="Prompt class" Url="html/129116c9-a664-1827-e21d-0503ec45afae.htm" />
+  <HelpKINode Title="Prompt class" Url="html/1a85434a-773d-db84-fe6a-97ca76e1ba72.htm" />
   <HelpKINode Title="Prompt class">
-    <HelpKINode Title="about Prompt class" Url="html/T_ivrToolkit_Core_Util_Prompt.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Util_Prompt.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ivrToolkit_Core_Util_Prompt__ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events_T_ivrToolkit_Core_Util_Prompt.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_Util_Prompt.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_ivrToolkit_Core_Util_Prompt.htm" />
+    <HelpKINode Title="about Prompt class" Url="html/1a85434a-773d-db84-fe6a-97ca76e1ba72.htm" />
+    <HelpKINode Title="all members" Url="html/129116c9-a664-1827-e21d-0503ec45afae.htm" />
+    <HelpKINode Title="constructor" Url="html/c3871859-3830-820f-17c4-8bba50bd6cbe.htm" />
+    <HelpKINode Title="events" Url="html/2e954b21-d21f-acbd-0aff-ad4ee4c35caf.htm" />
+    <HelpKINode Title="methods" Url="html/d201c3df-45a7-147e-58d9-d7c9d7e4b3b7.htm" />
+    <HelpKINode Title="properties" Url="html/91677609-a608-0a1c-f39f-9a2b75faacc3.htm" />
   </HelpKINode>
-  <HelpKINode Title="Prompt.AllowEmpty property" Url="html/P_ivrToolkit_Core_Util_Prompt_AllowEmpty.htm" />
-  <HelpKINode Title="Prompt.Answer property" Url="html/P_ivrToolkit_Core_Util_Prompt_Answer.htm" />
-  <HelpKINode Title="Prompt.Ask method" Url="html/M_ivrToolkit_Core_Util_Prompt_Ask.htm" />
-  <HelpKINode Title="Prompt.Attempts property" Url="html/P_ivrToolkit_Core_Util_Prompt_Attempts.htm" />
-  <HelpKINode Title="Prompt.CatchTooManyAttempts property" Url="html/P_ivrToolkit_Core_Util_Prompt_CatchTooManyAttempts.htm" />
-  <HelpKINode Title="Prompt.InvalidAnswerMessage property" Url="html/P_ivrToolkit_Core_Util_Prompt_InvalidAnswerMessage.htm" />
-  <HelpKINode Title="Prompt.KeysEnteredHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_KeysEnteredHandler.htm" />
-  <HelpKINode Title="Prompt.NumberOfDigits property" Url="html/P_ivrToolkit_Core_Util_Prompt_NumberOfDigits.htm" />
-  <HelpKINode Title="Prompt.OnKeysEntered event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnKeysEntered.htm" />
-  <HelpKINode Title="Prompt.OnPrePlay event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnPrePlay.htm" />
-  <HelpKINode Title="Prompt.OnSpecialTerminator event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnSpecialTerminator.htm" />
-  <HelpKINode Title="Prompt.OnValidation event" Url="html/E_ivrToolkit_Core_Util_Prompt_OnValidation.htm" />
-  <HelpKINode Title="Prompt.PrePlayHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_PrePlayHandler.htm" />
-  <HelpKINode Title="Prompt.Prompt constructor" Url="html/M_ivrToolkit_Core_Util_Prompt__ctor.htm" />
-  <HelpKINode Title="Prompt.PromptMessage property" Url="html/P_ivrToolkit_Core_Util_Prompt_PromptMessage.htm" />
-  <HelpKINode Title="Prompt.SpecialTerminator property" Url="html/P_ivrToolkit_Core_Util_Prompt_SpecialTerminator.htm" />
-  <HelpKINode Title="Prompt.SpecialTerminatorHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_SpecialTerminatorHandler.htm" />
-  <HelpKINode Title="Prompt.Terminators property" Url="html/P_ivrToolkit_Core_Util_Prompt_Terminators.htm" />
-  <HelpKINode Title="Prompt.TooManyAttemptsMessage property" Url="html/P_ivrToolkit_Core_Util_Prompt_TooManyAttemptsMessage.htm" />
-  <HelpKINode Title="Prompt.ValidationHandler delegate" Url="html/T_ivrToolkit_Core_Util_Prompt_ValidationHandler.htm" />
-  <HelpKINode Title="PromptAttempts property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_PromptAttempts.htm" />
-  <HelpKINode Title="PromptFunctions class" Url="html/AllMembers_T_ivrToolkit_Core_Util_PromptFunctions.htm" />
-  <HelpKINode Title="PromptFunctions class" Url="html/T_ivrToolkit_Core_Util_PromptFunctions.htm" />
+  <HelpKINode Title="Prompt.AllowEmpty property" Url="html/5ffa2d64-8bbb-9dce-7dcf-3217dd02feae.htm" />
+  <HelpKINode Title="Prompt.Answer property" Url="html/ffc5668c-4bf5-4cfe-dfdb-f890ecd8d233.htm" />
+  <HelpKINode Title="Prompt.Ask method" Url="html/de447d2c-bb08-6aea-046b-88f9b62fe832.htm" />
+  <HelpKINode Title="Prompt.Attempts property" Url="html/12d1311d-c757-3a5c-caf7-2b7fee8cedb0.htm" />
+  <HelpKINode Title="Prompt.CatchTooManyAttempts property" Url="html/2f1bce59-9f2d-4044-1c1f-de6c8da3fcf3.htm" />
+  <HelpKINode Title="Prompt.InvalidAnswerMessage property" Url="html/1165344d-e6a6-a0a1-2e04-e1673af6b1a5.htm" />
+  <HelpKINode Title="Prompt.KeysEnteredHandler delegate" Url="html/4163365b-af3a-43c6-a03e-d9907029b5cb.htm" />
+  <HelpKINode Title="Prompt.NumberOfDigits property" Url="html/b38be696-6ee4-10b6-907c-e3ba839ccd86.htm" />
+  <HelpKINode Title="Prompt.OnKeysEntered event" Url="html/db3ae26a-b610-ff85-4eb7-c296ed90e04b.htm" />
+  <HelpKINode Title="Prompt.OnPrePlay event" Url="html/2b66d099-cb7d-d9c4-3597-3903cf2ab967.htm" />
+  <HelpKINode Title="Prompt.OnSpecialTerminator event" Url="html/03496ea7-6033-0977-6f0e-b2e12a079eb6.htm" />
+  <HelpKINode Title="Prompt.OnValidation event" Url="html/d77bf465-1d62-7885-e3ca-65239de55a64.htm" />
+  <HelpKINode Title="Prompt.PrePlayHandler delegate" Url="html/4ee97539-edcd-31d0-6e3c-2a41501ae8c6.htm" />
+  <HelpKINode Title="Prompt.Prompt constructor" Url="html/c3871859-3830-820f-17c4-8bba50bd6cbe.htm" />
+  <HelpKINode Title="Prompt.PromptMessage property" Url="html/ba0eb532-cca3-a87a-e27d-6fc9c0e16786.htm" />
+  <HelpKINode Title="Prompt.SpecialTerminator property" Url="html/1b065f6d-22da-c605-2ba2-654744c73746.htm" />
+  <HelpKINode Title="Prompt.SpecialTerminatorHandler delegate" Url="html/d72d0d1a-b15f-8762-0fa7-23060e209a3c.htm" />
+  <HelpKINode Title="Prompt.Terminators property" Url="html/4b417041-320f-f821-a7ae-308af2d2b2df.htm" />
+  <HelpKINode Title="Prompt.TooManyAttemptsMessage property" Url="html/d1928f00-63c2-fd9b-05c6-1dc445fcf2ca.htm" />
+  <HelpKINode Title="Prompt.ValidationHandler delegate" Url="html/89539c61-8ce6-b02f-d666-4ce77e28e6fe.htm" />
+  <HelpKINode Title="PromptAttempts property" Url="html/9ab924e2-0a5c-d878-8cce-318c5ac8d0ba.htm" />
+  <HelpKINode Title="PromptFunctions class" Url="html/20acc809-744c-af75-af4b-96f17573740b.htm" />
+  <HelpKINode Title="PromptFunctions class" Url="html/d550894b-116b-0b56-2c55-a98cdd048b48.htm" />
   <HelpKINode Title="PromptFunctions class">
-    <HelpKINode Title="about PromptFunctions class" Url="html/T_ivrToolkit_Core_Util_PromptFunctions.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Util_PromptFunctions.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ivrToolkit_Core_Util_PromptFunctions__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_Util_PromptFunctions.htm" />
+    <HelpKINode Title="about PromptFunctions class" Url="html/d550894b-116b-0b56-2c55-a98cdd048b48.htm" />
+    <HelpKINode Title="all members" Url="html/20acc809-744c-af75-af4b-96f17573740b.htm" />
+    <HelpKINode Title="constructor" Url="html/276ac58f-5d32-34b8-e387-a22b56d61711.htm" />
+    <HelpKINode Title="methods" Url="html/922c0138-500b-41b0-85a6-48880f086776.htm" />
   </HelpKINode>
-  <HelpKINode Title="PromptFunctions.CustomValidationPrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_CustomValidationPrompt.htm" />
-  <HelpKINode Title="PromptFunctions.GetMenuStylePrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_GetMenuStylePrompt.htm" />
-  <HelpKINode Title="PromptFunctions.GetRegularStylePrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_GetRegularStylePrompt.htm" />
-  <HelpKINode Title="PromptFunctions.PromptFunctions constructor" Url="html/M_ivrToolkit_Core_Util_PromptFunctions__ctor.htm" />
-  <HelpKINode Title="PromptFunctions.RegularPrompt method" Url="html/Overload_ivrToolkit_Core_Util_PromptFunctions_RegularPrompt.htm" />
-  <HelpKINode Title="PromptFunctions.SingleDigitPrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_SingleDigitPrompt.htm" />
-  <HelpKINode Title="PromptMessage property" Url="html/P_ivrToolkit_Core_Util_Prompt_PromptMessage.htm" />
-  <HelpKINode Title="Properties class" Url="html/AllMembers_T_ivrToolkit_Core_Util_Properties.htm" />
-  <HelpKINode Title="Properties class" Url="html/T_ivrToolkit_Core_Util_Properties.htm" />
+  <HelpKINode Title="PromptFunctions.CustomValidationPrompt method" Url="html/f71d735b-f250-4b44-27ab-7bb2852bb2bb.htm" />
+  <HelpKINode Title="PromptFunctions.GetMenuStylePrompt method" Url="html/7b0f314d-2e25-9695-68fd-9296d6be8fe6.htm" />
+  <HelpKINode Title="PromptFunctions.GetRegularStylePrompt method" Url="html/793d5773-98c4-91cb-1d79-c41582e5abe8.htm" />
+  <HelpKINode Title="PromptFunctions.PromptFunctions constructor" Url="html/276ac58f-5d32-34b8-e387-a22b56d61711.htm" />
+  <HelpKINode Title="PromptFunctions.RegularPrompt method" Url="html/98643203-5df2-20cd-d031-b67f8df5c338.htm" />
+  <HelpKINode Title="PromptFunctions.SingleDigitPrompt method" Url="html/6cc1cf06-b511-bdc5-a4bf-e8a27e9889bd.htm" />
+  <HelpKINode Title="PromptMessage property" Url="html/ba0eb532-cca3-a87a-e27d-6fc9c0e16786.htm" />
+  <HelpKINode Title="Properties class" Url="html/3e7ab1a0-8cd7-d76f-4f2f-9de01e817104.htm" />
+  <HelpKINode Title="Properties class" Url="html/a3139087-937f-dda8-cd4d-c205080259a3.htm" />
   <HelpKINode Title="Properties class">
-    <HelpKINode Title="about Properties class" Url="html/T_ivrToolkit_Core_Util_Properties.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Util_Properties.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ivrToolkit_Core_Util_Properties__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_Util_Properties.htm" />
+    <HelpKINode Title="about Properties class" Url="html/3e7ab1a0-8cd7-d76f-4f2f-9de01e817104.htm" />
+    <HelpKINode Title="all members" Url="html/a3139087-937f-dda8-cd4d-c205080259a3.htm" />
+    <HelpKINode Title="constructor" Url="html/0f6ed70c-ade4-1202-65ad-9fd4a1bb391f.htm" />
+    <HelpKINode Title="methods" Url="html/999ab1c0-9258-9444-8b38-3c98677d6e62.htm" />
   </HelpKINode>
-  <HelpKINode Title="Properties.GetKeyPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_Properties_GetKeyPrefixMatch.htm" />
-  <HelpKINode Title="Properties.GetPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_Properties_GetPrefixMatch.htm" />
-  <HelpKINode Title="Properties.GetProperty method" Url="html/Overload_ivrToolkit_Core_Util_Properties_GetProperty.htm" />
-  <HelpKINode Title="Properties.Properties constructor" Url="html/M_ivrToolkit_Core_Util_Properties__ctor.htm" />
-  <HelpKINode Title="RecordToFile method" Url="html/M_ivrToolkit_Core_ILine_RecordToFile.htm" />
-  <HelpKINode Title="RegularPrompt method" Url="html/Overload_ivrToolkit_Core_Util_PromptFunctions_RegularPrompt.htm" />
-  <HelpKINode Title="ReleaseAll method" Url="html/M_ivrToolkit_Core_LineManager_ReleaseAll.htm" />
-  <HelpKINode Title="ReleaseLine method" Url="html/M_ivrToolkit_Core_LineManager_ReleaseLine.htm" />
-  <HelpKINode Title="Repcnt field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Repcnt.htm" />
-  <HelpKINode Title="ScriptManager class" Url="html/AllMembers_T_ivrToolkit_Core_ScriptManager.htm" />
-  <HelpKINode Title="ScriptManager class" Url="html/T_ivrToolkit_Core_ScriptManager.htm" />
+  <HelpKINode Title="Properties.GetKeyPrefixMatch method" Url="html/4738d85a-7359-c7b8-1308-620239be90b5.htm" />
+  <HelpKINode Title="Properties.GetPrefixMatch method" Url="html/9137ee92-3b70-fbc9-985f-8485c400b260.htm" />
+  <HelpKINode Title="Properties.GetProperty method" Url="html/3602603a-9c29-f7c5-5cfc-e526fc8c1939.htm" />
+  <HelpKINode Title="Properties.Properties constructor" Url="html/0f6ed70c-ade4-1202-65ad-9fd4a1bb391f.htm" />
+  <HelpKINode Title="RecordToFile method" Url="html/ba3c538d-90f2-0600-6904-d4d313633e17.htm" />
+  <HelpKINode Title="RegularPrompt method" Url="html/98643203-5df2-20cd-d031-b67f8df5c338.htm" />
+  <HelpKINode Title="ReleaseAll method" Url="html/fa60c04b-626d-d292-5c4f-c6f7c34d9207.htm" />
+  <HelpKINode Title="ReleaseLine method" Url="html/b93666f4-b237-e554-41ce-bc8d474810cd.htm" />
+  <HelpKINode Title="Repcnt field" Url="html/ddfa3ad0-9740-ce05-e4f0-8ba6dfb2669c.htm" />
+  <HelpKINode Title="ScriptManager class" Url="html/35ccd32b-c09b-c730-f7d6-2ebc5a688bd3.htm" />
+  <HelpKINode Title="ScriptManager class" Url="html/a6c84529-bd3f-c128-f8cd-9e44d805e43b.htm" />
   <HelpKINode Title="ScriptManager class">
-    <HelpKINode Title="about ScriptManager class" Url="html/T_ivrToolkit_Core_ScriptManager.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_ScriptManager.htm" />
-    <HelpKINode Title="constructor" Url="html/M_ivrToolkit_Core_ScriptManager__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_ScriptManager.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_ivrToolkit_Core_ScriptManager.htm" />
+    <HelpKINode Title="about ScriptManager class" Url="html/a6c84529-bd3f-c128-f8cd-9e44d805e43b.htm" />
+    <HelpKINode Title="all members" Url="html/35ccd32b-c09b-c730-f7d6-2ebc5a688bd3.htm" />
+    <HelpKINode Title="constructor" Url="html/43c363cd-4320-1888-5a42-e12e0e6c0d30.htm" />
+    <HelpKINode Title="methods" Url="html/f6963fa7-3d27-ebcd-f462-719837110eca.htm" />
+    <HelpKINode Title="properties" Url="html/b82321c2-6fc4-90e6-ca98-55f84f585fff.htm" />
   </HelpKINode>
-  <HelpKINode Title="ScriptManager.Execute method" Url="html/M_ivrToolkit_Core_ScriptManager_Execute.htm" />
-  <HelpKINode Title="ScriptManager.HasNext method" Url="html/M_ivrToolkit_Core_ScriptManager_HasNext.htm" />
-  <HelpKINode Title="ScriptManager.NextScript property" Url="html/P_ivrToolkit_Core_ScriptManager_NextScript.htm" />
-  <HelpKINode Title="ScriptManager.ScriptManager constructor" Url="html/M_ivrToolkit_Core_ScriptManager__ctor.htm" />
-  <HelpKINode Title="Single enumeration member" Url="html/T_ivrToolkit_Core_Util_CustomToneType.htm" />
-  <HelpKINode Title="SingleDigitPrompt method" Url="html/M_ivrToolkit_Core_Util_PromptFunctions_SingleDigitPrompt.htm" />
-  <HelpKINode Title="SpecialTerminator property" Url="html/P_ivrToolkit_Core_Util_Prompt_SpecialTerminator.htm" />
-  <HelpKINode Title="Status property" Url="html/P_ivrToolkit_Core_ILine_Status.htm" />
-  <HelpKINode Title="Stop method" Url="html/M_ivrToolkit_Core_ILine_Stop.htm" />
-  <HelpKINode Title="StopException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_StopException.htm" />
-  <HelpKINode Title="StopException class" Url="html/T_ivrToolkit_Core_Exceptions_StopException.htm" />
+  <HelpKINode Title="ScriptManager.Execute method" Url="html/65bc55f0-ddcf-4c86-6fc4-46c5e517ca98.htm" />
+  <HelpKINode Title="ScriptManager.HasNext method" Url="html/02ef6355-91d6-06cb-795b-447da2940b86.htm" />
+  <HelpKINode Title="ScriptManager.NextScript property" Url="html/c8a56864-7c58-d06d-e940-52d2a34de373.htm" />
+  <HelpKINode Title="ScriptManager.ScriptManager constructor" Url="html/43c363cd-4320-1888-5a42-e12e0e6c0d30.htm" />
+  <HelpKINode Title="Single enumeration member" Url="html/527a80a3-9b55-486a-5ec1-4c25872a0571.htm" />
+  <HelpKINode Title="SingleDigitPrompt method" Url="html/6cc1cf06-b511-bdc5-a4bf-e8a27e9889bd.htm" />
+  <HelpKINode Title="SpecialTerminator property" Url="html/1b065f6d-22da-c605-2ba2-654744c73746.htm" />
+  <HelpKINode Title="Status property" Url="html/3ba16070-6c75-53a4-ce32-dd9e119cd139.htm" />
+  <HelpKINode Title="Stop method" Url="html/123d8a67-e606-1814-56c4-f1a287cdaccf.htm" />
+  <HelpKINode Title="StopException class" Url="html/08692b62-6902-505f-06a5-210277b72db7.htm" />
+  <HelpKINode Title="StopException class" Url="html/89b214fd-69e1-5fdd-8e56-553665ef2e06.htm" />
   <HelpKINode Title="StopException class">
-    <HelpKINode Title="about StopException class" Url="html/T_ivrToolkit_Core_Exceptions_StopException.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_StopException.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_StopException__ctor.htm" />
+    <HelpKINode Title="about StopException class" Url="html/89b214fd-69e1-5fdd-8e56-553665ef2e06.htm" />
+    <HelpKINode Title="all members" Url="html/08692b62-6902-505f-06a5-210277b72db7.htm" />
+    <HelpKINode Title="constructor" Url="html/b0f139fd-6baa-2e9a-34f1-97ea5b2508b3.htm" />
   </HelpKINode>
-  <HelpKINode Title="StopException.StopException constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_StopException__ctor.htm" />
-  <HelpKINode Title="stopped enumeration member" Url="html/T_ivrToolkit_Core_CallAnalysis.htm" />
-  <HelpKINode Title="TakeOffHook method" Url="html/M_ivrToolkit_Core_ILine_TakeOffHook.htm" />
-  <HelpKINode Title="Terminators property" Url="html/P_ivrToolkit_Core_Util_Prompt_Terminators.htm" />
-  <HelpKINode Title="Tid field" Url="html/F_ivrToolkit_Core_Util_CustomTone_Tid.htm" />
-  <HelpKINode Title="ToneDetection enumeration" Url="html/T_ivrToolkit_Core_ToneDetection.htm" />
-  <HelpKINode Title="ToneType field" Url="html/F_ivrToolkit_Core_Util_CustomTone_ToneType.htm" />
-  <HelpKINode Title="TooManyAttempts class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
-  <HelpKINode Title="TooManyAttempts class" Url="html/T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
+  <HelpKINode Title="StopException.StopException constructor" Url="html/b0f139fd-6baa-2e9a-34f1-97ea5b2508b3.htm" />
+  <HelpKINode Title="stopped enumeration member" Url="html/a4d700db-42fa-523f-bd57-ba0d6322c585.htm" />
+  <HelpKINode Title="TakeOffHook method" Url="html/5d8c8973-e827-0109-d220-f2f9880a9bb7.htm" />
+  <HelpKINode Title="Terminators property" Url="html/4b417041-320f-f821-a7ae-308af2d2b2df.htm" />
+  <HelpKINode Title="Tid field" Url="html/da53a774-a99e-ee16-fa7a-d4aa86a74ba7.htm" />
+  <HelpKINode Title="ToneDetection enumeration" Url="html/2f7b6288-7a44-adbb-8672-9d18c01fa82d.htm" />
+  <HelpKINode Title="ToneType field" Url="html/8f36d47b-dfa1-0b7c-9d66-0655c2c7c8d9.htm" />
+  <HelpKINode Title="TooManyAttempts class" Url="html/4c833f77-46af-b651-a85b-41bf6147bb16.htm" />
+  <HelpKINode Title="TooManyAttempts class" Url="html/de68df11-5685-1118-c3c8-7d0aa1cc3159.htm" />
   <HelpKINode Title="TooManyAttempts class">
-    <HelpKINode Title="about TooManyAttempts class" Url="html/T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_TooManyAttempts.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor.htm" />
+    <HelpKINode Title="about TooManyAttempts class" Url="html/4c833f77-46af-b651-a85b-41bf6147bb16.htm" />
+    <HelpKINode Title="all members" Url="html/de68df11-5685-1118-c3c8-7d0aa1cc3159.htm" />
+    <HelpKINode Title="constructor" Url="html/785624f6-fa53-fb9c-ce81-4b32c0823b8f.htm" />
   </HelpKINode>
-  <HelpKINode Title="TooManyAttempts.TooManyAttempts constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_TooManyAttempts__ctor.htm" />
-  <HelpKINode Title="TooManyAttemptsMessage property" Url="html/P_ivrToolkit_Core_Util_Prompt_TooManyAttemptsMessage.htm" />
-  <HelpKINode Title="trailing enumeration member" Url="html/T_ivrToolkit_Core_ToneDetection.htm" />
-  <HelpKINode Title="VoiceException class" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
-  <HelpKINode Title="VoiceException class" Url="html/T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
+  <HelpKINode Title="TooManyAttempts.TooManyAttempts constructor" Url="html/785624f6-fa53-fb9c-ce81-4b32c0823b8f.htm" />
+  <HelpKINode Title="TooManyAttemptsMessage property" Url="html/d1928f00-63c2-fd9b-05c6-1dc445fcf2ca.htm" />
+  <HelpKINode Title="trailing enumeration member" Url="html/2f7b6288-7a44-adbb-8672-9d18c01fa82d.htm" />
+  <HelpKINode Title="VoiceException class" Url="html/59f55954-fb7d-5297-57bd-ec2b56329687.htm" />
+  <HelpKINode Title="VoiceException class" Url="html/78ffc7fd-89d0-f4d1-c3af-f023da8317cd.htm" />
   <HelpKINode Title="VoiceException class">
-    <HelpKINode Title="about VoiceException class" Url="html/T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Exceptions_VoiceException.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_VoiceException__ctor.htm" />
+    <HelpKINode Title="about VoiceException class" Url="html/78ffc7fd-89d0-f4d1-c3af-f023da8317cd.htm" />
+    <HelpKINode Title="all members" Url="html/59f55954-fb7d-5297-57bd-ec2b56329687.htm" />
+    <HelpKINode Title="constructor" Url="html/131ea0a8-ae43-27d6-97d5-2649eddb87cb.htm" />
   </HelpKINode>
-  <HelpKINode Title="VoiceException.VoiceException constructor" Url="html/Overload_ivrToolkit_Core_Exceptions_VoiceException__ctor.htm" />
-  <HelpKINode Title="VoiceProperties class" Url="html/AllMembers_T_ivrToolkit_Core_Util_VoiceProperties.htm" />
-  <HelpKINode Title="VoiceProperties class" Url="html/T_ivrToolkit_Core_Util_VoiceProperties.htm" />
+  <HelpKINode Title="VoiceException.VoiceException constructor" Url="html/131ea0a8-ae43-27d6-97d5-2649eddb87cb.htm" />
+  <HelpKINode Title="VoiceProperties class" Url="html/79dff7c9-6a40-3a86-ac67-a42396c40916.htm" />
+  <HelpKINode Title="VoiceProperties class" Url="html/bbafe92c-f913-0d30-3872-0fd8675ccdef.htm" />
   <HelpKINode Title="VoiceProperties class">
-    <HelpKINode Title="about VoiceProperties class" Url="html/T_ivrToolkit_Core_Util_VoiceProperties.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_ivrToolkit_Core_Util_VoiceProperties.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_ivrToolkit_Core_Util_VoiceProperties.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_ivrToolkit_Core_Util_VoiceProperties.htm" />
+    <HelpKINode Title="about VoiceProperties class" Url="html/79dff7c9-6a40-3a86-ac67-a42396c40916.htm" />
+    <HelpKINode Title="all members" Url="html/bbafe92c-f913-0d30-3872-0fd8675ccdef.htm" />
+    <HelpKINode Title="methods" Url="html/1876b08b-4524-30a5-12d7-b2e13c61ef54.htm" />
+    <HelpKINode Title="properties" Url="html/876b8342-8433-edcb-973c-2bdcac134bcd.htm" />
   </HelpKINode>
-  <HelpKINode Title="VoiceProperties.AssemblyName property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_AssemblyName.htm" />
-  <HelpKINode Title="VoiceProperties.ClassName property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_ClassName.htm" />
-  <HelpKINode Title="VoiceProperties.Current property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_Current.htm" />
-  <HelpKINode Title="VoiceProperties.CustomOutboundEnabled property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_CustomOutboundEnabled.htm" />
-  <HelpKINode Title="VoiceProperties.DialTone property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_DialTone.htm" />
-  <HelpKINode Title="VoiceProperties.DialToneType property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_DialToneType.htm" />
-  <HelpKINode Title="VoiceProperties.DigitsTimeoutInMilli property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_DigitsTimeoutInMilli.htm" />
-  <HelpKINode Title="VoiceProperties.GetKeyPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_VoiceProperties_GetKeyPrefixMatch.htm" />
-  <HelpKINode Title="VoiceProperties.GetPrefixMatch method" Url="html/M_ivrToolkit_Core_Util_VoiceProperties_GetPrefixMatch.htm" />
-  <HelpKINode Title="VoiceProperties.GetProperty method" Url="html/Overload_ivrToolkit_Core_Util_VoiceProperties_GetProperty.htm" />
-  <HelpKINode Title="VoiceProperties.NoFreeLineTone property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_NoFreeLineTone.htm" />
-  <HelpKINode Title="VoiceProperties.PreTestDialTone property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_PreTestDialTone.htm" />
-  <HelpKINode Title="VoiceProperties.PromptAttempts property" Url="html/P_ivrToolkit_Core_Util_VoiceProperties_PromptAttempts.htm" />
-  <HelpKINode Title="WaitRings method" Url="html/M_ivrToolkit_Core_ILine_WaitRings.htm" />
+  <HelpKINode Title="VoiceProperties.AssemblyName property" Url="html/2281f999-8faf-e61a-599b-529ea0c2045b.htm" />
+  <HelpKINode Title="VoiceProperties.ClassName property" Url="html/1b5e436f-f96b-939b-0bca-f0e37da81389.htm" />
+  <HelpKINode Title="VoiceProperties.Current property" Url="html/ff27ec4e-3137-0322-4b2d-7946a88a32a3.htm" />
+  <HelpKINode Title="VoiceProperties.CustomOutboundEnabled property" Url="html/52e4e4a0-bf35-6ab6-b19e-fa56b2333c14.htm" />
+  <HelpKINode Title="VoiceProperties.DialTone property" Url="html/12d8538b-feb6-0732-474d-09e137c4e451.htm" />
+  <HelpKINode Title="VoiceProperties.DialToneType property" Url="html/efd2f0c4-5c5d-ad63-9449-408feecbb173.htm" />
+  <HelpKINode Title="VoiceProperties.DigitsTimeoutInMilli property" Url="html/6f6052e8-566b-4a78-23fc-3cbb39dad691.htm" />
+  <HelpKINode Title="VoiceProperties.GetKeyPrefixMatch method" Url="html/e914d80c-ab44-8460-a194-9ef30671cec6.htm" />
+  <HelpKINode Title="VoiceProperties.GetPrefixMatch method" Url="html/e324d1ce-58c0-1ecb-8757-21e0a3fbe2d0.htm" />
+  <HelpKINode Title="VoiceProperties.GetProperty method" Url="html/ca4c60ac-6bdc-c433-64a3-682f38acdfe5.htm" />
+  <HelpKINode Title="VoiceProperties.NoFreeLineTone property" Url="html/c9111055-0003-0c9a-d853-12d896a52f75.htm" />
+  <HelpKINode Title="VoiceProperties.PreTestDialTone property" Url="html/5782c24d-2979-c2ff-f310-11c13283925b.htm" />
+  <HelpKINode Title="VoiceProperties.PromptAttempts property" Url="html/9ab924e2-0a5c-d878-8cce-318c5ac8d0ba.htm" />
+  <HelpKINode Title="WaitRings method" Url="html/f9067b18-8620-f245-5aca-fda3ba018f2e.htm" />
 </HelpKI>
