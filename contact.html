@@ -32,7 +32,12 @@
                 var d = "rtool";
                 var e = "kit.c";
                 var f = "om";
-                return a + b + c + d + e + f;
+                
+                var g = a + b + c + d + e + f;
+                var aa = document.createElement('a');
+                aa.href = g;
+                aa.click();
+                return false;
             }
             
             function getMe() {
@@ -42,7 +47,12 @@
                 var d = "ros";
                 var e = "oft.c";
                 var f = "om";
-                return a + b + c + d + e + f;
+                var g = a + b + c + d + e + f;
+                
+                var aa = document.createElement('a');
+                aa.href = g;
+                aa.click();
+                return false;
             }
 
         </script>
@@ -76,10 +86,10 @@
                     To ask a question, request an enhancement or report a bug, please use <a href="https://github.com/ivrToolkit/ivrToolkit/issues">https://github.com/ivrToolkit/ivrToolkit/issues</a>
                 </div>
                 <div class="indent" style="padding-bottom: 20px;">
-                    You can also send email to <a href="javascript:getSupport();"><img src="images/support.jpg" style="border: none;"/></a>
+                    You can also send email to <a href="#" onclick="getSupport()"><img src="images/support.jpg" style="border: none;"/></a>
                 </div>
                 <div class="indent">
-                    ivrToolkit was written by <a href="javascript:getMe();">Troy Makaro</a>
+                    ivrToolkit was written by <a href="#" onclick="getMe()">Troy Makaro</a>
                 </div>
             </div>
         </div>
