@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
     <head>
@@ -52,6 +52,25 @@
             <div id="main">
                 <h2>Release Source</h2>
                 <div class="indent">
+
+
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-1.0.zip">release-1.0.zip</a><br />
+
+                    <ul>
+                        <li>
+                            Added void RecordToFile(string filename, int timeoutMillisconds) to ILine interface. Modified the dialogic and simulator
+                            plugin to use the new method. The previous RecordToFile method would record indefinitely if the caller hung up during the
+                            record.
+                        </li>
+                        <li>
+                            Fixed the GetLine method in Dialogic.cs so that it now properly caluclates the board and channel number for a line
+                            number greater than 5.
+                        </li>
+                    </ul>
+
+
+
+
                     <a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-0.9.6.zip">release-0.9.6.zip</a><br />
 
                     <ul>
