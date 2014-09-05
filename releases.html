@@ -54,6 +54,26 @@
                 <div class="indent">
 
 
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-1.1.0-alpha1.zip">release-1.1.0-alpha1.zip</a><br />
+
+                    <ul>
+                        <li>
+                            Breaking change to IVoice interface. GetLine method signature is now: <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp; GetLine(int lineNumber, object data = null);<br/>
+                            Where data can be a string representing the device name of the Dialogic line. For Example: ':P_pdk_na_an_io:V_dxxxB1C1'<br/>
+                            This is only needed if your aren't able to define what you need in the voice.properties file. voice.deviceNamePattern.<br/><br/>
+                        </li>
+                        <li>
+                            New keyValue in voice.properties called 'voice.deviceNamePattern' which is defaulted to ':P_pdk_na_an_io:V_dxxxB{board}C{channel}'. This is accessed
+                            by the dialogic plugin using Voice.Current.DeviceNamePattern. Valid keywords are {line}, {board} and {channel}. Board and channel are calculated
+                            based on the line number. 4 lines per board.<br/><br/>
+                        </li>
+                        <li>
+                            Replaced dx_open with gc_OpenEx. This is supposed to allow SIP use with the Dialogic® PowerMedia™ HMP for Windows software. I'll be testing that
+                            next week.
+                        </li>
+                    </ul>
+
                     <a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-1.0.zip">release-1.0.zip</a><br />
 
                     <ul>
