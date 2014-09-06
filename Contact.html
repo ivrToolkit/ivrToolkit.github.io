@@ -1,0 +1,53 @@
+---
+layout: default
+title: Contact
+---
+<script type="text/javascript">
+
+    function getSupport() {
+        var a = "mai";
+        var b = "lto:sup";
+        var c = "port@iv";
+        var d = "rtool";
+        var e = "kit.c";
+        var f = "om";
+
+        var g = a + b + c + d + e + f;
+        document.location.href = g;
+
+        return false;
+    }
+
+    function getMe() {
+        var a = "mai";
+        var b = "lto:tro";
+        var c = "y@maka";
+        var d = "ros";
+        var e = "oft.c";
+        var f = "om";
+
+        var g = a + b + c + d + e + f;
+        document.location.href = g;
+
+        return false;
+    }
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#contact").addClass("active");
+    });
+</script>
+
+<div>
+    <h2>{{ page.title }}</h2>
+    <div style="padding-bottom: 20px;">
+        To ask a question, request an enhancement or report a bug, please use <a href="https://github.com/ivrToolkit/ivrToolkit/issues">https://github.com/ivrToolkit/ivrToolkit/issues</a>
+    </div>
+    <div style="padding-bottom: 20px;">
+        You can also send email to <a href="javascript://" onclick="getSupport()"><img src="/images/support.jpg" style="border: none;" /></a>
+    </div>
+    <div>
+        ivrToolkit was written by <a href="javascript://" onclick="getMe()">Troy Makaro</a>
+    </div>
+</div>

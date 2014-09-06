@@ -1,0 +1,11 @@
+name: "ivrToolkit"
+description: "An IVR toolkit library for dotNet developers wanting to write telephony applications. Plugins include a Dialogic driver and a windows sound card driver."
+
+url: "http://localhost:4000"
+
+
+markdown: rdiscount
+permalink: pretty
+highlighter: rouge
+ignore: "Help"
+

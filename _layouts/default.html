@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>ivrToolkit</title>
+    <title>{{ site.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="An IVR toolkit library for dotNet developers wanting to write telephony applications. Plugins include a Dialogic driver and a windows sound card driver.">
+    <meta name="description" content="{{ site.description }}">
     
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
@@ -46,7 +46,7 @@
             </div>
             <div class="col-sm-10">
                 <div class="title"><h1><a href="/">ivrToolkit</a></h1></div>
-                <div>An IVR toolkit library for dotNet developers wanting to write telephony applications. Plugins include a Dialogic driver and a windows sound card driver.</div>
+                <div>{{ site.description }}</div>
             </div>
         </div>
         
@@ -84,67 +84,7 @@
                 </nav>
             </div>
         </div>
-        <script type="text/javascript">
-    $(document).ready(function () {
-        $("#documentation").addClass("active");
-    });
-</script>
-
-<h2>Requirements</h2>
-<div>
-    <p>
-        Window Server 2003/2008, Windows 7
-    </p>
-    <p>
-        Visual Studio 2012. May work fine with VS2010 but I&#39;m not sure if that version supports nuget package restore
-    </p>
-    <p>
-        WAV files MUST be recorded at 8000hz, unsigned 8 bit PCM. I&#39;ave been using Audacity to record my wav files. I then go into File&gt; export and choose save as type &#39;other uncompressed files&#39;. I then choose the &#39;options...&#39; button and choose &#39;wav (microsoft)&#39; and &#39;unsigned 8 bit pcm&#39;. Make sure your project rate in Audacity is 8000hz.</p>
-    <p>
-        For the dialogic plugin:
-    </p>
-    <ul>
-        <li>Drivers: Dialogic? System Release 6.0 PCI for Windows</li>
-        <li>Dialogic voice cards that the Dialogic driver supports. Please note this release currently only supports analog voice cards. The dialogic plugin has been tested with d/41jct and d/120jct-ls cards</li>
-    </ul>
-</div>
-<h2>Getting started</h2>
-<div>
-    <p>
-        Download the code from github and use your windows explorer to view the files. You will notice the root folder has an ivrToolkit.sln solution file. Open this file up in VS2012 and compile it. It should automatically download the required nuget packages that the projects use.
-    </p>
-</div>
-<h2>Simulator Example</h2>
-<div>
-    <p>
-        The SimulatorTest project is a console application which waits for an incoming call. In the examples folder, set the SimulatorTest project as the startup project and then run it in Visual Studio.
-    </p>
-    <p>
-        Now, using the windows explorer, locate the Virtual Phone executable and run it.(ivrToolkit.VirtualPhone\bin\Debug\ivrToolkit.VirtualPhone.exe)
-    </p>
-    <p>
-        First start by connecting to the Simulator Test app:
-    </p>
-    <p>
-        <img src="/images/Phone1.jpg" />
-    </p>
-    <p>
-        Next lift the receiver:
-    </p>
-    <p>
-        <img src="/images/Phone2.jpg" />
-    </p>
-    <p>
-        and then finally press the Dial button:
-    </p>
-    <p>
-        <img src="/images/Phone3.jpg" />
-    </p>
-    <p>
-        After a couple of rings you should hear the welcome message. Please note, there is a bug in the playing of the wav files with the simulator plugin. You will hear a bit of a click noise at the end of each file played. This noise is does not exist with the Dialogic plugin. Also in the simulator plugin when stepping through the debugger you may lose key presses. This also does not happen with the Dialogic Plugin.
-    </p>
-</div>
-
+        {{ content }}
     </div>
 
 </body>
