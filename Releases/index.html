@@ -86,71 +86,83 @@
         </div>
         <script type="text/javascript">
     $(document).ready(function () {
-        $("#home").addClass("active");
+        $("#releases").addClass("active");
     });
 </script>
+<h2>Release Source</h2>
 
-    <h2>What is the IVR Toolkit?</h2>
-    <div>
-        <p>
-            The ivrToolkit is a dotNet library for developers wanting to write telephony applications. The main project is ivrToolkit.core which calls
-            plugins that implement the IVoice and ILine interfaces.
-        </p>
-        <p>
-            There are currently two plugins written that use ivrToolkit.core. They are:
-        </p>
-        <ul>
-            <li>
-                ivrToolkit.SimulatorPlugin
-                <p>
-                    Usees your windows sound card so that you can develop and test your application without having to use the phone or requiring a phone card.
-                    It is intended to be used with the ivrToolkit.Virtual Phone project.
-                </p>
-            </li>
-            <li>
-                ivrToolkit.DialogicPlugin
-                <p>
-                    For use with Dialogic Voice cards.
-                </p>
-            </li>
-        </ul>
-    </div>
-    <h2>Goals</h2>
-    <div>
-        <ul>
-            <li>
-                Provide an easy to use API
-                <p>
-                    Cuts down on your development time for new projects.
-                </p>
-            </li>
-            <li>
-                Provide an easy migration path for existing legacy projects.
-                <p>
-                    The ivrToolkit was originaly written to replace some legacy 3rd party telephony products that no longer exist. At the time, the options were very expensive so
-                    I decided to write my own. The goal was to provide an easy migration path for anyone faced with the same situation.
-                </p>
-            </li>
-            <li>
-                Continued development of Core and Plugins
-                <p>
-                    The ivrToolkit.Core and it's plugins are just the beginning. They are an integral part of the ivrToolKit.Web project.
-                </p>
-            </li>
-            <li>
-                VoiceXML and CCXML support (currently in the planning stages only)
-                <p>
-                    The ivrToolkit.Web project is a MVC4 web application is a full blown IVR service that will manage and run your voice scripts.
-                </p>
-            </li>
-        </ul>
-    </div>
-    <h2>License Information</h2>
-    <div>
-        <p>
-            The ivrToolkit project is licensed under the LGPL.
-        </p>
-</div>
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/1.1.0-alpha1.zip">1.1.0-alpha1.zip</a><br />
+
+<ul>
+    <li>
+        Breaking change to IVoice interface. GetLine method signature is now: <br />
+        &nbsp;&nbsp;&nbsp;&nbsp; GetLine(int lineNumber, object data = null);<br />
+        Where data can be a string representing the device name of the Dialogic line. For Example: ':P_pdk_na_an_io:V_dxxxB1C1'<br />
+        This is only needed if your aren't able to define what you need in the voice.properties file. voice.deviceNamePattern.<br /><br />
+    </li>
+    <li>
+        New keyValue in voice.properties called 'voice.deviceNamePattern' which is defaulted to ':P_pdk_na_an_io:V_dxxxB{board}C{channel}'. This is accessed
+        by the dialogic plugin using Voice.Current.DeviceNamePattern. Valid keywords are {line}, {board} and {channel}. Board and channel are calculated
+        based on the line number. 4 lines per board.<br /><br />
+    </li>
+    <li>
+        Replaced dx_open with gc_OpenEx. This is supposed to allow SIP use with the Dialogic PowerMedia HMP for Windows software. I'll be testing that
+        next week.
+    </li>
+</ul>
+
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-1.0.zip">release-1.0.zip</a><br />
+
+<ul>
+    <li>
+        Added void RecordToFile(string filename, int timeoutMillisconds) to ILine interface. Modified the dialogic and simulator
+        plugin to use the new method. The previous RecordToFile method would record indefinitely if the caller hung up during the
+        record.
+    </li>
+    <li>
+        Fixed the GetLine method in Dialogic.cs so that it now properly caluclates the board and channel number for a line
+        number greater than 4.
+    </li>
+</ul>
+
+
+
+
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-0.9.6.zip">release-0.9.6.zip</a><br />
+
+<ul>
+    <li>
+        Add volume control methods
+    </li>
+    <li>
+        Removed prompt terminator character 'T'. You can get the same result by using terminator 't' and
+        specifying AllowBlank=false
+    </li>
+</ul>
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-0.9.5.zip">release-0.9.5.zip</a><br />
+
+<ul>
+    <li>
+        Fixed bug where dialing a number like '9,1112223333' would not dial the 9. This only happened when dial.customOutbound.enabled=true in voice.properties
+    </li>
+    <li>
+        Fixed bug where line status didn't switch from 'AcceptingCalls' to 'Connected' after the WaitRings method answered a call.
+    </li>
+</ul>
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/release-0.9.4.zip">release-0.9.4.zip</a><br />
+
+<ul>
+    <li>
+        Change the licensing from GPL to LGPL.
+    </li>
+    <li>
+        Modified prompt.attempts from 2 to 5 in voice.properties. However, I think this will be changed to prompt.noResponseAttempts instead since the intent was to stop endless looping of a prompt if the user hung up and the system did not detect the hangup.
+    </li>
+</ul>
+
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/v0.9.3.zip">v0.9.3.zip</a><br />
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/v0.9.2.zip">v0.9.2.zip</a><br />
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/v0.9.1.zip">v0.9.1.zip</a><br />
     </div>
 
 </body>

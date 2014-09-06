@@ -85,72 +85,55 @@
             </div>
         </div>
         <script type="text/javascript">
+
+    function getSupport() {
+        var a = "mai";
+        var b = "lto:sup";
+        var c = "port@iv";
+        var d = "rtool";
+        var e = "kit.c";
+        var f = "om";
+
+        var g = a + b + c + d + e + f;
+        document.location.href = g;
+
+        return false;
+    }
+
+    function getMe() {
+        var a = "mai";
+        var b = "lto:tro";
+        var c = "y@maka";
+        var d = "ros";
+        var e = "oft.c";
+        var f = "om";
+
+        var g = a + b + c + d + e + f;
+        document.location.href = g;
+
+        return false;
+    }
+
+</script>
+<script type="text/javascript">
     $(document).ready(function () {
-        $("#home").addClass("active");
+        $("#contact").addClass("active");
     });
 </script>
 
-    <h2>What is the IVR Toolkit?</h2>
-    <div>
-        <p>
-            The ivrToolkit is a dotNet library for developers wanting to write telephony applications. The main project is ivrToolkit.core which calls
-            plugins that implement the IVoice and ILine interfaces.
-        </p>
-        <p>
-            There are currently two plugins written that use ivrToolkit.core. They are:
-        </p>
-        <ul>
-            <li>
-                ivrToolkit.SimulatorPlugin
-                <p>
-                    Usees your windows sound card so that you can develop and test your application without having to use the phone or requiring a phone card.
-                    It is intended to be used with the ivrToolkit.Virtual Phone project.
-                </p>
-            </li>
-            <li>
-                ivrToolkit.DialogicPlugin
-                <p>
-                    For use with Dialogic Voice cards.
-                </p>
-            </li>
-        </ul>
+<div>
+    <h2>Contact</h2>
+    <div style="padding-bottom: 20px;">
+        To ask a question, request an enhancement or report a bug, please use <a href="https://github.com/ivrToolkit/ivrToolkit/issues">https://github.com/ivrToolkit/ivrToolkit/issues</a>
     </div>
-    <h2>Goals</h2>
-    <div>
-        <ul>
-            <li>
-                Provide an easy to use API
-                <p>
-                    Cuts down on your development time for new projects.
-                </p>
-            </li>
-            <li>
-                Provide an easy migration path for existing legacy projects.
-                <p>
-                    The ivrToolkit was originaly written to replace some legacy 3rd party telephony products that no longer exist. At the time, the options were very expensive so
-                    I decided to write my own. The goal was to provide an easy migration path for anyone faced with the same situation.
-                </p>
-            </li>
-            <li>
-                Continued development of Core and Plugins
-                <p>
-                    The ivrToolkit.Core and it's plugins are just the beginning. They are an integral part of the ivrToolKit.Web project.
-                </p>
-            </li>
-            <li>
-                VoiceXML and CCXML support (currently in the planning stages only)
-                <p>
-                    The ivrToolkit.Web project is a MVC4 web application is a full blown IVR service that will manage and run your voice scripts.
-                </p>
-            </li>
-        </ul>
+    <div style="padding-bottom: 20px;">
+        You can also send email to <a href="javascript://" onclick="getSupport()"><img src="/images/support.jpg" style="border: none;" /></a>
     </div>
-    <h2>License Information</h2>
     <div>
-        <p>
-            The ivrToolkit project is licensed under the LGPL.
-        </p>
+        ivrToolkit was written by <a href="javascript://" onclick="getMe()">Troy Makaro</a>
+    </div>
 </div>
+
     </div>
 
 </body>
