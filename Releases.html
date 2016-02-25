@@ -9,11 +9,31 @@ title: Release Source
 </script>
 <h2>{{ page.title }}</h2>
 
+
+
+<a href="https://github.com/ivrToolkit/ivrToolkit/archive/1.1.0.zip">1.1.0.zip</a><br />
+
+<ul>
+    <li>
+        Note: SIP implementation requires Dialogic PowerMedia HMP for Windows.
+    </li>
+</ul>
+
+
+
+
 <a href="https://github.com/ivrToolkit/ivrToolkit/archive/1.1.0-beta1.zip">1.1.0-beta1.zip</a><br />
 
 <ul>
     <li>
-        Release notes to be completed this weekend.
+        The dialog plugin (ivrToolkit.Dialogic.Plugin) now uses dx_open by default. You can force it to use gc_OpenEx by adding voice.useGC=true to voice.properties. The reason I
+        did this was because I am having problems with dial outs and haven't had a chance to fix it.
+    </li>
+    <li>
+        The default voice.deviceNamePaatern is "dxxxB{board}C{channel}" when voice.userGC=false. The default voice.deviceNamePaatern is ":P_pdk_na_an_io:V_dxxxB{board}C{channel} when voice.userGC=true.
+    </li>
+    <li>
+        A new plugin has been added specifically for SIP. It requires Dialogic PowerMedia HMP for Windows.
     </li>
 </ul>
 
