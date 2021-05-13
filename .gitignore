@@ -1,3 +1,5 @@
 /*.config
 _site
 *.v12.suo
+/.jekyll-cache/
+/.vs/

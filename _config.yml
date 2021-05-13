@@ -1,5 +1,5 @@
 name: "ivrToolkit"
-description: "An IVR toolkit library for dotNet developers wanting to write telephony applications. Plugins include a Dialogic driver and a windows sound card driver."
+description: "An IVR toolkit library for dotNet developers wanting to write telephony applications."
 
 url: "http://localhost:4000"
 
