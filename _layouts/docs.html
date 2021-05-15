@@ -1,0 +1,74 @@
+---
+layout: default
+title: Documentation
+---
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#documentation").addClass("active");
+    });
+</script>
+<h1 class="display-5 fw-bold">Documentation - under construction</h1>
+
+<div class="container-xxl my-md-4 bd-layout">
+    <aside class="bd-sidebar">
+      <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation"><ul class="list-unstyled mb-0 py-3 pt-md-1">
+      <li class="mb-1">
+        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#getting-started-collapse" aria-expanded="false">
+          Getting started
+        </button>
+
+        <div class="collapse" id="getting-started-collapse">
+          <ul class="list-unstyled fw-normal pb-1 small">
+              <li><a href="/Documentation/GetStarted/Intro/" id="docs-intro" class="d-inline-flex align-items-center rounded">Introduction</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Download</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Contents</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Browsers &amp; devices</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">JavaScript</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Build tools</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Webpack</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Parcel</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Accessibility</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">RFS</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">RTL</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#customize-collapse" aria-expanded="false">
+          Customize
+        </button>
+
+        <div class="collapse" id="customize-collapse">
+          <ul class="list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Overview</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Sass</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Options</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Color</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Components</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">CSS variables</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Optimize</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#about-collapse" aria-expanded="false">
+          About
+        </button>
+
+        <div class="collapse" id="about-collapse">
+          <ul class="list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Overview</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Team</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Brand</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">License</a></li>
+              <li><a href="#" class="d-inline-flex align-items-center rounded">Translations</a></li>
+          </ul>
+        </div>
+  </ul>
+</nav>
+
+    </aside>
+    <main class="bd-main order-1">
+      {{ content }}
+    </main>
+  </div>
