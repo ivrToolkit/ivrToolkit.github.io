@@ -7,7 +7,11 @@
     background: url('../images/ivrToolkit100.jpg') no-repeat;
 }
 body {
-    margin-top: 5px;
+    margin: 0;
+    font-family: sans-serif;
+    font-size2: 1rem;
+    font-weigh2t: 400;
+    line-height2: 1.5;    
 }
 .title h1
 {
@@ -15,20 +19,9 @@ body {
     padding: 0;
 }
 
-a
-{
-    color: #028eb3;
-    text-decoration: none;
+footer {
+    position: fixed;
+    height: 25px;
+    bottom: 0;
+    width: 100%;
 }
-
-a:hover
-    {
-        color: #60bfd8;
-    }
-
-h2 {
-    color: #028eb3;    
-}
-
-
-
