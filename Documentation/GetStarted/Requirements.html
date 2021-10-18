@@ -1,0 +1,90 @@
+---
+layout: docs
+title: Requirements
+---
+<script type="text/javascript">
+        var intro = $("#requirements");
+        intro.addClass("active");
+        var parentDiv = intro.closest("div");
+        parentDiv.addClass("show")
+</script>
+
+<div class="bd-intro ps-lg-4">
+    <h1 class="bd-title" id="content">Requirements</h1>
+    <p class="bd-lead">The following is required to get started with the ivrToolkit</p>
+
+</div>
+
+<div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+    <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
+    <nav id="TableOfContents">
+        <ul>
+            <li><a href="#requirements">Requirements</a>
+                <ul>
+                    <li><a href="#nuget">Nuget Packages</a></li>
+                    <li><a href="#drivers">Drivers</a>
+                        <li><a href="#wav">Wav Files</a>
+                        </li>
+                </ul>
+            </li>
+            <li><a href="#starter-template">Starter template</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="bd-content ps-lg-4">
+
+
+    <h3 id="nuget">Nuget Packages<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#nuget"
+            style="padding-left: 0.375em;"></a></h3>
+
+<ul>
+    <li>Required</li>
+    <ul>
+        <li><a target="_blank" href="https://www.nuget.org/packages/ivrToolkit.Core/">ivrToolkit.Core</a></li>
+    </ul>
+    <li>Option SIP</li>
+    <ul>
+        <li><a target="_blank" href="https://www.nuget.org/packages/ivrToolkit.Plugin.Dialogic.Common/">ivrToolkit.Plugin.Dialogic.Common</a></li>
+        <li><a href="https://www.nuget.org/packages/ivrToolkit.Plugin.Dialogic.SIP/">ivrToolkit.Plugin.Dialogic.SIP</a></li>
+    </ul>
+    <li>Option Analog</li>
+    <ul>
+        <li><a target="_blank" href="https://www.nuget.org/packages/ivrToolkit.Plugin.Dialogic.Common/">ivrToolkit.Plugin.Dialogic.Common</a></li>
+        <li><a target="_blank" href="https://www.nuget.org/packages/ivrToolkit.Plugin.Dialogic.Analog/">ivrToolkit.Plugin.Dialogic.Analog</a></li>
+    </ul>
+</ul>
+
+
+    
+
+
+    <h3 id="drivers">Drivers<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#drivers"
+        style="padding-left: 0.375em;"></a></h3>
+
+
+<ul>
+    <li>SIP</li>
+    <ul>
+        <li><a href="http://www.dialogic.com/files/hmp/hmpWindows/hmp30/su525/HMP_3.0_525.zip">Dialogic HMP 3.0 update 525</a></li>
+    </ul>
+    <li>Analog</li>
+    <ul>
+        <li><a target="_blank" href="https://wiki.freepbx.org/display/DVC/JCT+Software+Update+-+Sangoma+System+Release+6.0+PCI+Windows">Dialogic SR 6.0 update 280</a></li>
+    </ul>
+</ul>
+
+
+
+<h3 id="wav">Wav Files<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#wav"
+    style="padding-left: 0.375em;"></a></h3>
+<p>Wav files currently <strong>need</strong> to be recorded in 8000hz, mono, 32 bit float. I've used Audacity in the past to make these recordings.
+I do plan on changing this in the future to support the default windows wav format. I may also support vox files at that point too.</p>
+
+
+
+
+ 
+
+
+</div>
