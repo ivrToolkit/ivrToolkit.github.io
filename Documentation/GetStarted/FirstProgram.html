@@ -10,9 +10,9 @@ title: Test
 </script>
 
 <div class="bd-intro ps-lg-4">
-    <h1 class="bd-title" id="content">Your First SIP Program</h1>
-    <p class="bd-lead">This tutorial will step you through creating a windows service that listens for calls on two SIP lines.</p>
-
+    <h1 class="bd-title" id="content">Your First SIP/Analog Program</h1>
+    <p class="bd-lead">This tutorial will step you through creating a windows service that listens for calls on two SIP or Analog lines.</p>
+    <p> You can find the source for this example here: <a target="_blank" href="https://github.com/ivrToolkit/ivrToolkit/tree/develop/Examples/MyFirstApp">https://github.com/ivrToolkit/ivrToolkit/tree/develop/Examples/MyFirstApp</a> </p>
 </div>
 
 <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
@@ -40,16 +40,16 @@ title: Test
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
             data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-<pre>md MyFirstSipApp
-cd MyFirstSipApp
+<pre>md MyFirstApp
+cd MyFirstApp
 dotnet new sln
-dotnet new worker --output MyFirstSipApp --framework net5.0
-dotnet sln add MyFirstSipApp</pre>
+dotnet new worker --output MyFirstApp --framework net5.0
+dotnet sln add MyFirstApp</pre>
     </div>
 
     <h2 id="starter-template">Add Packages<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
         href="#starter-template" style="padding-left: 0.375em;"></a></h2>  
-<p>Add the ivrToolkit nuget packages you want to use. We will be using SIP.</p>
+<p>Add the ivrToolkit nuget packages you want to use.</p>
 
 
 
@@ -57,10 +57,11 @@ dotnet sln add MyFirstSipApp</pre>
         data-bs-original-title="Copy to clipboard">Copy</button></div>
 <div class="highlight">
     <pre>
-cd MyFirstSipApp
-dotnet add package ivrToolkit.Core -v 5.0.0-beta-06
-dotnet add package ivrToolkit.Plugin.Dialogic.Common -v 5.0.0-beta-06
-dotnet add package ivrToolkit.Plugin.Dialogic.sip -v 5.0.0-beta-06</pre>
+cd MyFirstApp
+dotnet add package ivrToolkit.Core -v 5.0.0-beta-07
+dotnet add package ivrToolkit.Plugin.Dialogic.Common -v 5.0.0-beta-07
+dotnet add package ivrToolkit.Plugin.Dialogic.Analog -v 5.0.0-beta-07</pre>
+dotnet add package ivrToolkit.Plugin.Dialogic.Sip -v 5.0.0-beta-07</pre>
 </div>
 
 <h2 id="starter-template">Make it a Windows Service<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
