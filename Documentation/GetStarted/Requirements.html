@@ -16,6 +16,9 @@ title: Requirements
         Combinations of hardware and software that I have tried:
         <ul>
             <li>
+                With ivrToolkit.Plugin.Sipcorcery I have tried Voip.MS with FreePBX.
+            </li>
+            <li>
                 VMWare with Windows Server 2019, Dialogic HMP 3.0 update 525
             </li>
             <li>
@@ -50,7 +53,13 @@ title: Requirements
         <ul>
             <li><a target="_blank" href="https://www.nuget.org/packages/ivrToolkit.Core/">ivrToolkit.Core</a></li>
         </ul>
-        <li>Option SIP</li>
+        <li>Option SIP (SipSorcery) - (beta)</li>
+        <ul>
+            <li><a target="_blank"
+                    href="https://www.nuget.org/packages/ivrToolkit.Plugin.SipSorcery/">ivrToolkit.Plugin.SipSorcery</a>
+            </li>
+        </ul>
+        <li>Option SIP (Dialogic)</li>
         <ul>
             <li><a target="_blank"
                     href="https://www.nuget.org/packages/ivrToolkit.Plugin.Dialogic.Common/">ivrToolkit.Plugin.Dialogic.Common</a>
@@ -79,7 +88,8 @@ title: Requirements
 
 
     <ul>
-        <li>SIP</li>
+        <li>SIP (SipSorcery) - None. It is a pure c# library</li>
+        <li>SIP (Dialogic)</li>
         <ul>
             <li><a target="_blank" href="https://www.dialogic.com/hmp-software">Dialogic HMP 3.0 for Windows</a></li>
         </ul>
@@ -95,6 +105,10 @@ title: Requirements
 
     <h3 id="wav">Wav Files<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#wav"
             style="padding-left: 0.375em;"></a></h3>
+    <p>Ugh, SipSorcery doesn't support 32-bit float encoding (aka PCM unsigned). I don't know why I 
+        ever decided to use it. Anyways, The SipSorcery plugin, converts the wav files to a 16-bit PCM stream to get around the problem.
+        Later, I plan on changing this so that all wav files need to be 16-bit PCM.
+    </p>
     <p>Wav files currently <strong>need</strong> to be recorded in <strong>8000hz, mono, 32 bit float</strong>. I've used <a
             href="https://www.audacityteam.org/">Audacity</a> in the past to make these recordings.
         I do plan on changing this in the future to support the default windows wav format. I may also support vox files
@@ -107,7 +121,7 @@ title: Requirements
         The ivrToolkit nuget packages have been compiled specifically with <strong>x86</strong>. This is to work with the Dialogic 32 bit drivers. It is important
         that your .net 5 project be set to compile with <strong>x86</strong> as well. Apparently the HMP 3.0 driver is also 64 bit but I currently don't support it.
     </p>
-
+    <p>Now that I also support Sipcorcery, I will relax that in the near future</p>
 
         <h3 id="licensing">Licensing Dialogic HMP<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#licensing"
             style="padding-left: 0.375em;"></a></h3>
