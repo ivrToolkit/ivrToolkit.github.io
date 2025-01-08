@@ -17,6 +17,7 @@ title: ScriptBlocks
             <li><a href="#pluginManager">Plugin Manager</a></li>
             <li><a href="#scriptBlocks">Script Blocks</a></li>
             <li><a href="#scriptFlow">Script flow</a></li>
+            <li><a href="#getLine">Geting a Line</a></li>
         </ul>
     </nav>
 </div>
@@ -150,6 +151,27 @@ _line.Hangup();
     </div>
     
 
+
+
+
+    <h2 id="getLine">Getting a Line<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#getLine" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        paragraph one
+    </p>
+    <p>
+		paragraph two
+    </p>
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+
+    <div class="highlight">
+<pre>
+    var lineNumber = 1;
+    var line = pluginManager.GetLine(lineNumber);
+</pre>
+    </div>
 
 
 
