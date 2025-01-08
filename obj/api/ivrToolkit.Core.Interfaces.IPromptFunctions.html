@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IPromptFunctions </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IPromptFunctions ">
+    
+    
+      <link rel="shortcut icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions">
+
+
+
+  <h1 id="ivrToolkit_Core_Interfaces_IPromptFunctions" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions" class="text-break">Interface IPromptFunctions</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ivrToolkit.html">ivrToolkit</a>.<a class="xref" href="ivrToolkit.Core.html">Core</a>.<a class="xref" href="ivrToolkit.Core.Interfaces.html">Interfaces</a></h6>
+  <h6><strong>Assembly</strong>: ivrToolkit.Core.dll</h6>
+  <h5 id="ivrToolkit_Core_Interfaces_IPromptFunctions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IPromptFunctions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPrompt_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPrompt(System.String%2CivrToolkit.Core.Util.Prompt.ValidationHandler)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L69">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPrompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPrompt_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPrompt(System.String,ivrToolkit.Core.Util.Prompt.ValidationHandler)">CustomValidationPrompt(string, ValidationHandler)</h4>
+  <div class="markdown level1 summary"><p>Gets a multi digit response from the user.
+The attempts are set from 'prompt.attempts' property in ads.properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string CustomValidationPrompt(string promptMessage, Prompt.ValidationHandler customHandler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Util.Prompt.html">Prompt</a>.<a class="xref" href="ivrToolkit.Core.Util.Prompt.ValidationHandler.html">ValidationHandler</a></td>
+        <td><span class="parametername">customHandler</span></td>
+        <td><p>Prompt.ValidationHandler custom answer validator</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_GetAttempts.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.GetAttempts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L34">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetAttempts_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetAttempts*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetAttempts" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetAttempts">GetAttempts()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetAttempts()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_GetMenuStylePrompt.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.GetMenuStylePrompt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L28">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetMenuStylePrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetMenuStylePrompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetMenuStylePrompt" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetMenuStylePrompt">GetMenuStylePrompt()</h4>
+  <div class="markdown level1 summary"><p>Gets the default prompt object suitable for a single digit press. The attempts are set from 'prompt.attempts' property
+in voice.properties</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Prompt GetMenuStylePrompt()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Util.Prompt.html">Prompt</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_GetRegularStylePrompt.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.GetRegularStylePrompt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L21">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetRegularStylePrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetRegularStylePrompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetRegularStylePrompt" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetRegularStylePrompt">GetRegularStylePrompt()</h4>
+  <div class="markdown level1 summary"><p>Gets the default prompt object suitable for a multi digit press. The attempts are set from 'prompt.attempts' property
+in voice.properties</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Prompt GetRegularStylePrompt()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Util.Prompt.html">Prompt</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L51">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String)">RegularPrompt(string)</h4>
+  <div class="markdown level1 summary"><p>Gets a multi digit response from the user.
+The attempts are set from 'prompt.attempts' property in ads.properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string RegularPrompt(string promptMessage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>A response of any size including empty</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_System_String___.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String%2CSystem.String%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L60">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_System_String___" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String,System.String[])">RegularPrompt(string, string[])</h4>
+  <div class="markdown level1 summary"><p>Gets a multi digit response from the user.
+The attempts are set from 'prompt.attempts' property in ads.properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string RegularPrompt(string promptMessage, string[] validAnswers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="parametername">validAnswers</span></td>
+        <td><p>A string array of valid answers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>A response matching on of the validAnswers[] string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPrompt_System_String_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L43">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPrompt_System_String_System_String_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt(System.String,System.String)">SingleDigitPrompt(string, string)</h4>
+  <div class="markdown level1 summary"><p>Gets a single digit response.
+The attempts are set from 'prompt.attempts' property in ads.properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string SingleDigitPrompt(string promptMessage, string allowed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">allowed</span></td>
+        <td><p>This list of digits that are acceptable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The digit pressed that is within the allowed string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ivrToolkit.Core.Extensions.ValidationExtensions.html#ivrToolkit_Core_Extensions_ValidationExtensions_ThrowIfNull__1___0_System_String_">ValidationExtensions.ThrowIfNull&lt;T&gt;(T, string)</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
