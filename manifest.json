@@ -1,0 +1,424 @@
+{
+  "source_base_path": "/home/runner/work/ivrToolkit/ivrToolkit",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.AbstractScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.AbstractScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Enums.CallAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Enums.CallAnalysis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Enums.CustomTone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Enums.CustomTone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Enums.CustomToneType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Enums.CustomToneType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Enums.LineStatusTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Enums.LineStatusTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Enums.ToneDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Enums.ToneDetection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.DisposedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.DisposedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.DisposingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.DisposingException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.GetDigitsTimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.GetDigitsTimeoutException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.HangupException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.HangupException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.TaskFailException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.TaskFailException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.TooManyAttempts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.TooManyAttempts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.VoiceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.VoiceException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Extensions.LineExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Extensions.LineExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Extensions.ValidationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Extensions.ValidationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrBaseLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrLineManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrLineManagement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Interfaces.IIvrPlugin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Interfaces.IPromptFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Interfaces.IPromptFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Interfaces.IScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Interfaces.IScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.LineWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.LineWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.PluginManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.PluginManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.ScriptManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.ScriptManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.KeysEnteredHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.KeysEnteredHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.PrePlayHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.PrePlayHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.SpecialTerminatorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.SpecialTerminatorHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.ValidationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.ValidationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.Prompt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.PromptFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.PromptFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.Properties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.UnmanagedMemoryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.UnmanagedMemoryService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.Util.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.VoiceProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.VoiceProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ivrToolkit.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ivrToolkit.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/toc.html"
+        },
+        ".json": {
+          "relative_path": "obj/api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
