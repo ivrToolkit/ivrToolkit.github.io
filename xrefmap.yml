@@ -1310,6 +1310,102 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IScript.Line
   nameWithType: IScript.Line
+- uid: ivrToolkit.Core.LineManager
+  name: LineManager
+  href: api/ivrToolkit.Core.LineManager.html
+  commentId: T:ivrToolkit.Core.LineManager
+  fullName: ivrToolkit.Core.LineManager
+  nameWithType: LineManager
+- uid: ivrToolkit.Core.LineManager.#ctor(Microsoft.Extensions.Logging.ILogger{ivrToolkit.Core.LineManager},ivrToolkit.Core.Interfaces.IIvrPlugin)
+  name: LineManager(ILogger<LineManager>, IIvrPlugin)
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager__ctor_Microsoft_Extensions_Logging_ILogger_ivrToolkit_Core_LineManager__ivrToolkit_Core_Interfaces_IIvrPlugin_
+  commentId: M:ivrToolkit.Core.LineManager.#ctor(Microsoft.Extensions.Logging.ILogger{ivrToolkit.Core.LineManager},ivrToolkit.Core.Interfaces.IIvrPlugin)
+  name.vb: New(ILogger(Of LineManager), IIvrPlugin)
+  fullName: ivrToolkit.Core.LineManager.LineManager(Microsoft.Extensions.Logging.ILogger<ivrToolkit.Core.LineManager>, ivrToolkit.Core.Interfaces.IIvrPlugin)
+  fullName.vb: ivrToolkit.Core.LineManager.New(Microsoft.Extensions.Logging.ILogger(Of ivrToolkit.Core.LineManager), ivrToolkit.Core.Interfaces.IIvrPlugin)
+  nameWithType: LineManager.LineManager(ILogger<LineManager>, IIvrPlugin)
+  nameWithType.vb: LineManager.New(ILogger(Of LineManager), IIvrPlugin)
+- uid: ivrToolkit.Core.LineManager.#ctor*
+  name: LineManager
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager__ctor_
+  commentId: Overload:ivrToolkit.Core.LineManager.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ivrToolkit.Core.LineManager.LineManager
+  fullName.vb: ivrToolkit.Core.LineManager.New
+  nameWithType: LineManager.LineManager
+  nameWithType.vb: LineManager.New
+- uid: ivrToolkit.Core.LineManager.Dispose
+  name: Dispose()
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_Dispose
+  commentId: M:ivrToolkit.Core.LineManager.Dispose
+  fullName: ivrToolkit.Core.LineManager.Dispose()
+  nameWithType: LineManager.Dispose()
+- uid: ivrToolkit.Core.LineManager.Dispose*
+  name: Dispose
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_Dispose_
+  commentId: Overload:ivrToolkit.Core.LineManager.Dispose
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineManager.Dispose
+  nameWithType: LineManager.Dispose
+- uid: ivrToolkit.Core.LineManager.GetLine(System.Int32)
+  name: GetLine(int)
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_GetLine_System_Int32_
+  commentId: M:ivrToolkit.Core.LineManager.GetLine(System.Int32)
+  name.vb: GetLine(Integer)
+  fullName: ivrToolkit.Core.LineManager.GetLine(int)
+  fullName.vb: ivrToolkit.Core.LineManager.GetLine(Integer)
+  nameWithType: LineManager.GetLine(int)
+  nameWithType.vb: LineManager.GetLine(Integer)
+- uid: ivrToolkit.Core.LineManager.GetLine*
+  name: GetLine
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_GetLine_
+  commentId: Overload:ivrToolkit.Core.LineManager.GetLine
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineManager.GetLine
+  nameWithType: LineManager.GetLine
+- uid: ivrToolkit.Core.LineManager.ReleaseAll
+  name: ReleaseAll()
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_ReleaseAll
+  commentId: M:ivrToolkit.Core.LineManager.ReleaseAll
+  fullName: ivrToolkit.Core.LineManager.ReleaseAll()
+  nameWithType: LineManager.ReleaseAll()
+- uid: ivrToolkit.Core.LineManager.ReleaseAll*
+  name: ReleaseAll
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_ReleaseAll_
+  commentId: Overload:ivrToolkit.Core.LineManager.ReleaseAll
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineManager.ReleaseAll
+  nameWithType: LineManager.ReleaseAll
+- uid: ivrToolkit.Core.LineManager.ReleaseLine(System.Int32)
+  name: ReleaseLine(int)
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_ReleaseLine_System_Int32_
+  commentId: M:ivrToolkit.Core.LineManager.ReleaseLine(System.Int32)
+  name.vb: ReleaseLine(Integer)
+  fullName: ivrToolkit.Core.LineManager.ReleaseLine(int)
+  fullName.vb: ivrToolkit.Core.LineManager.ReleaseLine(Integer)
+  nameWithType: LineManager.ReleaseLine(int)
+  nameWithType.vb: LineManager.ReleaseLine(Integer)
+- uid: ivrToolkit.Core.LineManager.ReleaseLine*
+  name: ReleaseLine
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_ReleaseLine_
+  commentId: Overload:ivrToolkit.Core.LineManager.ReleaseLine
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineManager.ReleaseLine
+  nameWithType: LineManager.ReleaseLine
+- uid: ivrToolkit.Core.LineManager.VoiceProperties
+  name: VoiceProperties
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_VoiceProperties
+  commentId: P:ivrToolkit.Core.LineManager.VoiceProperties
+  fullName: ivrToolkit.Core.LineManager.VoiceProperties
+  nameWithType: LineManager.VoiceProperties
+- uid: ivrToolkit.Core.LineManager.VoiceProperties*
+  name: VoiceProperties
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_VoiceProperties_
+  commentId: Overload:ivrToolkit.Core.LineManager.VoiceProperties
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineManager.VoiceProperties
+  nameWithType: LineManager.VoiceProperties
 - uid: ivrToolkit.Core.LineWrapper
   name: LineWrapper
   href: api/ivrToolkit.Core.LineWrapper.html
@@ -2223,155 +2319,6 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.Properties.ToBool
   nameWithType: Properties.ToBool
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService
-  name: UnmanagedMemoryService
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html
-  commentId: T:ivrToolkit.Core.Util.UnmanagedMemoryService
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService
-  nameWithType: UnmanagedMemoryService
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.String)
-  name: UnmanagedMemoryService(ILoggerFactory, string)
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService__ctor_Microsoft_Extensions_Logging_ILoggerFactory_System_String_
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.String)
-  name.vb: New(ILoggerFactory, String)
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.UnmanagedMemoryService(Microsoft.Extensions.Logging.ILoggerFactory, string)
-  fullName.vb: ivrToolkit.Core.Util.UnmanagedMemoryService.New(Microsoft.Extensions.Logging.ILoggerFactory, String)
-  nameWithType: UnmanagedMemoryService.UnmanagedMemoryService(ILoggerFactory, string)
-  nameWithType.vb: UnmanagedMemoryService.New(ILoggerFactory, String)
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.#ctor*
-  name: UnmanagedMemoryService
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService__ctor_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.UnmanagedMemoryService
-  fullName.vb: ivrToolkit.Core.Util.UnmanagedMemoryService.New
-  nameWithType: UnmanagedMemoryService.UnmanagedMemoryService
-  nameWithType.vb: UnmanagedMemoryService.New
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Create*
-  name: Create
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Create_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.Create
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Create
-  nameWithType: UnmanagedMemoryService.Create
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Create``1(System.String,``0)
-  name: Create<T>(string, T)
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Create__1_System_String___0_
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.Create``1(System.String,``0)
-  name.vb: Create(Of T)(String, T)
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Create<T>(string, T)
-  fullName.vb: ivrToolkit.Core.Util.UnmanagedMemoryService.Create(Of T)(String, T)
-  nameWithType: UnmanagedMemoryService.Create<T>(string, T)
-  nameWithType.vb: UnmanagedMemoryService.Create(Of T)(String, T)
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Create``1(System.String,``0,System.Int32)
-  name: Create<T>(string, T, int)
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Create__1_System_String___0_System_Int32_
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.Create``1(System.String,``0,System.Int32)
-  name.vb: Create(Of T)(String, T, Integer)
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Create<T>(string, T, int)
-  fullName.vb: ivrToolkit.Core.Util.UnmanagedMemoryService.Create(Of T)(String, T, Integer)
-  nameWithType: UnmanagedMemoryService.Create<T>(string, T, int)
-  nameWithType.vb: UnmanagedMemoryService.Create(Of T)(String, T, Integer)
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Create``1(System.String,``0[])
-  name: Create<T>(string, T[])
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Create__1_System_String___0___
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.Create``1(System.String,``0[])
-  name.vb: Create(Of T)(String, T())
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Create<T>(string, T[])
-  fullName.vb: ivrToolkit.Core.Util.UnmanagedMemoryService.Create(Of T)(String, T())
-  nameWithType: UnmanagedMemoryService.Create<T>(string, T[])
-  nameWithType.vb: UnmanagedMemoryService.Create(Of T)(String, T())
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Dispose
-  name: Dispose()
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Dispose
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.Dispose
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Dispose()
-  nameWithType: UnmanagedMemoryService.Dispose()
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Dispose*
-  name: Dispose
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Dispose_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.Dispose
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Dispose
-  nameWithType: UnmanagedMemoryService.Dispose
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Free(System.IntPtr)
-  name: Free(IntPtr)
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Free_System_IntPtr_
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.Free(System.IntPtr)
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Free(System.IntPtr)
-  nameWithType: UnmanagedMemoryService.Free(IntPtr)
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Free*
-  name: Free
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Free_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.Free
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Free
-  nameWithType: UnmanagedMemoryService.Free
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel
-  name: UnmanagedMemoryService.PtrLabel
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.html
-  commentId: T:ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel
-  nameWithType: UnmanagedMemoryService.PtrLabel
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Label
-  name: Label
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.html#ivrToolkit_Core_Util_UnmanagedMemoryService_PtrLabel_Label
-  commentId: P:ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Label
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Label
-  nameWithType: UnmanagedMemoryService.PtrLabel.Label
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Label*
-  name: Label
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.html#ivrToolkit_Core_Util_UnmanagedMemoryService_PtrLabel_Label_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Label
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Label
-  nameWithType: UnmanagedMemoryService.PtrLabel.Label
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Ptr
-  name: Ptr
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.html#ivrToolkit_Core_Util_UnmanagedMemoryService_PtrLabel_Ptr
-  commentId: P:ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Ptr
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Ptr
-  nameWithType: UnmanagedMemoryService.PtrLabel.Ptr
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Ptr*
-  name: Ptr
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.html#ivrToolkit_Core_Util_UnmanagedMemoryService_PtrLabel_Ptr_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Ptr
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.Ptr
-  nameWithType: UnmanagedMemoryService.PtrLabel.Ptr
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Push(System.String,System.IntPtr)
-  name: Push(string, IntPtr)
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Push_System_String_System_IntPtr_
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.Push(System.String,System.IntPtr)
-  name.vb: Push(String, IntPtr)
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Push(string, System.IntPtr)
-  fullName.vb: ivrToolkit.Core.Util.UnmanagedMemoryService.Push(String, System.IntPtr)
-  nameWithType: UnmanagedMemoryService.Push(string, IntPtr)
-  nameWithType.vb: UnmanagedMemoryService.Push(String, IntPtr)
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.Push*
-  name: Push
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_Push_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.Push
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.Push
-  nameWithType: UnmanagedMemoryService.Push
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.StringToHGlobalAnsi(System.String,System.String)
-  name: StringToHGlobalAnsi(string, string)
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_StringToHGlobalAnsi_System_String_System_String_
-  commentId: M:ivrToolkit.Core.Util.UnmanagedMemoryService.StringToHGlobalAnsi(System.String,System.String)
-  name.vb: StringToHGlobalAnsi(String, String)
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.StringToHGlobalAnsi(string, string)
-  fullName.vb: ivrToolkit.Core.Util.UnmanagedMemoryService.StringToHGlobalAnsi(String, String)
-  nameWithType: UnmanagedMemoryService.StringToHGlobalAnsi(string, string)
-  nameWithType.vb: UnmanagedMemoryService.StringToHGlobalAnsi(String, String)
-- uid: ivrToolkit.Core.Util.UnmanagedMemoryService.StringToHGlobalAnsi*
-  name: StringToHGlobalAnsi
-  href: api/ivrToolkit.Core.Util.UnmanagedMemoryService.html#ivrToolkit_Core_Util_UnmanagedMemoryService_StringToHGlobalAnsi_
-  commentId: Overload:ivrToolkit.Core.Util.UnmanagedMemoryService.StringToHGlobalAnsi
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Util.UnmanagedMemoryService.StringToHGlobalAnsi
-  nameWithType: UnmanagedMemoryService.StringToHGlobalAnsi
 - uid: ivrToolkit.Core.VoiceProperties
   name: VoiceProperties
   href: api/ivrToolkit.Core.VoiceProperties.html

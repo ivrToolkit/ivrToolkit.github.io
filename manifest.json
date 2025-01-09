@@ -254,6 +254,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.LineManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.LineManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.LineWrapper.yml",
       "output": {
         ".html": {
@@ -348,26 +358,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.Util.Properties.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Util.UnmanagedMemoryService.PtrLabel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Util.UnmanagedMemoryService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Util.UnmanagedMemoryService.html"
         }
       },
       "version": ""
