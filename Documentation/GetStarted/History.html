@@ -1,0 +1,42 @@
+---
+layout: docs
+title: History
+---
+<script type="text/javascript">
+        var intro = $("#history");
+        intro.addClass("active");
+        var parentDiv = intro.closest("div");
+        parentDiv.addClass("show")
+</script>
+
+
+<div class="bd-intro ps-lg-4">
+    <h1 class="bd-title" id="content">History</h1>
+    <p class="bd-lead">Where it all started 
+    </p>
+    <p>
+        Many many years ago, I wrote a an automated dialer program written in VB6 and using
+        a library called VisualVoice. This communicated with Dialogic Analog boards.
+        Typically Dialogic D/41H jct-ls, D/120 jct-ls  
+    </p>
+    <p>Either VisualVoice went out of business or they never created a C# version, I am just not sure.
+        Wanting to move forward, I created the IvrToolkit project. The API is fairly similar to
+        what VisualVoice did in order to keep conversions simple. We were still using analog voice boards from Dialogic.
+    </p>
+    <P>Eventually the company I worked for wanted to move to SIP so a coworker of mine
+        wrote the first version of the ivrToolkit.Dialogic.Sip in C++. We used that plugin for years.
+        However, that C++ version was very hard to maintain so I converted it to C# which exists today.
+        It was always based on the Dialogic HMP driver. The HMP driver uses a virtual board. I think
+        they did this so that the HMP API was somewhat similar to the analog API that they had.
+        It was either that or it allowed them to charge $$$ for the number of lines. You can only
+        have one outbound call per line.
+    </P>
+    <a>SipSorcery. Recently, I took a look at Sipsorcery and figured I would give that a try.
+        I am very pleased with what I am seeing so far and if it pans out, I think it will, I will
+        start using it instead of the Dialogic SIP plugin. All I have to do is swap the Dialogic plugin
+        for the SipSorcery plugin and it is done!
+    </a>
+</div>
+
+
+

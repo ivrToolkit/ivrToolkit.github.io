@@ -1,0 +1,49 @@
+---
+layout: default
+title: Documentation
+---
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#documentation").addClass("active");
+    });
+</script>
+<h1 class="display-5 fw-bold">Documentation</h1>
+
+<div class="container-xxl my-md-4 bd-layout">
+    <aside class="bd-sidebar">
+      <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation"><ul class="list-unstyled mb-0 py-3 pt-md-1">
+      <li class="mb-1">
+        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#getting-started-collapse" aria-expanded="false">
+          Getting started
+        </button>
+
+        <div class="collapse" id="getting-started-collapse">
+          <ul class="list-unstyled fw-normal pb-1 small">
+              <li><a href="/Documentation/GetStarted/Intro/" id="docs-intro" class="d-inline-flex align-items-center rounded">Introduction</a></li>
+              <li><a href="/Documentation/GetStarted/Requirements/" id="requirements" class="d-inline-flex align-items-center rounded">Requirements</a></li>
+              <li><a href="/Documentation/GetStarted/Anatomy/" id="anatomy" class="d-inline-flex align-items-center rounded">Anatomy</a></li>
+              <li><a href="/Documentation/GetStarted/FirstProgram/" id="first" class="d-inline-flex align-items-center rounded">First Program</a></li>
+              <li><a target="_blank" href="https://github.com/ivrToolkit/ivrToolkit/tree/develop/Examples" class="d-inline-flex align-items-center rounded">Examples</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#about-collapse" aria-expanded="false">
+          About
+        </button>
+
+        <div class="collapse" id="about-collapse">
+          <ul class="list-unstyled fw-normal pb-1 small">
+            <li><a href="/Documentation/GetStarted/History/" id="history" class="d-inline-flex align-items-center rounded">History</a></li>
+            <li><a href="/Documentation/About/Developers/" id="developers" class="d-inline-flex align-items-center rounded">Developers</a></li>
+            <li><a href="/Documentation/About/License/" id="license" class="d-inline-flex align-items-center rounded">License</a></li>
+          </ul>
+        </div>
+  </ul>
+</nav>
+
+    </aside>
+    <main class="bd-main order-1">
+      {{ content }}
+    </main>
+  </div>

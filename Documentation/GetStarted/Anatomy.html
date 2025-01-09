@@ -1,0 +1,192 @@
+---
+layout: docs
+title: ScriptBlocks
+---
+<script type="text/javascript">
+        var intro = $("#anatomy");
+        intro.addClass("active");
+        var parentDiv = intro.closest("div");
+        parentDiv.addClass("show")
+</script>
+
+
+<div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+    <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
+    <nav id="TableOfContents">
+        <ul>
+            <li><a href="#pluginManager">Plugin Manager</a></li>
+            <li><a href="#scriptBlocks">Script Blocks</a></li>
+            <li><a href="#scriptFlow">Script flow</a></li>
+            <li><a href="#getLine">Geting a Line</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+
+<div class="bd-intro ps-lg-4">
+    <h1 class="bd-title" id="content">Anatomy</h1>
+    <p>
+        The building blocks of an ivrToolkit application
+    </p>
+
+
+
+
+    <h2 id="pluginManager">Plugin Manager<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#pluginManager" style="padding-left: 0.375em;"></a></h2>
+        <p>
+            The Plugin Manager manages your collection of phone lines for the selected plugin.
+        </p>    
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+<pre>
+<span style="color:green;">// set up your configuration</span>
+<span style="color:blue;">var</span> sipVoiceProperties = <span style="color:blue;">new</span> <span style="color:#2B97C5;">SipVoiceProperties</span>(_loggerFactory, <span style="color:darkred;">@"c:\somewhere\voice.properties"</span>);
+
+<span style="color:green;">// create an instance of the plugin you want to use. In this case I chose SipSorcery</span>
+<span style="color:blue;">var</span> sipPlugin = <span style="color:blue;">new</span> <span style="color:#2B97C5;">SipSorceryPlugin</span>(_loggerFactory, sipVoiceProperties);
+
+<span style="color:green;">// instantiate your plugin manager</span>
+<span style="color:blue;">var</span> pluginManager = <span style="color:blue;">new</span> <span style="color:#2B97C5;">PluginManager</span>(_loggerFactory, sipPlugin);
+</pre>
+    </div>
+
+
+
+
+
+    <h2 id="scriptBlocks">Script Blocks<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#scriptBlocks" style="padding-left: 0.375em;"></a></h2>
+        <p>
+            A script block is an abstract class that you extend to do a block of work. 
+            For example:
+            WelcomeScript, MainMenuScript, SubMenu1Script, DoSomeJobScript etc.
+        </p>
+
+        <p>
+            Here is an empty script block example. I've highlighted the important parts of the
+            AbstractScript
+        </p>
+    
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+<pre>
+<span style="color:blue;">public class</span> <span style="color:#2B97C5;">TestScript : <span style="background:yellow;">AbstractScript</span></span>
+{
+    <span style="color:blue;">private readonly</span> <span style="color:#2B97C5;">ILoggerFactory</span> _loggerFactory;
+    <span style="color:blue;">private readonly</span> <span style="color:#2B97C5;">VoiceProperties</span> _voiceProperties;
+    <span style="color:blue;">private readonly</span> <span style="color:#2B97C5;">IIvrLine</span> _line;
+    <span style="color:blue;">private readonly</span> <span style="color:#2B97C5;">ILogger<MainScript></span> _logger;
+
+    <span style="color:blue;">public</span> <span style="color:#2B97C5;">TestScript(ILoggerFactory</span> loggerFactory,
+            <span style="color:#2B97C5;">VoiceProperties</span> voiceProperties,
+            <span style="color:#2B97C5;">IIvrLine</span> line)
+            : <span style="background:yellow;"><span style="color:blue;">base</span>(loggerFactory, voiceProperties, line)</span>
+    {
+        _loggerFactory = loggerFactory;
+        _logger = loggerFactory.CreateLogger<<span style="color:#2B97C5;">MainScript</span>>();
+        _logger.LogDebug(<span style="color:darkred;">"Ctr()"</span>);
+        _voiceProperties = voiceProperties;
+        _line = line;
+    }
+
+    <span style="background:yellow;"><span style="color:blue;">public override string</span> Description => <span style="color:darkred;">"Main Script"</span>;</span>
+
+    <span style="background:yellow;"><span style="color:blue;">public override</span> <span style="color:#2B97C5;">IScript</span> Execute()</span>
+    {
+        _logger.LogDebug(<span style="color:darkred;">"Execute()"</span>);
+
+        <span style="color:green;">// do work here</span>
+
+        <span style="color:green;">// go to the next script you want to execute</span>
+        <span style="color:purple;">return</span> <span style="color:blue;">new</span> <span style="color:#2B97C5;">AnyScript</span>(_loggerFactory, _voiceProperties, _line);
+
+        <span style="color:green;">// alternatively, if you want to end</span>
+        <span style="color:green;">// return null;</span>
+    }
+}
+</pre>
+    </div>
+
+
+
+
+
+
+    <h2 id="scriptFlow">Script Flow<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#scriptFlow" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        The ScriptManager class defines the flow of your call.
+    </p>
+    <p>
+        Instantiate the ScriptManager and pass in the first script you want to execute.
+        The instantiation of the ScriptManager will queue up the first script.
+        The while loop will execute the next script block and it is the responsibility
+        of each script block to return the next script block to execute or null to exit
+        the while loop.    
+    </p>
+    
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+<pre>
+<span style="color:blue;">var</span> startScript = <span style="color:blue;">new</span> <span style="color:#2B97C5;">WelcomeScript</span>(_loggerFactory, _voiceProperties, _line);
+<span style="color:blue;">var</span> manager = <span style="color:blue;">new</span> <span style="color:#2B97C5;">ScriptManager</span>(_loggerFactory, startScript);
+
+<span style="color:purple;">while</span> (manager.HasNext())
+{
+    <span style="color:green;">// execute the next script</span>
+    manager.Execute();
+}
+
+_logger.LogDebug(<span style="color: darkred;">"scripts are done so hanging up."</span>);
+_line.Hangup();
+</pre>
+    </div>
+    
+
+
+
+
+    <h2 id="getLine">Getting a Line<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#getLine" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        paragraph one
+    </p>
+    <p>
+		paragraph two
+    </p>
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+
+    <div class="highlight">
+<pre>
+    var lineNumber = 1;
+    var line = pluginManager.GetLine(lineNumber);
+</pre>
+    </div>
+
+
+
+
+
+
+
+ 
+
+
+
+</div>
+
+
+
+
+
+

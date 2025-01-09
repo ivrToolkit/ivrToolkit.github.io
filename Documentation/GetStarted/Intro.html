@@ -1,0 +1,52 @@
+---
+layout: docs
+title: Get Started
+---
+<script type="text/javascript">
+        var intro = $("#docs-intro");
+        intro.addClass("active");
+        var parentDiv = intro.closest("div");
+        parentDiv.addClass("show")
+</script>
+
+
+<div class="bd-intro ps-lg-4">
+    <h1 class="bd-title" id="content">Introduction</h1>
+    <p class="bd-lead">The ivrToolkit allows you to create Interactive Voice Response applications using
+        .net 6.0 and up. 
+    </p>
+    <p>
+        The ivrToolkit is designed to make auto dialers. It also allows you to make
+        ivr call-ins to a server as well. For example, say a person needs to call in and log and absence.
+        It uses a ScriptManager class which executes implementations of the AbstractScript class.
+        I really need to document this process :)
+    </p>
+    <p><a href="/Documentation/GetStarted/History/">History</a></p>
+    <p>
+        There are currently three plugins(have a look at requirements for more detail):
+        <ul>
+            <li>ivrToolkit.Plugin.SipSorcery (beta) - Uses the SipSorcery c# project you can find <a href="https://github.com/sipsorcery-org/sipsorcery" target="_blank">here</a></li>
+            <li>ivrToolkit.Plugin.Dialogic.SIP - Uses Dialogic HMP 3.0 driver.</li>
+            <li>ivrToolkit.Plugin.Dialogic.Analog - Uses Dialogic SR 6.0 driver. and DM3/JCT boards.</li>
+        </ul>
+    </p>
+    <p>
+        Combinations of hardware and software that I have tried:
+        <ul>
+            <li>
+                With ivrToolkit.Plugin.Sipcorcery I have tried Voip.MS with FreePBX.
+            </li>
+            <li>
+                VMWare with Windows Server 2019, Dialogic HMP 3.0 update 525
+            </li>
+            <li>
+                Windows Server 2016, Dialogic SR 6.0 update 271, Dialogic D/41H jct-ls, D/120 jct-ls
+            </li>
+        </ul>
+    </p>
+
+
+</div>
+
+
+
