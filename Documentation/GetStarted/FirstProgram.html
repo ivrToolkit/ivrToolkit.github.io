@@ -84,37 +84,37 @@ dotnet add package ivrToolkit.Plugin.Dialogic.Sip -v 6.0.0-beta-01</code></pre>
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
             data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-        <pre><span style="color:blue;">using</span>&nbsp;System;
-<span style="color:blue;">using</span>&nbsp;System.IO;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Plugin.Dialogic.Common;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.DependencyInjection;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Hosting;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Logging;
+<pre><code class="language-csharp">using System;
+using System.IO;
+using ivrToolkit.Plugin.Dialogic.Common;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
-<span style="color:blue;">namespace</span>&nbsp;MyFirstApp
+namespace MyFirstApp
 {
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">Program</span>
-&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;<span style="color:blue;">void</span>&nbsp;<span style="color:#74531f;">Main</span>(<span style="color:blue;">string</span>[]&nbsp;<span style="color:#1f377f;">args</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CreateHostBuilder(args).Build().Run();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">static</span>&nbsp;IHostBuilder&nbsp;<span style="color:#74531f;">CreateHostBuilder</span>(<span style="color:blue;">string</span>[]&nbsp;<span style="color:#1f377f;">args</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: green;">// Make the working directory the location of the EXE file</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background: yellow;">Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">return</span>&nbsp;Host.CreateDefaultBuilder(args)
+        public static IHostBuilder CreateHostBuilder(string[] args)
+        {
+            // Make the working directory the location of the EXE file
+            Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
+            return Host.CreateDefaultBuilder(args)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green;">//&nbsp;set&nbsp;this&nbsp;up&nbsp;as&nbsp;a&nbsp;windows&nbsp;service</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background: yellow;">.UseWindowsService()</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.ConfigureServices((<span style="color:#1f377f;">_</span>,&nbsp;<span style="color:#1f377f;">services</span>)&nbsp;=&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;services.AddHostedService&lt;Worker&gt;();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;}
-}</pre>
+            // set this up as a windows service
+            .UseWindowsService()
+            .ConfigureServices((_, services) =>
+            {
+                services.AddHostedService<Worker>();
+            });
+        }
+    }
+}</code></pre>
     </div>
 
 
@@ -123,152 +123,153 @@ dotnet add package ivrToolkit.Plugin.Dialogic.Sip -v 6.0.0-beta-01</code></pre>
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
             data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-<pre><span style="color:blue;">using</span>&nbsp;System;
-<span style="color:blue;">using</span>&nbsp;System.Threading;
-<span style="color:blue;">using</span>&nbsp;System.Threading.Tasks;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Plugin.Dialogic.Analog;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Plugin.Dialogic.Common;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Hosting;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Logging;
+<pre><code class="language-csharp">using System;
+using System.Threading;
+using System.Threading.Tasks;
+using ivrToolkit.Core;
+using ivrToolkit.Plugin.Dialogic.Analog;
+using ivrToolkit.Plugin.Dialogic.Common;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
     
-<span style="color:blue;">namespace</span>&nbsp;MyFirstApp
+namespace MyFirstApp
 {
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">Worker</span>&nbsp;:&nbsp;BackgroundService
-&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILoggerFactory&nbsp;_loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;DialogicVoiceProperties&nbsp;_voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILogger&lt;Worker&gt;&nbsp;_logger;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;PluginManager&nbsp;_pluginManager;
+    public class Worker : BackgroundService
+    {
+        private readonly ILoggerFactory _loggerFactory;
+        private readonly DialogicVoiceProperties _voiceProperties;
+        private readonly ILogger<Worker> _logger;
+        private PluginManager _pluginManager;
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">Worker</span>(ILoggerFactory&nbsp;<span style="color:#1f377f;">loggerFactory</span>,&nbsp;DialogicVoiceProperties&nbsp;<span style="color:#1f377f;">voiceProperties</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_loggerFactory&nbsp;=&nbsp;loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_voiceProperties&nbsp;=&nbsp;voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger&nbsp;=&nbsp;loggerFactory.CreateLogger&lt;Worker&gt;();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        public Worker(ILoggerFactory loggerFactory, DialogicVoiceProperties voiceProperties)
+        {
+            _loggerFactory = loggerFactory;
+            _voiceProperties = voiceProperties;
+            _logger = loggerFactory.CreateLogger<Worker>();
+        }
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">protected</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">async</span>&nbsp;Task&nbsp;<span style="color:#74531f;">ExecuteAsync</span>(CancellationToken&nbsp;<span style="color:#1f377f;">stoppingToken</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">await</span>&nbsp;Task.Run(()&nbsp;=&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogInformation(<span style="color:#a31515;">&quot;Starting&nbsp;the&nbsp;windows&nbsp;service.&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">try</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Starting&nbsp;the&nbsp;Dialogic&nbsp;Analog&nbsp;Plugin&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">ivrPlugin</span>&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;AnalogPlugin(_loggerFactory,&nbsp;_voiceProperties);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_pluginManager&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;PluginManager(_loggerFactory,&nbsp;ivrPlugin);
+        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+        {
+            await Task.Run(() =>
+            {
+                _logger.LogInformation("Starting the windows service.");
+                try
+                {
+                    _logger.LogDebug("Starting the Dialogic Analog Plugin");
+                    var ivrPlugin = new AnalogPlugin(_loggerFactory, _voiceProperties);
+                    _pluginManager = new PluginManager(_loggerFactory, ivrPlugin);
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Getting&nbsp;line&nbsp;1&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">line1</span>&nbsp;=&nbsp;_pluginManager.GetLine(1);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">waitCall1</span>&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;WaitCall(_loggerFactory,&nbsp;line1,&nbsp;_voiceProperties);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">thread1</span>&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Thread(waitCall1.Run);
+                    _logger.LogDebug("Getting line 1");
+                    var line1 = _pluginManager.GetLine(1);
+                    var waitCall1 = new WaitCall(_loggerFactory, line1, _voiceProperties);
+                    var thread1 = new Thread(waitCall1.Run);
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Getting&nbsp;line&nbsp;2&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">line2</span>&nbsp;=&nbsp;_pluginManager.GetLine(2);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">waitCall2</span>&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;WaitCall(_loggerFactory,&nbsp;line2,&nbsp;_voiceProperties);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">thread2</span>&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;Thread(waitCall2.Run);
+                    _logger.LogDebug("Getting line 2");
+                    var line2 = _pluginManager.GetLine(2);
+                    var waitCall2 = new WaitCall(_loggerFactory, line2, _voiceProperties);
+                    var thread2 = new Thread(waitCall2.Run);
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thread1.Start();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thread2.Start();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">catch</span>&nbsp;(Exception&nbsp;<span style="color:#1f377f;">e</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogError(e,&nbsp;e.Message);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;stoppingToken);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                    thread1.Start();
+                    thread2.Start();
+                }
+                catch (Exception e)
+                {
+                    _logger.LogError(e, e.Message);
+                }
+            }, stoppingToken);
+        }
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">async</span>&nbsp;Task&nbsp;<span style="color:#74531f;">StopAsync</span>(CancellationToken&nbsp;<span style="color:#1f377f;">cancellationToken</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">await</span>&nbsp;Task.Run(()&nbsp;=&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_pluginManager?.ReleaseAll();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_pluginManager?.Dispose();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;cancellationToken);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;}
+        public override async Task StopAsync(CancellationToken cancellationToken)
+        {
+            await Task.Run(() =>
+            {
+                _pluginManager?.ReleaseAll();
+                _pluginManager?.Dispose();
+            }, cancellationToken);
+        }
+    }
     
-}
-</pre>    </div>
+}</code></pre>
+    </div>
 
 
-            <p>WaitCall.cs</p>
+        <p>WaitCall.cs</p>
 
-            <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
-                    data-bs-original-title="Copy to clipboard">Copy</button></div>
-            <div class="highlight">
-<pre><span style="color:blue;">using</span>&nbsp;System;
-<span style="color:blue;">using</span>&nbsp;System.Threading;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core.Exceptions;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core.Interfaces;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Plugin.Dialogic.Common;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Logging;
-<span style="color:blue;">using</span>&nbsp;MyFirstApp.ScriptBlocks;
+        <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+                data-bs-original-title="Copy to clipboard">Copy</button></div>
+        <div class="highlight">
+<pre><code class="language-csharp">using System;
+using System.Threading;
+using ivrToolkit.Core;
+using ivrToolkit.Core.Exceptions;
+using ivrToolkit.Core.Interfaces;
+using ivrToolkit.Plugin.Dialogic.Common;
+using Microsoft.Extensions.Logging;
+using MyFirstApp.ScriptBlocks;
     
-<span style="color:blue;">namespace</span>&nbsp;MyFirstApp
+namespace MyFirstApp
 {
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">WaitCall</span>
-&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILogger&lt;WaitCall&gt;&nbsp;_logger;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILoggerFactory&nbsp;_loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;DialogicVoiceProperties&nbsp;_voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;IIvrLine&nbsp;_line;
+    public class WaitCall
+    {
+        private readonly ILogger<WaitCall> _logger;
+        private readonly ILoggerFactory _loggerFactory;
+        private readonly DialogicVoiceProperties _voiceProperties;
+        private readonly IIvrLine _line;
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">WaitCall</span>(ILoggerFactory&nbsp;<span style="color:#1f377f;">loggerFactory</span>,&nbsp;IIvrLine&nbsp;<span style="color:#1f377f;">line</span>,&nbsp;DialogicVoiceProperties&nbsp;<span style="color:#1f377f;">voiceProperties</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_voiceProperties&nbsp;=&nbsp;voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_loggerFactory&nbsp;=&nbsp;loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line&nbsp;=&nbsp;line;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger&nbsp;=&nbsp;loggerFactory.CreateLogger&lt;WaitCall&gt;();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        public WaitCall(ILoggerFactory loggerFactory, IIvrLine line, DialogicVoiceProperties voiceProperties)
+        {
+            _voiceProperties = voiceProperties;
+            _loggerFactory = loggerFactory;
+            _line = line;
+            _logger = loggerFactory.CreateLogger<WaitCall>();
+        }
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">void</span>&nbsp;<span style="color:#74531f;">Run</span>()
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">lineNumber</span>&nbsp;=&nbsp;_line.LineNumber;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">try</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogInformation(<span style="color:#a31515;">&quot;WaitCall:&nbsp;Line&nbsp;</span><span style="color:mediumseagreen;">{0}</span><span style="color:#a31515;">:&nbsp;Got&nbsp;Line&quot;</span>,&nbsp;lineNumber);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">while</span>&nbsp;(<span style="color:blue;">true</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogInformation(<span style="color:#a31515;">&quot;WaitCall:&nbsp;Line&nbsp;</span><span style="color:mediumseagreen;">{0}</span><span style="color:#a31515;">:&nbsp;Hang&nbsp;Up&quot;</span>,&nbsp;lineNumber);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line.Hangup();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thread.Sleep(1000);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogInformation(<span style="color:#a31515;">&quot;WaitCall:&nbsp;Line&nbsp;</span><span style="color:mediumseagreen;">{0}</span><span style="color:#a31515;">:&nbsp;Wait&nbsp;Rings&quot;</span>,&nbsp;lineNumber);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line.WaitRings(1);
+        public void Run()
+        {
+            var lineNumber = _line.LineNumber;
+            try
+            {
+                _logger.LogInformation("WaitCall: Line {0}: Got Line", lineNumber);
+                while (true)
+                {
+                    _logger.LogInformation("WaitCall: Line {0}: Hang Up", lineNumber);
+                    _line.Hangup();
+                    Thread.Sleep(1000);
+                    _logger.LogInformation("WaitCall: Line {0}: Wait Rings", lineNumber);
+                    _line.WaitRings(1);
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">try</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;<span style="color:#1f377f;">manager</span>&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;ScriptManager(_loggerFactory,&nbsp;<span style="color:blue;">new</span>&nbsp;WelcomeScript(_loggerFactory,&nbsp;_voiceProperties,&nbsp;_line));
+                    try
+                    {
+                        var manager = new ScriptManager(_loggerFactory, new WelcomeScript(_loggerFactory, _voiceProperties, _line));
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">while</span>&nbsp;(manager.HasNext())
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green;">//&nbsp;execute&nbsp;the&nbsp;next&nbsp;script</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manager.Execute();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                        while (manager.HasNext())
+                        {
+                            // execute the next script
+                            manager.Execute();
+                        }
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line.Hangup();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">catch</span>&nbsp;(HangupException)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line.Hangup();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                        _line.Hangup();
+                    }
+                    catch (HangupException)
+                    {
+                        _line.Hangup();
+                    }
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">catch</span>&nbsp;(DisposingException)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;DisposingException&nbsp;on&nbsp;line&nbsp;</span><span style="color:mediumseagreen;">{0}</span><span style="color:#a31515;">&quot;</span>,&nbsp;lineNumber);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line.Dispose();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">catch</span>&nbsp;(Exception&nbsp;<span style="color:#1f377f;">e</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogError(e,&nbsp;<span style="color:#a31515;">&quot;Exception&nbsp;on&nbsp;line&nbsp;</span><span style="color:mediumseagreen;">{0}</span><span style="color:#a31515;">:&nbsp;</span><span style="color:mediumseagreen;">{1}</span><span style="color:#a31515;">&quot;</span>,&nbsp;lineNumber,&nbsp;e.Message);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;}
-}</pre>            </div>
+                }
+            }
+            catch (DisposingException)
+            {
+                _logger.LogDebug("DisposingException on line {0}", lineNumber);
+                _line.Dispose();
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, "Exception on line {0}: {1}", lineNumber, e.Message);
+            }
+        }
+    }
+}</code></pre>
+    </div>
 
 
 
@@ -280,108 +281,48 @@ dotnet add package ivrToolkit.Plugin.Dialogic.Sip -v 6.0.0-beta-01</code></pre>
 <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
         data-bs-original-title="Copy to clipboard">Copy</button></div>
 <div class="highlight">
-<pre><span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;Copyright&nbsp;2021&nbsp;Troy&nbsp;Makaro</span>
-<span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;This&nbsp;file&nbsp;is&nbsp;part&nbsp;of&nbsp;ivrToolkit,&nbsp;distributed&nbsp;under&nbsp;the&nbsp;Apache-2.0&nbsp;license.</span>
-<span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;</span>
+
+<pre><code class="language-csharp">// 
+// Copyright 2021 Troy Makaro
+// 
+// This file is part of ivrToolkit, distributed under the Apache-2.0 license.
+// 
+// 
     
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core.Interfaces;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Logging;
+using ivrToolkit.Core;
+using ivrToolkit.Core.Interfaces;
+using Microsoft.Extensions.Logging;
     
-<span style="color:blue;">namespace</span>&nbsp;MyFirstApp.ScriptBlocks
+namespace MyFirstApp.ScriptBlocks
 {
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">WelcomeScript</span>&nbsp;:&nbsp;AbstractScript
-&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILoggerFactory&nbsp;_loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;VoiceProperties&nbsp;_voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;IIvrLine&nbsp;_line;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILogger&lt;WelcomeScript&gt;&nbsp;_logger;
+    public class WelcomeScript : AbstractScript
+    {
+        private readonly ILoggerFactory _loggerFactory;
+        private readonly VoiceProperties _voiceProperties;
+        private readonly IIvrLine _line;
+        private readonly ILogger<WelcomeScript> _logger;
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">WelcomeScript</span>(ILoggerFactory&nbsp;<span style="color:#1f377f;">loggerFactory</span>,&nbsp;VoiceProperties&nbsp;<span style="color:#1f377f;">voiceProperties</span>,&nbsp;IIvrLine&nbsp;<span style="color:#1f377f;">line</span>)&nbsp;:&nbsp;<span style="color:blue;">base</span>(loggerFactory,&nbsp;voiceProperties,&nbsp;line)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_loggerFactory&nbsp;=&nbsp;loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_voiceProperties&nbsp;=&nbsp;voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line&nbsp;=&nbsp;line;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger&nbsp;=&nbsp;loggerFactory.CreateLogger&lt;WelcomeScript&gt;();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Ctr()&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        public WelcomeScript(ILoggerFactory loggerFactory, VoiceProperties voiceProperties, IIvrLine line) : base(loggerFactory, voiceProperties, line)
+        {
+            _loggerFactory = loggerFactory;
+            _voiceProperties = voiceProperties;
+            _line = line;
+            _logger = loggerFactory.CreateLogger<WelcomeScript>();
+            _logger.LogDebug("Ctr()");
+        }
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">string</span>&nbsp;Description&nbsp;=&gt;&nbsp;<span style="color:#a31515;">&quot;Welcome&quot;</span>;
+        public override string Description => "Welcome";
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;IScript&nbsp;<span style="color:#74531f;">Execute</span>()
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Execute()&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green;">//&nbsp;say&nbsp;My&nbsp;welcome&nbsp;message</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Line.PlayFile(<span style="color:maroon;">@&quot;Voice&nbsp;Files\ThankYou.wav&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;MainScript(_loggerFactory,&nbsp;_voiceProperties,&nbsp;_line);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        public override IScript Execute()
+        {
+            _logger.LogDebug("Execute()");
+            // say My welcome message
+            Line.PlayFile(@"Voice Files\ThankYou.wav");
+            return new MainScript(_loggerFactory, _voiceProperties, _line);
+        }
     
-&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span style="color:green;">//&nbsp;class</span>
-}
-</pre></div>
-
-
-<p>MainScript.cs</p>
-
-<div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
-        data-bs-original-title="Copy to clipboard">Copy</button></div>
-<div class="highlight">
-<pre><span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;Copyright&nbsp;2021&nbsp;Troy&nbsp;Makaro</span>
-<span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;This&nbsp;file&nbsp;is&nbsp;part&nbsp;of&nbsp;ivrToolkit,&nbsp;distributed&nbsp;under&nbsp;the&nbsp;Apache-2.0&nbsp;license.</span>
-<span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;</span>
-    
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core.Extensions;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core.Interfaces;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Logging;
-    
-<span style="color:blue;">namespace</span>&nbsp;MyFirstApp.ScriptBlocks
-{
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">MainScript</span>&nbsp;:&nbsp;AbstractScript
-&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILoggerFactory&nbsp;_loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;VoiceProperties&nbsp;_voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;IIvrLine&nbsp;_line;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILogger&lt;MainScript&gt;&nbsp;_logger;
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">MainScript</span>(ILoggerFactory&nbsp;<span style="color:#1f377f;">loggerFactory</span>,&nbsp;VoiceProperties&nbsp;<span style="color:#1f377f;">voiceProperties</span>,&nbsp;IIvrLine&nbsp;<span style="color:#1f377f;">line</span>)&nbsp;:&nbsp;<span style="color:blue;">base</span>(loggerFactory,&nbsp;voiceProperties,&nbsp;line)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_loggerFactory&nbsp;=&nbsp;loggerFactory;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger&nbsp;=&nbsp;loggerFactory.CreateLogger&lt;MainScript&gt;();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Ctr()&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_voiceProperties&nbsp;=&nbsp;voiceProperties;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_line&nbsp;=&nbsp;line;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">string</span>&nbsp;Description&nbsp;=&gt;&nbsp;<span style="color:#a31515;">&quot;Main&nbsp;Script&quot;</span>;
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;IScript&nbsp;<span style="color:#74531f;">Execute</span>()
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Execute()&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">while</span>&nbsp;(<span style="color:blue;">true</span>)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">string</span>&nbsp;<span style="color:#1f377f;">result</span>&nbsp;=&nbsp;PromptFunctions.RegularPrompt(<span style="color:maroon;">@&quot;Voice&nbsp;Files\Press1234.wav&quot;</span>);
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Line.PlayFile(<span style="color:maroon;">@&quot;Voice&nbsp;Files\YouPressed.wav&quot;</span>);
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Line.PlayCharacters(result);
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Line.PlayFile(result&nbsp;==&nbsp;<span style="color:#a31515;">&quot;1234&quot;</span>&nbsp;?&nbsp;<span style="color:maroon;">@&quot;Voice&nbsp;Files\Correct.wav&quot;</span>&nbsp;:&nbsp;<span style="color:maroon;">@&quot;Voice&nbsp;Files\Incorrect.wav&quot;</span>);
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;PromptFunctions.SingleDigitPrompt(<span style="color:maroon;">@&quot;Voice&nbsp;Files\TryAgain.wav&quot;</span>,&nbsp;<span style="color:#a31515;">&quot;12&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">if</span>&nbsp;(result&nbsp;==&nbsp;<span style="color:#a31515;">&quot;2&quot;</span>)&nbsp;<span style="color:#8f08c4;">break</span>;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span style="color:green;">//&nbsp;endless&nbsp;loop</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">return</span>&nbsp;<span style="color:blue;">new</span>&nbsp;GoodbyeScript(_loggerFactory,&nbsp;_voiceProperties,&nbsp;_line);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span style="color:green;">//&nbsp;class</span>
-}
-</pre></div>
+    } // class
+}</code></pre></div>
 
 
 
@@ -390,41 +331,40 @@ dotnet add package ivrToolkit.Plugin.Dialogic.Sip -v 6.0.0-beta-01</code></pre>
 <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
         data-bs-original-title="Copy to clipboard">Copy</button></div>
 <div class="highlight">
-<pre><span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;Copyright&nbsp;2021&nbsp;Troy&nbsp;Makaro</span>
-<span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;This&nbsp;file&nbsp;is&nbsp;part&nbsp;of&nbsp;ivrToolkit,&nbsp;distributed&nbsp;under&nbsp;the&nbsp;Apache-2.0&nbsp;license.</span>
-<span style="color:green;">//&nbsp;</span>
-<span style="color:green;">//&nbsp;</span>
+<pre><code class="language-csharp">// 
+// Copyright 2021 Troy Makaro
+// 
+// This file is part of ivrToolkit, distributed under the Apache-2.0 license.
+// 
+// 
     
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core;
-<span style="color:blue;">using</span>&nbsp;ivrToolkit.Core.Interfaces;
-<span style="color:blue;">using</span>&nbsp;Microsoft.Extensions.Logging;
+using ivrToolkit.Core;
+using ivrToolkit.Core.Interfaces;
+using Microsoft.Extensions.Logging;
     
-<span style="color:blue;">namespace</span>&nbsp;MyFirstApp.ScriptBlocks
+namespace MyFirstApp.ScriptBlocks
 {
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">class</span>&nbsp;<span style="color:#2b91af;">GoodbyeScript</span>&nbsp;:&nbsp;AbstractScript
-&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">private</span>&nbsp;<span style="color:blue;">readonly</span>&nbsp;ILogger&lt;GoodbyeScript&gt;&nbsp;_logger;
+    public class GoodbyeScript : AbstractScript
+    {
+        private readonly ILogger<GoodbyeScript> _logger;
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:#2b91af;">GoodbyeScript</span>(ILoggerFactory&nbsp;<span style="color:#1f377f;">loggerFactory</span>,&nbsp;VoiceProperties&nbsp;<span style="color:#1f377f;">voiceProperties</span>,&nbsp;IIvrLine&nbsp;<span style="color:#1f377f;">line</span>)&nbsp;:&nbsp;<span style="color:blue;">base</span>(loggerFactory,&nbsp;voiceProperties,&nbsp;line)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger&nbsp;=&nbsp;loggerFactory.CreateLogger&lt;GoodbyeScript&gt;();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Ctr()&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        public GoodbyeScript(ILoggerFactory loggerFactory, VoiceProperties voiceProperties, IIvrLine line) : base(loggerFactory, voiceProperties, line)
+        {
+            _logger = loggerFactory.CreateLogger<GoodbyeScript>();
+            _logger.LogDebug("Ctr()");
+        }
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;<span style="color:blue;">string</span>&nbsp;Description&nbsp;=&gt;&nbsp;<span style="color:#a31515;">&quot;Goodbye&quot;</span>;
+        public override string Description => "Goodbye";
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">public</span>&nbsp;<span style="color:blue;">override</span>&nbsp;IScript&nbsp;<span style="color:#74531f;">Execute</span>()
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_logger.LogDebug(<span style="color:#a31515;">&quot;Execute&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green;">//&nbsp;say&nbsp;my&nbsp;goodbye&nbsp;message</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Line.PlayFile(<span style="color:maroon;">@&quot;Voice&nbsp;Files\Goodbye.wav&quot;</span>);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8f08c4;">return</span>&nbsp;<span style="color:blue;">null</span>;&nbsp;<span style="color:green;">//&nbsp;signal&nbsp;the&nbsp;end</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span style="color:green;">//&nbsp;class</span>
-}
-</pre></div>
+        public override IScript Execute()
+        {
+            _logger.LogDebug("Execute");
+            // say my goodbye message
+            Line.PlayFile(@"Voice Files\Goodbye.wav");
+            return null; // signal the end
+        }
+    } // class
+}</code></pre></div>
 
 
 
