@@ -274,16 +274,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.PluginManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.PluginManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.ScriptManager.yml",
       "output": {
         ".html": {
