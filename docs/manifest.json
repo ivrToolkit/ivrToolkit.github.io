@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/home/runner/work/ivrToolkit/ivrToolkit",
+  "source_base_path": "/home/runner/work/ivrToolkit/ivrToolkit/ApiDocBuilder",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -401,6 +401,29 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
