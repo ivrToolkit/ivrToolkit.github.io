@@ -234,6 +234,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.IPromptShit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.IPromptShit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Interfaces.IScript.yml",
       "output": {
         ".html": {
@@ -278,6 +288,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.ScriptManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Util.MultiTryPromptOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Util.MultiTryPromptOptions.html"
         }
       },
       "version": ""
@@ -338,6 +358,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.Util.PromptFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Util.PromptOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Util.PromptOptions.html"
         }
       },
       "version": ""

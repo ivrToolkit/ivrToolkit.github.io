@@ -58,6 +58,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.AbstractScript.Execute
   nameWithType: AbstractScript.Execute
+- uid: ivrToolkit.Core.AbstractScript.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/ivrToolkit.Core.AbstractScript.html#ivrToolkit_Core_AbstractScript_ExecuteAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.AbstractScript.ExecuteAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.AbstractScript.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType: AbstractScript.ExecuteAsync(CancellationToken)
+- uid: ivrToolkit.Core.AbstractScript.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/ivrToolkit.Core.AbstractScript.html#ivrToolkit_Core_AbstractScript_ExecuteAsync_
+  commentId: Overload:ivrToolkit.Core.AbstractScript.ExecuteAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.AbstractScript.ExecuteAsync
+  nameWithType: AbstractScript.ExecuteAsync
 - uid: ivrToolkit.Core.AbstractScript.Line
   name: Line
   href: api/ivrToolkit.Core.AbstractScript.html#ivrToolkit_Core_AbstractScript_Line
@@ -690,6 +703,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayCharacters
   nameWithType: LineExtensions.PlayCharacters
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayCharactersAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.String,System.Threading.CancellationToken)
+  name: PlayCharactersAsync(IIvrLine, string, CancellationToken)
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayCharactersAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Extensions.LineExtensions.PlayCharactersAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.String,System.Threading.CancellationToken)
+  name.vb: PlayCharactersAsync(IIvrLine, String, CancellationToken)
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayCharactersAsync(ivrToolkit.Core.Interfaces.IIvrLine, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Extensions.LineExtensions.PlayCharactersAsync(ivrToolkit.Core.Interfaces.IIvrLine, String, System.Threading.CancellationToken)
+  nameWithType: LineExtensions.PlayCharactersAsync(IIvrLine, string, CancellationToken)
+  nameWithType.vb: LineExtensions.PlayCharactersAsync(IIvrLine, String, CancellationToken)
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayCharactersAsync*
+  name: PlayCharactersAsync
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayCharactersAsync_
+  commentId: Overload:ivrToolkit.Core.Extensions.LineExtensions.PlayCharactersAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayCharactersAsync
+  nameWithType: LineExtensions.PlayCharactersAsync
 - uid: ivrToolkit.Core.Extensions.LineExtensions.PlayDate(ivrToolkit.Core.Interfaces.IIvrLine,System.DateTime,System.String)
   name: PlayDate(IIvrLine, DateTime, string)
   href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayDate_ivrToolkit_Core_Interfaces_IIvrLine_System_DateTime_System_String_
@@ -706,6 +735,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayDate
   nameWithType: LineExtensions.PlayDate
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayDateAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.DateTime,System.String,System.Threading.CancellationToken)
+  name: PlayDateAsync(IIvrLine, DateTime, string, CancellationToken)
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayDateAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_DateTime_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Extensions.LineExtensions.PlayDateAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.DateTime,System.String,System.Threading.CancellationToken)
+  name.vb: PlayDateAsync(IIvrLine, Date, String, CancellationToken)
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayDateAsync(ivrToolkit.Core.Interfaces.IIvrLine, System.DateTime, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Extensions.LineExtensions.PlayDateAsync(ivrToolkit.Core.Interfaces.IIvrLine, Date, String, System.Threading.CancellationToken)
+  nameWithType: LineExtensions.PlayDateAsync(IIvrLine, DateTime, string, CancellationToken)
+  nameWithType.vb: LineExtensions.PlayDateAsync(IIvrLine, Date, String, CancellationToken)
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayDateAsync*
+  name: PlayDateAsync
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayDateAsync_
+  commentId: Overload:ivrToolkit.Core.Extensions.LineExtensions.PlayDateAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayDateAsync
+  nameWithType: LineExtensions.PlayDateAsync
 - uid: ivrToolkit.Core.Extensions.LineExtensions.PlayInteger(ivrToolkit.Core.Interfaces.IIvrLine,System.Int64)
   name: PlayInteger(IIvrLine, long)
   href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayInteger_ivrToolkit_Core_Interfaces_IIvrLine_System_Int64_
@@ -722,6 +767,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayInteger
   nameWithType: LineExtensions.PlayInteger
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayIntegerAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Int64,System.Threading.CancellationToken)
+  name: PlayIntegerAsync(IIvrLine, long, CancellationToken)
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayIntegerAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_Int64_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Extensions.LineExtensions.PlayIntegerAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Int64,System.Threading.CancellationToken)
+  name.vb: PlayIntegerAsync(IIvrLine, Long, CancellationToken)
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayIntegerAsync(ivrToolkit.Core.Interfaces.IIvrLine, long, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Extensions.LineExtensions.PlayIntegerAsync(ivrToolkit.Core.Interfaces.IIvrLine, Long, System.Threading.CancellationToken)
+  nameWithType: LineExtensions.PlayIntegerAsync(IIvrLine, long, CancellationToken)
+  nameWithType.vb: LineExtensions.PlayIntegerAsync(IIvrLine, Long, CancellationToken)
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayIntegerAsync*
+  name: PlayIntegerAsync
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayIntegerAsync_
+  commentId: Overload:ivrToolkit.Core.Extensions.LineExtensions.PlayIntegerAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayIntegerAsync
+  nameWithType: LineExtensions.PlayIntegerAsync
 - uid: ivrToolkit.Core.Extensions.LineExtensions.PlayMoney(ivrToolkit.Core.Interfaces.IIvrLine,System.Double)
   name: PlayMoney(IIvrLine, double)
   href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayMoney_ivrToolkit_Core_Interfaces_IIvrLine_System_Double_
@@ -738,6 +799,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayMoney
   nameWithType: LineExtensions.PlayMoney
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayMoneyAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Double,System.Threading.CancellationToken)
+  name: PlayMoneyAsync(IIvrLine, double, CancellationToken)
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayMoneyAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_Double_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Extensions.LineExtensions.PlayMoneyAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Double,System.Threading.CancellationToken)
+  name.vb: PlayMoneyAsync(IIvrLine, Double, CancellationToken)
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayMoneyAsync(ivrToolkit.Core.Interfaces.IIvrLine, double, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Extensions.LineExtensions.PlayMoneyAsync(ivrToolkit.Core.Interfaces.IIvrLine, Double, System.Threading.CancellationToken)
+  nameWithType: LineExtensions.PlayMoneyAsync(IIvrLine, double, CancellationToken)
+  nameWithType.vb: LineExtensions.PlayMoneyAsync(IIvrLine, Double, CancellationToken)
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayMoneyAsync*
+  name: PlayMoneyAsync
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayMoneyAsync_
+  commentId: Overload:ivrToolkit.Core.Extensions.LineExtensions.PlayMoneyAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayMoneyAsync
+  nameWithType: LineExtensions.PlayMoneyAsync
 - uid: ivrToolkit.Core.Extensions.LineExtensions.PlayNumber(ivrToolkit.Core.Interfaces.IIvrLine,System.Double)
   name: PlayNumber(IIvrLine, double)
   href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayNumber_ivrToolkit_Core_Interfaces_IIvrLine_System_Double_
@@ -754,6 +831,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayNumber
   nameWithType: LineExtensions.PlayNumber
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayNumberAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Double,System.Threading.CancellationToken)
+  name: PlayNumberAsync(IIvrLine, double, CancellationToken)
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayNumberAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_Double_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Extensions.LineExtensions.PlayNumberAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Double,System.Threading.CancellationToken)
+  name.vb: PlayNumberAsync(IIvrLine, Double, CancellationToken)
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayNumberAsync(ivrToolkit.Core.Interfaces.IIvrLine, double, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Extensions.LineExtensions.PlayNumberAsync(ivrToolkit.Core.Interfaces.IIvrLine, Double, System.Threading.CancellationToken)
+  nameWithType: LineExtensions.PlayNumberAsync(IIvrLine, double, CancellationToken)
+  nameWithType.vb: LineExtensions.PlayNumberAsync(IIvrLine, Double, CancellationToken)
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayNumberAsync*
+  name: PlayNumberAsync
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayNumberAsync_
+  commentId: Overload:ivrToolkit.Core.Extensions.LineExtensions.PlayNumberAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayNumberAsync
+  nameWithType: LineExtensions.PlayNumberAsync
 - uid: ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinal(ivrToolkit.Core.Interfaces.IIvrLine,System.Int32)
   name: PlayOrdinal(IIvrLine, int)
   href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayOrdinal_ivrToolkit_Core_Interfaces_IIvrLine_System_Int32_
@@ -770,6 +863,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinal
   nameWithType: LineExtensions.PlayOrdinal
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinalAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Int32,System.Threading.CancellationToken)
+  name: PlayOrdinalAsync(IIvrLine, int, CancellationToken)
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayOrdinalAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_Int32_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinalAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.Int32,System.Threading.CancellationToken)
+  name.vb: PlayOrdinalAsync(IIvrLine, Integer, CancellationToken)
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinalAsync(ivrToolkit.Core.Interfaces.IIvrLine, int, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinalAsync(ivrToolkit.Core.Interfaces.IIvrLine, Integer, System.Threading.CancellationToken)
+  nameWithType: LineExtensions.PlayOrdinalAsync(IIvrLine, int, CancellationToken)
+  nameWithType.vb: LineExtensions.PlayOrdinalAsync(IIvrLine, Integer, CancellationToken)
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinalAsync*
+  name: PlayOrdinalAsync
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayOrdinalAsync_
+  commentId: Overload:ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinalAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayOrdinalAsync
+  nameWithType: LineExtensions.PlayOrdinalAsync
 - uid: ivrToolkit.Core.Extensions.LineExtensions.PlayPhoneNumber(ivrToolkit.Core.Interfaces.IIvrLine,System.String)
   name: PlayPhoneNumber(IIvrLine, string)
   href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayPhoneNumber_ivrToolkit_Core_Interfaces_IIvrLine_System_String_
@@ -802,6 +911,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayString
   nameWithType: LineExtensions.PlayString
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayStringAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.String,System.Threading.CancellationToken)
+  name: PlayStringAsync(IIvrLine, string, CancellationToken)
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayStringAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Extensions.LineExtensions.PlayStringAsync(ivrToolkit.Core.Interfaces.IIvrLine,System.String,System.Threading.CancellationToken)
+  name.vb: PlayStringAsync(IIvrLine, String, CancellationToken)
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayStringAsync(ivrToolkit.Core.Interfaces.IIvrLine, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Extensions.LineExtensions.PlayStringAsync(ivrToolkit.Core.Interfaces.IIvrLine, String, System.Threading.CancellationToken)
+  nameWithType: LineExtensions.PlayStringAsync(IIvrLine, string, CancellationToken)
+  nameWithType.vb: LineExtensions.PlayStringAsync(IIvrLine, String, CancellationToken)
+- uid: ivrToolkit.Core.Extensions.LineExtensions.PlayStringAsync*
+  name: PlayStringAsync
+  href: api/ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayStringAsync_
+  commentId: Overload:ivrToolkit.Core.Extensions.LineExtensions.PlayStringAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Extensions.LineExtensions.PlayStringAsync
+  nameWithType: LineExtensions.PlayStringAsync
 - uid: ivrToolkit.Core.Extensions.ValidationExtensions
   name: ValidationExtensions
   href: api/ivrToolkit.Core.Extensions.ValidationExtensions.html
@@ -900,6 +1025,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.Dial
   nameWithType: IIvrBaseLine.Dial
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  name: DialAsync(string, int, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_DialAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  name.vb: DialAsync(String, Integer, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync(string, int, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync(String, Integer, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.DialAsync(string, int, CancellationToken)
+  nameWithType.vb: IIvrBaseLine.DialAsync(String, Integer, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync*
+  name: DialAsync
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_DialAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync
+  nameWithType: IIvrBaseLine.DialAsync
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.FlushDigitBuffer
   name: FlushDigitBuffer()
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_FlushDigitBuffer
@@ -929,6 +1070,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits
   nameWithType: IIvrBaseLine.GetDigits
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  name: GetDigitsAsync(int, string, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  name.vb: GetDigitsAsync(Integer, String, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(int, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(Integer, String, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.GetDigitsAsync(int, string, CancellationToken)
+  nameWithType.vb: IIvrBaseLine.GetDigitsAsync(Integer, String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync*
+  name: GetDigitsAsync
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync
+  nameWithType: IIvrBaseLine.GetDigitsAsync
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.Hangup
   name: Hangup()
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_Hangup
@@ -997,6 +1154,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFile
   nameWithType: IIvrBaseLine.PlayFile
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync(System.String,System.Threading.CancellationToken)
+  name: PlayFileAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFileAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync(System.String,System.Threading.CancellationToken)
+  name.vb: PlayFileAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync(String, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.PlayFileAsync(string, CancellationToken)
+  nameWithType.vb: IIvrBaseLine.PlayFileAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync*
+  name: PlayFileAsync
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFileAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync
+  nameWithType: IIvrBaseLine.PlayFileAsync
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile(System.String)
   name: RecordToFile(string)
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFile_System_String_
@@ -1185,6 +1358,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPrompt
   nameWithType: IPromptFunctions.CustomValidationPrompt
+- uid: ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync(System.String,ivrToolkit.Core.Util.Prompt.ValidationHandler,System.Threading.CancellationToken)
+  name: CustomValidationPromptAsync(string, ValidationHandler, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPromptAsync_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync(System.String,ivrToolkit.Core.Util.Prompt.ValidationHandler,System.Threading.CancellationToken)
+  name.vb: CustomValidationPromptAsync(String, ValidationHandler, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync(string, ivrToolkit.Core.Util.Prompt.ValidationHandler, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync(String, ivrToolkit.Core.Util.Prompt.ValidationHandler, System.Threading.CancellationToken)
+  nameWithType: IPromptFunctions.CustomValidationPromptAsync(string, Prompt.ValidationHandler, CancellationToken)
+  nameWithType.vb: IPromptFunctions.CustomValidationPromptAsync(String, Prompt.ValidationHandler, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync*
+  name: CustomValidationPromptAsync
+  href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPromptAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync
+  nameWithType: IPromptFunctions.CustomValidationPromptAsync
 - uid: ivrToolkit.Core.Interfaces.IPromptFunctions.GetAttempts
   name: GetAttempts()
   href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_GetAttempts
@@ -1249,6 +1438,31 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt
   nameWithType: IPromptFunctions.RegularPrompt
+- uid: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String,System.String[],System.Threading.CancellationToken)
+  name: RegularPromptAsync(string, string[], CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_System_String_System_String___System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String,System.String[],System.Threading.CancellationToken)
+  name.vb: RegularPromptAsync(String, String(), CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(string, string[], System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(String, String(), System.Threading.CancellationToken)
+  nameWithType: IPromptFunctions.RegularPromptAsync(string, string[], CancellationToken)
+  nameWithType.vb: IPromptFunctions.RegularPromptAsync(String, String(), CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String,System.Threading.CancellationToken)
+  name: RegularPromptAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String,System.Threading.CancellationToken)
+  name.vb: RegularPromptAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(String, System.Threading.CancellationToken)
+  nameWithType: IPromptFunctions.RegularPromptAsync(string, CancellationToken)
+  nameWithType.vb: IPromptFunctions.RegularPromptAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync*
+  name: RegularPromptAsync
+  href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync
+  nameWithType: IPromptFunctions.RegularPromptAsync
 - uid: ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt(System.String,System.String)
   name: SingleDigitPrompt(string, string)
   href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPrompt_System_String_System_String_
@@ -1265,6 +1479,92 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt
   nameWithType: IPromptFunctions.SingleDigitPrompt
+- uid: ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: SingleDigitPromptAsync(string, string, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPromptAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync(System.String,System.String,System.Threading.CancellationToken)
+  name.vb: SingleDigitPromptAsync(String, String, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync(string, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync(String, String, System.Threading.CancellationToken)
+  nameWithType: IPromptFunctions.SingleDigitPromptAsync(string, string, CancellationToken)
+  nameWithType.vb: IPromptFunctions.SingleDigitPromptAsync(String, String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync*
+  name: SingleDigitPromptAsync
+  href: api/ivrToolkit.Core.Interfaces.IPromptFunctions.html#ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPromptAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync
+  nameWithType: IPromptFunctions.SingleDigitPromptAsync
+- uid: ivrToolkit.Core.Interfaces.IPromptShit
+  name: IPromptShit
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html
+  commentId: T:ivrToolkit.Core.Interfaces.IPromptShit
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit
+  nameWithType: IPromptShit
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name: MultiTryPrompt(string, Func<string, bool>, MultiTryPromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name.vb: MultiTryPrompt(String, Func(Of String, Boolean), MultiTryPromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPrompt(string, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPrompt(String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions)
+  nameWithType: IPromptShit.MultiTryPrompt(string, Func<string, bool>, MultiTryPromptOptions)
+  nameWithType.vb: IPromptShit.MultiTryPrompt(String, Func(Of String, Boolean), MultiTryPromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPrompt*
+  name: MultiTryPrompt
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_MultiTryPrompt_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPrompt
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPrompt
+  nameWithType: IPromptShit.MultiTryPrompt
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken,ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name: MultiTryPromptAsync(string, Func<string, bool>, CancellationToken, MultiTryPromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_ivrToolkit_Core_Util_MultiTryPromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken,ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name.vb: MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken, MultiTryPromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPromptAsync(string, System.Func<string, bool>, System.Threading.CancellationToken, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPromptAsync(String, System.Func(Of String, Boolean), System.Threading.CancellationToken, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  nameWithType: IPromptShit.MultiTryPromptAsync(string, Func<string, bool>, CancellationToken, MultiTryPromptOptions)
+  nameWithType.vb: IPromptShit.MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken, MultiTryPromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPromptAsync*
+  name: MultiTryPromptAsync
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_MultiTryPromptAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.MultiTryPromptAsync
+  nameWithType: IPromptShit.MultiTryPromptAsync
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)
+  name: Prompt(string, PromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptShit.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)
+  name.vb: Prompt(String, PromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.Prompt(string, ivrToolkit.Core.Util.PromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptShit.Prompt(String, ivrToolkit.Core.Util.PromptOptions)
+  nameWithType: IPromptShit.Prompt(string, PromptOptions)
+  nameWithType.vb: IPromptShit.Prompt(String, PromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.Prompt*
+  name: Prompt
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_Prompt_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPromptShit.Prompt
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.Prompt
+  nameWithType: IPromptShit.Prompt
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
+  name: PromptAsync(string, CancellationToken, PromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptShit.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
+  name.vb: PromptAsync(String, CancellationToken, PromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.PromptAsync(string, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptShit.PromptAsync(String, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
+  nameWithType: IPromptShit.PromptAsync(string, CancellationToken, PromptOptions)
+  nameWithType.vb: IPromptShit.PromptAsync(String, CancellationToken, PromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptShit.PromptAsync*
+  name: PromptAsync
+  href: api/ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_PromptAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPromptShit.PromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPromptShit.PromptAsync
+  nameWithType: IPromptShit.PromptAsync
 - uid: ivrToolkit.Core.Interfaces.IScript
   name: IScript
   href: api/ivrToolkit.Core.Interfaces.IScript.html
@@ -1297,6 +1597,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IScript.Execute
   nameWithType: IScript.Execute
+- uid: ivrToolkit.Core.Interfaces.IScript.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IScript.html#ivrToolkit_Core_Interfaces_IScript_ExecuteAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IScript.ExecuteAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IScript.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType: IScript.ExecuteAsync(CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IScript.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/ivrToolkit.Core.Interfaces.IScript.html#ivrToolkit_Core_Interfaces_IScript_ExecuteAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IScript.ExecuteAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IScript.ExecuteAsync
+  nameWithType: IScript.ExecuteAsync
 - uid: ivrToolkit.Core.Interfaces.IScript.Line
   name: Line
   href: api/ivrToolkit.Core.Interfaces.IScript.html#ivrToolkit_Core_Interfaces_IScript_Line
@@ -1412,15 +1725,15 @@ references:
   commentId: T:ivrToolkit.Core.LineWrapper
   fullName: ivrToolkit.Core.LineWrapper
   nameWithType: LineWrapper
-- uid: ivrToolkit.Core.LineWrapper.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.Int32,ivrToolkit.Core.Interfaces.IIvrBaseLine)
-  name: LineWrapper(ILoggerFactory, int, IIvrBaseLine)
-  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper__ctor_Microsoft_Extensions_Logging_ILoggerFactory_System_Int32_ivrToolkit_Core_Interfaces_IIvrBaseLine_
-  commentId: M:ivrToolkit.Core.LineWrapper.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.Int32,ivrToolkit.Core.Interfaces.IIvrBaseLine)
-  name.vb: New(ILoggerFactory, Integer, IIvrBaseLine)
-  fullName: ivrToolkit.Core.LineWrapper.LineWrapper(Microsoft.Extensions.Logging.ILoggerFactory, int, ivrToolkit.Core.Interfaces.IIvrBaseLine)
-  fullName.vb: ivrToolkit.Core.LineWrapper.New(Microsoft.Extensions.Logging.ILoggerFactory, Integer, ivrToolkit.Core.Interfaces.IIvrBaseLine)
-  nameWithType: LineWrapper.LineWrapper(ILoggerFactory, int, IIvrBaseLine)
-  nameWithType.vb: LineWrapper.New(ILoggerFactory, Integer, IIvrBaseLine)
+- uid: ivrToolkit.Core.LineWrapper.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.VoiceProperties,System.Int32,ivrToolkit.Core.Interfaces.IIvrBaseLine)
+  name: LineWrapper(ILoggerFactory, VoiceProperties, int, IIvrBaseLine)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper__ctor_Microsoft_Extensions_Logging_ILoggerFactory_ivrToolkit_Core_VoiceProperties_System_Int32_ivrToolkit_Core_Interfaces_IIvrBaseLine_
+  commentId: M:ivrToolkit.Core.LineWrapper.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.VoiceProperties,System.Int32,ivrToolkit.Core.Interfaces.IIvrBaseLine)
+  name.vb: New(ILoggerFactory, VoiceProperties, Integer, IIvrBaseLine)
+  fullName: ivrToolkit.Core.LineWrapper.LineWrapper(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.VoiceProperties, int, ivrToolkit.Core.Interfaces.IIvrBaseLine)
+  fullName.vb: ivrToolkit.Core.LineWrapper.New(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.VoiceProperties, Integer, ivrToolkit.Core.Interfaces.IIvrBaseLine)
+  nameWithType: LineWrapper.LineWrapper(ILoggerFactory, VoiceProperties, int, IIvrBaseLine)
+  nameWithType.vb: LineWrapper.New(ILoggerFactory, VoiceProperties, Integer, IIvrBaseLine)
 - uid: ivrToolkit.Core.LineWrapper.#ctor*
   name: LineWrapper
   href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper__ctor_
@@ -1460,6 +1773,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.LineWrapper.Dial
   nameWithType: LineWrapper.Dial
+- uid: ivrToolkit.Core.LineWrapper.DialAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  name: DialAsync(string, int, CancellationToken)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_DialAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.LineWrapper.DialAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  name.vb: DialAsync(String, Integer, CancellationToken)
+  fullName: ivrToolkit.Core.LineWrapper.DialAsync(string, int, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.LineWrapper.DialAsync(String, Integer, System.Threading.CancellationToken)
+  nameWithType: LineWrapper.DialAsync(string, int, CancellationToken)
+  nameWithType.vb: LineWrapper.DialAsync(String, Integer, CancellationToken)
+- uid: ivrToolkit.Core.LineWrapper.DialAsync*
+  name: DialAsync
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_DialAsync_
+  commentId: Overload:ivrToolkit.Core.LineWrapper.DialAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineWrapper.DialAsync
+  nameWithType: LineWrapper.DialAsync
 - uid: ivrToolkit.Core.LineWrapper.Dispose
   name: Dispose()
   href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_Dispose
@@ -1502,6 +1831,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.LineWrapper.GetDigits
   nameWithType: LineWrapper.GetDigits
+- uid: ivrToolkit.Core.LineWrapper.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  name: GetDigitsAsync(int, string, CancellationToken)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_GetDigitsAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.LineWrapper.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  name.vb: GetDigitsAsync(Integer, String, CancellationToken)
+  fullName: ivrToolkit.Core.LineWrapper.GetDigitsAsync(int, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.LineWrapper.GetDigitsAsync(Integer, String, System.Threading.CancellationToken)
+  nameWithType: LineWrapper.GetDigitsAsync(int, string, CancellationToken)
+  nameWithType.vb: LineWrapper.GetDigitsAsync(Integer, String, CancellationToken)
+- uid: ivrToolkit.Core.LineWrapper.GetDigitsAsync*
+  name: GetDigitsAsync
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_GetDigitsAsync_
+  commentId: Overload:ivrToolkit.Core.LineWrapper.GetDigitsAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineWrapper.GetDigitsAsync
+  nameWithType: LineWrapper.GetDigitsAsync
 - uid: ivrToolkit.Core.LineWrapper.Hangup
   name: Hangup()
   href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_Hangup
@@ -1554,6 +1899,38 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.LineWrapper.Management
   nameWithType: LineWrapper.Management
+- uid: ivrToolkit.Core.LineWrapper.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name: MultiTryPrompt(string, Func<string, bool>, MultiTryPromptOptions)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_
+  commentId: M:ivrToolkit.Core.LineWrapper.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name.vb: MultiTryPrompt(String, Func(Of String, Boolean), MultiTryPromptOptions)
+  fullName: ivrToolkit.Core.LineWrapper.MultiTryPrompt(string, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  fullName.vb: ivrToolkit.Core.LineWrapper.MultiTryPrompt(String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions)
+  nameWithType: LineWrapper.MultiTryPrompt(string, Func<string, bool>, MultiTryPromptOptions)
+  nameWithType.vb: LineWrapper.MultiTryPrompt(String, Func(Of String, Boolean), MultiTryPromptOptions)
+- uid: ivrToolkit.Core.LineWrapper.MultiTryPrompt*
+  name: MultiTryPrompt
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_MultiTryPrompt_
+  commentId: Overload:ivrToolkit.Core.LineWrapper.MultiTryPrompt
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineWrapper.MultiTryPrompt
+  nameWithType: LineWrapper.MultiTryPrompt
+- uid: ivrToolkit.Core.LineWrapper.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken,ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name: MultiTryPromptAsync(string, Func<string, bool>, CancellationToken, MultiTryPromptOptions)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_ivrToolkit_Core_Util_MultiTryPromptOptions_
+  commentId: M:ivrToolkit.Core.LineWrapper.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken,ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name.vb: MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken, MultiTryPromptOptions)
+  fullName: ivrToolkit.Core.LineWrapper.MultiTryPromptAsync(string, System.Func<string, bool>, System.Threading.CancellationToken, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  fullName.vb: ivrToolkit.Core.LineWrapper.MultiTryPromptAsync(String, System.Func(Of String, Boolean), System.Threading.CancellationToken, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  nameWithType: LineWrapper.MultiTryPromptAsync(string, Func<string, bool>, CancellationToken, MultiTryPromptOptions)
+  nameWithType.vb: LineWrapper.MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken, MultiTryPromptOptions)
+- uid: ivrToolkit.Core.LineWrapper.MultiTryPromptAsync*
+  name: MultiTryPromptAsync
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_MultiTryPromptAsync_
+  commentId: Overload:ivrToolkit.Core.LineWrapper.MultiTryPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineWrapper.MultiTryPromptAsync
+  nameWithType: LineWrapper.MultiTryPromptAsync
 - uid: ivrToolkit.Core.LineWrapper.PlayFile(System.String)
   name: PlayFile(string)
   href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_PlayFile_System_String_
@@ -1570,6 +1947,54 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.LineWrapper.PlayFile
   nameWithType: LineWrapper.PlayFile
+- uid: ivrToolkit.Core.LineWrapper.PlayFileAsync(System.String,System.Threading.CancellationToken)
+  name: PlayFileAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_PlayFileAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.LineWrapper.PlayFileAsync(System.String,System.Threading.CancellationToken)
+  name.vb: PlayFileAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.LineWrapper.PlayFileAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.LineWrapper.PlayFileAsync(String, System.Threading.CancellationToken)
+  nameWithType: LineWrapper.PlayFileAsync(string, CancellationToken)
+  nameWithType.vb: LineWrapper.PlayFileAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.LineWrapper.PlayFileAsync*
+  name: PlayFileAsync
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_PlayFileAsync_
+  commentId: Overload:ivrToolkit.Core.LineWrapper.PlayFileAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineWrapper.PlayFileAsync
+  nameWithType: LineWrapper.PlayFileAsync
+- uid: ivrToolkit.Core.LineWrapper.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)
+  name: Prompt(string, PromptOptions)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.LineWrapper.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)
+  name.vb: Prompt(String, PromptOptions)
+  fullName: ivrToolkit.Core.LineWrapper.Prompt(string, ivrToolkit.Core.Util.PromptOptions)
+  fullName.vb: ivrToolkit.Core.LineWrapper.Prompt(String, ivrToolkit.Core.Util.PromptOptions)
+  nameWithType: LineWrapper.Prompt(string, PromptOptions)
+  nameWithType.vb: LineWrapper.Prompt(String, PromptOptions)
+- uid: ivrToolkit.Core.LineWrapper.Prompt*
+  name: Prompt
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_Prompt_
+  commentId: Overload:ivrToolkit.Core.LineWrapper.Prompt
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineWrapper.Prompt
+  nameWithType: LineWrapper.Prompt
+- uid: ivrToolkit.Core.LineWrapper.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
+  name: PromptAsync(string, CancellationToken, PromptOptions)
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.LineWrapper.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
+  name.vb: PromptAsync(String, CancellationToken, PromptOptions)
+  fullName: ivrToolkit.Core.LineWrapper.PromptAsync(string, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
+  fullName.vb: ivrToolkit.Core.LineWrapper.PromptAsync(String, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
+  nameWithType: LineWrapper.PromptAsync(string, CancellationToken, PromptOptions)
+  nameWithType.vb: LineWrapper.PromptAsync(String, CancellationToken, PromptOptions)
+- uid: ivrToolkit.Core.LineWrapper.PromptAsync*
+  name: PromptAsync
+  href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_PromptAsync_
+  commentId: Overload:ivrToolkit.Core.LineWrapper.PromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.LineWrapper.PromptAsync
+  nameWithType: LineWrapper.PromptAsync
 - uid: ivrToolkit.Core.LineWrapper.RecordToFile(System.String)
   name: RecordToFile(string)
   href: api/ivrToolkit.Core.LineWrapper.html#ivrToolkit_Core_LineWrapper_RecordToFile_System_String_
@@ -1701,6 +2126,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.ScriptManager.Execute
   nameWithType: ScriptManager.Execute
+- uid: ivrToolkit.Core.ScriptManager.ExecuteScriptAsync(System.Threading.CancellationToken)
+  name: ExecuteScriptAsync(CancellationToken)
+  href: api/ivrToolkit.Core.ScriptManager.html#ivrToolkit_Core_ScriptManager_ExecuteScriptAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.ScriptManager.ExecuteScriptAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.ScriptManager.ExecuteScriptAsync(System.Threading.CancellationToken)
+  nameWithType: ScriptManager.ExecuteScriptAsync(CancellationToken)
+- uid: ivrToolkit.Core.ScriptManager.ExecuteScriptAsync*
+  name: ExecuteScriptAsync
+  href: api/ivrToolkit.Core.ScriptManager.html#ivrToolkit_Core_ScriptManager_ExecuteScriptAsync_
+  commentId: Overload:ivrToolkit.Core.ScriptManager.ExecuteScriptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.ScriptManager.ExecuteScriptAsync
+  nameWithType: ScriptManager.ExecuteScriptAsync
 - uid: ivrToolkit.Core.ScriptManager.HasNext
   name: HasNext()
   href: api/ivrToolkit.Core.ScriptManager.html#ivrToolkit_Core_ScriptManager_HasNext
@@ -1733,6 +2171,51 @@ references:
   commentId: N:ivrToolkit.Core.Util
   fullName: ivrToolkit.Core.Util
   nameWithType: ivrToolkit.Core.Util
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions
+  name: MultiTryPromptOptions
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html
+  commentId: T:ivrToolkit.Core.Util.MultiTryPromptOptions
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions
+  nameWithType: MultiTryPromptOptions
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.AllowedDigits
+  name: AllowedDigits
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_AllowedDigits
+  commentId: P:ivrToolkit.Core.Util.MultiTryPromptOptions.AllowedDigits
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.AllowedDigits
+  nameWithType: MultiTryPromptOptions.AllowedDigits
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.AllowedDigits*
+  name: AllowedDigits
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_AllowedDigits_
+  commentId: Overload:ivrToolkit.Core.Util.MultiTryPromptOptions.AllowedDigits
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.AllowedDigits
+  nameWithType: MultiTryPromptOptions.AllowedDigits
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxRepeat
+  name: BlankMaxRepeat
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_BlankMaxRepeat
+  commentId: P:ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxRepeat
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxRepeat
+  nameWithType: MultiTryPromptOptions.BlankMaxRepeat
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxRepeat*
+  name: BlankMaxRepeat
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_BlankMaxRepeat_
+  commentId: Overload:ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxRepeat
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxRepeat
+  nameWithType: MultiTryPromptOptions.BlankMaxRepeat
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxRepeat
+  name: MaxRepeat
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_MaxRepeat
+  commentId: P:ivrToolkit.Core.Util.MultiTryPromptOptions.MaxRepeat
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxRepeat
+  nameWithType: MultiTryPromptOptions.MaxRepeat
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxRepeat*
+  name: MaxRepeat
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_MaxRepeat_
+  commentId: Overload:ivrToolkit.Core.Util.MultiTryPromptOptions.MaxRepeat
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxRepeat
+  nameWithType: MultiTryPromptOptions.MaxRepeat
 - uid: ivrToolkit.Core.Util.Prompt
   name: Prompt
   href: api/ivrToolkit.Core.Util.Prompt.html
@@ -1797,6 +2280,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.Prompt.Ask
   nameWithType: Prompt.Ask
+- uid: ivrToolkit.Core.Util.Prompt.AskAsync(System.Threading.CancellationToken)
+  name: AskAsync(CancellationToken)
+  href: api/ivrToolkit.Core.Util.Prompt.html#ivrToolkit_Core_Util_Prompt_AskAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Util.Prompt.AskAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Util.Prompt.AskAsync(System.Threading.CancellationToken)
+  nameWithType: Prompt.AskAsync(CancellationToken)
+- uid: ivrToolkit.Core.Util.Prompt.AskAsync*
+  name: AskAsync
+  href: api/ivrToolkit.Core.Util.Prompt.html#ivrToolkit_Core_Util_Prompt_AskAsync_
+  commentId: Overload:ivrToolkit.Core.Util.Prompt.AskAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.Prompt.AskAsync
+  nameWithType: Prompt.AskAsync
 - uid: ivrToolkit.Core.Util.Prompt.Attempts
   name: Attempts
   href: api/ivrToolkit.Core.Util.Prompt.html#ivrToolkit_Core_Util_Prompt_Attempts
@@ -2003,6 +2499,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.PromptFunctions.CustomValidationPrompt
   nameWithType: PromptFunctions.CustomValidationPrompt
+- uid: ivrToolkit.Core.Util.PromptFunctions.CustomValidationPromptAsync(System.String,ivrToolkit.Core.Util.Prompt.ValidationHandler,System.Threading.CancellationToken)
+  name: CustomValidationPromptAsync(string, ValidationHandler, CancellationToken)
+  href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_CustomValidationPromptAsync_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Util.PromptFunctions.CustomValidationPromptAsync(System.String,ivrToolkit.Core.Util.Prompt.ValidationHandler,System.Threading.CancellationToken)
+  name.vb: CustomValidationPromptAsync(String, ValidationHandler, CancellationToken)
+  fullName: ivrToolkit.Core.Util.PromptFunctions.CustomValidationPromptAsync(string, ivrToolkit.Core.Util.Prompt.ValidationHandler, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Util.PromptFunctions.CustomValidationPromptAsync(String, ivrToolkit.Core.Util.Prompt.ValidationHandler, System.Threading.CancellationToken)
+  nameWithType: PromptFunctions.CustomValidationPromptAsync(string, Prompt.ValidationHandler, CancellationToken)
+  nameWithType.vb: PromptFunctions.CustomValidationPromptAsync(String, Prompt.ValidationHandler, CancellationToken)
+- uid: ivrToolkit.Core.Util.PromptFunctions.CustomValidationPromptAsync*
+  name: CustomValidationPromptAsync
+  href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_CustomValidationPromptAsync_
+  commentId: Overload:ivrToolkit.Core.Util.PromptFunctions.CustomValidationPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptFunctions.CustomValidationPromptAsync
+  nameWithType: PromptFunctions.CustomValidationPromptAsync
 - uid: ivrToolkit.Core.Util.PromptFunctions.GetAttempts
   name: GetAttempts()
   href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_GetAttempts
@@ -2080,6 +2592,31 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.PromptFunctions.RegularPrompt
   nameWithType: PromptFunctions.RegularPrompt
+- uid: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(System.String,System.String[],System.Threading.CancellationToken)
+  name: RegularPromptAsync(string, string[], CancellationToken)
+  href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_RegularPromptAsync_System_String_System_String___System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(System.String,System.String[],System.Threading.CancellationToken)
+  name.vb: RegularPromptAsync(String, String(), CancellationToken)
+  fullName: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(string, string[], System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(String, String(), System.Threading.CancellationToken)
+  nameWithType: PromptFunctions.RegularPromptAsync(string, string[], CancellationToken)
+  nameWithType.vb: PromptFunctions.RegularPromptAsync(String, String(), CancellationToken)
+- uid: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(System.String,System.Threading.CancellationToken)
+  name: RegularPromptAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_RegularPromptAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(System.String,System.Threading.CancellationToken)
+  name.vb: RegularPromptAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync(String, System.Threading.CancellationToken)
+  nameWithType: PromptFunctions.RegularPromptAsync(string, CancellationToken)
+  nameWithType.vb: PromptFunctions.RegularPromptAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync*
+  name: RegularPromptAsync
+  href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_RegularPromptAsync_
+  commentId: Overload:ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptFunctions.RegularPromptAsync
+  nameWithType: PromptFunctions.RegularPromptAsync
 - uid: ivrToolkit.Core.Util.PromptFunctions.SingleDigitPrompt(System.String,System.String)
   name: SingleDigitPrompt(string, string)
   href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_SingleDigitPrompt_System_String_System_String_
@@ -2096,6 +2633,54 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.PromptFunctions.SingleDigitPrompt
   nameWithType: PromptFunctions.SingleDigitPrompt
+- uid: ivrToolkit.Core.Util.PromptFunctions.SingleDigitPromptAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: SingleDigitPromptAsync(string, string, CancellationToken)
+  href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_SingleDigitPromptAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Util.PromptFunctions.SingleDigitPromptAsync(System.String,System.String,System.Threading.CancellationToken)
+  name.vb: SingleDigitPromptAsync(String, String, CancellationToken)
+  fullName: ivrToolkit.Core.Util.PromptFunctions.SingleDigitPromptAsync(string, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Util.PromptFunctions.SingleDigitPromptAsync(String, String, System.Threading.CancellationToken)
+  nameWithType: PromptFunctions.SingleDigitPromptAsync(string, string, CancellationToken)
+  nameWithType.vb: PromptFunctions.SingleDigitPromptAsync(String, String, CancellationToken)
+- uid: ivrToolkit.Core.Util.PromptFunctions.SingleDigitPromptAsync*
+  name: SingleDigitPromptAsync
+  href: api/ivrToolkit.Core.Util.PromptFunctions.html#ivrToolkit_Core_Util_PromptFunctions_SingleDigitPromptAsync_
+  commentId: Overload:ivrToolkit.Core.Util.PromptFunctions.SingleDigitPromptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptFunctions.SingleDigitPromptAsync
+  nameWithType: PromptFunctions.SingleDigitPromptAsync
+- uid: ivrToolkit.Core.Util.PromptOptions
+  name: PromptOptions
+  href: api/ivrToolkit.Core.Util.PromptOptions.html
+  commentId: T:ivrToolkit.Core.Util.PromptOptions
+  fullName: ivrToolkit.Core.Util.PromptOptions
+  nameWithType: PromptOptions
+- uid: ivrToolkit.Core.Util.PromptOptions.MaxLength
+  name: MaxLength
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_MaxLength
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.MaxLength
+  fullName: ivrToolkit.Core.Util.PromptOptions.MaxLength
+  nameWithType: PromptOptions.MaxLength
+- uid: ivrToolkit.Core.Util.PromptOptions.MaxLength*
+  name: MaxLength
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_MaxLength_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.MaxLength
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.MaxLength
+  nameWithType: PromptOptions.MaxLength
+- uid: ivrToolkit.Core.Util.PromptOptions.Terminators
+  name: Terminators
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_Terminators
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.Terminators
+  fullName: ivrToolkit.Core.Util.PromptOptions.Terminators
+  nameWithType: PromptOptions.Terminators
+- uid: ivrToolkit.Core.Util.PromptOptions.Terminators*
+  name: Terminators
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_Terminators_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.Terminators
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.Terminators
+  nameWithType: PromptOptions.Terminators
 - uid: ivrToolkit.Core.Util.Properties
   name: Properties
   href: api/ivrToolkit.Core.Util.Properties.html

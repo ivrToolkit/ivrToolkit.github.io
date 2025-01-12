@@ -84,7 +84,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPrompt_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPrompt(System.String%2CivrToolkit.Core.Util.Prompt.ValidationHandler)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L69">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L74">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPrompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPrompt_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPrompt(System.String,ivrToolkit.Core.Util.Prompt.ValidationHandler)">CustomValidationPrompt(string, ValidationHandler)</h4>
@@ -137,10 +137,67 @@ The attempts are set from 'prompt.attempts' property in ads.properties.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPromptAsync_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync(System.String%2CivrToolkit.Core.Util.Prompt.ValidationHandler%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L75">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_CustomValidationPromptAsync_System_String_ivrToolkit_Core_Util_Prompt_ValidationHandler_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.CustomValidationPromptAsync(System.String,ivrToolkit.Core.Util.Prompt.ValidationHandler,System.Threading.CancellationToken)">CustomValidationPromptAsync(string, ValidationHandler, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; CustomValidationPromptAsync(string promptMessage, Prompt.ValidationHandler customHandler, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Util.Prompt.html">Prompt</a>.<a class="xref" href="ivrToolkit.Core.Util.Prompt.ValidationHandler.html">ValidationHandler</a></td>
+        <td><span class="parametername">customHandler</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_GetAttempts.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.GetAttempts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L34">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L36">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetAttempts_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetAttempts*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetAttempts" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetAttempts">GetAttempts()</h4>
@@ -170,7 +227,7 @@ The attempts are set from 'prompt.attempts' property in ads.properties.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_GetMenuStylePrompt.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.GetMenuStylePrompt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L28">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L30">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetMenuStylePrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetMenuStylePrompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetMenuStylePrompt" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetMenuStylePrompt">GetMenuStylePrompt()</h4>
@@ -202,7 +259,7 @@ in voice.properties</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_GetRegularStylePrompt.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.GetRegularStylePrompt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L21">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L23">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetRegularStylePrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetRegularStylePrompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_GetRegularStylePrompt" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.GetRegularStylePrompt">GetRegularStylePrompt()</h4>
@@ -234,7 +291,7 @@ in voice.properties</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L51">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L54">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String)">RegularPrompt(string)</h4>
@@ -285,7 +342,7 @@ The attempts are set from 'prompt.attempts' property in ads.properties.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_System_String___.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String%2CSystem.String%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L60">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L64">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPrompt_System_String_System_String___" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPrompt(System.String,System.String[])">RegularPrompt(string, string[])</h4>
@@ -339,10 +396,119 @@ The attempts are set from 'prompt.attempts' property in ads.properties.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_System_String_System_String___System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String%2CSystem.String%5B%5D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L65">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_System_String_System_String___System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String,System.String[],System.Threading.CancellationToken)">RegularPromptAsync(string, string[], CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; RegularPromptAsync(string promptMessage, string[] validAnswers, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="parametername">validAnswers</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L55">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_RegularPromptAsync_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.RegularPromptAsync(System.String,System.Threading.CancellationToken)">RegularPromptAsync(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; RegularPromptAsync(string promptMessage, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPrompt_System_String_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L43">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L45">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPrompt_System_String_System_String_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPrompt(System.String,System.String)">SingleDigitPrompt(string, string)</h4>
@@ -394,6 +560,63 @@ The attempts are set from 'prompt.attempts' property in ads.properties.</p>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPromptAsync_System_String_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync(System.String%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L46">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptFunctions_SingleDigitPromptAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptFunctions.SingleDigitPromptAsync(System.String,System.String,System.Threading.CancellationToken)">SingleDigitPromptAsync(string, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; SingleDigitPromptAsync(string promptMessage, string allowed, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">promptMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">allowed</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ivrToolkit.Core.Extensions.ValidationExtensions.html#ivrToolkit_Core_Extensions_ValidationExtensions_ThrowIfNull__1___0_System_String_">ValidationExtensions.ThrowIfNull&lt;T&gt;(T, string)</a>
@@ -407,7 +630,7 @@ The attempts are set from 'prompt.attempts' property in ads.properties.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L15" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptFunctions.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

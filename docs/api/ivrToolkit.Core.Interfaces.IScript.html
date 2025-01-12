@@ -104,7 +104,7 @@ line.hangup();</code></pre>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IScript_Description.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IScript.Description%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L49">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L53">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IScript_Description_" data-uid="ivrToolkit.Core.Interfaces.IScript.Description*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IScript_Description" data-uid="ivrToolkit.Core.Interfaces.IScript.Description">Description</h4>
@@ -135,7 +135,7 @@ line.hangup();</code></pre>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IScript_Line.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IScript.Line%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L42">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L46">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IScript_Line_" data-uid="ivrToolkit.Core.Interfaces.IScript.Line*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IScript_Line" data-uid="ivrToolkit.Core.Interfaces.IScript.Line">Line</h4>
@@ -168,7 +168,7 @@ line.hangup();</code></pre>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IScript_Execute.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IScript.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L57">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L61">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IScript_Execute_" data-uid="ivrToolkit.Core.Interfaces.IScript.Execute*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IScript_Execute" data-uid="ivrToolkit.Core.Interfaces.IScript.Execute">Execute()</h4>
@@ -195,6 +195,53 @@ line.hangup();</code></pre>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IScript_ExecuteAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IScript.ExecuteAsync(System.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L63">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IScript_ExecuteAsync_" data-uid="ivrToolkit.Core.Interfaces.IScript.ExecuteAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IScript_ExecuteAsync_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IScript.ExecuteAsync(System.Threading.CancellationToken)">ExecuteAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IScript&gt; ExecuteAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="ivrToolkit.Core.Interfaces.IScript.html">IScript</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ivrToolkit.Core.Extensions.ValidationExtensions.html#ivrToolkit_Core_Extensions_ValidationExtensions_ThrowIfNull__1___0_System_String_">ValidationExtensions.ThrowIfNull&lt;T&gt;(T, string)</a>
@@ -208,7 +255,7 @@ line.hangup();</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L37" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IScript.cs/#L41" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
