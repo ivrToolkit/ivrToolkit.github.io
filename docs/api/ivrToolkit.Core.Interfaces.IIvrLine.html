@@ -129,23 +129,23 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">IDisposable.Dispose()</a>
     </div>
     <div>
-      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_">IPromptShit.Prompt(string, PromptOptions)</a>
+      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptService.html#ivrToolkit_Core_Interfaces_IPromptService_Prompt_System_String_ivrToolkit_Core_Prompt_PromptOptions_">IPromptService.Prompt(string, PromptOptions)</a>
     </div>
     <div>
-      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_">IPromptShit.MultiTryPrompt(string, Func&lt;string, bool&gt;, MultiTryPromptOptions)</a>
+      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptService.html#ivrToolkit_Core_Interfaces_IPromptService_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Prompt_MultiTryPromptOptions_">IPromptService.MultiTryPrompt(string, Func&lt;string, bool&gt;, MultiTryPromptOptions)</a>
     </div>
     <div>
-      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_">IPromptShit.PromptAsync(string, CancellationToken, PromptOptions)</a>
+      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptService.html#ivrToolkit_Core_Interfaces_IPromptService_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Prompt_PromptOptions_">IPromptService.PromptAsync(string, CancellationToken, PromptOptions)</a>
     </div>
     <div>
-      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptShit.html#ivrToolkit_Core_Interfaces_IPromptShit_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_ivrToolkit_Core_Util_MultiTryPromptOptions_">IPromptShit.MultiTryPromptAsync(string, Func&lt;string, bool&gt;, CancellationToken, MultiTryPromptOptions)</a>
+      <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptService.html#ivrToolkit_Core_Interfaces_IPromptService_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_ivrToolkit_Core_Prompt_MultiTryPromptOptions_">IPromptService.MultiTryPromptAsync(string, Func&lt;string, bool&gt;, CancellationToken, MultiTryPromptOptions)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ivrToolkit.html">ivrToolkit</a>.<a class="xref" href="ivrToolkit.Core.html">Core</a>.<a class="xref" href="ivrToolkit.Core.Interfaces.html">Interfaces</a></h6>
   <h6><strong>Assembly</strong>: ivrToolkit.Core.dll</h6>
   <h5 id="ivrToolkit_Core_Interfaces_IIvrLine_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IIvrLine : IIvrBaseLine, IDisposable, IPromptShit</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IIvrLine : IIvrBaseLine, IDisposable, IPromptService</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
@@ -210,6 +210,12 @@
   </div>
   <div>
       <a class="xref" href="ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayDateAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_DateTime_System_String_System_Threading_CancellationToken_">LineExtensions.PlayDateAsync(IIvrLine, DateTime, string, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayFileOrPhrase_ivrToolkit_Core_Interfaces_IIvrLine_System_String_">LineExtensions.PlayFileOrPhrase(IIvrLine, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayFileOrPhraseAsync_ivrToolkit_Core_Interfaces_IIvrLine_System_String_System_Threading_CancellationToken_">LineExtensions.PlayFileOrPhraseAsync(IIvrLine, string, CancellationToken)</a>
   </div>
   <div>
       <a class="xref" href="ivrToolkit.Core.Extensions.LineExtensions.html#ivrToolkit_Core_Extensions_LineExtensions_PlayInteger_ivrToolkit_Core_Interfaces_IIvrLine_System_Int64_">LineExtensions.PlayInteger(IIvrLine, long)</a>

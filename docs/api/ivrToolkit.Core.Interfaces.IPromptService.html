@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IPromptService </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IPromptService ">
+    
+    <meta name="description" content="This interface defines the different prompt methods that are available through the line. A prompt is a file/message to play followed by asking for digits. A multiTryPrompt is one that will repeat x number of times until you get what you expect.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <img style="margin-top: 10px;" src="..\logo.jpg" alt="" width="32" height="32">            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+	
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ivrToolkit.Core.Interfaces.IPromptService">
+
+
+
+  <h1 id="ivrToolkit_Core_Interfaces_IPromptService" data-uid="ivrToolkit.Core.Interfaces.IPromptService" class="text-break">Interface IPromptService</h1>
+  <div class="markdown level0 summary"><p>This interface defines the different prompt methods that are available through the line.</p>
+<p>A prompt is a file/message to play followed by asking for digits.
+A multiTryPrompt is one that will repeat x number of times until you get what you expect.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ivrToolkit.html">ivrToolkit</a>.<a class="xref" href="ivrToolkit.Core.html">Core</a>.<a class="xref" href="ivrToolkit.Core.Interfaces.html">Interfaces</a></h6>
+  <h6><strong>Assembly</strong>: ivrToolkit.Core.dll</h6>
+  <h5 id="ivrToolkit_Core_Interfaces_IPromptService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IPromptService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptService_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Prompt_MultiTryPromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptService.MultiTryPrompt(System.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CivrToolkit.Core.Prompt.MultiTryPromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptService.cs/#L33">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptService_MultiTryPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.MultiTryPrompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptService_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Prompt_MultiTryPromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Prompt.MultiTryPromptOptions)">MultiTryPrompt(string, Func&lt;string, bool&gt;, MultiTryPromptOptions)</h4>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptService.html#ivrToolkit_Core_Interfaces_IPromptService_Prompt_System_String_ivrToolkit_Core_Prompt_PromptOptions_">Prompt(string, PromptOptions)</a> but repeats x number of time until evaluator is satisfied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string MultiTryPrompt(string fileOrPhrase, Func&lt;string, bool&gt; evaluator, MultiTryPromptOptions multiTryPromptOptions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">fileOrPhrase</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td><span class="parametername">evaluator</span></td>
+        <td><p>Pass in a function that will validate the answer. Return true if it is correct or
+false if incorrect.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Prompt.MultiTryPromptOptions.html">MultiTryPromptOptions</a></td>
+        <td><span class="parametername">multiTryPromptOptions</span></td>
+        <td><p>Defines prompt options to override the default ones. See <a class="xref" href="ivrToolkit.Core.Prompt.MultiTryPromptOptions.html">MultiTryPromptOptions</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The answer to the prompt</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptService_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_ivrToolkit_Core_Prompt_MultiTryPromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptService.MultiTryPromptAsync(System.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CSystem.Threading.CancellationToken%2CivrToolkit.Core.Prompt.MultiTryPromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptService.cs/#L56">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptService_MultiTryPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.MultiTryPromptAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptService_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_ivrToolkit_Core_Prompt_MultiTryPromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken,ivrToolkit.Core.Prompt.MultiTryPromptOptions)">MultiTryPromptAsync(string, Func&lt;string, bool&gt;, CancellationToken, MultiTryPromptOptions)</h4>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptService.html#ivrToolkit_Core_Interfaces_IPromptService_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Prompt_PromptOptions_">PromptAsync(string, CancellationToken, PromptOptions)</a> but repeats x number of time until evaluator is satisfied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; MultiTryPromptAsync(string fileOrPhrase, Func&lt;string, bool&gt; evaluator, CancellationToken cancellationToken, MultiTryPromptOptions multiTryPromptOptions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">fileOrPhrase</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td><span class="parametername">evaluator</span></td>
+        <td><p>Pass in a function that will validate the answer. Return true if it is correct or
+false if incorrect.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>Allows method to cancel itself gracefully</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Prompt.MultiTryPromptOptions.html">MultiTryPromptOptions</a></td>
+        <td><span class="parametername">multiTryPromptOptions</span></td>
+        <td><p>Defines prompt options to override the default ones.
+Leave as null to keep the default options. See <a class="xref" href="ivrToolkit.Core.Prompt.MultiTryPromptOptions.html">MultiTryPromptOptions</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><p>The answer to the prompt</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptService_Prompt_System_String_ivrToolkit_Core_Prompt_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptService.Prompt(System.String%2CivrToolkit.Core.Prompt.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptService.cs/#L23">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptService_Prompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.Prompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptService_Prompt_System_String_ivrToolkit_Core_Prompt_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.Prompt(System.String,ivrToolkit.Core.Prompt.PromptOptions)">Prompt(string, PromptOptions)</h4>
+  <div class="markdown level1 summary"><p>Speaks a file/phrase to a person on the call and then expexts digits to be pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Prompt(string fileOrPhrase, PromptOptions promptOptions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">fileOrPhrase</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Prompt.PromptOptions.html">PromptOptions</a></td>
+        <td><span class="parametername">promptOptions</span></td>
+        <td><p>Defines prompt options to override the default ones. See <a class="xref" href="ivrToolkit.Core.Prompt.PromptOptions.html">PromptOptions</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The answer to the prompt</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptService_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Prompt_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptService.PromptAsync(System.String%2CSystem.Threading.CancellationToken%2CivrToolkit.Core.Prompt.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptService.cs/#L43">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptService_PromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.PromptAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptService_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Prompt_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptService.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Prompt.PromptOptions)">PromptAsync(string, CancellationToken, PromptOptions)</h4>
+  <div class="markdown level1 summary"><p>A asynchronous version of <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptService.html#ivrToolkit_Core_Interfaces_IPromptService_Prompt_System_String_ivrToolkit_Core_Prompt_PromptOptions_">Prompt(string, PromptOptions)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; PromptAsync(string fileOrPhrase, CancellationToken cancellationToken, PromptOptions promptOptions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">fileOrPhrase</span></td>
+        <td><p>The name of the file or the phrase string to speak out</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>Allows method to cancel itself gracefully</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Prompt.PromptOptions.html">PromptOptions</a></td>
+        <td><span class="parametername">promptOptions</span></td>
+        <td><p>Defines prompt options to override the default ones.
+Leave as null to keep the default options. See <a class="xref" href="ivrToolkit.Core.Prompt.PromptOptions.html">PromptOptions</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><p>The answer to the prompt</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ivrToolkit.Core.Extensions.ValidationExtensions.html#ivrToolkit_Core_Extensions_ValidationExtensions_ThrowIfNull__1___0_System_String_">ValidationExtensions.ThrowIfNull&lt;T&gt;(T, string)</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptService.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
