@@ -3108,6 +3108,19 @@ references:
   fullName.vb: ivrToolkit.Core.Util.VoiceProperties.New
   nameWithType: VoiceProperties.VoiceProperties
   nameWithType.vb: VoiceProperties.New
+- uid: ivrToolkit.Core.Util.VoiceProperties.DigitsTimeoutInMilli
+  name: DigitsTimeoutInMilli
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_DigitsTimeoutInMilli
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.DigitsTimeoutInMilli
+  fullName: ivrToolkit.Core.Util.VoiceProperties.DigitsTimeoutInMilli
+  nameWithType: VoiceProperties.DigitsTimeoutInMilli
+- uid: ivrToolkit.Core.Util.VoiceProperties.DigitsTimeoutInMilli*
+  name: DigitsTimeoutInMilli
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_DigitsTimeoutInMilli_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.DigitsTimeoutInMilli
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.DigitsTimeoutInMilli
+  nameWithType: VoiceProperties.DigitsTimeoutInMilli
 - uid: ivrToolkit.Core.Util.VoiceProperties.Dispose
   name: Dispose()
   href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_Dispose
