@@ -1355,6 +1355,76 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrPlugin.VoiceProperties
   nameWithType: IIvrPlugin.VoiceProperties
+- uid: ivrToolkit.Core.Interfaces.ILineManager
+  name: ILineManager
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html
+  commentId: T:ivrToolkit.Core.Interfaces.ILineManager
+  fullName: ivrToolkit.Core.Interfaces.ILineManager
+  nameWithType: ILineManager
+- uid: ivrToolkit.Core.Interfaces.ILineManager.GetLine
+  name: GetLine()
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_GetLine
+  commentId: M:ivrToolkit.Core.Interfaces.ILineManager.GetLine
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.GetLine()
+  nameWithType: ILineManager.GetLine()
+- uid: ivrToolkit.Core.Interfaces.ILineManager.GetLine(System.Int32)
+  name: GetLine(int)
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_GetLine_System_Int32_
+  commentId: M:ivrToolkit.Core.Interfaces.ILineManager.GetLine(System.Int32)
+  name.vb: GetLine(Integer)
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.GetLine(int)
+  fullName.vb: ivrToolkit.Core.Interfaces.ILineManager.GetLine(Integer)
+  nameWithType: ILineManager.GetLine(int)
+  nameWithType.vb: ILineManager.GetLine(Integer)
+- uid: ivrToolkit.Core.Interfaces.ILineManager.GetLine*
+  name: GetLine
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_GetLine_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ILineManager.GetLine
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.GetLine
+  nameWithType: ILineManager.GetLine
+- uid: ivrToolkit.Core.Interfaces.ILineManager.ReleaseAll
+  name: ReleaseAll()
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_ReleaseAll
+  commentId: M:ivrToolkit.Core.Interfaces.ILineManager.ReleaseAll
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.ReleaseAll()
+  nameWithType: ILineManager.ReleaseAll()
+- uid: ivrToolkit.Core.Interfaces.ILineManager.ReleaseAll*
+  name: ReleaseAll
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_ReleaseAll_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ILineManager.ReleaseAll
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.ReleaseAll
+  nameWithType: ILineManager.ReleaseAll
+- uid: ivrToolkit.Core.Interfaces.ILineManager.ReleaseLine(System.Int32)
+  name: ReleaseLine(int)
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_ReleaseLine_System_Int32_
+  commentId: M:ivrToolkit.Core.Interfaces.ILineManager.ReleaseLine(System.Int32)
+  name.vb: ReleaseLine(Integer)
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.ReleaseLine(int)
+  fullName.vb: ivrToolkit.Core.Interfaces.ILineManager.ReleaseLine(Integer)
+  nameWithType: ILineManager.ReleaseLine(int)
+  nameWithType.vb: ILineManager.ReleaseLine(Integer)
+- uid: ivrToolkit.Core.Interfaces.ILineManager.ReleaseLine*
+  name: ReleaseLine
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_ReleaseLine_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ILineManager.ReleaseLine
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.ReleaseLine
+  nameWithType: ILineManager.ReleaseLine
+- uid: ivrToolkit.Core.Interfaces.ILineManager.VoiceProperties
+  name: VoiceProperties
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_VoiceProperties
+  commentId: P:ivrToolkit.Core.Interfaces.ILineManager.VoiceProperties
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.VoiceProperties
+  nameWithType: ILineManager.VoiceProperties
+- uid: ivrToolkit.Core.Interfaces.ILineManager.VoiceProperties*
+  name: VoiceProperties
+  href: api/ivrToolkit.Core.Interfaces.ILineManager.html#ivrToolkit_Core_Interfaces_ILineManager_VoiceProperties_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ILineManager.VoiceProperties
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ILineManager.VoiceProperties
+  nameWithType: ILineManager.VoiceProperties
 - uid: ivrToolkit.Core.Interfaces.IPromptService
   name: IPromptService
   href: api/ivrToolkit.Core.Interfaces.IPromptService.html
@@ -1483,6 +1553,77 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IScript.Line
   nameWithType: IScript.Line
+- uid: ivrToolkit.Core.Interfaces.IScriptManager
+  name: IScriptManager
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html
+  commentId: T:ivrToolkit.Core.Interfaces.IScriptManager
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager
+  nameWithType: IScriptManager
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.Execute
+  name: Execute()
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_Execute
+  commentId: M:ivrToolkit.Core.Interfaces.IScriptManager.Execute
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.Execute()
+  nameWithType: IScriptManager.Execute()
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.Execute*
+  name: Execute
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_Execute_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IScriptManager.Execute
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.Execute
+  nameWithType: IScriptManager.Execute
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_ExecuteAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IScriptManager.ExecuteAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType: IScriptManager.ExecuteAsync(CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_ExecuteAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IScriptManager.ExecuteAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteAsync
+  nameWithType: IScriptManager.ExecuteAsync
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteScriptAsync(System.Threading.CancellationToken)
+  name: ExecuteScriptAsync(CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_ExecuteScriptAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IScriptManager.ExecuteScriptAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteScriptAsync(System.Threading.CancellationToken)
+  nameWithType: IScriptManager.ExecuteScriptAsync(CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteScriptAsync*
+  name: ExecuteScriptAsync
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_ExecuteScriptAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IScriptManager.ExecuteScriptAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.ExecuteScriptAsync
+  nameWithType: IScriptManager.ExecuteScriptAsync
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.HasNext
+  name: HasNext()
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_HasNext
+  commentId: M:ivrToolkit.Core.Interfaces.IScriptManager.HasNext
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.HasNext()
+  nameWithType: IScriptManager.HasNext()
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.HasNext*
+  name: HasNext
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_HasNext_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IScriptManager.HasNext
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.HasNext
+  nameWithType: IScriptManager.HasNext
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.NextScript
+  name: NextScript
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_NextScript
+  commentId: P:ivrToolkit.Core.Interfaces.IScriptManager.NextScript
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.NextScript
+  nameWithType: IScriptManager.NextScript
+- uid: ivrToolkit.Core.Interfaces.IScriptManager.NextScript*
+  name: NextScript
+  href: api/ivrToolkit.Core.Interfaces.IScriptManager.html#ivrToolkit_Core_Interfaces_IScriptManager_NextScript_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IScriptManager.NextScript
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IScriptManager.NextScript
+  nameWithType: IScriptManager.NextScript
 - uid: ivrToolkit.Core.Legacy
   name: ivrToolkit.Core.Legacy
   href: api/ivrToolkit.Core.Legacy.html
@@ -2209,6 +2350,12 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.LineManager.Dispose
   nameWithType: LineManager.Dispose
+- uid: ivrToolkit.Core.LineManager.GetLine
+  name: GetLine()
+  href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_GetLine
+  commentId: M:ivrToolkit.Core.LineManager.GetLine
+  fullName: ivrToolkit.Core.LineManager.GetLine()
+  nameWithType: LineManager.GetLine()
 - uid: ivrToolkit.Core.LineManager.GetLine(System.Int32)
   name: GetLine(int)
   href: api/ivrToolkit.Core.LineManager.html#ivrToolkit_Core_LineManager_GetLine_System_Int32_
@@ -2542,6 +2689,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.ScriptManager.Execute
   nameWithType: ScriptManager.Execute
+- uid: ivrToolkit.Core.ScriptManager.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/ivrToolkit.Core.ScriptManager.html#ivrToolkit_Core_ScriptManager_ExecuteAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.ScriptManager.ExecuteAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.ScriptManager.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType: ScriptManager.ExecuteAsync(CancellationToken)
+- uid: ivrToolkit.Core.ScriptManager.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/ivrToolkit.Core.ScriptManager.html#ivrToolkit_Core_ScriptManager_ExecuteAsync_
+  commentId: Overload:ivrToolkit.Core.ScriptManager.ExecuteAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.ScriptManager.ExecuteAsync
+  nameWithType: ScriptManager.ExecuteAsync
 - uid: ivrToolkit.Core.ScriptManager.ExecuteScriptAsync(System.Threading.CancellationToken)
   name: ExecuteScriptAsync(CancellationToken)
   href: api/ivrToolkit.Core.ScriptManager.html#ivrToolkit_Core_ScriptManager_ExecuteScriptAsync_System_Threading_CancellationToken_

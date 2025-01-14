@@ -79,6 +79,7 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="ivrToolkit.Core.Interfaces.ILineManager.html">ILineManager</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
@@ -109,7 +110,7 @@
   <h6><strong>Assembly</strong>: ivrToolkit.Core.dll</h6>
   <h5 id="ivrToolkit_Core_LineManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LineManager : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class LineManager : ILineManager, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -118,7 +119,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_LineManager__ctor_Microsoft_Extensions_Logging_ILogger_ivrToolkit_Core_LineManager__ivrToolkit_Core_Interfaces_IIvrPlugin_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.LineManager.%23ctor(Microsoft.Extensions.Logging.ILogger%7BivrToolkit.Core.LineManager%7D%2CivrToolkit.Core.Interfaces.IIvrPlugin)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L27">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L25">View Source</a>
   </span>
   <a id="ivrToolkit_Core_LineManager__ctor_" data-uid="ivrToolkit.Core.LineManager.#ctor*"></a>
   <h4 id="ivrToolkit_Core_LineManager__ctor_Microsoft_Extensions_Logging_ILogger_ivrToolkit_Core_LineManager__ivrToolkit_Core_Interfaces_IIvrPlugin_" data-uid="ivrToolkit.Core.LineManager.#ctor(Microsoft.Extensions.Logging.ILogger{ivrToolkit.Core.LineManager},ivrToolkit.Core.Interfaces.IIvrPlugin)">LineManager(ILogger&lt;LineManager&gt;, IIvrPlugin)</h4>
@@ -157,7 +158,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_LineManager_VoiceProperties.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.LineManager.VoiceProperties%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L54">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L69">View Source</a>
   </span>
   <a id="ivrToolkit_Core_LineManager_VoiceProperties_" data-uid="ivrToolkit.Core.LineManager.VoiceProperties*"></a>
   <h4 id="ivrToolkit_Core_LineManager_VoiceProperties" data-uid="ivrToolkit.Core.LineManager.VoiceProperties">VoiceProperties</h4>
@@ -189,7 +190,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_LineManager_Dispose.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.LineManager.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L98">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L113">View Source</a>
   </span>
   <a id="ivrToolkit_Core_LineManager_Dispose_" data-uid="ivrToolkit.Core.LineManager.Dispose*"></a>
   <h4 id="ivrToolkit_Core_LineManager_Dispose" data-uid="ivrToolkit.Core.LineManager.Dispose">Dispose()</h4>
@@ -202,10 +203,43 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_LineManager_GetLine.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.LineManager.GetLine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L46">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_LineManager_GetLine_" data-uid="ivrToolkit.Core.LineManager.GetLine*"></a>
+  <h4 id="ivrToolkit_Core_LineManager_GetLine" data-uid="ivrToolkit.Core.LineManager.GetLine">GetLine()</h4>
+  <div class="markdown level1 summary"><p>Gets an available line. With SipSorcery, there is no need to specify a line number however,
+the line manager still uses them internally to manage themm.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IIvrLine GetLine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.IIvrLine.html">IIvrLine</a></td>
+        <td><p>A class that represents the phone line</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_LineManager_GetLine_System_Int32_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.LineManager.GetLine(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L41">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L33">View Source</a>
   </span>
   <a id="ivrToolkit_Core_LineManager_GetLine_" data-uid="ivrToolkit.Core.LineManager.GetLine*"></a>
   <h4 id="ivrToolkit_Core_LineManager_GetLine_System_Int32_" data-uid="ivrToolkit.Core.LineManager.GetLine(System.Int32)">GetLine(int)</h4>
@@ -255,7 +289,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_LineManager_ReleaseAll.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.LineManager.ReleaseAll%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L85">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L100">View Source</a>
   </span>
   <a id="ivrToolkit_Core_LineManager_ReleaseAll_" data-uid="ivrToolkit.Core.LineManager.ReleaseAll*"></a>
   <h4 id="ivrToolkit_Core_LineManager_ReleaseAll" data-uid="ivrToolkit.Core.LineManager.ReleaseAll">ReleaseAll()</h4>
@@ -271,7 +305,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_LineManager_ReleaseLine_System_Int32_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.LineManager.ReleaseLine(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L60">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L75">View Source</a>
   </span>
   <a id="ivrToolkit_Core_LineManager_ReleaseLine_" data-uid="ivrToolkit.Core.LineManager.ReleaseLine*"></a>
   <h4 id="ivrToolkit_Core_LineManager_ReleaseLine_System_Int32_" data-uid="ivrToolkit.Core.LineManager.ReleaseLine(System.Int32)">ReleaseLine(int)</h4>
@@ -302,6 +336,9 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
+      <a class="xref" href="ivrToolkit.Core.Interfaces.ILineManager.html">ILineManager</a>
+  </div>
+  <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
@@ -317,7 +354,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L19" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/LineManager.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

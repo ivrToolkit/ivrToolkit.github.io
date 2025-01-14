@@ -224,6 +224,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.ILineManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.ILineManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Interfaces.IPromptService.yml",
       "output": {
         ".html": {
@@ -238,6 +248,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.Interfaces.IScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.IScriptManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.IScriptManager.html"
         }
       },
       "version": ""
