@@ -54,35 +54,35 @@ var line = lineManager.GetLine();
 
 try
 {
-  // make a call out
-  var callAnalysis = await line.DialAsync(phoneNumber, 3500, cancellationToken);
-  if (callAnalysis == CallAnalysis.Connected)
-  {
-    // play a wav file
-    await line.PlayFileAsync($"{WAV_FILE_LOCATION}/ThankYou.wav", cancellationToken);
+    // make a call out
+    var callAnalysis = await line.DialAsync(phoneNumber, 3500, cancellationToken);
+    if (callAnalysis == CallAnalysis.Connected)
+    {
+        // play a wav file
+        await line.PlayFileAsync($"{WAV_FILE_LOCATION}/ThankYou.wav", cancellationToken);
   
-    // play a wav file and wait for digits to be pressed
-    var result = await line.PromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken);
+        // play a wav file and wait for digits to be pressed
+        var result = await line.PromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken);
   
-    // play another wav file
-    await line.PlayFileAsync($"{WAV_FILE_LOCATION}/YouPressed.wav", cancellationToken);
+        // play another wav file
+        await line.PlayFileAsync($"{WAV_FILE_LOCATION}/YouPressed.wav", cancellationToken);
 
-    // speak out each digit of the result
-    await line.PlayCharactersAsync(result, cancellationToken);
+        // speak out each digit of the result
+        await line.PlayCharactersAsync(result, cancellationToken);
   
-    // say Correct or Incorrect
-    await line.PlayFileAsync(result == "1234" ? $"{WAV_FILE_LOCATION}/Correct.wav" : @"Voice Files\Incorrect.wav", cancellationToken);
+        // say Correct or Incorrect
+        await line.PlayFileAsync(result == "1234" ? $"{WAV_FILE_LOCATION}/Correct.wav" : @"Voice Files\Incorrect.wav", cancellationToken);
 
-    // Say goodbye
-    await line.PlayFileAsync($"{WAV_FILE_LOCATION}/goodbye.wav", cancellationToken);
+        // Say goodbye
+        await line.PlayFileAsync($"{WAV_FILE_LOCATION}/goodbye.wav", cancellationToken);
 
-    // finally hang up
-    line.Hangup();
-  }
+        // finally hang up
+        line.Hangup();
+    }
 }
 catch (HangupException)
 {
-  _logger.LogDebug("The person that was called hung up");
+    _logger.LogDebug("The person that was called hung up");
 }
 
 Console.Write("Press any key to continue...: ");

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: ScriptBlocks
+title: Anatomy
 ---
 <script type="text/javascript">
         var intro = $("#anatomy");
@@ -20,39 +20,134 @@ title: ScriptBlocks
     <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
     <nav id="TableOfContents">
         <ul>
-            <li><a href="#pluginManager">Plugin Manager</a></li>
-            <li><a href="#scriptBlocks">Script Blocks</a></li>
-            <li><a href="#scriptFlow">Script flow</a></li>
+            <li><a href="#loadingConfiguration">Loading Configuration</a></li>
+            <li><a href="#choseYourPlugin">Choose your Plugin</a></li>
+            <li><a href="#lineManager">Line Manager</a></li>
             <li><a href="#getLine">Geting a Line</a></li>
+            <li><a href="#scriptManager">Script Manager</a></li>
+            <li><a href="#scriptBlocks">Script Blocks</a></li>
         </ul>
     </nav>
 </div>
 
 <div class="bd-content ps-lg-4">
 
-
-
-    <h2 id="pluginManager">Plugin Manager<a class="anchorjs-link " aria-label="Anchor"
-        data-anchorjs-icon="#" href="#pluginManager" style="padding-left: 0.375em;"></a></h2>
+    <h2 id="loadingConfiguration">Loading Configuration<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#loadingConfiguration" style="padding-left: 0.375em;"></a></h2>
         <p>
-            The Plugin Manager manages your collection of phone lines for the selected plugin.
+            There are two ways to load your configuration defaults. Either from a properties file
+            or setting it up manually.
         </p>    
     
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
         data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-<pre><code class="language-csharp">// set up your configuration
+<pre><code class="language-csharp">// set up your configuration from a file
 var sipVoiceProperties = new SipVoiceProperties(_loggerFactory, @"c:\somewhere\voice.properties");
 
-// create an instance of the plugin you want to use. In this case I chose SipSorcery
-var sipPlugin = new SipSorceryPlugin(_loggerFactory, sipVoiceProperties);
-
-// instantiate your plugin manager
-var pluginManager = new PluginManager(_loggerFactory, sipPlugin);
+// or you can manually set it up. There are defaults so you don't need to override all of them
+var sipVoiceProperties = new SipVoiceProperties(_loggerFactory)
+{
+    PromptAttempts = 99,
+    PromptBlankAttempts = 5,
+    DigitsTimeoutInMilli = 5000,
+    SipProxyIp = proxyIp,
+    SipAlias = user,
+    SipPassword = password
+};
 </code></pre>
     </div>
 
 
+
+
+
+
+
+
+    <h2 id="choseYourPlugin">Choose your Plugin<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#choseYourPlugin" style="padding-left: 0.375em;"></a></h2>
+        <p>
+            Pick the plugin you want to use. Here we are using the SipSorcery plugin.
+        </p>    
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+<pre><code class="language-csharp">// instantiate the plugin you want to use
+using var sipPlugin = new SipSorceryPlugin(_loggerFactory, sipVoiceProperties);
+</code></pre>
+    </div>
+
+
+
+
+
+    <h2 id="lineManager">Line Manager<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#lineManager" style="padding-left: 0.375em;"></a></h2>
+        <p>
+            The Line Manager manages your collection of phone lines for the selected plugin.
+        </p>    
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+<pre><code class="language-csharp">// create a line manager
+using var lineManager = new LineManager(loggerFactory, sipVoiceProperties, sipPlugin);
+</code></pre>
+    </div>
+
+
+
+
+
+
+    <h2 id="getLine">Getting a Line<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#getLine" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        The line manager is responsible for keeping track of the lines.
+    </p>
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+
+    <div class="highlight">
+<pre><code class="language-csharp">var line = lineManager.GetLine();
+</code></pre>
+    </div>
+
+
+
+    <h2 id="scriptManager">ScriptManager<a class="anchorjs-link " aria-label="Anchor"
+        data-anchorjs-icon="#" href="#scriptManager" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        The ScriptManager class defines the flow of your call. The script manager is not
+        a requirement but is recommended for complex flow control.
+    </p>
+    <p>
+        Instantiate the ScriptManager and pass in the first script you want to execute.
+        Uuse the ExecuteScryptAsync method to start the call flow. It is the responsibility
+        of each script block to decide what the next script block should be or null meaning
+        the the call flow is done.  
+    </p>
+    
+    
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+<pre><code class="language-csharp">// Instantiate your beginning script
+var startScript = new WelcomeScript(_loggerFactory, _voiceProperties, _line);
+
+// instantiate the script manager, passing in the script you want to start with
+var scriptManager = new ScriptManager(_loggerFactory, startScript);
+
+// Execute the scripts. Each script block controls the next script block to execute
+await scriptManager.ExecuteScriptAsync(cancellationToken)
+
+_logger.LogDebug("scripts are done so hanging up.");
+line.Hangup();
+</code></pre>
+    </div>
 
 
 
@@ -73,7 +168,7 @@ var pluginManager = new PluginManager(_loggerFactory, sipPlugin);
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
         data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-<pre><code class="language-csharp">public class TestScript : AbstractScript
+<pre><code class="language-csharp">public class TestScript : BasetScript
 {
     private readonly ILoggerFactory _loggerFactory;
     private readonly VoiceProperties _voiceProperties;
@@ -94,9 +189,9 @@ var pluginManager = new PluginManager(_loggerFactory, sipPlugin);
 
     public override string Description => "Main Script";
 
-    public override IScript Execute()
+    public override ascnc Task<IScript> ExecuteAsync()
     {
-        _logger.LogDebug("Execute()");
+        _logger.LogDebug("ExecuteAsync()");
 
         // do work here
 
@@ -115,58 +210,11 @@ var pluginManager = new PluginManager(_loggerFactory, sipPlugin);
 
 
 
-    <h2 id="scriptFlow">Script Flow<a class="anchorjs-link " aria-label="Anchor"
-        data-anchorjs-icon="#" href="#scriptFlow" style="padding-left: 0.375em;"></a></h2>
-    <p>
-        The ScriptManager class defines the flow of your call.
-    </p>
-    <p>
-        Instantiate the ScriptManager and pass in the first script you want to execute.
-        The instantiation of the ScriptManager will queue up the first script.
-        The while loop will execute the next script block and it is the responsibility
-        of each script block to return the next script block to execute or null to exit
-        the while loop.    
-    </p>
-    
-    
-    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
-        data-bs-original-title="Copy to clipboard">Copy</button></div>
-    <div class="highlight">
-<pre><code class="language-csharp">var startScript = new WelcomeScript(_loggerFactory, _voiceProperties, _line);
-var manager = new ScriptManager(_loggerFactory, startScript);
-
-while (manager.HasNext())
-{
-    // execute the next script
-    manager.Execute();
-}
-
-_logger.LogDebug("scripts are done so hanging up.");
-_line.Hangup();
-</code></pre>
-    </div>
     
 
 
 
 
-    <h2 id="getLine">Getting a Line<a class="anchorjs-link " aria-label="Anchor"
-        data-anchorjs-icon="#" href="#getLine" style="padding-left: 0.375em;"></a></h2>
-    <p>
-        paragraph one
-    </p>
-    <p>
-		paragraph two
-    </p>
-    
-    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
-        data-bs-original-title="Copy to clipboard">Copy</button></div>
-
-    <div class="highlight">
-<pre><code class="language-csharp">    var lineNumber = 1;
-    var line = pluginManager.GetLine(lineNumber);
-</code></pre>
-    </div>
 
 
 
