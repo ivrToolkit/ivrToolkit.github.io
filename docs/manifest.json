@@ -4,10 +4,10 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.AbstractScript.yml",
+      "source_relative_path": "api/ivrToolkit.Core.BaseScript.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ivrToolkit.Core.AbstractScript.html"
+          "relative_path": "api/ivrToolkit.Core.BaseScript.html"
         }
       },
       "version": ""
@@ -154,16 +154,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Extensions.LineExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Extensions.LineExtensions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Extensions.ValidationExtensions.yml",
       "output": {
         ".html": {
@@ -234,10 +224,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Interfaces.IPromptService.yml",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.IPlayMethods.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ivrToolkit.Core.Interfaces.IPromptService.html"
+          "relative_path": "api/ivrToolkit.Core.Interfaces.IPlayMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.IPromptMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.IPromptMethods.html"
         }
       },
       "version": ""
@@ -394,16 +394,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Prompt.PromptService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Prompt.PromptService.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Prompt.yml",
       "output": {
         ".html": {
@@ -418,16 +408,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.ScriptManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Util.LineWrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Util.LineWrapper.html"
         }
       },
       "version": ""
