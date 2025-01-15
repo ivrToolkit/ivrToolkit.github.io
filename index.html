@@ -8,11 +8,10 @@ title: Home
     });
 </script>
 
-
-<div class="p-5 mb-4 rounded-3" style="background-color: #e9ecef;">
+<div class="p-2 mb-2 rounded-5" style="background-color: #dfdfdf;">
     <div class="container-fluid py-3">
-      <h1 class="col-md-9 display-5 fw-bold">Build telephony apps with .Net using ivrToolkit</h1>
-      <p class="col-md-8 fs-4">
+      <h1 class="col-md-12 display-5 fw-bold">Build telephony apps with .Net using ivrToolkit</h1>
+      <p class="col-md-12 fs-4">
         Design .Net Core apps using <a class="link-secondary" href="https://www.nuget.org/packages/ivrToolkit.Core/">ivrToolkit.Core</a> and a set of plugins of your choice.
         There are currently three plugins for you to choose from. They are <a class="link-secondary" href="https://www.nuget.org/packages/ivrToolkit.Plugin.Dialogic.Sip/">ivrtoolkit.Plugin.Dialogic.Sip</a>,
           <a class="link-secondary" href="https://www.nuget.org/packages/ivrToolkit.Plugin.Dialogic.Analog/">ivrToolkit.Plugin.Dialogic.Analog</a>
@@ -27,3 +26,66 @@ title: Home
         </div>
   </div>
 
+  <h2>Example<a class="anchorjs-link " style="padding-left: 0.375em;"></a></h2>
+    <p>
+        This example uses the SipSorcery Plugin.
+    </p>    
+
+<div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+    data-bs-original-title="Copy to clipboard">Copy</button></div>
+<div class="highlight">
+
+<pre><code class="language-csharp">// set up your properties
+var sipVoiceProperties = new SipVoiceProperties(loggerFactory)
+{
+  SipProxyIp = proxyIp,
+  SipAlias = user,
+  SipPassword = password
+};
+  
+// instantiate the plugin you want to use
+using var sipPlugin = new SipSorceryPlugin(loggerFactory, sipVoiceProperties);
+
+// create a line manager
+using var lineManager = new LineManager(loggerFactory, sipVoiceProperties, sipPlugin);
+
+// grab a line
+var line = lineManager.GetLine();
+
+try
+{
+  // make a call out
+  var callAnalysis = await line.DialAsync(phoneNumber, 3500, cancellationToken);
+  if (callAnalysis == CallAnalysis.Connected)
+  {
+    // play a wav file
+    await line.PlayFileAsync($"{WAV_FILE_LOCATION}/ThankYou.wav", cancellationToken);
+  
+    // play a wav file and wait for digits to be pressed
+    var result = await line.PromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken);
+  
+    // play another wav file
+    await line.PlayFileAsync($"{WAV_FILE_LOCATION}/YouPressed.wav", cancellationToken);
+
+    // speak out each digit of the result
+    await line.PlayCharactersAsync(result, cancellationToken);
+  
+    // say Correct or Incorrect
+    await line.PlayFileAsync(result == "1234" ? $"{WAV_FILE_LOCATION}/Correct.wav" : @"Voice Files\Incorrect.wav", cancellationToken);
+
+    // Say goodbye
+    await line.PlayFileAsync($"{WAV_FILE_LOCATION}/goodbye.wav", cancellationToken);
+
+    // finally hang up
+    line.Hangup();
+  }
+}
+catch (HangupException)
+{
+  _logger.LogDebug("The person that was called hung up");
+}
+
+Console.Write("Press any key to continue...: ");
+Console.ReadKey();  
+</code></pre>
+</div>

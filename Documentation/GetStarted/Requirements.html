@@ -100,28 +100,9 @@ title: Requirements
                     SR 6.0 for Windows</a></li>
         </ul>
     </ul>
-
-
-
     <h3 id="wav">Wav Files<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#wav"
             style="padding-left: 0.375em;"></a></h3>
-    <p>Ugh, SipSorcery doesn't support 32-bit float encoding (aka PCM unsigned). I don't know why I 
-        ever decided to use that format for a wav file. Anyways, The SipSorcery plugin, converts the wav files to a 16-bit PCM stream to get around the problem.
-        Later, I plan on changing this so that all wav files need to be 16-bit PCM.
-    </p>
-    <p>Wav files currently <strong>need</strong> to be recorded in <strong>8000hz, mono, 32 bit float</strong>. I've used <a
-            href="https://www.audacityteam.org/">Audacity</a> in the past to make these recordings.
-        I do plan on changing this in the future to support the default windows wav format. I may also support vox files
-        at that point too.</p>
-
-
-        <h3 id="compiling">Compiling<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#compiling"
-            style="padding-left: 0.375em;"></a></h3>
-    <p>
-        The ivrToolkit nuget packages have been compiled specifically with <strong>x86</strong>. This is to work with the Dialogic 32 bit drivers. It is important
-        that your .net 5 project be set to compile with <strong>x86</strong> as well. Apparently the HMP 3.0 driver is also 64 bit but I currently don't support it.
-    </p>
-    <p>Now that I also support Sipcorcery, I will relax that in the near future</p>
+    <p>Wav files need to be recorded in <strong>8000hz, mono, 16 bit PCM</strong>. </p>
 
         <h3 id="licensing">Licensing Dialogic HMP<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#licensing"
             style="padding-left: 0.375em;"></a></h3>
