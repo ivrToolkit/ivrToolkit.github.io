@@ -1,0 +1,199 @@
+---
+layout: docs
+title: Prpmpt Methods
+---
+<script type="text/javascript">
+    var intro = $("#promptMethods");
+    intro.addClass("active");
+    var parentDiv = intro.closest("div");
+    parentDiv.addClass("show")
+</script>
+
+<div class="bd-intro ps-lg-4">
+    <h1 class="bd-title" id="content">Prompt Methods</h1>
+    <p>
+        A prompt method speaks out a message and then waits for digits to be pressed.
+    </p>
+    <p>There are also <a href="#multiTryPrompt">multi-try prompts</a> which is the same as a regular prompt, only
+        it will repeat over and over until its either exhausted the attempts or the
+        response is accepted. It gives people on the other end of the call a few attempts
+        to enter data before giving up.
+    </p>
+</div>
+
+<div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+    <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
+    <nav id="TableOfContents">
+        <ul>
+            <li><a href="#prompt">Prompt with a wav file</a></li>
+            <li><a href="#promptWithPhrase">Prompt with a phrase</a></li>
+            <li><a href="#promptWithoverride">Prompt with overrides</a></li>
+            <li><a href="#singleDigitPrompt">Single digit prompt</a></li>
+            <li><a href="#multiTryPrompt">Multi try prompts</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="bd-content ps-lg-4">
+
+
+
+
+
+
+    <h2 id="prompt">Prompt<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+        href="#a" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        This is the simplest of the options. It speaks out a wav file and then waits for input.
+        There is a 5 second timeout. The user can enter up to 30 digits including the terminator
+        key which is the # key. Each time a digit is pressed, the 5 second timer starts over again.
+    </p>
+    <p>
+        Parameter 1 excpects a wav file name or a phrase (aka a sentence). A sentence
+        is expected if the parameter has a | in it. In that case the string needs to be
+        in the "code|characters,..." format.
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// play a wav file and wait for digits to be pressed
+var result = await line.PromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken);</code></pre>
+</div>
+
+
+
+
+
+
+<h2 id="promptWithPhrase">Prompt with a phrase<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+    href="#a" style="padding-left: 0.375em;"></a></h2>
+
+    <p>
+        Here is an example of speaking out a phrase.
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// Speak out "A B C" and wait for digits to be pressed
+var result = await line.PromptAsync($"C|abc", cancellationToken);</code></pre>
+    </div>
+
+
+
+
+
+
+
+
+
+<h2 id="promptWithoverride">Prompt with overrides<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+    href="#a" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        An example of overriding some of the prompt options.
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// play a wav file and wait for digits to be pressed
+var result = await line.PromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken,
+new PromptOptions
+{
+    Terminators = "#",
+    MaxLength = 30
+});
+</code></pre>
+    </div>
+
+
+    <h2 id="singleDigitPrompt">Single digit prompt<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+        href="#a" style="padding-left: 0.375em;"></a></h2>
+        <p>
+        A single digit prompt. For example "For option A press 1, for option B press 2."
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// play a wav file and wait for digits to be pressed
+var result = await line.PromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken,
+new PromptOptions { MaxLength = 1 });
+</code></pre>
+    </div>
+
+
+
+
+
+    <h2 id="multiTryPrompt">Multi-try prompts<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+        href="#a" style="padding-left: 0.375em;"></a></h2>
+    <p>
+        Multi-try prompts are just like regular prompts only the give the user multiple
+        tries to enter data correctly.
+    </p>
+    <p>
+        There is is more setup to do. You will need the following set up:
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>Something</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Evaulator</td>
+                    <td>This is a method that you pass in to validate what the user entered.
+                        Return true if it is valid.
+                    </td>
+                </tr>
+                <tr>
+                    <td>InvalidAnswerMessage</td>
+                    <td>(Optional) A message to speak if the evaluator returns false. You cloud
+                        also leave this empty and speak what you want in the evaluator method.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        Here are the defaults:
+        <ul>
+            <li>99 attempts - prompt can have 99 fails.</li>
+            <li>5 attempts - only 5 fails in a row can happen when blank</li>
+            <li>Will throw TooManyAttempts if the max attempts are hit.</li>
+        </ul>
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// option 1 - let the evaluator speak the invalid message
+var result = await line.MultiTryPromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav",
+    (answer) =>
+    {
+        if (answer == "1234") return true;
+        await line.PlayFileAsync("invalidAnswer.wav", cancellationToken);
+        return false;
+    },
+    cancellationToken);</code></pre>
+    </div>
+
+
+
+
+
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+        data-bs-original-title="Copy to clipboard">Copy</button></div>
+<div class="highlight">
+<pre><code class="language-csharp">// option 2 - override the multi-try options to set up the invalid message.
+var result = await line.MultiTryPromptAsync($"{WAV_FILE_LOCATION}/Press1234.wav",
+(answer) => answer == "1234",
+new MultiTryPromptOptions{ InvalidAnswerMessage = "invalidAnswer.wav"}, cancellationToken);</code></pre>
+</div>
+
+
+
+
+</div>
