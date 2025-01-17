@@ -1447,15 +1447,24 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt
   nameWithType: IPromptMethods.MultiTryPrompt
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken,ivrToolkit.Core.Prompt.MultiTryPromptOptions)
-  name: MultiTryPromptAsync(string, Func<string, bool>, CancellationToken, MultiTryPromptOptions)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_ivrToolkit_Core_Prompt_MultiTryPromptOptions_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken,ivrToolkit.Core.Prompt.MultiTryPromptOptions)
-  name.vb: MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken, MultiTryPromptOptions)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(string, System.Func<string, bool>, System.Threading.CancellationToken, ivrToolkit.Core.Prompt.MultiTryPromptOptions)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, System.Func(Of String, Boolean), System.Threading.CancellationToken, ivrToolkit.Core.Prompt.MultiTryPromptOptions)
-  nameWithType: IPromptMethods.MultiTryPromptAsync(string, Func<string, bool>, CancellationToken, MultiTryPromptOptions)
-  nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken, MultiTryPromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)
+  name: MultiTryPromptAsync(string, Func<string, bool>, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)
+  name.vb: MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(string, System.Func<string, bool>, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, System.Func(Of String, Boolean), System.Threading.CancellationToken)
+  nameWithType: IPromptMethods.MultiTryPromptAsync(string, Func<string, bool>, CancellationToken)
+  nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Prompt.MultiTryPromptOptions,System.Threading.CancellationToken)
+  name: MultiTryPromptAsync(string, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Prompt_MultiTryPromptOptions_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Prompt.MultiTryPromptOptions,System.Threading.CancellationToken)
+  name.vb: MultiTryPromptAsync(String, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(string, System.Func<string, bool>, ivrToolkit.Core.Prompt.MultiTryPromptOptions, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, System.Func(Of String, Boolean), ivrToolkit.Core.Prompt.MultiTryPromptOptions, System.Threading.CancellationToken)
+  nameWithType: IPromptMethods.MultiTryPromptAsync(string, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
+  nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync*
   name: MultiTryPromptAsync
   href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_
