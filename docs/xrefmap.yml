@@ -358,15 +358,6 @@ references:
   fullName.vb: ivrToolkit.Core.Exceptions.DisposedException.New()
   nameWithType: DisposedException.DisposedException()
   nameWithType.vb: DisposedException.New()
-- uid: ivrToolkit.Core.Exceptions.DisposedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: DisposedException(SerializationInfo, StreamingContext)
-  href: api/ivrToolkit.Core.Exceptions.DisposedException.html#ivrToolkit_Core_Exceptions_DisposedException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:ivrToolkit.Core.Exceptions.DisposedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name.vb: New(SerializationInfo, StreamingContext)
-  fullName: ivrToolkit.Core.Exceptions.DisposedException.DisposedException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  fullName.vb: ivrToolkit.Core.Exceptions.DisposedException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: DisposedException.DisposedException(SerializationInfo, StreamingContext)
-  nameWithType.vb: DisposedException.New(SerializationInfo, StreamingContext)
 - uid: ivrToolkit.Core.Exceptions.DisposedException.#ctor(System.String)
   name: DisposedException(string)
   href: api/ivrToolkit.Core.Exceptions.DisposedException.html#ivrToolkit_Core_Exceptions_DisposedException__ctor_System_String_
@@ -625,15 +616,6 @@ references:
   fullName.vb: ivrToolkit.Core.Exceptions.VoiceException.New()
   nameWithType: VoiceException.VoiceException()
   nameWithType.vb: VoiceException.New()
-- uid: ivrToolkit.Core.Exceptions.VoiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: VoiceException(SerializationInfo, StreamingContext)
-  href: api/ivrToolkit.Core.Exceptions.VoiceException.html#ivrToolkit_Core_Exceptions_VoiceException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:ivrToolkit.Core.Exceptions.VoiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name.vb: New(SerializationInfo, StreamingContext)
-  fullName: ivrToolkit.Core.Exceptions.VoiceException.VoiceException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  fullName.vb: ivrToolkit.Core.Exceptions.VoiceException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: VoiceException.VoiceException(SerializationInfo, StreamingContext)
-  nameWithType.vb: VoiceException.New(SerializationInfo, StreamingContext)
 - uid: ivrToolkit.Core.Exceptions.VoiceException.#ctor(System.String)
   name: VoiceException(string)
   href: api/ivrToolkit.Core.Exceptions.VoiceException.html#ivrToolkit_Core_Exceptions_VoiceException__ctor_System_String_
@@ -1431,13 +1413,13 @@ references:
   commentId: T:ivrToolkit.Core.Interfaces.IPromptMethods
   fullName: ivrToolkit.Core.Interfaces.IPromptMethods
   nameWithType: IPromptMethods
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Prompt.MultiTryPromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
   name: MultiTryPrompt(string, Func<string, bool>, MultiTryPromptOptions)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Prompt_MultiTryPromptOptions_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Prompt.MultiTryPromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
   name.vb: MultiTryPrompt(String, Func(Of String, Boolean), MultiTryPromptOptions)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(string, System.Func<string, bool>, ivrToolkit.Core.Prompt.MultiTryPromptOptions)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(String, System.Func(Of String, Boolean), ivrToolkit.Core.Prompt.MultiTryPromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(string, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions)
   nameWithType: IPromptMethods.MultiTryPrompt(string, Func<string, bool>, MultiTryPromptOptions)
   nameWithType.vb: IPromptMethods.MultiTryPrompt(String, Func(Of String, Boolean), MultiTryPromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt*
@@ -1456,13 +1438,13 @@ references:
   fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, System.Func(Of String, Boolean), System.Threading.CancellationToken)
   nameWithType: IPromptMethods.MultiTryPromptAsync(string, Func<string, bool>, CancellationToken)
   nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, Func(Of String, Boolean), CancellationToken)
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Prompt.MultiTryPromptOptions,System.Threading.CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)
   name: MultiTryPromptAsync(string, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Prompt_MultiTryPromptOptions_System_Threading_CancellationToken_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Prompt.MultiTryPromptOptions,System.Threading.CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)
   name.vb: MultiTryPromptAsync(String, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(string, System.Func<string, bool>, ivrToolkit.Core.Prompt.MultiTryPromptOptions, System.Threading.CancellationToken)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, System.Func(Of String, Boolean), ivrToolkit.Core.Prompt.MultiTryPromptOptions, System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(string, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions, System.Threading.CancellationToken)
   nameWithType: IPromptMethods.MultiTryPromptAsync(string, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
   nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync*
@@ -1472,13 +1454,13 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync
   nameWithType: IPromptMethods.MultiTryPromptAsync
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,ivrToolkit.Core.Prompt.PromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)
   name: Prompt(string, PromptOptions)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Prompt_PromptOptions_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,ivrToolkit.Core.Prompt.PromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)
   name.vb: Prompt(String, PromptOptions)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(string, ivrToolkit.Core.Prompt.PromptOptions)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(String, ivrToolkit.Core.Prompt.PromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(string, ivrToolkit.Core.Util.PromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(String, ivrToolkit.Core.Util.PromptOptions)
   nameWithType: IPromptMethods.Prompt(string, PromptOptions)
   nameWithType.vb: IPromptMethods.Prompt(String, PromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt*
@@ -1488,13 +1470,13 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt
   nameWithType: IPromptMethods.Prompt
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Prompt.PromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
   name: PromptAsync(string, CancellationToken, PromptOptions)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Prompt_PromptOptions_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Prompt.PromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
   name.vb: PromptAsync(String, CancellationToken, PromptOptions)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(string, System.Threading.CancellationToken, ivrToolkit.Core.Prompt.PromptOptions)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(String, System.Threading.CancellationToken, ivrToolkit.Core.Prompt.PromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(string, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(String, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
   nameWithType: IPromptMethods.PromptAsync(string, CancellationToken, PromptOptions)
   nameWithType.vb: IPromptMethods.PromptAsync(String, CancellationToken, PromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync*
@@ -2423,154 +2405,6 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.LineManager.VoiceProperties
   nameWithType: LineManager.VoiceProperties
-- uid: ivrToolkit.Core.Prompt
-  name: ivrToolkit.Core.Prompt
-  href: api/ivrToolkit.Core.Prompt.html
-  commentId: N:ivrToolkit.Core.Prompt
-  fullName: ivrToolkit.Core.Prompt
-  nameWithType: ivrToolkit.Core.Prompt
-- uid: ivrToolkit.Core.Prompt.MultiTryPromptOptions
-  name: MultiTryPromptOptions
-  href: api/ivrToolkit.Core.Prompt.MultiTryPromptOptions.html
-  commentId: T:ivrToolkit.Core.Prompt.MultiTryPromptOptions
-  fullName: ivrToolkit.Core.Prompt.MultiTryPromptOptions
-  nameWithType: MultiTryPromptOptions
-- uid: ivrToolkit.Core.Prompt.MultiTryPromptOptions.BlankMaxAttempts
-  name: BlankMaxAttempts
-  href: api/ivrToolkit.Core.Prompt.MultiTryPromptOptions.html#ivrToolkit_Core_Prompt_MultiTryPromptOptions_BlankMaxAttempts
-  commentId: P:ivrToolkit.Core.Prompt.MultiTryPromptOptions.BlankMaxAttempts
-  fullName: ivrToolkit.Core.Prompt.MultiTryPromptOptions.BlankMaxAttempts
-  nameWithType: MultiTryPromptOptions.BlankMaxAttempts
-- uid: ivrToolkit.Core.Prompt.MultiTryPromptOptions.BlankMaxAttempts*
-  name: BlankMaxAttempts
-  href: api/ivrToolkit.Core.Prompt.MultiTryPromptOptions.html#ivrToolkit_Core_Prompt_MultiTryPromptOptions_BlankMaxAttempts_
-  commentId: Overload:ivrToolkit.Core.Prompt.MultiTryPromptOptions.BlankMaxAttempts
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.MultiTryPromptOptions.BlankMaxAttempts
-  nameWithType: MultiTryPromptOptions.BlankMaxAttempts
-- uid: ivrToolkit.Core.Prompt.MultiTryPromptOptions.MaxAttempts
-  name: MaxAttempts
-  href: api/ivrToolkit.Core.Prompt.MultiTryPromptOptions.html#ivrToolkit_Core_Prompt_MultiTryPromptOptions_MaxAttempts
-  commentId: P:ivrToolkit.Core.Prompt.MultiTryPromptOptions.MaxAttempts
-  fullName: ivrToolkit.Core.Prompt.MultiTryPromptOptions.MaxAttempts
-  nameWithType: MultiTryPromptOptions.MaxAttempts
-- uid: ivrToolkit.Core.Prompt.MultiTryPromptOptions.MaxAttempts*
-  name: MaxAttempts
-  href: api/ivrToolkit.Core.Prompt.MultiTryPromptOptions.html#ivrToolkit_Core_Prompt_MultiTryPromptOptions_MaxAttempts_
-  commentId: Overload:ivrToolkit.Core.Prompt.MultiTryPromptOptions.MaxAttempts
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.MultiTryPromptOptions.MaxAttempts
-  nameWithType: MultiTryPromptOptions.MaxAttempts
-- uid: ivrToolkit.Core.Prompt.PromptOptions
-  name: PromptOptions
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html
-  commentId: T:ivrToolkit.Core.Prompt.PromptOptions
-  fullName: ivrToolkit.Core.Prompt.PromptOptions
-  nameWithType: PromptOptions
-- uid: ivrToolkit.Core.Prompt.PromptOptions.AllowEmpty
-  name: AllowEmpty
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_AllowEmpty
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.AllowEmpty
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.AllowEmpty
-  nameWithType: PromptOptions.AllowEmpty
-- uid: ivrToolkit.Core.Prompt.PromptOptions.AllowEmpty*
-  name: AllowEmpty
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_AllowEmpty_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.AllowEmpty
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.AllowEmpty
-  nameWithType: PromptOptions.AllowEmpty
-- uid: ivrToolkit.Core.Prompt.PromptOptions.AllowedDigits
-  name: AllowedDigits
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_AllowedDigits
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.AllowedDigits
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.AllowedDigits
-  nameWithType: PromptOptions.AllowedDigits
-- uid: ivrToolkit.Core.Prompt.PromptOptions.AllowedDigits*
-  name: AllowedDigits
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_AllowedDigits_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.AllowedDigits
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.AllowedDigits
-  nameWithType: PromptOptions.AllowedDigits
-- uid: ivrToolkit.Core.Prompt.PromptOptions.CatchTooManyAttempts
-  name: CatchTooManyAttempts
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_CatchTooManyAttempts
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.CatchTooManyAttempts
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.CatchTooManyAttempts
-  nameWithType: PromptOptions.CatchTooManyAttempts
-- uid: ivrToolkit.Core.Prompt.PromptOptions.CatchTooManyAttempts*
-  name: CatchTooManyAttempts
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_CatchTooManyAttempts_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.CatchTooManyAttempts
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.CatchTooManyAttempts
-  nameWithType: PromptOptions.CatchTooManyAttempts
-- uid: ivrToolkit.Core.Prompt.PromptOptions.InvalidAnswerMessage
-  name: InvalidAnswerMessage
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_InvalidAnswerMessage
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.InvalidAnswerMessage
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.InvalidAnswerMessage
-  nameWithType: PromptOptions.InvalidAnswerMessage
-- uid: ivrToolkit.Core.Prompt.PromptOptions.InvalidAnswerMessage*
-  name: InvalidAnswerMessage
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_InvalidAnswerMessage_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.InvalidAnswerMessage
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.InvalidAnswerMessage
-  nameWithType: PromptOptions.InvalidAnswerMessage
-- uid: ivrToolkit.Core.Prompt.PromptOptions.MaxLength
-  name: MaxLength
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_MaxLength
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.MaxLength
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.MaxLength
-  nameWithType: PromptOptions.MaxLength
-- uid: ivrToolkit.Core.Prompt.PromptOptions.MaxLength*
-  name: MaxLength
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_MaxLength_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.MaxLength
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.MaxLength
-  nameWithType: PromptOptions.MaxLength
-- uid: ivrToolkit.Core.Prompt.PromptOptions.OnSpecialTerminator
-  name: OnSpecialTerminator
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_OnSpecialTerminator
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.OnSpecialTerminator
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.OnSpecialTerminator
-  nameWithType: PromptOptions.OnSpecialTerminator
-- uid: ivrToolkit.Core.Prompt.PromptOptions.OnSpecialTerminator*
-  name: OnSpecialTerminator
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_OnSpecialTerminator_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.OnSpecialTerminator
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.OnSpecialTerminator
-  nameWithType: PromptOptions.OnSpecialTerminator
-- uid: ivrToolkit.Core.Prompt.PromptOptions.SpecialTerminator
-  name: SpecialTerminator
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_SpecialTerminator
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.SpecialTerminator
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.SpecialTerminator
-  nameWithType: PromptOptions.SpecialTerminator
-- uid: ivrToolkit.Core.Prompt.PromptOptions.SpecialTerminator*
-  name: SpecialTerminator
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_SpecialTerminator_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.SpecialTerminator
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.SpecialTerminator
-  nameWithType: PromptOptions.SpecialTerminator
-- uid: ivrToolkit.Core.Prompt.PromptOptions.Terminators
-  name: Terminators
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_Terminators
-  commentId: P:ivrToolkit.Core.Prompt.PromptOptions.Terminators
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.Terminators
-  nameWithType: PromptOptions.Terminators
-- uid: ivrToolkit.Core.Prompt.PromptOptions.Terminators*
-  name: Terminators
-  href: api/ivrToolkit.Core.Prompt.PromptOptions.html#ivrToolkit_Core_Prompt_PromptOptions_Terminators_
-  commentId: Overload:ivrToolkit.Core.Prompt.PromptOptions.Terminators
-  isSpec: "True"
-  fullName: ivrToolkit.Core.Prompt.PromptOptions.Terminators
-  nameWithType: PromptOptions.Terminators
 - uid: ivrToolkit.Core.ScriptManager
   name: ScriptManager
   href: api/ivrToolkit.Core.ScriptManager.html
@@ -2667,6 +2501,148 @@ references:
   commentId: N:ivrToolkit.Core.Util
   fullName: ivrToolkit.Core.Util
   nameWithType: ivrToolkit.Core.Util
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions
+  name: MultiTryPromptOptions
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html
+  commentId: T:ivrToolkit.Core.Util.MultiTryPromptOptions
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions
+  nameWithType: MultiTryPromptOptions
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxAttempts
+  name: BlankMaxAttempts
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_BlankMaxAttempts
+  commentId: P:ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxAttempts
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxAttempts
+  nameWithType: MultiTryPromptOptions.BlankMaxAttempts
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxAttempts*
+  name: BlankMaxAttempts
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_BlankMaxAttempts_
+  commentId: Overload:ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxAttempts
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.BlankMaxAttempts
+  nameWithType: MultiTryPromptOptions.BlankMaxAttempts
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxAttempts
+  name: MaxAttempts
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_MaxAttempts
+  commentId: P:ivrToolkit.Core.Util.MultiTryPromptOptions.MaxAttempts
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxAttempts
+  nameWithType: MultiTryPromptOptions.MaxAttempts
+- uid: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxAttempts*
+  name: MaxAttempts
+  href: api/ivrToolkit.Core.Util.MultiTryPromptOptions.html#ivrToolkit_Core_Util_MultiTryPromptOptions_MaxAttempts_
+  commentId: Overload:ivrToolkit.Core.Util.MultiTryPromptOptions.MaxAttempts
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.MultiTryPromptOptions.MaxAttempts
+  nameWithType: MultiTryPromptOptions.MaxAttempts
+- uid: ivrToolkit.Core.Util.PromptOptions
+  name: PromptOptions
+  href: api/ivrToolkit.Core.Util.PromptOptions.html
+  commentId: T:ivrToolkit.Core.Util.PromptOptions
+  fullName: ivrToolkit.Core.Util.PromptOptions
+  nameWithType: PromptOptions
+- uid: ivrToolkit.Core.Util.PromptOptions.AllowEmpty
+  name: AllowEmpty
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_AllowEmpty
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.AllowEmpty
+  fullName: ivrToolkit.Core.Util.PromptOptions.AllowEmpty
+  nameWithType: PromptOptions.AllowEmpty
+- uid: ivrToolkit.Core.Util.PromptOptions.AllowEmpty*
+  name: AllowEmpty
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_AllowEmpty_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.AllowEmpty
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.AllowEmpty
+  nameWithType: PromptOptions.AllowEmpty
+- uid: ivrToolkit.Core.Util.PromptOptions.AllowedDigits
+  name: AllowedDigits
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_AllowedDigits
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.AllowedDigits
+  fullName: ivrToolkit.Core.Util.PromptOptions.AllowedDigits
+  nameWithType: PromptOptions.AllowedDigits
+- uid: ivrToolkit.Core.Util.PromptOptions.AllowedDigits*
+  name: AllowedDigits
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_AllowedDigits_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.AllowedDigits
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.AllowedDigits
+  nameWithType: PromptOptions.AllowedDigits
+- uid: ivrToolkit.Core.Util.PromptOptions.CatchTooManyAttempts
+  name: CatchTooManyAttempts
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_CatchTooManyAttempts
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.CatchTooManyAttempts
+  fullName: ivrToolkit.Core.Util.PromptOptions.CatchTooManyAttempts
+  nameWithType: PromptOptions.CatchTooManyAttempts
+- uid: ivrToolkit.Core.Util.PromptOptions.CatchTooManyAttempts*
+  name: CatchTooManyAttempts
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_CatchTooManyAttempts_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.CatchTooManyAttempts
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.CatchTooManyAttempts
+  nameWithType: PromptOptions.CatchTooManyAttempts
+- uid: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerMessage
+  name: InvalidAnswerMessage
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_InvalidAnswerMessage
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.InvalidAnswerMessage
+  fullName: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerMessage
+  nameWithType: PromptOptions.InvalidAnswerMessage
+- uid: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerMessage*
+  name: InvalidAnswerMessage
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_InvalidAnswerMessage_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.InvalidAnswerMessage
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerMessage
+  nameWithType: PromptOptions.InvalidAnswerMessage
+- uid: ivrToolkit.Core.Util.PromptOptions.MaxLength
+  name: MaxLength
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_MaxLength
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.MaxLength
+  fullName: ivrToolkit.Core.Util.PromptOptions.MaxLength
+  nameWithType: PromptOptions.MaxLength
+- uid: ivrToolkit.Core.Util.PromptOptions.MaxLength*
+  name: MaxLength
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_MaxLength_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.MaxLength
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.MaxLength
+  nameWithType: PromptOptions.MaxLength
+- uid: ivrToolkit.Core.Util.PromptOptions.OnSpecialTerminator
+  name: OnSpecialTerminator
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_OnSpecialTerminator
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.OnSpecialTerminator
+  fullName: ivrToolkit.Core.Util.PromptOptions.OnSpecialTerminator
+  nameWithType: PromptOptions.OnSpecialTerminator
+- uid: ivrToolkit.Core.Util.PromptOptions.OnSpecialTerminator*
+  name: OnSpecialTerminator
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_OnSpecialTerminator_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.OnSpecialTerminator
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.OnSpecialTerminator
+  nameWithType: PromptOptions.OnSpecialTerminator
+- uid: ivrToolkit.Core.Util.PromptOptions.SpecialTerminator
+  name: SpecialTerminator
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_SpecialTerminator
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.SpecialTerminator
+  fullName: ivrToolkit.Core.Util.PromptOptions.SpecialTerminator
+  nameWithType: PromptOptions.SpecialTerminator
+- uid: ivrToolkit.Core.Util.PromptOptions.SpecialTerminator*
+  name: SpecialTerminator
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_SpecialTerminator_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.SpecialTerminator
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.SpecialTerminator
+  nameWithType: PromptOptions.SpecialTerminator
+- uid: ivrToolkit.Core.Util.PromptOptions.Terminators
+  name: Terminators
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_Terminators
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.Terminators
+  fullName: ivrToolkit.Core.Util.PromptOptions.Terminators
+  nameWithType: PromptOptions.Terminators
+- uid: ivrToolkit.Core.Util.PromptOptions.Terminators*
+  name: Terminators
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_Terminators_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.Terminators
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.Terminators
+  nameWithType: PromptOptions.Terminators
 - uid: ivrToolkit.Core.Util.Properties
   name: Properties
   href: api/ivrToolkit.Core.Util.Properties.html

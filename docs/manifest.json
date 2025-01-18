@@ -374,40 +374,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Prompt.MultiTryPromptOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Prompt.MultiTryPromptOptions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Prompt.PromptOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Prompt.PromptOptions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ivrToolkit.Core.Prompt.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ivrToolkit.Core.Prompt.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.ScriptManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.ScriptManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Util.MultiTryPromptOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Util.MultiTryPromptOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Util.PromptOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Util.PromptOptions.html"
         }
       },
       "version": ""
