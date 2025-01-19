@@ -918,6 +918,31 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile
   nameWithType: IIvrBaseLine.RecordToFile
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  name: RecordToFileAsync(string, int, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  name.vb: RecordToFileAsync(String, Integer, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(string, int, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(String, Integer, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.RecordToFileAsync(string, int, CancellationToken)
+  nameWithType.vb: IIvrBaseLine.RecordToFileAsync(String, Integer, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String,System.Threading.CancellationToken)
+  name: RecordToFileAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String,System.Threading.CancellationToken)
+  name.vb: RecordToFileAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(String, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.RecordToFileAsync(string, CancellationToken)
+  nameWithType.vb: IIvrBaseLine.RecordToFileAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync*
+  name: RecordToFileAsync
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync
+  nameWithType: IIvrBaseLine.RecordToFileAsync
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.Reset
   name: Reset()
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_Reset
