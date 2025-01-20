@@ -777,15 +777,15 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.FlushDigitBuffer
   nameWithType: IIvrBaseLine.FlushDigitBuffer
-- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(System.Int32,System.String)
-  name: GetDigits(int, string)
-  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigits_System_Int32_System_String_
-  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(System.Int32,System.String)
-  name.vb: GetDigits(Integer, String)
-  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(int, string)
-  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(Integer, String)
-  nameWithType: IIvrBaseLine.GetDigits(int, string)
-  nameWithType.vb: IIvrBaseLine.GetDigits(Integer, String)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(System.Int32,System.String,System.Int32)
+  name: GetDigits(int, string, int)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigits_System_Int32_System_String_System_Int32_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(System.Int32,System.String,System.Int32)
+  name.vb: GetDigits(Integer, String, Integer)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(int, string, int)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(Integer, String, Integer)
+  nameWithType: IIvrBaseLine.GetDigits(int, string, int)
+  nameWithType.vb: IIvrBaseLine.GetDigits(Integer, String, Integer)
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits*
   name: GetDigits
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigits_
@@ -793,15 +793,15 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits
   nameWithType: IIvrBaseLine.GetDigits
-- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken)
-  name: GetDigitsAsync(int, string, CancellationToken)
-  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_System_Int32_System_String_System_Threading_CancellationToken_
-  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken)
-  name.vb: GetDigitsAsync(Integer, String, CancellationToken)
-  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(int, string, System.Threading.CancellationToken)
-  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(Integer, String, System.Threading.CancellationToken)
-  nameWithType: IIvrBaseLine.GetDigitsAsync(int, string, CancellationToken)
-  nameWithType.vb: IIvrBaseLine.GetDigitsAsync(Integer, String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken,System.Int32)
+  name: GetDigitsAsync(int, string, CancellationToken, int)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_System_Int32_System_String_System_Threading_CancellationToken_System_Int32_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken,System.Int32)
+  name.vb: GetDigitsAsync(Integer, String, CancellationToken, Integer)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(int, string, System.Threading.CancellationToken, int)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(Integer, String, System.Threading.CancellationToken, Integer)
+  nameWithType: IIvrBaseLine.GetDigitsAsync(int, string, CancellationToken, int)
+  nameWithType.vb: IIvrBaseLine.GetDigitsAsync(Integer, String, CancellationToken, Integer)
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync*
   name: GetDigitsAsync
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_
