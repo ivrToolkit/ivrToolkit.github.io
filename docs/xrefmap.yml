@@ -1448,6 +1448,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumber
   nameWithType: IPlayMethods.PlayPhoneNumber
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumberAsync(System.String,System.Threading.CancellationToken)
+  name: PlayPhoneNumberAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayPhoneNumberAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumberAsync(System.String,System.Threading.CancellationToken)
+  name.vb: PlayPhoneNumberAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumberAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumberAsync(String, System.Threading.CancellationToken)
+  nameWithType: IPlayMethods.PlayPhoneNumberAsync(string, CancellationToken)
+  nameWithType.vb: IPlayMethods.PlayPhoneNumberAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumberAsync*
+  name: PlayPhoneNumberAsync
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayPhoneNumberAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumberAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayPhoneNumberAsync
+  nameWithType: IPlayMethods.PlayPhoneNumberAsync
 - uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayString(System.String)
   name: PlayString(string)
   href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayString_System_String_
