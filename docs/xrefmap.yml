@@ -956,6 +956,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.Reset
   nameWithType: IIvrBaseLine.Reset
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener(System.Func{ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken,System.Threading.Tasks.Task},ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken)
+  name: StartIncomingListener(Func<IIvrLine, CancellationToken, Task>, IIvrLine, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_StartIncomingListener_System_Func_ivrToolkit_Core_Interfaces_IIvrLine_System_Threading_CancellationToken_System_Threading_Tasks_Task__ivrToolkit_Core_Interfaces_IIvrLine_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener(System.Func{ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken,System.Threading.Tasks.Task},ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken)
+  name.vb: StartIncomingListener(Func(Of IIvrLine, CancellationToken, Task), IIvrLine, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener(System.Func<ivrToolkit.Core.Interfaces.IIvrLine, System.Threading.CancellationToken, System.Threading.Tasks.Task>, ivrToolkit.Core.Interfaces.IIvrLine, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener(System.Func(Of ivrToolkit.Core.Interfaces.IIvrLine, System.Threading.CancellationToken, System.Threading.Tasks.Task), ivrToolkit.Core.Interfaces.IIvrLine, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.StartIncomingListener(Func<IIvrLine, CancellationToken, Task>, IIvrLine, CancellationToken)
+  nameWithType.vb: IIvrBaseLine.StartIncomingListener(Func(Of IIvrLine, CancellationToken, Task), IIvrLine, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener*
+  name: StartIncomingListener
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_StartIncomingListener_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener
+  nameWithType: IIvrBaseLine.StartIncomingListener
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.TakeOffHook
   name: TakeOffHook()
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_TakeOffHook
@@ -998,6 +1014,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRings
   nameWithType: IIvrBaseLine.WaitRings
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync(System.Int32,System.Threading.CancellationToken)
+  name: WaitRingsAsync(int, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRingsAsync_System_Int32_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync(System.Int32,System.Threading.CancellationToken)
+  name.vb: WaitRingsAsync(Integer, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync(int, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync(Integer, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.WaitRingsAsync(int, CancellationToken)
+  nameWithType.vb: IIvrBaseLine.WaitRingsAsync(Integer, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync*
+  name: WaitRingsAsync
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRingsAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync
+  nameWithType: IIvrBaseLine.WaitRingsAsync
 - uid: ivrToolkit.Core.Interfaces.IIvrLine
   name: IIvrLine
   href: api/ivrToolkit.Core.Interfaces.IIvrLine.html
@@ -1017,6 +1049,22 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrLine.CheckDispose
   nameWithType: IIvrLine.CheckDispose
+- uid: ivrToolkit.Core.Interfaces.IIvrLine.StartIncomingListener(System.Func{ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  name: StartIncomingListener(Func<IIvrLine, CancellationToken, Task>, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrLine.html#ivrToolkit_Core_Interfaces_IIvrLine_StartIncomingListener_System_Func_ivrToolkit_Core_Interfaces_IIvrLine_System_Threading_CancellationToken_System_Threading_Tasks_Task__System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrLine.StartIncomingListener(System.Func{ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  name.vb: StartIncomingListener(Func(Of IIvrLine, CancellationToken, Task), CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrLine.StartIncomingListener(System.Func<ivrToolkit.Core.Interfaces.IIvrLine, System.Threading.CancellationToken, System.Threading.Tasks.Task>, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IIvrLine.StartIncomingListener(System.Func(Of ivrToolkit.Core.Interfaces.IIvrLine, System.Threading.CancellationToken, System.Threading.Tasks.Task), System.Threading.CancellationToken)
+  nameWithType: IIvrLine.StartIncomingListener(Func<IIvrLine, CancellationToken, Task>, CancellationToken)
+  nameWithType.vb: IIvrLine.StartIncomingListener(Func(Of IIvrLine, CancellationToken, Task), CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrLine.StartIncomingListener*
+  name: StartIncomingListener
+  href: api/ivrToolkit.Core.Interfaces.IIvrLine.html#ivrToolkit_Core_Interfaces_IIvrLine_StartIncomingListener_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrLine.StartIncomingListener
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrLine.StartIncomingListener
+  nameWithType: IIvrLine.StartIncomingListener
 - uid: ivrToolkit.Core.Interfaces.IIvrLine.Status
   name: Status
   href: api/ivrToolkit.Core.Interfaces.IIvrLine.html#ivrToolkit_Core_Interfaces_IIvrLine_Status
