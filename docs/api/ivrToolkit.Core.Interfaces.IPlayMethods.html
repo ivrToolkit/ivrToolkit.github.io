@@ -212,7 +212,7 @@
   <div class="markdown level1 remarks"><p>Mask parts can be separated by the following characters: <code>:</code>, <code> </code>, or <code>-</code>.<br><b>&quot;m&quot; &quot;mm&quot;, or &quot;mmm&quot;</b>  - Speaks the month. Example: December<br><b>&quot;d&quot; or &quot;dd&quot;</b>     - Speaks the day of the month. Example: 3rd<br><b>&quot;ddd&quot; or &quot;dddd&quot;</b> - Speaks the day of the week. Example: Saturday<br><b>&quot;yyy&quot; or &quot;yyyy&quot;</b> - Speaks the year. Speak years 2010 to 2099 with the word &quot;thousand&quot;.<br><b>&quot;h&quot; or &quot;hh&quot;</b>     - Speaks the hours. If your mask contains <code>a/p</code>, it is 12-hour time; otherwise, it is 24-hour time.<br><b>&quot;n&quot; or &quot;nn&quot;</b>     - Speaks the minutes.<br><b>&quot;a/p&quot;</b>           - Speaks either &quot;am&quot; or &quot;pm&quot;.<br></p>
 </div>
   <h5 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayDate_System_DateTime_System_String__examples">Examples</h5>
-  <pre><code class="lang-csharp">PlayDate(myDateTime,"m-d-yyy h:m a/p");</code></pre>
+  <pre><code class="lang-csharp">PlayDate(myDateTime,"m-d-yyy h:n a/p");</code></pre>
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
