@@ -1,0 +1,224 @@
+---
+layout: docs
+title: Text To Speech
+---
+<script type="text/javascript">
+    var intro = $("#textToSpeech");
+    intro.addClass("active");
+    var parentDiv = intro.closest("div");
+    parentDiv.addClass("show")
+</script>
+
+<div class="bd-intro ps-lg-4">
+    <h1 class="bd-title" id="content">Text-To-Speech</h1>
+    <p>
+        Along with playing wav files, you can also use text-to-speech. There is currently
+        one implementation for Azure Speech but others can be added if required.
+
+    </p>
+</div>
+
+<div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+    <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
+    <nav id="TableOfContents">
+        <ul>
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#playTextToSpeech">PlayTextToSpeech</a></li>
+            <li><a href="#prompt">Prompt</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="bd-content ps-lg-4">
+
+
+
+
+
+
+    <h2 id="setup">Setup<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+        href="#a" style="padding-left: 0.375em;"></a></h2>
+
+
+    <p>
+        Modify your voice.properties and add your Azure Speech properties:
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp"># Azure Text-To-Speech
+tts.azure.subscriptionKey=PutYourSubscriptionKeyHere
+tts.azure.region=PutYourRegionHere</code></pre>
+    </div>
+    
+    <p>
+        Alternatively you can do add Azure Speech properties this way:
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">var sipVoiceProperties = new SipVoiceProperties(loggerFactory)
+{
+    TtsAzureSubscriptionKey = "",
+    TtsAzureRegion = ""
+};</code></pre>
+    </div>
+
+    <p>
+        Next you need to instantiate your text-to-speech factory and inect it into the LineManager.
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// set up azure TTS
+var ttsFactory = new AzureTtsFactory(loggerFactory, sipVoiceProperties);
+
+// Inject the tts factory into the line manager
+using var lineManager = new LineManager(loggerFactory, sipVoiceProperties, sipPlugin, ttsFactory);</code></pre>
+    </div>
+
+
+
+
+
+    <h2 id="playTextToSpeech">PlayTextToSpeech<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+        href="#a" style="padding-left: 0.375em;"></a></h2>
+
+
+    <p>
+        This method will play the message as a wav stream.
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">var message = "Hello world.";
+await line.PlayTextToSpeechAsync(message, cancellationToken);</code></pre>
+    </div>
+
+    <p>
+        When a fileName is specified, the TTS will not happen if the file exists. Instead,
+        the wav file will be played. If the file does not exist, TTS will happen and the file
+        will be written out before being played.
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">var message = "Hello world.";
+await line.PlayTextToSpeechAsync(message, "hello.wav", cancellationToken);</code></pre>
+    </div>
+
+    <p>
+        The message also supports Azure Speech Synthesis Markup Language (SSML).
+        Common interpret-as values:
+
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>cardinal</td>
+                    <td>Reads numbers as cardinal numbers (e.g., 123 → "one hundred twenty-three").</td>
+                </tr>
+                <tr>
+                    <td>ordinal</td>
+                    <td>Reads numbers as ordinal numbers (e.g., 1st → "first").</td>
+                </tr>
+                <tr>
+                    <td>characters</td>
+                    <td>Reads each character separately (e.g., ABC → "A B C").</td>
+                </tr>
+                <tr>
+                    <td>spell-out</td>
+                    <td>Spells out the word letter by letter.</td>
+                </tr>
+                <tr>
+                    <td>date</td>
+                    <td>Reads text as a date (formats: YYYY/MM/DD, MM-DD-YYYY, etc.).</td>
+                </tr>
+                <tr>
+                    <td>time</td>
+                    <td>Reads text as a time (e.g., 14:30 → "two thirty PM").</td>
+                </tr>
+                <tr>
+                    <td>telephone</td>
+                    <td>Reads a phone number properly.</td>
+                </tr>
+                <tr>
+                    <td>address</td>
+                    <td>Reads an address naturally.</td>
+                </tr>
+                <tr>
+                    <td>digits</td>
+                    <td>Reads numbers as individual digits (e.g., 123 → "one two three").</td>
+                </tr>
+                <tr>
+                    <td>fraction</td>
+                    <td>Reads fractions properly (e.g., ½ → "one-half").</td>
+                </tr>
+                <tr>
+                    <td>unit</td>
+                    <td>Reads units of measurement (e.g., 10kg → "ten kilograms").</td>
+                </tr>
+                <tr>
+                    <td>expletive</td>
+                    <td>Censors explicit words (e.g., "damn" → "d*"**). </td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">var message = "Thank you for using the &lt;say-as interpret-as='characters'>IVR&lt;/say-as> Toolkit.";
+await line.PlayTextToSpeechAsync(message, cancellationToken);</code></pre>
+    </div>
+
+
+
+
+
+    <h2 id="prompt">Prompt<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+        href="#a" style="padding-left: 0.375em;"></a></h2>
+
+
+    <p>
+        To use Text-To-Speech with Prompt or MultiTryPromp, you use one of the method
+        overloads where the first two parameters are textToSpeech and fileName. Specify null
+        for the fileName if you don't want to save or play the message as a wav file.
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// play tts and wait for digits to be pressed
+message = "For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.";
+var result = await line.PromptAsync(message,$"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken);</code></pre>
+    </div>
+
+
+    <p>
+        This method will always do TTS because the fileName parameter is null;
+    </p>
+
+    <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
+            data-bs-original-title="Copy to clipboard">Copy</button></div>
+    <div class="highlight">
+    <pre><code class="language-csharp">// play tts and wait for digits to be pressed
+message = "For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.";
+var result = await line.PromptAsync(message, null, cancellationToken);</code></pre>
+    </div>
+
+
+
+
+</div>
