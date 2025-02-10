@@ -53,7 +53,7 @@ tts.azure.region=PutYourRegionHere</code></pre>
     </div>
     
     <p>
-        Alternatively you can do add Azure Speech properties this way:
+        Alternatively, you can also add Azure Speech properties this way:
     </p>
 
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
@@ -192,7 +192,7 @@ await line.PlayTextToSpeechAsync(message, cancellationToken);</code></pre>
 
 
     <p>
-        To use Text-To-Speech with Prompt or MultiTryPromp, you use one of the method
+        To use Text-To-Speech with Prompt or MultiTryPrompt, you use one of the method
         overloads where the first two parameters are textToSpeech and fileName. Specify null
         for the fileName if you don't want to save or play the message as a wav file.
     </p>
@@ -207,7 +207,7 @@ var result = await line.PromptAsync(message,$"{WAV_FILE_LOCATION}/Press1234.wav"
 
 
     <p>
-        This method will always do TTS because the fileName parameter is null;
+        This method will always do TTS because the fileName parameter is null:
     </p>
 
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
