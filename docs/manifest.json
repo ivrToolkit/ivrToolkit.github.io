@@ -264,6 +264,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeech.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeech.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Interfaces.yml",
       "output": {
         ".html": {
@@ -384,6 +404,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.TTS.AzureTTS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.TTS.AzureTTS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.TTS.AzureTtsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.TTS.AzureTtsFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.TTS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.TTS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Util.MultiTryPromptOptions.yml",
       "output": {
         ".html": {
@@ -418,6 +468,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.Util.VoiceProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Util.WavConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Util.WavConverter.html"
         }
       },
       "version": ""
