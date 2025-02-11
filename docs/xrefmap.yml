@@ -2765,15 +2765,15 @@ references:
   commentId: T:ivrToolkit.Core.TTS.AzureTTS
   fullName: ivrToolkit.Core.TTS.AzureTTS
   nameWithType: AzureTTS
-- uid: ivrToolkit.Core.TTS.AzureTTS.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
-  name: AzureTTS(ILoggerFactory, SpeechSynthesizer)
-  href: api/ivrToolkit.Core.TTS.AzureTTS.html#ivrToolkit_Core_TTS_AzureTTS__ctor_Microsoft_Extensions_Logging_ILoggerFactory_Microsoft_CognitiveServices_Speech_SpeechSynthesizer_
-  commentId: M:ivrToolkit.Core.TTS.AzureTTS.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
-  name.vb: New(ILoggerFactory, SpeechSynthesizer)
-  fullName: ivrToolkit.Core.TTS.AzureTTS.AzureTTS(Microsoft.Extensions.Logging.ILoggerFactory, Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
-  fullName.vb: ivrToolkit.Core.TTS.AzureTTS.New(Microsoft.Extensions.Logging.ILoggerFactory, Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
-  nameWithType: AzureTTS.AzureTTS(ILoggerFactory, SpeechSynthesizer)
-  nameWithType.vb: AzureTTS.New(ILoggerFactory, SpeechSynthesizer)
+- uid: ivrToolkit.Core.TTS.AzureTTS.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.String,Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
+  name: AzureTTS(ILoggerFactory, string, SpeechSynthesizer)
+  href: api/ivrToolkit.Core.TTS.AzureTTS.html#ivrToolkit_Core_TTS_AzureTTS__ctor_Microsoft_Extensions_Logging_ILoggerFactory_System_String_Microsoft_CognitiveServices_Speech_SpeechSynthesizer_
+  commentId: M:ivrToolkit.Core.TTS.AzureTTS.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.String,Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
+  name.vb: New(ILoggerFactory, String, SpeechSynthesizer)
+  fullName: ivrToolkit.Core.TTS.AzureTTS.AzureTTS(Microsoft.Extensions.Logging.ILoggerFactory, string, Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
+  fullName.vb: ivrToolkit.Core.TTS.AzureTTS.New(Microsoft.Extensions.Logging.ILoggerFactory, String, Microsoft.CognitiveServices.Speech.SpeechSynthesizer)
+  nameWithType: AzureTTS.AzureTTS(ILoggerFactory, string, SpeechSynthesizer)
+  nameWithType.vb: AzureTTS.New(ILoggerFactory, String, SpeechSynthesizer)
 - uid: ivrToolkit.Core.TTS.AzureTTS.#ctor*
   name: AzureTTS
   href: api/ivrToolkit.Core.TTS.AzureTTS.html#ivrToolkit_Core_TTS_AzureTTS__ctor_
@@ -3201,6 +3201,19 @@ references:
   fullName.vb: ivrToolkit.Core.Util.VoiceProperties.New
   nameWithType: VoiceProperties.VoiceProperties
   nameWithType.vb: VoiceProperties.New
+- uid: ivrToolkit.Core.Util.VoiceProperties.DefaultWavSampleRate
+  name: DefaultWavSampleRate
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_DefaultWavSampleRate
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.DefaultWavSampleRate
+  fullName: ivrToolkit.Core.Util.VoiceProperties.DefaultWavSampleRate
+  nameWithType: VoiceProperties.DefaultWavSampleRate
+- uid: ivrToolkit.Core.Util.VoiceProperties.DefaultWavSampleRate*
+  name: DefaultWavSampleRate
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_DefaultWavSampleRate_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.DefaultWavSampleRate
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.DefaultWavSampleRate
+  nameWithType: VoiceProperties.DefaultWavSampleRate
 - uid: ivrToolkit.Core.Util.VoiceProperties.DigitsTimeoutInMilli
   name: DigitsTimeoutInMilli
   href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_DigitsTimeoutInMilli
@@ -3279,6 +3292,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.VoiceProperties.TtsAzureSubscriptionKey
   nameWithType: VoiceProperties.TtsAzureSubscriptionKey
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsAzureVoice
+  name: TtsAzureVoice
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsAzureVoice
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.TtsAzureVoice
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsAzureVoice
+  nameWithType: VoiceProperties.TtsAzureVoice
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsAzureVoice*
+  name: TtsAzureVoice
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsAzureVoice_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.TtsAzureVoice
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsAzureVoice
+  nameWithType: VoiceProperties.TtsAzureVoice
 - uid: ivrToolkit.Core.Util.WavConverter
   name: WavConverter
   href: api/ivrToolkit.Core.Util.WavConverter.html
