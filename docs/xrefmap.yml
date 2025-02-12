@@ -3266,6 +3266,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.VoiceProperties.PromptBlankAttempts
   nameWithType: VoiceProperties.PromptBlankAttempts
+- uid: ivrToolkit.Core.Util.VoiceProperties.SystemRecordingSubfolder
+  name: SystemRecordingSubfolder
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_SystemRecordingSubfolder
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.SystemRecordingSubfolder
+  fullName: ivrToolkit.Core.Util.VoiceProperties.SystemRecordingSubfolder
+  nameWithType: VoiceProperties.SystemRecordingSubfolder
+- uid: ivrToolkit.Core.Util.VoiceProperties.SystemRecordingSubfolder*
+  name: SystemRecordingSubfolder
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_SystemRecordingSubfolder_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.SystemRecordingSubfolder
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.SystemRecordingSubfolder
+  nameWithType: VoiceProperties.SystemRecordingSubfolder
 - uid: ivrToolkit.Core.Util.VoiceProperties.TtsAzureRegion
   name: TtsAzureRegion
   href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsAzureRegion
