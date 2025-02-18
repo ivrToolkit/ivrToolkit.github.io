@@ -893,12 +893,12 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync
   nameWithType: IIvrBaseLine.PlayFileAsync
-- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(System.IO.MemoryStream)
-  name: PlayWavStream(MemoryStream)
-  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_System_IO_MemoryStream_
-  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(System.IO.MemoryStream)
-  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(System.IO.MemoryStream)
-  nameWithType: IIvrBaseLine.PlayWavStream(MemoryStream)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(ivrToolkit.Core.Util.WavStream)
+  name: PlayWavStream(WavStream)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_ivrToolkit_Core_Util_WavStream_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(ivrToolkit.Core.Util.WavStream)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(ivrToolkit.Core.Util.WavStream)
+  nameWithType: IIvrBaseLine.PlayWavStream(WavStream)
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream*
   name: PlayWavStream
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_
@@ -906,12 +906,12 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream
   nameWithType: IIvrBaseLine.PlayWavStream
-- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(System.IO.MemoryStream,System.Threading.CancellationToken)
-  name: PlayWavStreamAsync(MemoryStream, CancellationToken)
-  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_System_IO_MemoryStream_System_Threading_CancellationToken_
-  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(System.IO.MemoryStream,System.Threading.CancellationToken)
-  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(System.IO.MemoryStream, System.Threading.CancellationToken)
-  nameWithType: IIvrBaseLine.PlayWavStreamAsync(MemoryStream, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(ivrToolkit.Core.Util.WavStream,System.Threading.CancellationToken)
+  name: PlayWavStreamAsync(WavStream, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_ivrToolkit_Core_Util_WavStream_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(ivrToolkit.Core.Util.WavStream,System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(ivrToolkit.Core.Util.WavStream, System.Threading.CancellationToken)
+  nameWithType: IIvrBaseLine.PlayWavStreamAsync(WavStream, CancellationToken)
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync*
   name: PlayWavStreamAsync
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_
@@ -1104,6 +1104,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrLine.Status
   nameWithType: IIvrLine.Status
+- uid: ivrToolkit.Core.Interfaces.IIvrLine.TextToSpeechGenerator
+  name: TextToSpeechGenerator
+  href: api/ivrToolkit.Core.Interfaces.IIvrLine.html#ivrToolkit_Core_Interfaces_IIvrLine_TextToSpeechGenerator
+  commentId: P:ivrToolkit.Core.Interfaces.IIvrLine.TextToSpeechGenerator
+  fullName: ivrToolkit.Core.Interfaces.IIvrLine.TextToSpeechGenerator
+  nameWithType: IIvrLine.TextToSpeechGenerator
+- uid: ivrToolkit.Core.Interfaces.IIvrLine.TextToSpeechGenerator*
+  name: TextToSpeechGenerator
+  href: api/ivrToolkit.Core.Interfaces.IIvrLine.html#ivrToolkit_Core_Interfaces_IIvrLine_TextToSpeechGenerator_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrLine.TextToSpeechGenerator
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrLine.TextToSpeechGenerator
+  nameWithType: IIvrLine.TextToSpeechGenerator
 - uid: ivrToolkit.Core.Interfaces.IIvrLineManagement
   name: IIvrLineManagement
   href: api/ivrToolkit.Core.Interfaces.IIvrLineManagement.html
@@ -1298,6 +1311,32 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayDateAsync
   nameWithType: IPlayMethods.PlayDateAsync
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)
+  name: PlayFile(ITextToSpeechBuilder)
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayFile_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_
+  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)
+  nameWithType: IPlayMethods.PlayFile(ITextToSpeechBuilder)
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile*
+  name: PlayFile
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayFile_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile
+  nameWithType: IPlayMethods.PlayFile
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken)
+  name: PlayFileAsync(ITextToSpeechBuilder, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Threading.CancellationToken)
+  nameWithType: IPlayMethods.PlayFileAsync(ITextToSpeechBuilder, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync*
+  name: PlayFileAsync
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync
+  nameWithType: IPlayMethods.PlayFileAsync
 - uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileOrPhrase(System.String)
   name: PlayFileOrPhrase(string)
   href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileOrPhrase_System_String_
@@ -1522,15 +1561,21 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayStringAsync
   nameWithType: IPlayMethods.PlayStringAsync
-- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(System.String,System.String)
-  name: PlayTextToSpeech(string, string)
-  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_System_String_System_String_
-  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(System.String,System.String)
-  name.vb: PlayTextToSpeech(String, String)
-  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(string, string)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(String, String)
-  nameWithType: IPlayMethods.PlayTextToSpeech(string, string)
-  nameWithType.vb: IPlayMethods.PlayTextToSpeech(String, String)
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(System.String)
+  name: PlayTextToSpeech(string)
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_System_String_
+  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(System.String)
+  name.vb: PlayTextToSpeech(String)
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(string)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(String)
+  nameWithType: IPlayMethods.PlayTextToSpeech(string)
+  nameWithType.vb: IPlayMethods.PlayTextToSpeech(String)
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)
+  name: PlayTextToSpeech(ITextToSpeechBuilder)
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_
+  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)
+  nameWithType: IPlayMethods.PlayTextToSpeech(ITextToSpeechBuilder)
 - uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech*
   name: PlayTextToSpeech
   href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_
@@ -1538,15 +1583,6 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech
   nameWithType: IPlayMethods.PlayTextToSpeech
-- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(System.String,System.String,System.Threading.CancellationToken)
-  name: PlayTextToSpeechAsync(string, string, CancellationToken)
-  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_System_String_System_String_System_Threading_CancellationToken_
-  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(System.String,System.String,System.Threading.CancellationToken)
-  name.vb: PlayTextToSpeechAsync(String, String, CancellationToken)
-  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(string, string, System.Threading.CancellationToken)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(String, String, System.Threading.CancellationToken)
-  nameWithType: IPlayMethods.PlayTextToSpeechAsync(string, string, CancellationToken)
-  nameWithType.vb: IPlayMethods.PlayTextToSpeechAsync(String, String, CancellationToken)
 - uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(System.String,System.Threading.CancellationToken)
   name: PlayTextToSpeechAsync(string, CancellationToken)
   href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_System_String_System_Threading_CancellationToken_
@@ -1556,6 +1592,12 @@ references:
   fullName.vb: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(String, System.Threading.CancellationToken)
   nameWithType: IPlayMethods.PlayTextToSpeechAsync(string, CancellationToken)
   nameWithType.vb: IPlayMethods.PlayTextToSpeechAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken)
+  name: PlayTextToSpeechAsync(ITextToSpeechBuilder, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Threading.CancellationToken)
+  nameWithType: IPlayMethods.PlayTextToSpeechAsync(ITextToSpeechBuilder, CancellationToken)
 - uid: ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync*
   name: PlayTextToSpeechAsync
   href: api/ivrToolkit.Core.Interfaces.IPlayMethods.html#ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_
@@ -1578,15 +1620,15 @@ references:
   fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions)
   nameWithType: IPromptMethods.MultiTryPrompt(string, Func<string, bool>, MultiTryPromptOptions)
   nameWithType.vb: IPromptMethods.MultiTryPrompt(String, Func(Of String, Boolean), MultiTryPromptOptions)
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
-  name: MultiTryPrompt(string, string, Func<string, bool>, MultiTryPromptOptions)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_System_String_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
-  name.vb: MultiTryPrompt(String, String, Func(Of String, Boolean), MultiTryPromptOptions)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(string, string, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(String, String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions)
-  nameWithType: IPromptMethods.MultiTryPrompt(string, string, Func<string, bool>, MultiTryPromptOptions)
-  nameWithType.vb: IPromptMethods.MultiTryPrompt(String, String, Func(Of String, Boolean), MultiTryPromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name: MultiTryPrompt(ITextToSpeechBuilder, Func<string, bool>, MultiTryPromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)
+  name.vb: MultiTryPrompt(ITextToSpeechBuilder, Func(Of String, Boolean), MultiTryPromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions)
+  nameWithType: IPromptMethods.MultiTryPrompt(ITextToSpeechBuilder, Func<string, bool>, MultiTryPromptOptions)
+  nameWithType.vb: IPromptMethods.MultiTryPrompt(ITextToSpeechBuilder, Func(Of String, Boolean), MultiTryPromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt*
   name: MultiTryPrompt
   href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_
@@ -1612,24 +1654,24 @@ references:
   fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions, System.Threading.CancellationToken)
   nameWithType: IPromptMethods.MultiTryPromptAsync(string, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
   nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)
-  name: MultiTryPromptAsync(string, string, Func<string, bool>, CancellationToken)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)
-  name.vb: MultiTryPromptAsync(String, String, Func(Of String, Boolean), CancellationToken)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(string, string, System.Func<string, bool>, System.Threading.CancellationToken)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, String, System.Func(Of String, Boolean), System.Threading.CancellationToken)
-  nameWithType: IPromptMethods.MultiTryPromptAsync(string, string, Func<string, bool>, CancellationToken)
-  nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, String, Func(Of String, Boolean), CancellationToken)
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)
-  name: MultiTryPromptAsync(string, string, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)
-  name.vb: MultiTryPromptAsync(String, String, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(string, string, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions, System.Threading.CancellationToken)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(String, String, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions, System.Threading.CancellationToken)
-  nameWithType: IPromptMethods.MultiTryPromptAsync(string, string, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
-  nameWithType.vb: IPromptMethods.MultiTryPromptAsync(String, String, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)
+  name: MultiTryPromptAsync(ITextToSpeechBuilder, Func<string, bool>, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)
+  name.vb: MultiTryPromptAsync(ITextToSpeechBuilder, Func(Of String, Boolean), CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Func<string, bool>, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Func(Of String, Boolean), System.Threading.CancellationToken)
+  nameWithType: IPromptMethods.MultiTryPromptAsync(ITextToSpeechBuilder, Func<string, bool>, CancellationToken)
+  nameWithType.vb: IPromptMethods.MultiTryPromptAsync(ITextToSpeechBuilder, Func(Of String, Boolean), CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)
+  name: MultiTryPromptAsync(ITextToSpeechBuilder, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)
+  name.vb: MultiTryPromptAsync(ITextToSpeechBuilder, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Func<string, bool>, ivrToolkit.Core.Util.MultiTryPromptOptions, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Func(Of String, Boolean), ivrToolkit.Core.Util.MultiTryPromptOptions, System.Threading.CancellationToken)
+  nameWithType: IPromptMethods.MultiTryPromptAsync(ITextToSpeechBuilder, Func<string, bool>, MultiTryPromptOptions, CancellationToken)
+  nameWithType.vb: IPromptMethods.MultiTryPromptAsync(ITextToSpeechBuilder, Func(Of String, Boolean), MultiTryPromptOptions, CancellationToken)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync*
   name: MultiTryPromptAsync
   href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_
@@ -1637,15 +1679,6 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync
   nameWithType: IPromptMethods.MultiTryPromptAsync
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,System.String,ivrToolkit.Core.Util.PromptOptions)
-  name: Prompt(string, string, PromptOptions)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_System_String_ivrToolkit_Core_Util_PromptOptions_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,System.String,ivrToolkit.Core.Util.PromptOptions)
-  name.vb: Prompt(String, String, PromptOptions)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(string, string, ivrToolkit.Core.Util.PromptOptions)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(String, String, ivrToolkit.Core.Util.PromptOptions)
-  nameWithType: IPromptMethods.Prompt(string, string, PromptOptions)
-  nameWithType.vb: IPromptMethods.Prompt(String, String, PromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)
   name: Prompt(string, PromptOptions)
   href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_
@@ -1655,6 +1688,12 @@ references:
   fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(String, ivrToolkit.Core.Util.PromptOptions)
   nameWithType: IPromptMethods.Prompt(string, PromptOptions)
   nameWithType.vb: IPromptMethods.Prompt(String, PromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,ivrToolkit.Core.Util.PromptOptions)
+  name: Prompt(ITextToSpeechBuilder, PromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,ivrToolkit.Core.Util.PromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, ivrToolkit.Core.Util.PromptOptions)
+  nameWithType: IPromptMethods.Prompt(ITextToSpeechBuilder, PromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt*
   name: Prompt
   href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_
@@ -1662,15 +1701,6 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IPromptMethods.Prompt
   nameWithType: IPromptMethods.Prompt
-- uid: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
-  name: PromptAsync(string, string, CancellationToken, PromptOptions)
-  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_
-  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
-  name.vb: PromptAsync(String, String, CancellationToken, PromptOptions)
-  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(string, string, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
-  fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(String, String, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
-  nameWithType: IPromptMethods.PromptAsync(string, string, CancellationToken, PromptOptions)
-  nameWithType.vb: IPromptMethods.PromptAsync(String, String, CancellationToken, PromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
   name: PromptAsync(string, CancellationToken, PromptOptions)
   href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_
@@ -1680,6 +1710,12 @@ references:
   fullName.vb: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(String, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
   nameWithType: IPromptMethods.PromptAsync(string, CancellationToken, PromptOptions)
   nameWithType.vb: IPromptMethods.PromptAsync(String, CancellationToken, PromptOptions)
+- uid: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
+  name: PromptAsync(ITextToSpeechBuilder, CancellationToken, PromptOptions)
+  href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_
+  commentId: M:ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)
+  fullName: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder, System.Threading.CancellationToken, ivrToolkit.Core.Util.PromptOptions)
+  nameWithType: IPromptMethods.PromptAsync(ITextToSpeechBuilder, CancellationToken, PromptOptions)
 - uid: ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync*
   name: PromptAsync
   href: api/ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_
@@ -1854,6 +1890,51 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.ITextToSpeech.TextToSpeechAsync
   nameWithType: ITextToSpeech.TextToSpeechAsync
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder
+  name: ITextToSpeechBuilder
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html
+  commentId: T:ivrToolkit.Core.Interfaces.ITextToSpeechBuilder
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder
+  nameWithType: ITextToSpeechBuilder
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GenerateWavFileAsync(System.Threading.CancellationToken)
+  name: GenerateWavFileAsync(CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html#ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_GenerateWavFileAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GenerateWavFileAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GenerateWavFileAsync(System.Threading.CancellationToken)
+  nameWithType: ITextToSpeechBuilder.GenerateWavFileAsync(CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GenerateWavFileAsync*
+  name: GenerateWavFileAsync
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html#ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_GenerateWavFileAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GenerateWavFileAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GenerateWavFileAsync
+  nameWithType: ITextToSpeechBuilder.GenerateWavFileAsync
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetFileName
+  name: GetFileName()
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html#ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_GetFileName
+  commentId: M:ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetFileName
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetFileName()
+  nameWithType: ITextToSpeechBuilder.GetFileName()
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetFileName*
+  name: GetFileName
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html#ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_GetFileName_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetFileName
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetFileName
+  nameWithType: ITextToSpeechBuilder.GetFileName
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetWavStreamAsync(System.Threading.CancellationToken)
+  name: GetWavStreamAsync(CancellationToken)
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html#ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_GetWavStreamAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetWavStreamAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetWavStreamAsync(System.Threading.CancellationToken)
+  nameWithType: ITextToSpeechBuilder.GetWavStreamAsync(CancellationToken)
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetWavStreamAsync*
+  name: GetWavStreamAsync
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html#ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_GetWavStreamAsync_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetWavStreamAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.GetWavStreamAsync
+  nameWithType: ITextToSpeechBuilder.GetWavStreamAsync
 - uid: ivrToolkit.Core.Interfaces.ITextToSpeechFactory
   name: ITextToSpeechFactory
   href: api/ivrToolkit.Core.Interfaces.ITextToSpeechFactory.html
@@ -1873,6 +1954,28 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.ITextToSpeechFactory.Create
   nameWithType: ITextToSpeechFactory.Create
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechGenerator
+  name: ITextToSpeechGenerator
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.html
+  commentId: T:ivrToolkit.Core.Interfaces.ITextToSpeechGenerator
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechGenerator
+  nameWithType: ITextToSpeechGenerator
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.GetTextToSpeechBuilder(System.String,System.String)
+  name: GetTextToSpeechBuilder(string, string)
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.html#ivrToolkit_Core_Interfaces_ITextToSpeechGenerator_GetTextToSpeechBuilder_System_String_System_String_
+  commentId: M:ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.GetTextToSpeechBuilder(System.String,System.String)
+  name.vb: GetTextToSpeechBuilder(String, String)
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.GetTextToSpeechBuilder(string, string)
+  fullName.vb: ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.GetTextToSpeechBuilder(String, String)
+  nameWithType: ITextToSpeechGenerator.GetTextToSpeechBuilder(string, string)
+  nameWithType.vb: ITextToSpeechGenerator.GetTextToSpeechBuilder(String, String)
+- uid: ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.GetTextToSpeechBuilder*
+  name: GetTextToSpeechBuilder
+  href: api/ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.html#ivrToolkit_Core_Interfaces_ITextToSpeechGenerator_GetTextToSpeechBuilder_
+  commentId: Overload:ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.GetTextToSpeechBuilder
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.GetTextToSpeechBuilder
+  nameWithType: ITextToSpeechGenerator.GetTextToSpeechBuilder
 - uid: ivrToolkit.Core.Legacy
   name: ivrToolkit.Core.Legacy
   href: api/ivrToolkit.Core.Legacy.html
@@ -2867,6 +2970,296 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.TTS.AzureTtsFactory.Create
   nameWithType: AzureTtsFactory.Create
+- uid: ivrToolkit.Core.TTS.IFileHandler
+  name: IFileHandler
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html
+  commentId: T:ivrToolkit.Core.TTS.IFileHandler
+  fullName: ivrToolkit.Core.TTS.IFileHandler
+  nameWithType: IFileHandler
+- uid: ivrToolkit.Core.TTS.IFileHandler.Exists(System.String)
+  name: Exists(string)
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_Exists_System_String_
+  commentId: M:ivrToolkit.Core.TTS.IFileHandler.Exists(System.String)
+  name.vb: Exists(String)
+  fullName: ivrToolkit.Core.TTS.IFileHandler.Exists(string)
+  fullName.vb: ivrToolkit.Core.TTS.IFileHandler.Exists(String)
+  nameWithType: IFileHandler.Exists(string)
+  nameWithType.vb: IFileHandler.Exists(String)
+- uid: ivrToolkit.Core.TTS.IFileHandler.Exists*
+  name: Exists
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_Exists_
+  commentId: Overload:ivrToolkit.Core.TTS.IFileHandler.Exists
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.IFileHandler.Exists
+  nameWithType: IFileHandler.Exists
+- uid: ivrToolkit.Core.TTS.IFileHandler.GetFileStream(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  name: GetFileStream(string, FileMode, FileAccess, FileShare)
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_GetFileStream_System_String_System_IO_FileMode_System_IO_FileAccess_System_IO_FileShare_
+  commentId: M:ivrToolkit.Core.TTS.IFileHandler.GetFileStream(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  name.vb: GetFileStream(String, FileMode, FileAccess, FileShare)
+  fullName: ivrToolkit.Core.TTS.IFileHandler.GetFileStream(string, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+  fullName.vb: ivrToolkit.Core.TTS.IFileHandler.GetFileStream(String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+  nameWithType: IFileHandler.GetFileStream(string, FileMode, FileAccess, FileShare)
+  nameWithType.vb: IFileHandler.GetFileStream(String, FileMode, FileAccess, FileShare)
+- uid: ivrToolkit.Core.TTS.IFileHandler.GetFileStream*
+  name: GetFileStream
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_GetFileStream_
+  commentId: Overload:ivrToolkit.Core.TTS.IFileHandler.GetFileStream
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.IFileHandler.GetFileStream
+  nameWithType: IFileHandler.GetFileStream
+- uid: ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync(System.String,System.Threading.CancellationToken)
+  name: ReadAllTextAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_ReadAllTextAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync(System.String,System.Threading.CancellationToken)
+  name.vb: ReadAllTextAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync(String, System.Threading.CancellationToken)
+  nameWithType: IFileHandler.ReadAllTextAsync(string, CancellationToken)
+  nameWithType.vb: IFileHandler.ReadAllTextAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync*
+  name: ReadAllTextAsync
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_ReadAllTextAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync
+  nameWithType: IFileHandler.ReadAllTextAsync
+- uid: ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  name: WriteAllBytesAsync(string, byte[], CancellationToken)
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_WriteAllBytesAsync_System_String_System_Byte___System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  name.vb: WriteAllBytesAsync(String, Byte(), CancellationToken)
+  fullName: ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync(string, byte[], System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync(String, Byte(), System.Threading.CancellationToken)
+  nameWithType: IFileHandler.WriteAllBytesAsync(string, byte[], CancellationToken)
+  nameWithType.vb: IFileHandler.WriteAllBytesAsync(String, Byte(), CancellationToken)
+- uid: ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync*
+  name: WriteAllBytesAsync
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_WriteAllBytesAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync
+  nameWithType: IFileHandler.WriteAllBytesAsync
+- uid: ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: WriteAllTextAsync(string, string, CancellationToken)
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_WriteAllTextAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync(System.String,System.String,System.Threading.CancellationToken)
+  name.vb: WriteAllTextAsync(String, String, CancellationToken)
+  fullName: ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync(string, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync(String, String, System.Threading.CancellationToken)
+  nameWithType: IFileHandler.WriteAllTextAsync(string, string, CancellationToken)
+  nameWithType.vb: IFileHandler.WriteAllTextAsync(String, String, CancellationToken)
+- uid: ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync*
+  name: WriteAllTextAsync
+  href: api/ivrToolkit.Core.TTS.IFileHandler.html#ivrToolkit_Core_TTS_IFileHandler_WriteAllTextAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync
+  nameWithType: IFileHandler.WriteAllTextAsync
+- uid: ivrToolkit.Core.TTS.RegularFileHandler
+  name: RegularFileHandler
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html
+  commentId: T:ivrToolkit.Core.TTS.RegularFileHandler
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler
+  nameWithType: RegularFileHandler
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.Exists(System.String)
+  name: Exists(string)
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_Exists_System_String_
+  commentId: M:ivrToolkit.Core.TTS.RegularFileHandler.Exists(System.String)
+  name.vb: Exists(String)
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.Exists(string)
+  fullName.vb: ivrToolkit.Core.TTS.RegularFileHandler.Exists(String)
+  nameWithType: RegularFileHandler.Exists(string)
+  nameWithType.vb: RegularFileHandler.Exists(String)
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.Exists*
+  name: Exists
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_Exists_
+  commentId: Overload:ivrToolkit.Core.TTS.RegularFileHandler.Exists
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.Exists
+  nameWithType: RegularFileHandler.Exists
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.GetFileStream(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  name: GetFileStream(string, FileMode, FileAccess, FileShare)
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_GetFileStream_System_String_System_IO_FileMode_System_IO_FileAccess_System_IO_FileShare_
+  commentId: M:ivrToolkit.Core.TTS.RegularFileHandler.GetFileStream(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  name.vb: GetFileStream(String, FileMode, FileAccess, FileShare)
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.GetFileStream(string, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+  fullName.vb: ivrToolkit.Core.TTS.RegularFileHandler.GetFileStream(String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+  nameWithType: RegularFileHandler.GetFileStream(string, FileMode, FileAccess, FileShare)
+  nameWithType.vb: RegularFileHandler.GetFileStream(String, FileMode, FileAccess, FileShare)
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.GetFileStream*
+  name: GetFileStream
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_GetFileStream_
+  commentId: Overload:ivrToolkit.Core.TTS.RegularFileHandler.GetFileStream
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.GetFileStream
+  nameWithType: RegularFileHandler.GetFileStream
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.ReadAllTextAsync(System.String,System.Threading.CancellationToken)
+  name: ReadAllTextAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_ReadAllTextAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.RegularFileHandler.ReadAllTextAsync(System.String,System.Threading.CancellationToken)
+  name.vb: ReadAllTextAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.ReadAllTextAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.TTS.RegularFileHandler.ReadAllTextAsync(String, System.Threading.CancellationToken)
+  nameWithType: RegularFileHandler.ReadAllTextAsync(string, CancellationToken)
+  nameWithType.vb: RegularFileHandler.ReadAllTextAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.ReadAllTextAsync*
+  name: ReadAllTextAsync
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_ReadAllTextAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.RegularFileHandler.ReadAllTextAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.ReadAllTextAsync
+  nameWithType: RegularFileHandler.ReadAllTextAsync
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllBytesAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  name: WriteAllBytesAsync(string, byte[], CancellationToken)
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_WriteAllBytesAsync_System_String_System_Byte___System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.RegularFileHandler.WriteAllBytesAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  name.vb: WriteAllBytesAsync(String, Byte(), CancellationToken)
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllBytesAsync(string, byte[], System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllBytesAsync(String, Byte(), System.Threading.CancellationToken)
+  nameWithType: RegularFileHandler.WriteAllBytesAsync(string, byte[], CancellationToken)
+  nameWithType.vb: RegularFileHandler.WriteAllBytesAsync(String, Byte(), CancellationToken)
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllBytesAsync*
+  name: WriteAllBytesAsync
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_WriteAllBytesAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.RegularFileHandler.WriteAllBytesAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllBytesAsync
+  nameWithType: RegularFileHandler.WriteAllBytesAsync
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllTextAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: WriteAllTextAsync(string, string, CancellationToken)
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_WriteAllTextAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.RegularFileHandler.WriteAllTextAsync(System.String,System.String,System.Threading.CancellationToken)
+  name.vb: WriteAllTextAsync(String, String, CancellationToken)
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllTextAsync(string, string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllTextAsync(String, String, System.Threading.CancellationToken)
+  nameWithType: RegularFileHandler.WriteAllTextAsync(string, string, CancellationToken)
+  nameWithType.vb: RegularFileHandler.WriteAllTextAsync(String, String, CancellationToken)
+- uid: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllTextAsync*
+  name: WriteAllTextAsync
+  href: api/ivrToolkit.Core.TTS.RegularFileHandler.html#ivrToolkit_Core_TTS_RegularFileHandler_WriteAllTextAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.RegularFileHandler.WriteAllTextAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.RegularFileHandler.WriteAllTextAsync
+  nameWithType: RegularFileHandler.WriteAllTextAsync
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder
+  name: TextToSpeechBuilder
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html
+  commentId: T:ivrToolkit.Core.TTS.TextToSpeechBuilder
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder
+  nameWithType: TextToSpeechBuilder
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Interfaces.ITextToSpeech,System.String,System.String,ivrToolkit.Core.TTS.IFileHandler)
+  name: TextToSpeechBuilder(ILoggerFactory, ITextToSpeech?, string, string?, IFileHandler)
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder__ctor_Microsoft_Extensions_Logging_ILoggerFactory_ivrToolkit_Core_Interfaces_ITextToSpeech_System_String_System_String_ivrToolkit_Core_TTS_IFileHandler_
+  commentId: M:ivrToolkit.Core.TTS.TextToSpeechBuilder.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Interfaces.ITextToSpeech,System.String,System.String,ivrToolkit.Core.TTS.IFileHandler)
+  name.vb: New(ILoggerFactory, ITextToSpeech, String, String, IFileHandler)
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.TextToSpeechBuilder(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Interfaces.ITextToSpeech?, string, string?, ivrToolkit.Core.TTS.IFileHandler)
+  fullName.vb: ivrToolkit.Core.TTS.TextToSpeechBuilder.New(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Interfaces.ITextToSpeech, String, String, ivrToolkit.Core.TTS.IFileHandler)
+  nameWithType: TextToSpeechBuilder.TextToSpeechBuilder(ILoggerFactory, ITextToSpeech?, string, string?, IFileHandler)
+  nameWithType.vb: TextToSpeechBuilder.New(ILoggerFactory, ITextToSpeech, String, String, IFileHandler)
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.#ctor*
+  name: TextToSpeechBuilder
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder__ctor_
+  commentId: Overload:ivrToolkit.Core.TTS.TextToSpeechBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.TextToSpeechBuilder
+  fullName.vb: ivrToolkit.Core.TTS.TextToSpeechBuilder.New
+  nameWithType: TextToSpeechBuilder.TextToSpeechBuilder
+  nameWithType.vb: TextToSpeechBuilder.New
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.FileExists
+  name: FileExists
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_FileExists
+  commentId: P:ivrToolkit.Core.TTS.TextToSpeechBuilder.FileExists
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.FileExists
+  nameWithType: TextToSpeechBuilder.FileExists
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.FileExists*
+  name: FileExists
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_FileExists_
+  commentId: Overload:ivrToolkit.Core.TTS.TextToSpeechBuilder.FileExists
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.FileExists
+  nameWithType: TextToSpeechBuilder.FileExists
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.GenerateWavFileAsync(System.Threading.CancellationToken)
+  name: GenerateWavFileAsync(CancellationToken)
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_GenerateWavFileAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.TextToSpeechBuilder.GenerateWavFileAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.GenerateWavFileAsync(System.Threading.CancellationToken)
+  nameWithType: TextToSpeechBuilder.GenerateWavFileAsync(CancellationToken)
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.GenerateWavFileAsync*
+  name: GenerateWavFileAsync
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_GenerateWavFileAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.TextToSpeechBuilder.GenerateWavFileAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.GenerateWavFileAsync
+  nameWithType: TextToSpeechBuilder.GenerateWavFileAsync
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetFileName
+  name: GetFileName()
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_GetFileName
+  commentId: M:ivrToolkit.Core.TTS.TextToSpeechBuilder.GetFileName
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetFileName()
+  nameWithType: TextToSpeechBuilder.GetFileName()
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetFileName*
+  name: GetFileName
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_GetFileName_
+  commentId: Overload:ivrToolkit.Core.TTS.TextToSpeechBuilder.GetFileName
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetFileName
+  nameWithType: TextToSpeechBuilder.GetFileName
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetWavStreamAsync(System.Threading.CancellationToken)
+  name: GetWavStreamAsync(CancellationToken)
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_GetWavStreamAsync_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.TextToSpeechBuilder.GetWavStreamAsync(System.Threading.CancellationToken)
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetWavStreamAsync(System.Threading.CancellationToken)
+  nameWithType: TextToSpeechBuilder.GetWavStreamAsync(CancellationToken)
+- uid: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetWavStreamAsync*
+  name: GetWavStreamAsync
+  href: api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html#ivrToolkit_Core_TTS_TextToSpeechBuilder_GetWavStreamAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.TextToSpeechBuilder.GetWavStreamAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.TextToSpeechBuilder.GetWavStreamAsync
+  nameWithType: TextToSpeechBuilder.GetWavStreamAsync
+- uid: ivrToolkit.Core.TTS.TextToSpeechGenerator
+  name: TextToSpeechGenerator
+  href: api/ivrToolkit.Core.TTS.TextToSpeechGenerator.html
+  commentId: T:ivrToolkit.Core.TTS.TextToSpeechGenerator
+  fullName: ivrToolkit.Core.TTS.TextToSpeechGenerator
+  nameWithType: TextToSpeechGenerator
+- uid: ivrToolkit.Core.TTS.TextToSpeechGenerator.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Interfaces.ITextToSpeech,ivrToolkit.Core.TTS.IFileHandler)
+  name: TextToSpeechGenerator(ILoggerFactory, ITextToSpeech?, IFileHandler)
+  href: api/ivrToolkit.Core.TTS.TextToSpeechGenerator.html#ivrToolkit_Core_TTS_TextToSpeechGenerator__ctor_Microsoft_Extensions_Logging_ILoggerFactory_ivrToolkit_Core_Interfaces_ITextToSpeech_ivrToolkit_Core_TTS_IFileHandler_
+  commentId: M:ivrToolkit.Core.TTS.TextToSpeechGenerator.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Interfaces.ITextToSpeech,ivrToolkit.Core.TTS.IFileHandler)
+  name.vb: New(ILoggerFactory, ITextToSpeech, IFileHandler)
+  fullName: ivrToolkit.Core.TTS.TextToSpeechGenerator.TextToSpeechGenerator(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Interfaces.ITextToSpeech?, ivrToolkit.Core.TTS.IFileHandler)
+  fullName.vb: ivrToolkit.Core.TTS.TextToSpeechGenerator.New(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Interfaces.ITextToSpeech, ivrToolkit.Core.TTS.IFileHandler)
+  nameWithType: TextToSpeechGenerator.TextToSpeechGenerator(ILoggerFactory, ITextToSpeech?, IFileHandler)
+  nameWithType.vb: TextToSpeechGenerator.New(ILoggerFactory, ITextToSpeech, IFileHandler)
+- uid: ivrToolkit.Core.TTS.TextToSpeechGenerator.#ctor*
+  name: TextToSpeechGenerator
+  href: api/ivrToolkit.Core.TTS.TextToSpeechGenerator.html#ivrToolkit_Core_TTS_TextToSpeechGenerator__ctor_
+  commentId: Overload:ivrToolkit.Core.TTS.TextToSpeechGenerator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ivrToolkit.Core.TTS.TextToSpeechGenerator.TextToSpeechGenerator
+  fullName.vb: ivrToolkit.Core.TTS.TextToSpeechGenerator.New
+  nameWithType: TextToSpeechGenerator.TextToSpeechGenerator
+  nameWithType.vb: TextToSpeechGenerator.New
+- uid: ivrToolkit.Core.TTS.TextToSpeechGenerator.GetTextToSpeechBuilder(System.String,System.String)
+  name: GetTextToSpeechBuilder(string, string?)
+  href: api/ivrToolkit.Core.TTS.TextToSpeechGenerator.html#ivrToolkit_Core_TTS_TextToSpeechGenerator_GetTextToSpeechBuilder_System_String_System_String_
+  commentId: M:ivrToolkit.Core.TTS.TextToSpeechGenerator.GetTextToSpeechBuilder(System.String,System.String)
+  name.vb: GetTextToSpeechBuilder(String, String)
+  fullName: ivrToolkit.Core.TTS.TextToSpeechGenerator.GetTextToSpeechBuilder(string, string?)
+  fullName.vb: ivrToolkit.Core.TTS.TextToSpeechGenerator.GetTextToSpeechBuilder(String, String)
+  nameWithType: TextToSpeechGenerator.GetTextToSpeechBuilder(string, string?)
+  nameWithType.vb: TextToSpeechGenerator.GetTextToSpeechBuilder(String, String)
+- uid: ivrToolkit.Core.TTS.TextToSpeechGenerator.GetTextToSpeechBuilder*
+  name: GetTextToSpeechBuilder
+  href: api/ivrToolkit.Core.TTS.TextToSpeechGenerator.html#ivrToolkit_Core_TTS_TextToSpeechGenerator_GetTextToSpeechBuilder_
+  commentId: Overload:ivrToolkit.Core.TTS.TextToSpeechGenerator.GetTextToSpeechBuilder
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.TextToSpeechGenerator.GetTextToSpeechBuilder
+  nameWithType: TextToSpeechGenerator.GetTextToSpeechBuilder
 - uid: ivrToolkit.Core.Util
   name: ivrToolkit.Core.Util
   href: api/ivrToolkit.Core.Util.html
@@ -3356,3 +3749,80 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.WavConverter.ConvertToPCM16Bit8000hz
   nameWithType: WavConverter.ConvertToPCM16Bit8000hz
+- uid: ivrToolkit.Core.Util.WavStream
+  name: WavStream
+  href: api/ivrToolkit.Core.Util.WavStream.html
+  commentId: T:ivrToolkit.Core.Util.WavStream
+  fullName: ivrToolkit.Core.Util.WavStream
+  nameWithType: WavStream
+- uid: ivrToolkit.Core.Util.WavStream.#ctor(System.Byte[])
+  name: WavStream(byte[])
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream__ctor_System_Byte___
+  commentId: M:ivrToolkit.Core.Util.WavStream.#ctor(System.Byte[])
+  name.vb: New(Byte())
+  fullName: ivrToolkit.Core.Util.WavStream.WavStream(byte[])
+  fullName.vb: ivrToolkit.Core.Util.WavStream.New(Byte())
+  nameWithType: WavStream.WavStream(byte[])
+  nameWithType.vb: WavStream.New(Byte())
+- uid: ivrToolkit.Core.Util.WavStream.#ctor*
+  name: WavStream
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream__ctor_
+  commentId: Overload:ivrToolkit.Core.Util.WavStream.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ivrToolkit.Core.Util.WavStream.WavStream
+  fullName.vb: ivrToolkit.Core.Util.WavStream.New
+  nameWithType: WavStream.WavStream
+  nameWithType.vb: WavStream.New
+- uid: ivrToolkit.Core.Util.WavStream.Equals(ivrToolkit.Core.Util.WavStream)
+  name: Equals(WavStream)
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_Equals_ivrToolkit_Core_Util_WavStream_
+  commentId: M:ivrToolkit.Core.Util.WavStream.Equals(ivrToolkit.Core.Util.WavStream)
+  fullName: ivrToolkit.Core.Util.WavStream.Equals(ivrToolkit.Core.Util.WavStream)
+  nameWithType: WavStream.Equals(WavStream)
+- uid: ivrToolkit.Core.Util.WavStream.Equals*
+  name: Equals
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_Equals_
+  commentId: Overload:ivrToolkit.Core.Util.WavStream.Equals
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.WavStream.Equals
+  nameWithType: WavStream.Equals
+- uid: ivrToolkit.Core.Util.WavStream.GetAudioDataOnly
+  name: GetAudioDataOnly()
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_GetAudioDataOnly
+  commentId: M:ivrToolkit.Core.Util.WavStream.GetAudioDataOnly
+  fullName: ivrToolkit.Core.Util.WavStream.GetAudioDataOnly()
+  nameWithType: WavStream.GetAudioDataOnly()
+- uid: ivrToolkit.Core.Util.WavStream.GetAudioDataOnly*
+  name: GetAudioDataOnly
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_GetAudioDataOnly_
+  commentId: Overload:ivrToolkit.Core.Util.WavStream.GetAudioDataOnly
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.WavStream.GetAudioDataOnly
+  nameWithType: WavStream.GetAudioDataOnly
+- uid: ivrToolkit.Core.Util.WavStream.WavFormat
+  name: WavFormat
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_WavFormat
+  commentId: P:ivrToolkit.Core.Util.WavStream.WavFormat
+  fullName: ivrToolkit.Core.Util.WavStream.WavFormat
+  nameWithType: WavStream.WavFormat
+- uid: ivrToolkit.Core.Util.WavStream.WavFormat*
+  name: WavFormat
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_WavFormat_
+  commentId: Overload:ivrToolkit.Core.Util.WavStream.WavFormat
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.WavStream.WavFormat
+  nameWithType: WavStream.WavFormat
+- uid: ivrToolkit.Core.Util.WavStream.WavHeaderLength
+  name: WavHeaderLength
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_WavHeaderLength
+  commentId: P:ivrToolkit.Core.Util.WavStream.WavHeaderLength
+  fullName: ivrToolkit.Core.Util.WavStream.WavHeaderLength
+  nameWithType: WavStream.WavHeaderLength
+- uid: ivrToolkit.Core.Util.WavStream.WavHeaderLength*
+  name: WavHeaderLength
+  href: api/ivrToolkit.Core.Util.WavStream.html#ivrToolkit_Core_Util_WavStream_WavHeaderLength_
+  commentId: Overload:ivrToolkit.Core.Util.WavStream.WavHeaderLength
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.WavStream.WavHeaderLength
+  nameWithType: WavStream.WavHeaderLength

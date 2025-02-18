@@ -74,8 +74,8 @@
 Interfaces
 </h3>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.IIvrBaseLine.html">IIvrBaseLine</a></h4>
-      <section><p>This interface exposes the main methods used to control the selected plugin.
-It is meant to be used by the LineWrapper class only.</p>
+      <section><p>This interface provides methods to control the selected IVR plugin.
+It is primarily used by the <span class="xref">ivrToolkit.Core.Util.LineWrapper</span> class.</p>
 </section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.IIvrLine.html">IIvrLine</a></h4>
       <section><p>This interface exposes the main methods used to control the selected plugin.</p>
@@ -84,12 +84,14 @@ It is meant to be used by the LineWrapper class only.</p>
       <section><p>The purpose of this interface is to define functionality that will be called from another thread like the LineManager</p>
 </section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.IIvrPlugin.html">IIvrPlugin</a></h4>
-      <section></section>
+      <section><p>Defines the common methods for different plugin implementations.</p>
+</section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.ILineManager.html">ILineManager</a></h4>
       <section><p>The LineManager keeps track of the lines in use.</p>
 </section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.IPlayMethods.html">IPlayMethods</a></h4>
-      <section></section>
+      <section><p>Defines a collection of methods for playing audio to the person on the call.</p>
+</section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html">IPromptMethods</a></h4>
       <section><p>This interface defines the different prompt methods that are available through the line.</p>
 <p>A prompt is a file/message to play followed by asking for digits.
@@ -99,12 +101,27 @@ A multiTryPrompt is one that will repeat x number of times until you get what yo
       <section><p>A script block is a unit of code that does one particular job. It is used by the script manager to navigate through your menu options.</p>
 </section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.IScriptManager.html">IScriptManager</a></h4>
-      <section></section>
+      <section><p>A collection of common methods used by the implementations.</p>
+</section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeech.html">ITextToSpeech</a></h4>
       <section><p>Represents the TTS engine.</p>
 </section>
+      <h4><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></h4>
+      <section><p>Passed to various LineWrapper methods in order to use TTS. Holds a text message and optionally a wav file name
+for later parsing.
+Has the ability to save the TTS as a wav file and a related txt file that holds the text message that generated it.
+If a wav file exists and the related txt file matches the text message, then the TTS conversion is skipped and the
+wav file is used instead.
+If a wav file was not specified, TTS will happen every time.</p>
+</section>
       <h4><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechFactory.html">ITextToSpeechFactory</a></h4>
       <section><p>Factory to used to generate text-to-speech engines. Passed into the LineManager <a class="xref" href="ivrToolkit.Core.LineManager.html">LineManager</a></p>
+</section>
+      <h4><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.html">ITextToSpeechGenerator</a></h4>
+      <section><p>Used to generate an instance of the ITextToSpeechBuilder.</p>
+<pre><code class="lang-csharp">// example:
+var ttsBuilder = ttsGenerator.GetTextToSpeechBuilder(text, wavFileName);</code></pre>
+<p>You can then pass ttsBuilder to PlayFile or PlayTextToSpeech</p>
 </section>
 
 

@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Interface IIvrBaseLine ">
     
-    <meta name="description" content="This interface exposes the main methods used to control the selected plugin. It is meant to be used by the LineWrapper class only.">
+    <meta name="description" content="This interface provides methods to control the selected IVR plugin. It is primarily used by the  class.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -69,8 +69,8 @@
 
 
   <h1 id="ivrToolkit_Core_Interfaces_IIvrBaseLine" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine" class="text-break">Interface IIvrBaseLine</h1>
-  <div class="markdown level0 summary"><p>This interface exposes the main methods used to control the selected plugin.
-It is meant to be used by the LineWrapper class only.</p>
+  <div class="markdown level0 summary"><p>This interface provides methods to control the selected IVR plugin.
+It is primarily used by the <span class="xref">ivrToolkit.Core.Util.LineWrapper</span> class.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
@@ -96,7 +96,7 @@ It is meant to be used by the LineWrapper class only.</p>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_LastTerminator_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.LastTerminator*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_LastTerminator" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.LastTerminator">LastTerminator</h4>
-  <div class="markdown level1 summary"><p>The last terminator key that was pressed</p>
+  <div class="markdown level1 summary"><p>Gets or sets the last terminator key that was pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -127,7 +127,7 @@ It is meant to be used by the LineWrapper class only.</p>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_LineNumber_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.LineNumber*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_LineNumber" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.LineNumber">LineNumber</h4>
-  <div class="markdown level1 summary"><p>The attached line number.</p>
+  <div class="markdown level1 summary"><p>Gets the attached line number.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -158,7 +158,7 @@ It is meant to be used by the LineWrapper class only.</p>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Management_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Management*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Management" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Management">Management</h4>
-  <div class="markdown level1 summary"><p>Functionality for managing the line from another thread.</p>
+  <div class="markdown level1 summary"><p>Provides functionality for managing the line from another thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -185,11 +185,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_Volume.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.Volume%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L126">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L162">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Volume_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Volume*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Volume" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Volume">Volume</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Volume. Value can be in the range of -10 to 10. Zero being the regular volume.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the volume level. Valid range: -10 to 10 (0 is default volume).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -218,7 +218,7 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_Dial_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.Dial(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L65">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L74">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Dial_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Dial*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Dial_System_String_System_Int32_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Dial(System.String,System.Int32)">Dial(string, int)</h4>
@@ -227,7 +227,7 @@ It is meant to be used by the LineWrapper class only.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">CallAnalysis Dial(string number, int answeringMachineLengthInMilliseconds)</code></pre>
+    <pre><code class="lang-csharp hljs">CallAnalysis Dial(string phoneNumber, int answeringMachineLengthInMilliseconds)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -241,14 +241,14 @@ It is meant to be used by the LineWrapper class only.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">number</span></td>
-        <td><p>The phone number to call</p>
+        <td><span class="parametername">phoneNumber</span></td>
+        <td><p>The phone number to call.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">answeringMachineLengthInMilliseconds</span></td>
-        <td><p>A greeting longer than this time indicates a possible answering machine.</p>
+        <td><p>The threshold for determining an answering machine.</p>
 </td>
       </tr>
     </tbody>
@@ -264,7 +264,7 @@ It is meant to be used by the LineWrapper class only.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="ivrToolkit.Core.Enums.CallAnalysis.html">CallAnalysis</a></td>
-        <td><p>The Call analysis enumeration</p>
+        <td><p>A <a class="xref" href="ivrToolkit.Core.Enums.CallAnalysis.html">CallAnalysis</a> object containing call results.</p>
 </td>
       </tr>
     </tbody>
@@ -274,11 +274,12 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_DialAsync_System_String_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync(System.String%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L67">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L83">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_DialAsync_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_DialAsync_System_String_System_Int32_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.DialAsync(System.String,System.Int32,System.Threading.CancellationToken)">DialAsync(string, int, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Asynchronously dials a phone number using call progress analysis.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -297,17 +298,20 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">phoneNumber</span></td>
-        <td></td>
+        <td><p>The phone number to call.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">answeringMachineLengthInMilliseconds</span></td>
-        <td></td>
+        <td><p>The threshold for determining an answering machine.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -322,7 +326,8 @@ It is meant to be used by the LineWrapper class only.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="ivrToolkit.Core.Enums.CallAnalysis.html">CallAnalysis</a>&gt;</td>
-        <td></td>
+        <td><p>A task representing the asynchronous operation, returning a <a class="xref" href="ivrToolkit.Core.Enums.CallAnalysis.html">CallAnalysis</a> object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -331,11 +336,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_FlushDigitBuffer.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.FlushDigitBuffer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L121">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L157">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_FlushDigitBuffer_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.FlushDigitBuffer*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_FlushDigitBuffer" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.FlushDigitBuffer">FlushDigitBuffer()</h4>
-  <div class="markdown level1 summary"><p>Returns every character including the terminator</p>
+  <div class="markdown level1 summary"><p>Clears the digit buffer and returns all previously collected digits, including terminators.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -353,7 +358,7 @@ It is meant to be used by the LineWrapper class only.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>All the digits in the buffer including terminators</p>
+        <td><p>All digits in the buffer.</p>
 </td>
       </tr>
     </tbody>
@@ -363,11 +368,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigits_System_Int32_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(System.Int32%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L114">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L146">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigits_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigits_System_Int32_System_String_System_Int32_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(System.Int32,System.String,System.Int32)">GetDigits(int, string, int)</h4>
-  <div class="markdown level1 summary"><p>Keep prompting for digits until number of digits is pressed or a terminator digit is pressed.</p>
+  <div class="markdown level1 summary"><p>Collects digits from the user until the specified number is reached or a terminator is pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -387,19 +392,19 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">numberOfDigits</span></td>
-        <td><p>Maximum number of digits allowed in the buffer.</p>
+        <td><p>The maximum number of digits to capture.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">terminators</span></td>
-        <td><p>The terminator keys</p>
+        <td><p>The valid terminator keys.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">timeoutMilliseconds</span></td>
-        <td><p>Override the default timeout if not zero.</p>
+        <td><p>The timeout duration in milliseconds (0 to use default).</p>
 </td>
       </tr>
     </tbody>
@@ -415,7 +420,7 @@ It is meant to be used by the LineWrapper class only.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>Returns the digits pressed not including the terminator if there was one</p>
+        <td><p>The collected digits, excluding the terminator if used.</p>
 </td>
       </tr>
     </tbody>
@@ -425,11 +430,12 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_System_Int32_System_String_System_Threading_CancellationToken_System_Int32_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32%2CSystem.String%2CSystem.Threading.CancellationToken%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L115">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L151">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigitsAsync_System_Int32_System_String_System_Threading_CancellationToken_System_Int32_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigitsAsync(System.Int32,System.String,System.Threading.CancellationToken,System.Int32)">GetDigitsAsync(int, string, CancellationToken, int)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Asynchronously collects digits from the user until the specified number is reached or a terminator is pressed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -487,11 +493,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_Hangup.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.Hangup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L52">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L61">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Hangup_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Hangup*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Hangup" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Hangup">Hangup()</h4>
-  <div class="markdown level1 summary"><p>Forces a hangup on the line.</p>
+  <div class="markdown level1 summary"><p>Forces a hangup on the current line.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -503,11 +509,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFile_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFile(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L73">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L89">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFile_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFile*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFile_System_String_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFile(System.String)">PlayFile(string)</h4>
-  <div class="markdown level1 summary"><p>Plays a wav file which must be in the format of 8000hz 1 channel signed 16 bit PCM.</p>
+  <div class="markdown level1 summary"><p>Plays a WAV file (8000Hz, mono, signed 16-bit PCM).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -527,7 +533,7 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">filename</span></td>
-        <td><p>The wav file to play</p>
+        <td><p>The path to the WAV file.</p>
 </td>
       </tr>
     </tbody>
@@ -537,11 +543,12 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFileAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L89">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L96">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFileAsync_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayFileAsync_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayFileAsync(System.String,System.Threading.CancellationToken)">PlayFileAsync(string, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Asynchronously plays a WAV file (8000Hz, mono, signed 16-bit PCM).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -560,12 +567,14 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">filename</span></td>
-        <td></td>
+        <td><p>The path to the WAV file.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -586,19 +595,19 @@ It is meant to be used by the LineWrapper class only.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_System_IO_MemoryStream_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(System.IO.MemoryStream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_ivrToolkit_Core_Util_WavStream_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(ivrToolkit.Core.Util.WavStream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L79">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L102">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_System_IO_MemoryStream_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(System.IO.MemoryStream)">PlayWavStream(MemoryStream)</h4>
-  <div class="markdown level1 summary"><p>Plays a wav stream.</p>
+  <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStream_ivrToolkit_Core_Util_WavStream_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStream(ivrToolkit.Core.Util.WavStream)">PlayWavStream(WavStream)</h4>
+  <div class="markdown level1 summary"><p>Plays a WAV audio stream.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PlayWavStream(MemoryStream audioStream)</code></pre>
+    <pre><code class="lang-csharp hljs">void PlayWavStream(WavStream audioStream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -611,28 +620,28 @@ It is meant to be used by the LineWrapper class only.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a></td>
+        <td><a class="xref" href="ivrToolkit.Core.Util.WavStream.html">WavStream</a></td>
         <td><span class="parametername">audioStream</span></td>
-        <td><p>including the wav header</p>
+        <td><p>The audio stream, including the WAV header.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_System_IO_MemoryStream_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(System.IO.MemoryStream%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_ivrToolkit_Core_Util_WavStream_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(ivrToolkit.Core.Util.WavStream%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L87">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L109">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_System_IO_MemoryStream_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(System.IO.MemoryStream,System.Threading.CancellationToken)">PlayWavStreamAsync(MemoryStream, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Plays a wav stream.</p>
+  <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_PlayWavStreamAsync_ivrToolkit_Core_Util_WavStream_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.PlayWavStreamAsync(ivrToolkit.Core.Util.WavStream,System.Threading.CancellationToken)">PlayWavStreamAsync(WavStream, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously plays a WAV audio stream.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task PlayWavStreamAsync(MemoryStream audioStream, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task PlayWavStreamAsync(WavStream audioStream, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -645,15 +654,16 @@ It is meant to be used by the LineWrapper class only.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a></td>
+        <td><a class="xref" href="ivrToolkit.Core.Util.WavStream.html">WavStream</a></td>
         <td><span class="parametername">audioStream</span></td>
-        <td><p>including the wav header</p>
+        <td><p>The audio stream, including the WAV header.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -677,11 +687,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFile_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L95">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L115">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFile_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFile_System_String_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile(System.String)">RecordToFile(string)</h4>
-  <div class="markdown level1 summary"><p>Records a wav file to the disk in the format of 8000hz 1 channel signed 16 bit PCM. Has a default timeout of 5 minutes.</p>
+  <div class="markdown level1 summary"><p>Records a WAV file (8000Hz, mono, signed 16-bit PCM) to disk.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -701,7 +711,7 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">filename</span></td>
-        <td><p>The file name to record to</p>
+        <td><p>The output file path.</p>
 </td>
       </tr>
     </tbody>
@@ -711,11 +721,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFile_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L104">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L129">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFile_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFile_System_String_System_Int32_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFile(System.String,System.Int32)">RecordToFile(string, int)</h4>
-  <div class="markdown level1 summary"><p>Records a wav file to the disk in the format of 8000hz 1 channel signed 16 bit PCM.</p>
+  <div class="markdown level1 summary"><p>Records a WAV file with a specified timeout (8000Hz, mono, signed 16-bit PCM) to disk.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -735,13 +745,13 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">filename</span></td>
-        <td><p>The file name to record to</p>
+        <td><p>The output file path.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">timeoutMilliseconds</span></td>
-        <td><p>Maximum time to record in milliseconds</p>
+        <td><p>The maximum recording duration in milliseconds.</p>
 </td>
       </tr>
     </tbody>
@@ -751,11 +761,12 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_System_String_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L105">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L137">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_System_String_System_Int32_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String,System.Int32,System.Threading.CancellationToken)">RecordToFileAsync(string, int, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Asynchronously records a WAV file with a specified timeout (8000Hz, mono, signed 16-bit PCM) to disk.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -774,17 +785,20 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">filename</span></td>
-        <td></td>
+        <td><p>The output file path.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">timeoutMilliseconds</span></td>
-        <td></td>
+        <td><p>The maximum recording duration in milliseconds.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -808,11 +822,12 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L97">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L122">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_RecordToFileAsync_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.RecordToFileAsync(System.String,System.Threading.CancellationToken)">RecordToFileAsync(string, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Asynchronously records a WAV file (8000Hz, mono, signed 16-bit PCM) to disk.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -831,12 +846,14 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">filename</span></td>
-        <td></td>
+        <td><p>The output file path.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -860,11 +877,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_Reset.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.Reset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L131">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L167">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Reset_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Reset*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_Reset" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.Reset">Reset()</h4>
-  <div class="markdown level1 summary"><p>Disposes of the line and then recreates it.</p>
+  <div class="markdown level1 summary"><p>Disposes of the line and re-initializes it.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -876,11 +893,12 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_StartIncomingListener_System_Func_ivrToolkit_Core_Interfaces_IIvrLine_System_Threading_CancellationToken_System_Threading_Tasks_Task__ivrToolkit_Core_Interfaces_IIvrLine_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener(System.Func%7BivrToolkit.Core.Interfaces.IIvrLine%2CSystem.Threading.CancellationToken%2CSystem.Threading.Tasks.Task%7D%2CivrToolkit.Core.Interfaces.IIvrLine%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L47">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L56">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_StartIncomingListener_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_StartIncomingListener_System_Func_ivrToolkit_Core_Interfaces_IIvrLine_System_Threading_CancellationToken_System_Threading_Tasks_Task__ivrToolkit_Core_Interfaces_IIvrLine_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.StartIncomingListener(System.Func{ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken,System.Threading.Tasks.Task},ivrToolkit.Core.Interfaces.IIvrLine,System.Threading.CancellationToken)">StartIncomingListener(Func&lt;IIvrLine, CancellationToken, Task&gt;, IIvrLine, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Starts an incoming call listener with a callback function.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -899,17 +917,20 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="ivrToolkit.Core.Interfaces.IIvrLine.html">IIvrLine</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
-        <td></td>
+        <td><p>The function to execute when a call is received.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="ivrToolkit.Core.Interfaces.IIvrLine.html">IIvrLine</a></td>
         <td><span class="parametername">line</span></td>
-        <td></td>
+        <td><p>The line instance.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -918,11 +939,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_TakeOffHook.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.TakeOffHook%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L57">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L66">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_TakeOffHook_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.TakeOffHook*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_TakeOffHook" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.TakeOffHook">TakeOffHook()</h4>
-  <div class="markdown level1 summary"><p>Pick up the line.</p>
+  <div class="markdown level1 summary"><p>Takes the line off hook.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -934,11 +955,11 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRings_System_Int32_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRings(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L44">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L41">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRings_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRings*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRings_System_Int32_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRings(System.Int32)">WaitRings(int)</h4>
-  <div class="markdown level1 summary"><p>The number of rings to wait before answering</p>
+  <div class="markdown level1 summary"><p>Waits for a specified number of rings before answering.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -958,7 +979,7 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">rings</span></td>
-        <td><p>The number of rings to wait before answering</p>
+        <td><p>The number of rings to wait.</p>
 </td>
       </tr>
     </tbody>
@@ -968,11 +989,12 @@ It is meant to be used by the LineWrapper class only.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRingsAsync_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync(System.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L45">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IIvrBaseLine.cs/#L48">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRingsAsync_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IIvrBaseLine_WaitRingsAsync_System_Int32_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IIvrBaseLine.WaitRingsAsync(System.Int32,System.Threading.CancellationToken)">WaitRingsAsync(int, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Asynchronously waits for a specified number of rings before answering.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -991,12 +1013,14 @@ It is meant to be used by the LineWrapper class only.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">rings</span></td>
-        <td></td>
+        <td><p>The number of rings to wait.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>

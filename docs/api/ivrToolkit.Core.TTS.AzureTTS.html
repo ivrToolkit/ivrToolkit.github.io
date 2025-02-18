@@ -118,7 +118,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_AzureTTS__ctor_Microsoft_Extensions_Logging_ILoggerFactory_System_String_Microsoft_CognitiveServices_Speech_SpeechSynthesizer_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.AzureTTS.%23ctor(Microsoft.Extensions.Logging.ILoggerFactory%2CSystem.String%2CMicrosoft.CognitiveServices.Speech.SpeechSynthesizer)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L26">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L27">View Source</a>
   </span>
   <a id="ivrToolkit_Core_TTS_AzureTTS__ctor_" data-uid="ivrToolkit.Core.TTS.AzureTTS.#ctor*"></a>
   <h4 id="ivrToolkit_Core_TTS_AzureTTS__ctor_Microsoft_Extensions_Logging_ILoggerFactory_System_String_Microsoft_CognitiveServices_Speech_SpeechSynthesizer_" data-uid="ivrToolkit.Core.TTS.AzureTTS.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.String,Microsoft.CognitiveServices.Speech.SpeechSynthesizer)">AzureTTS(ILoggerFactory, string, SpeechSynthesizer)</h4>
@@ -147,7 +147,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">voiceName</span></td>
-        <td></td>
+        <td><p>The Azure voice name of your choosing. Example: &quot;en-US-JennyNeural&quot;</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.cognitiveservices.speech.speechsynthesizer">SpeechSynthesizer</a></td>
@@ -163,7 +164,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_AzureTTS_Dispose.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.AzureTTS.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L73">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L74">View Source</a>
   </span>
   <a id="ivrToolkit_Core_TTS_AzureTTS_Dispose_" data-uid="ivrToolkit.Core.TTS.AzureTTS.Dispose*"></a>
   <h4 id="ivrToolkit_Core_TTS_AzureTTS_Dispose" data-uid="ivrToolkit.Core.TTS.AzureTTS.Dispose">Dispose()</h4>
@@ -179,7 +180,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_AzureTTS_TextToSpeech_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.AzureTTS.TextToSpeech(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L34">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L35">View Source</a>
   </span>
   <a id="ivrToolkit_Core_TTS_AzureTTS_TextToSpeech_" data-uid="ivrToolkit.Core.TTS.AzureTTS.TextToSpeech*"></a>
   <h4 id="ivrToolkit_Core_TTS_AzureTTS_TextToSpeech_System_String_" data-uid="ivrToolkit.Core.TTS.AzureTTS.TextToSpeech(System.String)">TextToSpeech(string)</h4>
@@ -188,7 +189,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MemoryStream TextToSpeech(string text)</code></pre>
+    <pre><code class="lang-csharp hljs">public WavStream TextToSpeech(string text)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -218,7 +219,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a></td>
+        <td><a class="xref" href="ivrToolkit.Core.Util.WavStream.html">WavStream</a></td>
         <td><p>A wav stream representing the text. Includes the wav header too.</p>
 </td>
       </tr>
@@ -229,7 +230,7 @@
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_AzureTTS_TextToSpeechAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.AzureTTS.TextToSpeechAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L40">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L41">View Source</a>
   </span>
   <a id="ivrToolkit_Core_TTS_AzureTTS_TextToSpeechAsync_" data-uid="ivrToolkit.Core.TTS.AzureTTS.TextToSpeechAsync*"></a>
   <h4 id="ivrToolkit_Core_TTS_AzureTTS_TextToSpeechAsync_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.TTS.AzureTTS.TextToSpeechAsync(System.String,System.Threading.CancellationToken)">TextToSpeechAsync(string, CancellationToken)</h4>
@@ -238,7 +239,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;MemoryStream&gt; TextToSpeechAsync(string text, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;WavStream&gt; TextToSpeechAsync(string text, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -259,7 +260,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -273,7 +275,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="ivrToolkit.Core.Util.WavStream.html">WavStream</a>&gt;</td>
         <td><p>A wav stream representing the text. Includes the wav header too.</p>
 </td>
       </tr>
@@ -299,7 +301,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/AzureTTS.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

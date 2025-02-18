@@ -87,11 +87,12 @@ A multiTryPrompt is one that will repeat x number of times until you get what yo
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CivrToolkit.Core.Util.MultiTryPromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L67">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L64">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)">MultiTryPrompt(string, Func&lt;string, bool&gt;, MultiTryPromptOptions)</h4>
-  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_">Prompt(string, PromptOptions)</a> but repeats x number of times until evaluator is satisfied.</p>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_">Prompt(string, PromptOptions)</a> but will ask x number of times before the answer is either accepted or there
+have been too many retries.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -147,19 +148,19 @@ false if incorrect.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_System_String_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String%2CSystem.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CivrToolkit.Core.Util.MultiTryPromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CivrToolkit.Core.Util.MultiTryPromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L80">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L75">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_System_String_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(System.String,System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)">MultiTryPrompt(string, string, Func&lt;string, bool&gt;, MultiTryPromptOptions)</h4>
-  <div class="markdown level1 summary"><p>Speaks out the text-to-speech message but repeats x number of times until evaluator is satisfied.</p>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPrompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPrompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions)">MultiTryPrompt(ITextToSpeechBuilder, Func&lt;string, bool&gt;, MultiTryPromptOptions)</h4>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_ivrToolkit_Core_Util_PromptOptions_">Prompt(ITextToSpeechBuilder, PromptOptions)</a> but will ask x number of times before the answer is either accepted or there</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string MultiTryPrompt(string textToSpeech, string fileName, Func&lt;string, bool&gt; evaluator, MultiTryPromptOptions multiTryPromptOptions = null)</code></pre>
+    <pre><code class="lang-csharp hljs">string MultiTryPrompt(ITextToSpeechBuilder textToSpeechBuilder, Func&lt;string, bool&gt; evaluator, MultiTryPromptOptions multiTryPromptOptions = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -172,17 +173,10 @@ false if incorrect.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">textToSpeech</span></td>
-        <td><p>The text message to speak out</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>If the fileName exists, it will play the fileName instead of doing TTS.
-Will save the text-to-speech to the filename for use the next time. Leave null if you want to just
-speak the TTS</p>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
+        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><p>Used to generated TTS and possibly save it to a wav file for later use.
+Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>
       </tr>
       <tr>
@@ -221,11 +215,11 @@ false if incorrect.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L90">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L85">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)">MultiTryPromptAsync(string, Func&lt;string, bool&gt;, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_">PromptAsync(string, CancellationToken, PromptOptions)</a> but repeats x number of time until evaluator is satisfied.</p>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_">Prompt(string, PromptOptions)</a> but will ask x number of times before the answer is either accepted or there</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -258,7 +252,7 @@ false if incorrect.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Allows method to cancel itself gracefully</p>
+        <td><p>A token to monitor for cancellation requests.</p>
 </td>
       </tr>
     </tbody>
@@ -284,11 +278,11 @@ false if incorrect.</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CivrToolkit.Core.Util.MultiTryPromptOptions%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L115">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L108">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)">MultiTryPromptAsync(string, Func&lt;string, bool&gt;, MultiTryPromptOptions, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_">PromptAsync(string, CancellationToken, PromptOptions)</a> but repeats x number of time until evaluator is satisfied.</p>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_">Prompt(string, PromptOptions)</a> but will ask x number of times before the answer is either accepted or there</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -328,7 +322,7 @@ Leave as null to keep the default options. See <a class="xref" href="ivrToolkit.
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Allows method to cancel itself gracefully</p>
+        <td><p>A token to monitor for cancellation requests.</p>
 </td>
       </tr>
     </tbody>
@@ -351,19 +345,19 @@ Leave as null to keep the default options. See <a class="xref" href="ivrToolkit.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String%2CSystem.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L103">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L96">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_String_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.String,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)">MultiTryPromptAsync(string, string, Func&lt;string, bool&gt;, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Speaks out the text-to-speech message asynchronously but repeats x number of times until evaluator is satisfied.</p>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},System.Threading.CancellationToken)">MultiTryPromptAsync(ITextToSpeechBuilder, Func&lt;string, bool&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_ivrToolkit_Core_Util_PromptOptions_">Prompt(ITextToSpeechBuilder, PromptOptions)</a> but will ask x number of times before the answer is either accepted or there</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;string&gt; MultiTryPromptAsync(string textToSpeech, string fileName, Func&lt;string, bool&gt; evaluator, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; MultiTryPromptAsync(ITextToSpeechBuilder textToSpeechBuilder, Func&lt;string, bool&gt; evaluator, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -376,17 +370,10 @@ Leave as null to keep the default options. See <a class="xref" href="ivrToolkit.
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">textToSpeech</span></td>
-        <td><p>The text message to speak out</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>If the fileName exists, it will play the fileName instead of doing TTS.
-Will save the text-to-speech to the filename for use the next time. Leave null if you want to just
-speak the TTS</p>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
+        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><p>Used to generated TTS and possibly save it to a wav file for later use.
+Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>
       </tr>
       <tr>
@@ -399,7 +386,7 @@ false if incorrect.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Allows method to cancel itself gracefully</p>
+        <td><p>A token to monitor for cancellation requests.</p>
 </td>
       </tr>
     </tbody>
@@ -422,19 +409,19 @@ false if incorrect.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String%2CSystem.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CivrToolkit.Core.Util.MultiTryPromptOptions%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CivrToolkit.Core.Util.MultiTryPromptOptions%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L130">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L121">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_System_String_System_String_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(System.String,System.String,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)">MultiTryPromptAsync(string, string, Func&lt;string, bool&gt;, MultiTryPromptOptions, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Speaks out the text-to-speech message asynchronously but repeats x number of times until evaluator is satisfied.</p>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_MultiTryPromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Func_System_String_System_Boolean__ivrToolkit_Core_Util_MultiTryPromptOptions_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.MultiTryPromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Func{System.String,System.Boolean},ivrToolkit.Core.Util.MultiTryPromptOptions,System.Threading.CancellationToken)">MultiTryPromptAsync(ITextToSpeechBuilder, Func&lt;string, bool&gt;, MultiTryPromptOptions, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Same as <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_ivrToolkit_Core_Util_PromptOptions_">Prompt(ITextToSpeechBuilder, PromptOptions)</a> but will ask x number of times before the answer is either accepted or there</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;string&gt; MultiTryPromptAsync(string textToSpeech, string fileName, Func&lt;string, bool&gt; evaluator, MultiTryPromptOptions multiTryPromptOptions, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; MultiTryPromptAsync(ITextToSpeechBuilder textToSpeechBuilder, Func&lt;string, bool&gt; evaluator, MultiTryPromptOptions multiTryPromptOptions, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -447,17 +434,10 @@ false if incorrect.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">textToSpeech</span></td>
-        <td><p>The text message to speak out</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>If the fileName exists, it will play the fileName instead of doing TTS.
-Will save the text-to-speech to the filename for use the next time. Leave null if you want to just
-speak the TTS</p>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
+        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><p>Used to generated TTS and possibly save it to a wav file for later use.
+Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>
       </tr>
       <tr>
@@ -476,7 +456,7 @@ false if incorrect.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Allows method to cancel itself gracefully</p>
+        <td><p>A token to monitor for cancellation requests.</p>
 </td>
       </tr>
     </tbody>
@@ -499,70 +479,6 @@ false if incorrect.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_System_String_ivrToolkit_Core_Util_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String%2CSystem.String%2CivrToolkit.Core.Util.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L33">View Source</a>
-  </span>
-  <a id="ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.Prompt*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_System_String_ivrToolkit_Core_Util_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,System.String,ivrToolkit.Core.Util.PromptOptions)">Prompt(string, string, PromptOptions)</h4>
-  <div class="markdown level1 summary"><p>Speaks out the text-to-speech message.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string Prompt(string textToSpeech, string fileName, PromptOptions promptOptions = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">textToSpeech</span></td>
-        <td><p>The text message to speak out</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>If the fileName exists, it will play the fileName instead of doing TTS.
-Will save the text-to-speech to the filename for use the next time. Leave null if you want to just
-speak the TTS</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ivrToolkit.Core.Util.PromptOptions.html">PromptOptions</a></td>
-        <td><span class="parametername">promptOptions</span></td>
-        <td><p>Defines prompt options to override the default ones. See <a class="xref" href="ivrToolkit.Core.Util.PromptOptions.html">PromptOptions</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>The answer to the prompt</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String%2CivrToolkit.Core.Util.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -570,7 +486,7 @@ speak the TTS</p>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.Prompt*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(System.String,ivrToolkit.Core.Util.PromptOptions)">Prompt(string, PromptOptions)</h4>
-  <div class="markdown level1 summary"><p>Speaks a file/phrase to a person on the call and then expexts digits to be pressed.</p>
+  <div class="markdown level1 summary"><p>Speaks a file/phrase to a person on the call and then expects digits to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -619,19 +535,19 @@ speak the TTS</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String%2CSystem.String%2CSystem.Threading.CancellationToken%2CivrToolkit.Core.Util.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_ivrToolkit_Core_Util_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder%2CivrToolkit.Core.Util.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L56">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L31">View Source</a>
   </span>
-  <a id="ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)">PromptAsync(string, string, CancellationToken, PromptOptions)</h4>
-  <div class="markdown level1 summary"><p>Speaks out the text-to-speech message asynchronously.</p>
+  <a id="ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.Prompt*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_ivrToolkit_Core_Util_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.Prompt(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,ivrToolkit.Core.Util.PromptOptions)">Prompt(ITextToSpeechBuilder, PromptOptions)</h4>
+  <div class="markdown level1 summary"><p>Speaks out the text-to-speech message using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a>  and then expects digits to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;string&gt; PromptAsync(string textToSpeech, string fileName, CancellationToken cancellationToken, PromptOptions promptOptions = null)</code></pre>
+    <pre><code class="lang-csharp hljs">string Prompt(ITextToSpeechBuilder textToSpeechBuilder, PromptOptions promptOptions = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -644,23 +560,10 @@ speak the TTS</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">textToSpeech</span></td>
-        <td><p>The text message to speak out</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>If the fileName exists, it will play the fileName instead of doing TTS.
-Will save the text-to-speech to the filename for use the next time. Leave null if you want to just
-speak the TTS</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p>The cancellation Token</p>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
+        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><p>Used to generated TTS and possibly save it to a wav file for later use.
+Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>
       </tr>
       <tr>
@@ -681,7 +584,7 @@ speak the TTS</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><p>The answer to the prompt</p>
 </td>
       </tr>
@@ -692,11 +595,11 @@ speak the TTS</p>
     <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String%2CSystem.Threading.CancellationToken%2CivrToolkit.Core.Util.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L43">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L41">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync*"></a>
   <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_System_String_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(System.String,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)">PromptAsync(string, CancellationToken, PromptOptions)</h4>
-  <div class="markdown level1 summary"><p>A asynchronous version of <a class="xref" href="ivrToolkit.Core.Interfaces.IPromptMethods.html#ivrToolkit_Core_Interfaces_IPromptMethods_Prompt_System_String_ivrToolkit_Core_Util_PromptOptions_">Prompt(string, PromptOptions)</a></p>
+  <div class="markdown level1 summary"><p>Asynchronously speaks a file/phrase to a person on the call and then expects digits to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -722,7 +625,7 @@ speak the TTS</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Allows method to cancel itself gracefully</p>
+        <td><p>A token to monitor for cancellation requests.</p>
 </td>
       </tr>
       <tr>
@@ -730,6 +633,69 @@ speak the TTS</p>
         <td><span class="parametername">promptOptions</span></td>
         <td><p>Defines prompt options to override the default ones.
 Leave as null to keep the default options. See <a class="xref" href="ivrToolkit.Core.Util.PromptOptions.html">PromptOptions</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><p>The answer to the prompt</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder%2CSystem.Threading.CancellationToken%2CivrToolkit.Core.Util.PromptOptions)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPromptMethods.cs/#L52">View Source</a>
+  </span>
+  <a id="ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IPromptMethods_PromptAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_ivrToolkit_Core_Util_PromptOptions_" data-uid="ivrToolkit.Core.Interfaces.IPromptMethods.PromptAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken,ivrToolkit.Core.Util.PromptOptions)">PromptAsync(ITextToSpeechBuilder, CancellationToken, PromptOptions)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously speaks out the text-to-speech message using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a>  and then expects digits to be pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; PromptAsync(ITextToSpeechBuilder textToSpeechBuilder, CancellationToken cancellationToken, PromptOptions promptOptions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
+        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><p>Used to generated TTS and possibly save it to a wav file for later use.
+Will only generate TTS if a wav file is not specified, missing or changed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Util.PromptOptions.html">PromptOptions</a></td>
+        <td><span class="parametername">promptOptions</span></td>
+        <td><p>Defines prompt options to override the default ones. See <a class="xref" href="ivrToolkit.Core.Util.PromptOptions.html">PromptOptions</a></p>
 </td>
       </tr>
     </tbody>

@@ -274,10 +274,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechFactory.yml",
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Interfaces.ITextToSpeechGenerator.html"
         }
       },
       "version": ""
@@ -424,6 +444,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.TTS.IFileHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.TTS.IFileHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.TTS.RegularFileHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.TTS.RegularFileHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.TTS.TextToSpeechBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.TTS.TextToSpeechBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.TTS.TextToSpeechGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.TTS.TextToSpeechGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.TTS.yml",
       "output": {
         ".html": {
@@ -478,6 +538,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ivrToolkit.Core.Util.WavConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Util.WavStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Util.WavStream.html"
         }
       },
       "version": ""
