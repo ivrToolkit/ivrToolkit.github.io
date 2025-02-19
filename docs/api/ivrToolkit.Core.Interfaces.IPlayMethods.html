@@ -284,19 +284,19 @@
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayFile_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayFile_ivrToolkit_Core_Interfaces_ITextToSpeechCache_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile(ivrToolkit.Core.Interfaces.ITextToSpeechCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPlayMethods.cs/#L268">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPlayMethods.cs/#L269">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayFile_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayFile_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)">PlayFile(ITextToSpeechBuilder)</h4>
-  <div class="markdown level1 summary"><p>Converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></p>
+  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayFile_ivrToolkit_Core_Interfaces_ITextToSpeechCache_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayFile(ivrToolkit.Core.Interfaces.ITextToSpeechCache)">PlayFile(ITextToSpeechCache)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PlayFile(ITextToSpeechBuilder textToSpeechBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">void PlayFile(ITextToSpeechCache textToSpeechCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -309,29 +309,45 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
-        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></td>
+        <td><span class="parametername">textToSpeechCache</span></td>
         <td><p>Used to generated TTS and possibly save it to a wav file for later use.
 Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Exceptions.VoiceException.html">VoiceException</a></td>
+        <td><p>If ITextToSpeechCache doesn't have a wav file name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileAsync_ivrToolkit_Core_Interfaces_ITextToSpeechCache_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync(ivrToolkit.Core.Interfaces.ITextToSpeechCache%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPlayMethods.cs/#L276">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPlayMethods.cs/#L278">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileAsync_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken)">PlayFileAsync(ITextToSpeechBuilder, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></p>
+  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayFileAsync_ivrToolkit_Core_Interfaces_ITextToSpeechCache_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayFileAsync(ivrToolkit.Core.Interfaces.ITextToSpeechCache,System.Threading.CancellationToken)">PlayFileAsync(ITextToSpeechCache, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task PlayFileAsync(ITextToSpeechBuilder textToSpeechBuilder, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task PlayFileAsync(ITextToSpeechCache textToSpeechCache, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -344,8 +360,8 @@ Will only generate TTS if a wav file is not specified, missing or changed.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
-        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></td>
+        <td><span class="parametername">textToSpeechCache</span></td>
         <td><p>Used to generated TTS and possibly save it to a wav file for later use.
 Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>
@@ -370,6 +386,22 @@ Will only generate TTS if a wav file is not specified, missing or changed.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ivrToolkit.Core.Exceptions.VoiceException.html">VoiceException</a></td>
+        <td><p>If ITextToSpeechCache doesn't have a wav file name.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1068,19 +1100,19 @@ The following codes are supported:
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_ivrToolkit_Core_Interfaces_ITextToSpeechCache_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(ivrToolkit.Core.Interfaces.ITextToSpeechCache)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPlayMethods.cs/#L246">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder)">PlayTextToSpeech(ITextToSpeechBuilder)</h4>
-  <div class="markdown level1 summary"><p>Converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></p>
+  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeech_ivrToolkit_Core_Interfaces_ITextToSpeechCache_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeech(ivrToolkit.Core.Interfaces.ITextToSpeechCache)">PlayTextToSpeech(ITextToSpeechCache)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PlayTextToSpeech(ITextToSpeechBuilder textToSpeechBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">void PlayTextToSpeech(ITextToSpeechCache textToSpeechCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1093,8 +1125,8 @@ The following codes are supported:
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
-        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></td>
+        <td><span class="parametername">textToSpeechCache</span></td>
         <td><p>Used to generated TTS and possibly save it to a wav file for later use.
 Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>
@@ -1158,19 +1190,19 @@ Will only generate TTS if a wav file is not specified, missing or changed.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_ivrToolkit_Core_Interfaces_ITextToSpeechCache_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(ivrToolkit.Core.Interfaces.ITextToSpeechCache%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IPlayMethods.cs/#L261">View Source</a>
   </span>
   <a id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync*"></a>
-  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_ivrToolkit_Core_Interfaces_ITextToSpeechBuilder_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(ivrToolkit.Core.Interfaces.ITextToSpeechBuilder,System.Threading.CancellationToken)">PlayTextToSpeechAsync(ITextToSpeechBuilder, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></p>
+  <h4 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayTextToSpeechAsync_ivrToolkit_Core_Interfaces_ITextToSpeechCache_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IPlayMethods.PlayTextToSpeechAsync(ivrToolkit.Core.Interfaces.ITextToSpeechCache,System.Threading.CancellationToken)">PlayTextToSpeechAsync(ITextToSpeechCache, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously converts the specified text into a wav stream and plays it using <a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task PlayTextToSpeechAsync(ITextToSpeechBuilder textToSpeechBuilder, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task PlayTextToSpeechAsync(ITextToSpeechCache textToSpeechCache, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1183,8 +1215,8 @@ Will only generate TTS if a wav file is not specified, missing or changed.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechBuilder.html">ITextToSpeechBuilder</a></td>
-        <td><span class="parametername">textToSpeechBuilder</span></td>
+        <td><a class="xref" href="ivrToolkit.Core.Interfaces.ITextToSpeechCache.html">ITextToSpeechCache</a></td>
+        <td><span class="parametername">textToSpeechCache</span></td>
         <td><p>Used to generated TTS and possibly save it to a wav file for later use.
 Will only generate TTS if a wav file is not specified, missing or changed.</p>
 </td>

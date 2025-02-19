@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Interface IFileHandler ">
     
-    
+    <meta name="description" content="This interface is used to inject the Regular File handler or one that can be used for unit testing.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -64,16 +64,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ivrToolkit.Core.TTS.IFileHandler">
+            <article class="content wrap" id="_content" data-uid="ivrToolkit.Core.Interfaces.IFileHandler">
 
 
 
-  <h1 id="ivrToolkit_Core_TTS_IFileHandler" data-uid="ivrToolkit.Core.TTS.IFileHandler" class="text-break">Interface IFileHandler</h1>
-  <div class="markdown level0 summary"></div>
+  <h1 id="ivrToolkit_Core_Interfaces_IFileHandler" data-uid="ivrToolkit.Core.Interfaces.IFileHandler" class="text-break">Interface IFileHandler</h1>
+  <div class="markdown level0 summary"><p>This interface is used to inject the Regular File handler or one that can be used for unit testing.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ivrToolkit.html">ivrToolkit</a>.<a class="xref" href="ivrToolkit.Core.html">Core</a>.<a class="xref" href="ivrToolkit.Core.TTS.html">TTS</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ivrToolkit.html">ivrToolkit</a>.<a class="xref" href="ivrToolkit.Core.html">Core</a>.<a class="xref" href="ivrToolkit.Core.Interfaces.html">Interfaces</a></h6>
   <h6><strong>Assembly</strong>: ivrToolkit.Core.dll</h6>
-  <h5 id="ivrToolkit_Core_TTS_IFileHandler_syntax">Syntax</h5>
+  <h5 id="ivrToolkit_Core_Interfaces_IFileHandler_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IFileHandler</code></pre>
   </div>
@@ -81,14 +82,15 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_IFileHandler_Exists_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.IFileHandler.Exists(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IFileHandler_Exists_System_String_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IFileHandler.Exists(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/TextToSpeechBuilder.cs/#L15">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IFileHandler.cs/#L18">View Source</a>
   </span>
-  <a id="ivrToolkit_Core_TTS_IFileHandler_Exists_" data-uid="ivrToolkit.Core.TTS.IFileHandler.Exists*"></a>
-  <h4 id="ivrToolkit_Core_TTS_IFileHandler_Exists_System_String_" data-uid="ivrToolkit.Core.TTS.IFileHandler.Exists(System.String)">Exists(string)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ivrToolkit_Core_Interfaces_IFileHandler_Exists_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.Exists*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IFileHandler_Exists_System_String_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.Exists(System.String)">Exists(string)</h4>
+  <div class="markdown level1 summary"><p>Checks to see if the path exists.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -107,7 +109,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">fullPath</span></td>
-        <td></td>
+        <td><p>The name of the path to check</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -122,20 +125,22 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if the path exists</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_IFileHandler_GetFileStream_System_String_System_IO_FileMode_System_IO_FileAccess_System_IO_FileShare_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.IFileHandler.GetFileStream(System.String%2CSystem.IO.FileMode%2CSystem.IO.FileAccess%2CSystem.IO.FileShare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IFileHandler_GetFileStream_System_String_System_IO_FileMode_System_IO_FileAccess_System_IO_FileShare_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IFileHandler.GetFileStream(System.String%2CSystem.IO.FileMode%2CSystem.IO.FileAccess%2CSystem.IO.FileShare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/TextToSpeechBuilder.cs/#L19">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IFileHandler.cs/#L52">View Source</a>
   </span>
-  <a id="ivrToolkit_Core_TTS_IFileHandler_GetFileStream_" data-uid="ivrToolkit.Core.TTS.IFileHandler.GetFileStream*"></a>
-  <h4 id="ivrToolkit_Core_TTS_IFileHandler_GetFileStream_System_String_System_IO_FileMode_System_IO_FileAccess_System_IO_FileShare_" data-uid="ivrToolkit.Core.TTS.IFileHandler.GetFileStream(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)">GetFileStream(string, FileMode, FileAccess, FileShare)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ivrToolkit_Core_Interfaces_IFileHandler_GetFileStream_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.GetFileStream*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IFileHandler_GetFileStream_System_String_System_IO_FileMode_System_IO_FileAccess_System_IO_FileShare_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.GetFileStream(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)">GetFileStream(string, FileMode, FileAccess, FileShare)</h4>
+  <div class="markdown level1 summary"><p>Returns the files stream for the given file.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -154,7 +159,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">fileName</span></td>
-        <td></td>
+        <td><p>The name of the file to read from</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.filemode">FileMode</a></td>
@@ -184,20 +190,22 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
-        <td></td>
+        <td><p>A Stream containing the contents</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_IFileHandler_ReadAllTextAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IFileHandler_ReadAllTextAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IFileHandler.ReadAllTextAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/TextToSpeechBuilder.cs/#L18">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IFileHandler.cs/#L42">View Source</a>
   </span>
-  <a id="ivrToolkit_Core_TTS_IFileHandler_ReadAllTextAsync_" data-uid="ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync*"></a>
-  <h4 id="ivrToolkit_Core_TTS_IFileHandler_ReadAllTextAsync_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.TTS.IFileHandler.ReadAllTextAsync(System.String,System.Threading.CancellationToken)">ReadAllTextAsync(string, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ivrToolkit_Core_Interfaces_IFileHandler_ReadAllTextAsync_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.ReadAllTextAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IFileHandler_ReadAllTextAsync_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.ReadAllTextAsync(System.String,System.Threading.CancellationToken)">ReadAllTextAsync(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Reads the contents of a file as one long string</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -216,12 +224,14 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">fileName</span></td>
-        <td></td>
+        <td><p>THe name of the file to read from</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -236,20 +246,22 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td></td>
+        <td><p>The contents of the file as a string</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_IFileHandler_WriteAllBytesAsync_System_String_System_Byte___System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync(System.String%2CSystem.Byte%5B%5D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IFileHandler_WriteAllBytesAsync_System_String_System_Byte___System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IFileHandler.WriteAllBytesAsync(System.String%2CSystem.Byte%5B%5D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/TextToSpeechBuilder.cs/#L16">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IFileHandler.cs/#L26">View Source</a>
   </span>
-  <a id="ivrToolkit_Core_TTS_IFileHandler_WriteAllBytesAsync_" data-uid="ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync*"></a>
-  <h4 id="ivrToolkit_Core_TTS_IFileHandler_WriteAllBytesAsync_System_String_System_Byte___System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.TTS.IFileHandler.WriteAllBytesAsync(System.String,System.Byte[],System.Threading.CancellationToken)">WriteAllBytesAsync(string, byte[], CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ivrToolkit_Core_Interfaces_IFileHandler_WriteAllBytesAsync_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.WriteAllBytesAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IFileHandler_WriteAllBytesAsync_System_String_System_Byte___System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.WriteAllBytesAsync(System.String,System.Byte[],System.Threading.CancellationToken)">WriteAllBytesAsync(string, byte[], CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Writes out a byte array to a file</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -268,17 +280,20 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">fileName</span></td>
-        <td></td>
+        <td><p>The name of the file to write out</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
         <td><span class="parametername">bytes</span></td>
-        <td></td>
+        <td><p>The byte array to write into the file</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -299,14 +314,15 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_TTS_IFileHandler_WriteAllTextAsync_System_String_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync(System.String%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/new/develop/apiSpec/new?filename=ivrToolkit_Core_Interfaces_IFileHandler_WriteAllTextAsync_System_String_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20ivrToolkit.Core.Interfaces.IFileHandler.WriteAllTextAsync(System.String%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/TextToSpeechBuilder.cs/#L17">View Source</a>
+    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IFileHandler.cs/#L34">View Source</a>
   </span>
-  <a id="ivrToolkit_Core_TTS_IFileHandler_WriteAllTextAsync_" data-uid="ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync*"></a>
-  <h4 id="ivrToolkit_Core_TTS_IFileHandler_WriteAllTextAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.TTS.IFileHandler.WriteAllTextAsync(System.String,System.String,System.Threading.CancellationToken)">WriteAllTextAsync(string, string, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ivrToolkit_Core_Interfaces_IFileHandler_WriteAllTextAsync_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.WriteAllTextAsync*"></a>
+  <h4 id="ivrToolkit_Core_Interfaces_IFileHandler_WriteAllTextAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="ivrToolkit.Core.Interfaces.IFileHandler.WriteAllTextAsync(System.String,System.String,System.Threading.CancellationToken)">WriteAllTextAsync(string, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Write out a text string to a file</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -325,17 +341,20 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">fileName</span></td>
-        <td></td>
+        <td><p>The name of the file to write out</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The text string to write into the file</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
         <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><p>A token to monitor for cancellation requests.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -367,7 +386,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/TTS/TextToSpeechBuilder.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ivrToolkit/ivrToolkit/blob/develop/ivrToolkit.Core/Interfaces/IFileHandler.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
