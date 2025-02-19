@@ -24,6 +24,7 @@ title: Text To Speech
         <ul>
             <li><a href="#setup">Setup</a></li>
             <li><a href="#playTextToSpeech">PlayTextToSpeech</a></li>
+            <li><a href="#textToSpeechCaching">Text-To-Speech Caching</a></li>
             <li><a href="#prompt">Prompt</a></li>
         </ul>
     </nav>
@@ -99,17 +100,52 @@ using var lineManager = new LineManager(loggerFactory, sipVoiceProperties, sipPl
 await line.PlayTextToSpeechAsync(message, cancellationToken);</code></pre>
     </div>
 
+
+
+
+
+    <h2 id="textToSpeechCaching">Text-To-Speech Caching<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+        href="#a" style="padding-left: 0.375em;"></a></h2>
+        <p>
+            TTS caching provides a mechanism for saving the generated audio to a WAV file.
+            TTS generation can be costly and caching provides a way to limit the TTS generation.
+            If the WAV file exists and the text hasn't changed, no TTS generation will happen. Instead,
+            the WAV file will be used.
+        </p>
     <p>
-        When a fileName is specified, the TTS will not happen if the file exists. Instead,
-        the wav file will be played. If the file does not exist, TTS will happen and the file
-        will be written out before being played.
+        The difference between using PlayFile vs PlayTextToSpeech with ITextToSpeechCache:
+        <ul>
+            <li>
+                PlayFile will generate a WAV and use the filename to play the WAV file. 
+                This version supports older Dialogic plugins.
+                ITextToSpeechCache objects must have a WAV file name defined because PlayFile
+                requires one.     
+            </li>
+            <li>
+                PlayTextToSpeech will still generate the WAV file for caching purposes but
+                will pass the WAV stream to the PlayWavStream method. PlayWavStream is only
+                support with the SipSorcery plugin.
+                ITextToSpeechCache objects do NOT need a WAV file name defined but you will
+                not be partaking in the Caching part.
+            </li>
+        </ul>
+
     </p>
 
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
             data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-    <pre><code class="language-csharp">var message = "Hello world.";
-await line.PlayTextToSpeechAsync(message, "hello.wav", cancellationToken);</code></pre>
+    <pre><code class="language-csharp">// get a reference to the TTS caching factory 
+var ttsCacheFactory = line.TextToSpeechCacheFactory;
+
+// generate the TTS Cache
+var ttsCache = ttsCacheFactory.Create("Thank you for using the <say-as interpret-as='characters'>IVR</say-as> Toolkit.", $"{WAV_FILE_LOCATION}/ThankYou.wav");
+
+// pass the cache to PlayFileAsync
+await line.PlayFileAsync(ttsCache, cancellationToken);
+
+// alternatively pass the cache to this method
+await line.PlayTextToSpeechAsync(ttsCache, cancellationToken);</code></pre>
     </div>
 
     <p>
@@ -193,29 +229,39 @@ await line.PlayTextToSpeechAsync(message, cancellationToken);</code></pre>
 
     <p>
         To use Text-To-Speech with Prompt or MultiTryPrompt, you use one of the method
-        overloads where the first two parameters are textToSpeech and fileName. Specify null
-        for the fileName if you don't want to save or play the message as a wav file.
+        overloads that uses ITextToSpeechCache. Specify null
+        for the fileName if you don't want to cache the TTS audio.
     </p>
 
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
             data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-    <pre><code class="language-csharp">// play tts and wait for digits to be pressed
-message = "For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.";
-var result = await line.PromptAsync(message,$"{WAV_FILE_LOCATION}/Press1234.wav", cancellationToken);</code></pre>
+    <pre><code class="language-csharp">// get a reference to the TTS caching factory 
+var ttsCacheFactory = line.TextToSpeechCacheFactory;
+
+// generate the TTS Cache
+var ttsCache = ttsCacheFactory.Create("For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.", $"{WAV_FILE_LOCATION}/ThankYou.wav");
+
+// play tts and wait for digits to be pressed
+var result = await line.PromptAsync(ttsCache, cancellationToken);</code></pre>
     </div>
 
 
     <p>
-        This method will always do TTS because the fileName parameter is null:
+        This method will always do TTS because the fileName was not specified
     </p>
 
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
             data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-    <pre><code class="language-csharp">// play tts and wait for digits to be pressed
-message = "For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.";
-var result = await line.PromptAsync(message, null, cancellationToken);</code></pre>
+        <pre><code class="language-csharp">// get a reference to the TTS caching factory 
+var ttsCacheFactory = line.TextToSpeechCacheFactory;
+
+// generate the TTS Cache - do not specity the fileName path
+var ttsCache = ttsCacheFactory.Create("For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.");
+
+// play tts and wait for digits to be pressed
+var result = await line.PromptAsync(ttsCache, cancellationToken);</code></pre>
     </div>
 
 
