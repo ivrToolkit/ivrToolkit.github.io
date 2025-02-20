@@ -210,7 +210,14 @@
     </tbody>
   </table>
   <h5 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayDate_System_DateTime_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Mask parts can be separated by the following characters: <code>:</code>, <code> </code>, or <code>-</code>.<br><b>&quot;m&quot; &quot;mm&quot;, or &quot;mmm&quot;</b>  - Speaks the month. Example: December<br><b>&quot;d&quot; or &quot;dd&quot;</b>     - Speaks the day of the month. Example: 3rd<br><b>&quot;ddd&quot; or &quot;dddd&quot;</b> - Speaks the day of the week. Example: Saturday<br><b>&quot;yyy&quot; or &quot;yyyy&quot;</b> - Speaks the year. Speak years 2010 to 2099 with the word &quot;thousand&quot;.<br><b>&quot;h&quot; or &quot;hh&quot;</b>     - Speaks the hours. If your mask contains <code>a/p</code>, it is 12-hour time; otherwise, it is 24-hour time.<br><b>&quot;n&quot; or &quot;nn&quot;</b>     - Speaks the minutes.<br><b>&quot;a/p&quot;</b>           - Speaks either &quot;am&quot; or &quot;pm&quot;.<br></p>
+  <div class="markdown level1 remarks"><p>Mask parts can be separated by the following characters: <code>:</code>, <code> </code>, or <code>-</code>.<br>
+<b>&quot;m&quot; &quot;mm&quot;, or &quot;mmm&quot;</b>  - Speaks the month. Example: December<br>
+<b>&quot;d&quot; or &quot;dd&quot;</b>     - Speaks the day of the month. Example: 3rd<br>
+<b>&quot;ddd&quot; or &quot;dddd&quot;</b> - Speaks the day of the week. Example: Saturday<br>
+<b>&quot;yyy&quot; or &quot;yyyy&quot;</b> - Speaks the year. Speak years 2010 to 2099 with the word &quot;thousand&quot;.<br>
+<b>&quot;h&quot; or &quot;hh&quot;</b>     - Speaks the hours. If your mask contains <code>a/p</code>, it is 12-hour time; otherwise, it is 24-hour time.<br>
+<b>&quot;n&quot; or &quot;nn&quot;</b>     - Speaks the minutes.<br>
+<b>&quot;a/p&quot;</b>           - Speaks either &quot;am&quot; or &quot;pm&quot;.<br></p>
 </div>
   <h5 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayDate_System_DateTime_System_String__examples">Examples</h5>
   <pre><code class="lang-csharp">line.PlayDate(myDateTime,"m-d-yyy h:n a/p");</code></pre>
@@ -277,7 +284,14 @@
     </tbody>
   </table>
   <h5 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayDateAsync_System_DateTime_System_String_System_Threading_CancellationToken__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Mask parts can be separated by the following characters: <code>:</code>, <code> </code>, or <code>-</code>.<br><b>&quot;m&quot; &quot;mm&quot;, or &quot;mmm&quot;</b>  - Speaks the month. Example: December<br><b>&quot;d&quot; or &quot;dd&quot;</b>     - Speaks the day of the month. Example: 3rd<br><b>&quot;ddd&quot; or &quot;dddd&quot;</b> - Speaks the day of the week. Example: Saturday<br><b>&quot;yyy&quot; or &quot;yyyy&quot;</b> - Speaks the year. Speak years 2010 to 2099 with the word &quot;thousand&quot;.<br><b>&quot;h&quot; or &quot;hh&quot;</b>     - Speaks the hours. If your mask contains <code>a/p</code>, it is 12-hour time; otherwise, it is 24-hour time.<br><b>&quot;n&quot; or &quot;nn&quot;</b>     - Speaks the minutes.<br><b>&quot;a/p&quot;</b>           - Speaks either &quot;am&quot; or &quot;pm&quot;.<br></p>
+  <div class="markdown level1 remarks"><p>Mask parts can be separated by the following characters: <code>:</code>, <code> </code>, or <code>-</code>.<br>
+<b>&quot;m&quot; &quot;mm&quot;, or &quot;mmm&quot;</b>  - Speaks the month. Example: December<br>
+<b>&quot;d&quot; or &quot;dd&quot;</b>     - Speaks the day of the month. Example: 3rd<br>
+<b>&quot;ddd&quot; or &quot;dddd&quot;</b> - Speaks the day of the week. Example: Saturday<br>
+<b>&quot;yyy&quot; or &quot;yyyy&quot;</b> - Speaks the year. Speak years 2010 to 2099 with the word &quot;thousand&quot;.<br>
+<b>&quot;h&quot; or &quot;hh&quot;</b>     - Speaks the hours. If your mask contains <code>a/p</code>, it is 12-hour time; otherwise, it is 24-hour time.<br>
+<b>&quot;n&quot; or &quot;nn&quot;</b>     - Speaks the minutes.<br>
+<b>&quot;a/p&quot;</b>           - Speaks either &quot;am&quot; or &quot;pm&quot;.<br></p>
 </div>
   <h5 id="ivrToolkit_Core_Interfaces_IPlayMethods_PlayDateAsync_System_DateTime_System_String_System_Threading_CancellationToken__examples">Examples</h5>
   <pre><code class="lang-csharp">await line.PlayDateAsync(myDateTime,"m-d-yyy h:n a/p", cancellationToken);</code></pre>
@@ -981,7 +995,8 @@ You would string them together like: 'data|code,data|code,data|code' etc.</p>
   <div class="markdown level1 remarks"><p>Each string part is in the format of 'data|code'. You would string them together like: 'data|code,data|code,data|code' etc.</p>
 <p>
 The following codes are supported:
-</p><ul><li><span class="term"><code>C</code></span>- Characters that will be played with the <code>PlayCharacter</code> method.</li><li><span class="term"><code>D</code></span>- Expects the data to be a date in month/day/year format. Can be a date, time, or both.
+</p>
+<ul><li><span class="term"><code>C</code></span>- Characters that will be played with the <code>PlayCharacter</code> method.</li><li><span class="term"><code>D</code></span>- Expects the data to be a date in month/day/year format. Can be a date, time, or both.
         Uses <code>DateTime.Parse(data, new CultureInfo("en-US"));</code>.</li><li><span class="term"><code>F</code></span>- A file name.</li><li><span class="term"><code>M</code></span>- A string that can convert to a double value and be spoken with the <code>PlayMoney</code> method.</li><li><span class="term"><code>N</code></span>- A string that can convert to a double value and be spoken with the <code>PlayNumber</code> method.</li><li><span class="term"><code>O</code></span>- A string number between 1 and 31 that will be spoken with the <code>PlayOrdinal</code> method.</li></ul>
 </div>
   <span class="small pull-right mobile-hide">
@@ -1045,7 +1060,8 @@ You would string them together like: 'data|code,data|code,data|code' etc.</p>
   <div class="markdown level1 remarks"><p>Each string part is in the format of 'data|code'. You would string them together like: 'data|code,data|code,data|code' etc.</p>
 <p>
 The following codes are supported:
-</p><ul><li><span class="term"><code>C</code></span>- Characters that will be played with the <code>PlayCharacter</code> method.</li><li><span class="term"><code>D</code></span>- Expects the data to be a date in month/day/year format. Can be a date, time, or both.
+</p>
+<ul><li><span class="term"><code>C</code></span>- Characters that will be played with the <code>PlayCharacter</code> method.</li><li><span class="term"><code>D</code></span>- Expects the data to be a date in month/day/year format. Can be a date, time, or both.
         Uses <code>DateTime.Parse(data, new CultureInfo("en-US"));</code>.</li><li><span class="term"><code>F</code></span>- A file name.</li><li><span class="term"><code>M</code></span>- A string that can convert to a double value and be spoken with the <code>PlayMoney</code> method.</li><li><span class="term"><code>N</code></span>- A string that can convert to a double value and be spoken with the <code>PlayNumber</code> method.</li><li><span class="term"><code>O</code></span>- A string number between 1 and 31 that will be spoken with the <code>PlayOrdinal</code> method.</li></ul>
 </div>
   <span class="small pull-right mobile-hide">

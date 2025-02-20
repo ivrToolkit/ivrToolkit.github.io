@@ -3056,6 +3056,114 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.TTS.AzureTtsFactory.Create
   nameWithType: AzureTtsFactory.Create
+- uid: ivrToolkit.Core.TTS.GoogleTTS
+  name: GoogleTTS
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html
+  commentId: T:ivrToolkit.Core.TTS.GoogleTTS
+  fullName: ivrToolkit.Core.TTS.GoogleTTS
+  nameWithType: GoogleTTS
+- uid: ivrToolkit.Core.TTS.GoogleTTS.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Util.VoiceProperties,Google.Cloud.TextToSpeech.V1.TextToSpeechClient)
+  name: GoogleTTS(ILoggerFactory, VoiceProperties, TextToSpeechClient)
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS__ctor_Microsoft_Extensions_Logging_ILoggerFactory_ivrToolkit_Core_Util_VoiceProperties_Google_Cloud_TextToSpeech_V1_TextToSpeechClient_
+  commentId: M:ivrToolkit.Core.TTS.GoogleTTS.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Util.VoiceProperties,Google.Cloud.TextToSpeech.V1.TextToSpeechClient)
+  name.vb: New(ILoggerFactory, VoiceProperties, TextToSpeechClient)
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.GoogleTTS(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Util.VoiceProperties, Google.Cloud.TextToSpeech.V1.TextToSpeechClient)
+  fullName.vb: ivrToolkit.Core.TTS.GoogleTTS.New(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Util.VoiceProperties, Google.Cloud.TextToSpeech.V1.TextToSpeechClient)
+  nameWithType: GoogleTTS.GoogleTTS(ILoggerFactory, VoiceProperties, TextToSpeechClient)
+  nameWithType.vb: GoogleTTS.New(ILoggerFactory, VoiceProperties, TextToSpeechClient)
+- uid: ivrToolkit.Core.TTS.GoogleTTS.#ctor*
+  name: GoogleTTS
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS__ctor_
+  commentId: Overload:ivrToolkit.Core.TTS.GoogleTTS.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.GoogleTTS
+  fullName.vb: ivrToolkit.Core.TTS.GoogleTTS.New
+  nameWithType: GoogleTTS.GoogleTTS
+  nameWithType.vb: GoogleTTS.New
+- uid: ivrToolkit.Core.TTS.GoogleTTS.Dispose
+  name: Dispose()
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS_Dispose
+  commentId: M:ivrToolkit.Core.TTS.GoogleTTS.Dispose
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.Dispose()
+  nameWithType: GoogleTTS.Dispose()
+- uid: ivrToolkit.Core.TTS.GoogleTTS.Dispose*
+  name: Dispose
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS_Dispose_
+  commentId: Overload:ivrToolkit.Core.TTS.GoogleTTS.Dispose
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.Dispose
+  nameWithType: GoogleTTS.Dispose
+- uid: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeech(System.String)
+  name: TextToSpeech(string)
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS_TextToSpeech_System_String_
+  commentId: M:ivrToolkit.Core.TTS.GoogleTTS.TextToSpeech(System.String)
+  name.vb: TextToSpeech(String)
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeech(string)
+  fullName.vb: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeech(String)
+  nameWithType: GoogleTTS.TextToSpeech(string)
+  nameWithType.vb: GoogleTTS.TextToSpeech(String)
+- uid: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeech*
+  name: TextToSpeech
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS_TextToSpeech_
+  commentId: Overload:ivrToolkit.Core.TTS.GoogleTTS.TextToSpeech
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeech
+  nameWithType: GoogleTTS.TextToSpeech
+- uid: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeechAsync(System.String,System.Threading.CancellationToken)
+  name: TextToSpeechAsync(string, CancellationToken)
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS_TextToSpeechAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:ivrToolkit.Core.TTS.GoogleTTS.TextToSpeechAsync(System.String,System.Threading.CancellationToken)
+  name.vb: TextToSpeechAsync(String, CancellationToken)
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeechAsync(string, System.Threading.CancellationToken)
+  fullName.vb: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeechAsync(String, System.Threading.CancellationToken)
+  nameWithType: GoogleTTS.TextToSpeechAsync(string, CancellationToken)
+  nameWithType.vb: GoogleTTS.TextToSpeechAsync(String, CancellationToken)
+- uid: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeechAsync*
+  name: TextToSpeechAsync
+  href: api/ivrToolkit.Core.TTS.GoogleTTS.html#ivrToolkit_Core_TTS_GoogleTTS_TextToSpeechAsync_
+  commentId: Overload:ivrToolkit.Core.TTS.GoogleTTS.TextToSpeechAsync
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.GoogleTTS.TextToSpeechAsync
+  nameWithType: GoogleTTS.TextToSpeechAsync
+- uid: ivrToolkit.Core.TTS.GoogleTtsFactory
+  name: GoogleTtsFactory
+  href: api/ivrToolkit.Core.TTS.GoogleTtsFactory.html
+  commentId: T:ivrToolkit.Core.TTS.GoogleTtsFactory
+  fullName: ivrToolkit.Core.TTS.GoogleTtsFactory
+  nameWithType: GoogleTtsFactory
+- uid: ivrToolkit.Core.TTS.GoogleTtsFactory.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Util.VoiceProperties)
+  name: GoogleTtsFactory(ILoggerFactory, VoiceProperties)
+  href: api/ivrToolkit.Core.TTS.GoogleTtsFactory.html#ivrToolkit_Core_TTS_GoogleTtsFactory__ctor_Microsoft_Extensions_Logging_ILoggerFactory_ivrToolkit_Core_Util_VoiceProperties_
+  commentId: M:ivrToolkit.Core.TTS.GoogleTtsFactory.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,ivrToolkit.Core.Util.VoiceProperties)
+  name.vb: New(ILoggerFactory, VoiceProperties)
+  fullName: ivrToolkit.Core.TTS.GoogleTtsFactory.GoogleTtsFactory(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Util.VoiceProperties)
+  fullName.vb: ivrToolkit.Core.TTS.GoogleTtsFactory.New(Microsoft.Extensions.Logging.ILoggerFactory, ivrToolkit.Core.Util.VoiceProperties)
+  nameWithType: GoogleTtsFactory.GoogleTtsFactory(ILoggerFactory, VoiceProperties)
+  nameWithType.vb: GoogleTtsFactory.New(ILoggerFactory, VoiceProperties)
+- uid: ivrToolkit.Core.TTS.GoogleTtsFactory.#ctor*
+  name: GoogleTtsFactory
+  href: api/ivrToolkit.Core.TTS.GoogleTtsFactory.html#ivrToolkit_Core_TTS_GoogleTtsFactory__ctor_
+  commentId: Overload:ivrToolkit.Core.TTS.GoogleTtsFactory.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ivrToolkit.Core.TTS.GoogleTtsFactory.GoogleTtsFactory
+  fullName.vb: ivrToolkit.Core.TTS.GoogleTtsFactory.New
+  nameWithType: GoogleTtsFactory.GoogleTtsFactory
+  nameWithType.vb: GoogleTtsFactory.New
+- uid: ivrToolkit.Core.TTS.GoogleTtsFactory.Create
+  name: Create()
+  href: api/ivrToolkit.Core.TTS.GoogleTtsFactory.html#ivrToolkit_Core_TTS_GoogleTtsFactory_Create
+  commentId: M:ivrToolkit.Core.TTS.GoogleTtsFactory.Create
+  fullName: ivrToolkit.Core.TTS.GoogleTtsFactory.Create()
+  nameWithType: GoogleTtsFactory.Create()
+- uid: ivrToolkit.Core.TTS.GoogleTtsFactory.Create*
+  name: Create
+  href: api/ivrToolkit.Core.TTS.GoogleTtsFactory.html#ivrToolkit_Core_TTS_GoogleTtsFactory_Create_
+  commentId: Overload:ivrToolkit.Core.TTS.GoogleTtsFactory.Create
+  isSpec: "True"
+  fullName: ivrToolkit.Core.TTS.GoogleTtsFactory.Create
+  nameWithType: GoogleTtsFactory.Create
 - uid: ivrToolkit.Core.TTS.TextToSpeechCache
   name: TextToSpeechCache
   href: api/ivrToolkit.Core.TTS.TextToSpeechCache.html
@@ -3711,6 +3819,58 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.VoiceProperties.TtsAzureVoice
   nameWithType: VoiceProperties.TtsAzureVoice
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleApplicationCredentialsPath
+  name: TtsGoogleApplicationCredentialsPath
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleApplicationCredentialsPath
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleApplicationCredentialsPath
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleApplicationCredentialsPath
+  nameWithType: VoiceProperties.TtsGoogleApplicationCredentialsPath
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleApplicationCredentialsPath*
+  name: TtsGoogleApplicationCredentialsPath
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleApplicationCredentialsPath_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleApplicationCredentialsPath
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleApplicationCredentialsPath
+  nameWithType: VoiceProperties.TtsGoogleApplicationCredentialsPath
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleGender
+  name: TtsGoogleGender
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleGender
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleGender
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleGender
+  nameWithType: VoiceProperties.TtsGoogleGender
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleGender*
+  name: TtsGoogleGender
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleGender_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleGender
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleGender
+  nameWithType: VoiceProperties.TtsGoogleGender
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleLanguageCode
+  name: TtsGoogleLanguageCode
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleLanguageCode
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleLanguageCode
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleLanguageCode
+  nameWithType: VoiceProperties.TtsGoogleLanguageCode
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleLanguageCode*
+  name: TtsGoogleLanguageCode
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleLanguageCode_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleLanguageCode
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleLanguageCode
+  nameWithType: VoiceProperties.TtsGoogleLanguageCode
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleName
+  name: TtsGoogleName
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleName
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleName
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleName
+  nameWithType: VoiceProperties.TtsGoogleName
+- uid: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleName*
+  name: TtsGoogleName
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_TtsGoogleName_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.TtsGoogleName
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.TtsGoogleName
+  nameWithType: VoiceProperties.TtsGoogleName
 - uid: ivrToolkit.Core.Util.WavConverter
   name: WavConverter
   href: api/ivrToolkit.Core.Util.WavConverter.html
