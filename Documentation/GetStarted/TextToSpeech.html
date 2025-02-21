@@ -13,7 +13,15 @@ title: Text To Speech
     <h1 class="bd-title" id="content">Text-To-Speech</h1>
     <p>
         Along with playing wav files, you can also use text-to-speech. There is currently
-        one implementation for Azure Speech but others can be added if required.
+        two implementations for TTS:
+        <ul>
+            <li>
+                MicroSoft Azure Speech
+            </li>
+            <li>
+                Google Cloud Text-to-Speech
+            </li>
+        </ul> 
 
     </p>
 </div>
@@ -42,7 +50,7 @@ title: Text To Speech
 
 
     <p>
-        Modify your voice.properties and add your Azure Speech properties:
+        Modify your voice.properties and add your Speech properties:
     </p>
 
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
@@ -50,21 +58,39 @@ title: Text To Speech
     <div class="highlight">
     <pre><code class="language-csharp"># Azure Text-To-Speech
 tts.azure.subscriptionKey=PutYourSubscriptionKeyHere
-tts.azure.region=PutYourRegionHere</code></pre>
+tts.azure.region=PutYourRegionHere
+
+# Or Google Text-To-Speech
+tts.google.credentials.path=YourCredentialFileHere.json
+tts.google.gender=Female
+tts.google.languageCode=en-US
+tts.google.name=
+</code></pre>
     </div>
     
     <p>
-        Alternatively, you can also add Azure Speech properties this way:
+        Alternatively, you can also add Speech properties this way:
     </p>
 
     <div class="bd-clipboard"><button type="button" class="btn-clipboard" title=""
             data-bs-original-title="Copy to clipboard">Copy</button></div>
     <div class="highlight">
-    <pre><code class="language-csharp">var sipVoiceProperties = new SipVoiceProperties(loggerFactory)
+    <pre><code class="language-csharp">// For Azure
+var sipVoiceProperties = new SipVoiceProperties(loggerFactory)
 {
     TtsAzureSubscriptionKey = "",
     TtsAzureRegion = ""
-};</code></pre>
+};
+
+// for Google
+var sipVoiceProperties = new SipVoiceProperties(loggerFactory)
+{
+    TtsGoogleCredentialsPath = "",
+    TtsGoogleGender = ""
+    TtsGoogleLanguageCode = ""
+    TtsGoogleName = ""
+};
+</code></pre>
     </div>
 
     <p>
@@ -76,6 +102,8 @@ tts.azure.region=PutYourRegionHere</code></pre>
     <div class="highlight">
     <pre><code class="language-csharp">// set up azure TTS
 var ttsFactory = new AzureTtsFactory(loggerFactory, sipVoiceProperties);
+// or set up Google TTS
+var ttsFactory = new GoogleTtsFactory(loggerFactory, sipVoiceProperties);
 
 // Inject the tts factory into the line manager
 using var lineManager = new LineManager(loggerFactory, sipVoiceProperties, sipPlugin, ttsFactory);</code></pre>
