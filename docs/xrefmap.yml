@@ -3702,6 +3702,58 @@ references:
   fullName.vb: ivrToolkit.Core.Util.VoiceProperties.New
   nameWithType: VoiceProperties.VoiceProperties
   nameWithType.vb: VoiceProperties.New
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds
+  name: AnsweringMachineEndSpeechSilenceDurationSeconds
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineEndSpeechSilenceDurationSeconds
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds
+  nameWithType: VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds*
+  name: AnsweringMachineEndSpeechSilenceDurationSeconds
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineEndSpeechSilenceDurationSeconds_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds
+  nameWithType: VoiceProperties.AnsweringMachineEndSpeechSilenceDurationSeconds
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineGiveUpAfterSeconds
+  name: AnsweringMachineGiveUpAfterSeconds
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineGiveUpAfterSeconds
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineGiveUpAfterSeconds
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineGiveUpAfterSeconds
+  nameWithType: VoiceProperties.AnsweringMachineGiveUpAfterSeconds
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineGiveUpAfterSeconds*
+  name: AnsweringMachineGiveUpAfterSeconds
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineGiveUpAfterSeconds_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineGiveUpAfterSeconds
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineGiveUpAfterSeconds
+  nameWithType: VoiceProperties.AnsweringMachineGiveUpAfterSeconds
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineMaxStartSilenceSeconds
+  name: AnsweringMachineMaxStartSilenceSeconds
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineMaxStartSilenceSeconds
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineMaxStartSilenceSeconds
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineMaxStartSilenceSeconds
+  nameWithType: VoiceProperties.AnsweringMachineMaxStartSilenceSeconds
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineMaxStartSilenceSeconds*
+  name: AnsweringMachineMaxStartSilenceSeconds
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineMaxStartSilenceSeconds_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineMaxStartSilenceSeconds
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineMaxStartSilenceSeconds
+  nameWithType: VoiceProperties.AnsweringMachineMaxStartSilenceSeconds
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineSilenceThresholdAmplitude
+  name: AnsweringMachineSilenceThresholdAmplitude
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineSilenceThresholdAmplitude
+  commentId: P:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineSilenceThresholdAmplitude
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineSilenceThresholdAmplitude
+  nameWithType: VoiceProperties.AnsweringMachineSilenceThresholdAmplitude
+- uid: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineSilenceThresholdAmplitude*
+  name: AnsweringMachineSilenceThresholdAmplitude
+  href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_AnsweringMachineSilenceThresholdAmplitude_
+  commentId: Overload:ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineSilenceThresholdAmplitude
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.VoiceProperties.AnsweringMachineSilenceThresholdAmplitude
+  nameWithType: VoiceProperties.AnsweringMachineSilenceThresholdAmplitude
 - uid: ivrToolkit.Core.Util.VoiceProperties.DefaultWavSampleRate
   name: DefaultWavSampleRate
   href: api/ivrToolkit.Core.Util.VoiceProperties.html#ivrToolkit_Core_Util_VoiceProperties_DefaultWavSampleRate
