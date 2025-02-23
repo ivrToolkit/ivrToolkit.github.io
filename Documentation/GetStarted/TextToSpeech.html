@@ -59,6 +59,7 @@ title: Text To Speech
     <pre><code class="language-csharp"># Azure Text-To-Speech
 tts.azure.subscriptionKey=PutYourSubscriptionKeyHere
 tts.azure.region=PutYourRegionHere
+tts.azure.voice=en-US-JennyNeural
 
 # Or Google Text-To-Speech
 tts.google.credentials.path=YourCredentialFileHere.json
@@ -80,6 +81,7 @@ var sipVoiceProperties = new SipVoiceProperties(loggerFactory)
 {
     TtsAzureSubscriptionKey = "",
     TtsAzureRegion = ""
+    TtsAzureVoice = "en-US-JennyNeural"
 };
 
 // for Google
