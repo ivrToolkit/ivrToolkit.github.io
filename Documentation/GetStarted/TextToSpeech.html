@@ -270,7 +270,7 @@ await line.PlayTextToSpeechAsync(message, cancellationToken);</code></pre>
 var ttsCacheFactory = line.TextToSpeechCacheFactory;
 
 // generate the TTS Cache
-var ttsCache = ttsCacheFactory.Create("For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.", $"{WAV_FILE_LOCATION}/ThankYou.wav");
+var ttsCache = ttsCacheFactory.Create("For this simple demonstration, press &lt;say-as interpret-as='characters'>1234&lt;/say-as> followed by the pound key.", $"{WAV_FILE_LOCATION}/Press1234.wav");
 
 // play tts and wait for digits to be pressed
 var result = await line.PromptAsync(ttsCache, cancellationToken);</code></pre>
