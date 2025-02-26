@@ -3378,6 +3378,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerMessage
   nameWithType: PromptOptions.InvalidAnswerMessage
+- uid: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerTtsCache
+  name: InvalidAnswerTtsCache
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_InvalidAnswerTtsCache
+  commentId: P:ivrToolkit.Core.Util.PromptOptions.InvalidAnswerTtsCache
+  fullName: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerTtsCache
+  nameWithType: PromptOptions.InvalidAnswerTtsCache
+- uid: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerTtsCache*
+  name: InvalidAnswerTtsCache
+  href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_InvalidAnswerTtsCache_
+  commentId: Overload:ivrToolkit.Core.Util.PromptOptions.InvalidAnswerTtsCache
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Util.PromptOptions.InvalidAnswerTtsCache
+  nameWithType: PromptOptions.InvalidAnswerTtsCache
 - uid: ivrToolkit.Core.Util.PromptOptions.MaxLength
   name: MaxLength
   href: api/ivrToolkit.Core.Util.PromptOptions.html#ivrToolkit_Core_Util_PromptOptions_MaxLength
