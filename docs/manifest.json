@@ -32,6 +32,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Enums.CallStateProgressEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Enums.CallStateProgressEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ivrToolkit.Core.Enums.CallStateProgressEnum",
+      "Summary": "<p sourcefile=\"api/ivrToolkit.Core.Enums.CallStateProgressEnum.yml\" sourcestartlinenumber=\"1\">A collection of callout states to help analyze a NoRingBack situation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ivrToolkit.Core.Enums.CustomTone.yml",
       "output": {
         ".html": {
@@ -155,6 +169,20 @@
       "IsMRef": true,
       "Title": "ivrToolkit.Core.Exceptions.HangupException",
       "Summary": "<p sourcefile=\"api/ivrToolkit.Core.Exceptions.HangupException.yml\" sourcestartlinenumber=\"1\">Thrown if the person on the end of the line hangs up.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ivrToolkit.Core.Exceptions.RecoveryFailedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ivrToolkit.Core.Exceptions.RecoveryFailedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ivrToolkit.Core.Exceptions.RecoveryFailedException",
+      "Summary": "<p sourcefile=\"api/ivrToolkit.Core.Exceptions.RecoveryFailedException.yml\" sourcestartlinenumber=\"1\">Thrown if there is a Task fail event</p>\n"
     },
     {
       "type": "ManagedReference",

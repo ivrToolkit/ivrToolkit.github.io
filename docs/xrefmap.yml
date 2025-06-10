@@ -162,6 +162,42 @@ references:
   commentId: F:ivrToolkit.Core.Enums.CallAnalysis.Stopped
   fullName: ivrToolkit.Core.Enums.CallAnalysis.Stopped
   nameWithType: CallAnalysis.Stopped
+- uid: ivrToolkit.Core.Enums.CallStateProgressEnum
+  name: CallStateProgressEnum
+  href: api/ivrToolkit.Core.Enums.CallStateProgressEnum.html
+  commentId: T:ivrToolkit.Core.Enums.CallStateProgressEnum
+  fullName: ivrToolkit.Core.Enums.CallStateProgressEnum
+  nameWithType: CallStateProgressEnum
+- uid: ivrToolkit.Core.Enums.CallStateProgressEnum.Alerting
+  name: Alerting
+  href: api/ivrToolkit.Core.Enums.CallStateProgressEnum.html#ivrToolkit_Core_Enums_CallStateProgressEnum_Alerting
+  commentId: F:ivrToolkit.Core.Enums.CallStateProgressEnum.Alerting
+  fullName: ivrToolkit.Core.Enums.CallStateProgressEnum.Alerting
+  nameWithType: CallStateProgressEnum.Alerting
+- uid: ivrToolkit.Core.Enums.CallStateProgressEnum.Connected
+  name: Connected
+  href: api/ivrToolkit.Core.Enums.CallStateProgressEnum.html#ivrToolkit_Core_Enums_CallStateProgressEnum_Connected
+  commentId: F:ivrToolkit.Core.Enums.CallStateProgressEnum.Connected
+  fullName: ivrToolkit.Core.Enums.CallStateProgressEnum.Connected
+  nameWithType: CallStateProgressEnum.Connected
+- uid: ivrToolkit.Core.Enums.CallStateProgressEnum.Disconnected
+  name: Disconnected
+  href: api/ivrToolkit.Core.Enums.CallStateProgressEnum.html#ivrToolkit_Core_Enums_CallStateProgressEnum_Disconnected
+  commentId: F:ivrToolkit.Core.Enums.CallStateProgressEnum.Disconnected
+  fullName: ivrToolkit.Core.Enums.CallStateProgressEnum.Disconnected
+  nameWithType: CallStateProgressEnum.Disconnected
+- uid: ivrToolkit.Core.Enums.CallStateProgressEnum.None
+  name: None
+  href: api/ivrToolkit.Core.Enums.CallStateProgressEnum.html#ivrToolkit_Core_Enums_CallStateProgressEnum_None
+  commentId: F:ivrToolkit.Core.Enums.CallStateProgressEnum.None
+  fullName: ivrToolkit.Core.Enums.CallStateProgressEnum.None
+  nameWithType: CallStateProgressEnum.None
+- uid: ivrToolkit.Core.Enums.CallStateProgressEnum.Proceeding
+  name: Proceeding
+  href: api/ivrToolkit.Core.Enums.CallStateProgressEnum.html#ivrToolkit_Core_Enums_CallStateProgressEnum_Proceeding
+  commentId: F:ivrToolkit.Core.Enums.CallStateProgressEnum.Proceeding
+  fullName: ivrToolkit.Core.Enums.CallStateProgressEnum.Proceeding
+  nameWithType: CallStateProgressEnum.Proceeding
 - uid: ivrToolkit.Core.Enums.CustomTone
   name: CustomTone
   href: api/ivrToolkit.Core.Enums.CustomTone.html
@@ -515,6 +551,49 @@ references:
   fullName.vb: ivrToolkit.Core.Exceptions.HangupException.New
   nameWithType: HangupException.HangupException
   nameWithType.vb: HangupException.New
+- uid: ivrToolkit.Core.Exceptions.RecoveryFailedException
+  name: RecoveryFailedException
+  href: api/ivrToolkit.Core.Exceptions.RecoveryFailedException.html
+  commentId: T:ivrToolkit.Core.Exceptions.RecoveryFailedException
+  fullName: ivrToolkit.Core.Exceptions.RecoveryFailedException
+  nameWithType: RecoveryFailedException
+- uid: ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor
+  name: RecoveryFailedException()
+  href: api/ivrToolkit.Core.Exceptions.RecoveryFailedException.html#ivrToolkit_Core_Exceptions_RecoveryFailedException__ctor
+  commentId: M:ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor
+  name.vb: New()
+  fullName: ivrToolkit.Core.Exceptions.RecoveryFailedException.RecoveryFailedException()
+  fullName.vb: ivrToolkit.Core.Exceptions.RecoveryFailedException.New()
+  nameWithType: RecoveryFailedException.RecoveryFailedException()
+  nameWithType.vb: RecoveryFailedException.New()
+- uid: ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor(System.String)
+  name: RecoveryFailedException(string)
+  href: api/ivrToolkit.Core.Exceptions.RecoveryFailedException.html#ivrToolkit_Core_Exceptions_RecoveryFailedException__ctor_System_String_
+  commentId: M:ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ivrToolkit.Core.Exceptions.RecoveryFailedException.RecoveryFailedException(string)
+  fullName.vb: ivrToolkit.Core.Exceptions.RecoveryFailedException.New(String)
+  nameWithType: RecoveryFailedException.RecoveryFailedException(string)
+  nameWithType.vb: RecoveryFailedException.New(String)
+- uid: ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor(System.String,System.Exception)
+  name: RecoveryFailedException(string, Exception)
+  href: api/ivrToolkit.Core.Exceptions.RecoveryFailedException.html#ivrToolkit_Core_Exceptions_RecoveryFailedException__ctor_System_String_System_Exception_
+  commentId: M:ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ivrToolkit.Core.Exceptions.RecoveryFailedException.RecoveryFailedException(string, System.Exception)
+  fullName.vb: ivrToolkit.Core.Exceptions.RecoveryFailedException.New(String, System.Exception)
+  nameWithType: RecoveryFailedException.RecoveryFailedException(string, Exception)
+  nameWithType.vb: RecoveryFailedException.New(String, Exception)
+- uid: ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor*
+  name: RecoveryFailedException
+  href: api/ivrToolkit.Core.Exceptions.RecoveryFailedException.html#ivrToolkit_Core_Exceptions_RecoveryFailedException__ctor_
+  commentId: Overload:ivrToolkit.Core.Exceptions.RecoveryFailedException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ivrToolkit.Core.Exceptions.RecoveryFailedException.RecoveryFailedException
+  fullName.vb: ivrToolkit.Core.Exceptions.RecoveryFailedException.New
+  nameWithType: RecoveryFailedException.RecoveryFailedException
+  nameWithType.vb: RecoveryFailedException.New
 - uid: ivrToolkit.Core.Exceptions.TaskFailException
   name: TaskFailException
   href: api/ivrToolkit.Core.Exceptions.TaskFailException.html
@@ -863,6 +942,19 @@ references:
   isSpec: "True"
   fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.FlushDigitBuffer
   nameWithType: IIvrBaseLine.FlushDigitBuffer
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetCallStateProgress
+  name: GetCallStateProgress()
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetCallStateProgress
+  commentId: M:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetCallStateProgress
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetCallStateProgress()
+  nameWithType: IIvrBaseLine.GetCallStateProgress()
+- uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetCallStateProgress*
+  name: GetCallStateProgress
+  href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetCallStateProgress_
+  commentId: Overload:ivrToolkit.Core.Interfaces.IIvrBaseLine.GetCallStateProgress
+  isSpec: "True"
+  fullName: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetCallStateProgress
+  nameWithType: IIvrBaseLine.GetCallStateProgress
 - uid: ivrToolkit.Core.Interfaces.IIvrBaseLine.GetDigits(System.Int32,System.String,System.Int32)
   name: GetDigits(int, string, int)
   href: api/ivrToolkit.Core.Interfaces.IIvrBaseLine.html#ivrToolkit_Core_Interfaces_IIvrBaseLine_GetDigits_System_Int32_System_String_System_Int32_
